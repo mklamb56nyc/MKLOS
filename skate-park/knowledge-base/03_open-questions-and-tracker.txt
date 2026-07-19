@@ -1,5 +1,8 @@
 GLEN COVE SKATEPARK — OPEN QUESTIONS & NEXT-ACTIONS TRACKER
-Last updated: July 2026 (this pass: ACCESS & PROVISIONING ANALYSIS completed and banked into dossier §12; Manorhaven added as precedent + nearest-park; supply methodology set; geographic-frame + threshold decisions logged; analysis reproducibility bundle created). This is the file to keep current; update it as things move.
+Last updated: July 2026. Recent passes (newest first):
+  • NARRATIVE-DEEPENING pass: brief Part One deepened into speakable talking points — §1 finalized (1a equity reframe adopted per user sign-off; 1b/1d enriched with USC "Beyond the Board" + Long Beach figures re-verified full-text), §2–§5 broken into named sub-points (2a–2c, 3a–3d, 4a–4c) with "say it plainly" advocate bullets; dossier §13 "Why It Works — social/health/equity evidence" added to preserve the sourcing. IN PROGRESS: firming up the LI/Nassau supply census (below).
+  • ACCESS & PROVISIONING ANALYSIS pass: completed and banked into dossier §12; Manorhaven added as precedent + nearest-park; supply methodology set; geographic-frame + threshold decisions logged; analysis reproducibility bundle created.
+This is the file to keep current; update it as things move.
 
 ====================================================================
 OPEN QUESTIONS TO CONFIRM
@@ -78,7 +81,7 @@ DECISION LOG (what we've settled)
 ====================================================================
 DELIVERABLES CREATED SO FAR
 ====================================================================
-- Strategy brief (04) — master plan/case for support. UPDATED July 2026 with the quantified access/provisioning case, Manorhaven, and the nearest-parks correction.
+- Strategy brief (04) — master plan/case for support. UPDATED July 2026 with the quantified access/provisioning case, Manorhaven, and the nearest-parks correction. Part One (§1–§5) then DEEPENED into speakable talking points (named sub-points + "say it plainly" advocate bullets); §1a reframed around equity; §1b/§1d figures re-verified full-text (USC 76%/62%; Long Beach drug −61% / violent −29% / overall −23%).
 - Concept microsite (glen-cove-skatepark-concept.html) — REBUILT July 2026 as a 3-act vision/possibility piece (opening → proof → field of allies → conversations), with the Greater-Glen-Cove/Oyster-Bay geographic frame and nearest-parks correction. REMEMBER: replace the placeholder email (PLACEHOLDER@EXAMPLE.COM, two spots) before sharing.
 - Access & provisioning analysis — dossier §12 + the "skatepark-analysis-bundle" (data artifacts, coverage GeoPackages, 10 exhibit maps, methodology README, and a no-key map-rebuild script). NOTE: the pipeline needs a free Census API key and a free OpenRouteService key — stored (per user request) in 05_api-keys.txt and documented in the bundle README. They are free, low-stakes, and revocable; rotate anytime.
 - Project knowledge set: 01 research dossier (UPDATED — §12 analysis, Manorhaven, nearest-parks), 02 stakeholders & contacts, 03 this tracker.
