@@ -23,6 +23,30 @@ Open the result in Google Sheets with **File → Open with Google Sheets** (or
 Import → Convert) so the Decision Model formulas and the Task List status dropdown
 stay live.
 
+## Living copy in Google Drive
+
+The shared, collaboratively-edited tracker lives in Google Drive as a **native
+Google Sheet**. Source-of-truth model:
+
+- **The Drive Sheet is the living document.** Once seeded, edits (Decision Model
+  inputs, Task statuses, notes) happen in the Sheet — that's the point of sharing it.
+- **`build_tracker.py` is the seed/generator**, not a repeated overwrite. Re-running
+  the build and re-uploading would clobber everyone's live edits, so **don't** publish
+  over the live Sheet from a rebuild.
+- **The repo `.xlsx` is a snapshot/backup.** To version a point-in-time copy, download
+  the Sheet as `.xlsx` into `output/` and commit it.
+
+**Seed it once (manual, ~1 min):** upload `output/Toby_College_Tracker.xlsx` to Drive,
+then right-click → **Open with → Google Sheets** (this creates a native Sheet), and
+**Share** it with edit access to the people who need it. Native format keeps the
+Decision Model formulas and the Task List dropdown live.
+
+**Programmatic sync (optional):** the repo is wired for a `google-sheets` MCP
+(see root `.mcp.json`) that can push/update the Sheet from a session — useful for
+refreshing the *static* reference tabs without touching the human-edited inputs. It
+needs a one-time OAuth authorization (claude.ai connector settings) before it can be
+used; until then, seed and edit manually as above.
+
 ## The six tabs
 
 1. **Application Tracker** — all 21 researched schools, tier-coded (red = Ambitious,
