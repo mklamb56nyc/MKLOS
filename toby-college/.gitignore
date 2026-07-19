@@ -1,0 +1,7 @@
+# Build artifacts / local
+__pycache__/
+*.pyc
+.DS_Store
+
+# Keep the generated workbook out of version control if you prefer to rebuild it:
+# output/*.xlsx
