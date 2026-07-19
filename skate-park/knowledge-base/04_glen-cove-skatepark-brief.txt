@@ -1,0 +1,147 @@
+# A Public Skatepark for Glen Cove
+### Strategy brief and case for support
+
+## The case, in one paragraph
+
+Around here — Glen Cove, Locust Valley, and the North Shore communities beside them — there is nowhere close to skate. The nearest public skateparks are a half-hour-plus drive in every direction: Manorhaven (Port Washington) to the west, Veterans (Northport) to the east, and the Town of Oyster Bay's own park in Bethpage, ~35 minutes away and closed for years behind a toxic-contamination cleanup the Town is still litigating. It isn't that the North Shore has *no* parks; it's that our stretch of it is stranded beyond a reasonable trip from any of them — a fact we've now measured precisely (see "The measured case"). Glen Cove, by contrast, is an independent city that controls its own parkland, budget, and decisions through a single mayor-and-council government — so a focused coalition can actually see this through. And Glen Cove has exactly the population these parks exist to serve: beneath an affluent citywide average sits a substantial lower-income, heavily immigrant community (roughly a third Latino, nearly 30% foreign-born, about 19% of households earning under $25,000), and the downtown/south core is a New York State–designated Disadvantaged Community — confirmed at the exact site address on the state's live map. The groundwork is even half-laid: a 2020 petition for a North Shore skatepark drew more than 1,200 signatures and simply never had anyone to carry it. What the effort is missing isn't a reason — it's a quarterback, a coalition, and patience. This is a permanent community asset built over years and in phases. The people who start it now become its founders.
+
+---
+
+## The measured case (why "underserved" is a number, not an adjective)
+
+We commissioned our own geographic analysis — Census demographics, the state's own designations, real road/bike travel times, and a full inventory of every skatepark on Long Island and in the neighboring boroughs. Two findings anchor the case.
+
+**Provisioning — the area is starved of skateparks by the field's own standard.** The Public Skatepark Development Guide (the industry reference planners use) sets a benchmark of one neighborhood skatepark per 25,000 residents. By that standard Nassau County should have about 56 and has 4; Long Island should have about 117 and has 14; our immediate North Shore area should have about 3 and has none. And this isn't just falling short of an ideal nobody meets: the *national average* is roughly one skatepark per 100,000 people, and Nassau sits at about a quarter of that — fewer skateparks per person than the typical American community, and a fraction of what skate-forward places have.
+
+**Access — the people who'd use it can't reach one.** Because the actual users are kids who mostly can't drive, the honest test is whether a young person can get to a skatepark on their own. Today, **100% of Glen Cove's residents — and 100% of the state-designated Disadvantaged Community area — are outside a 20-minute trip to any skatepark, by bike or by car**, and that stays true even if Bethpage reopens. Zoom out and 77% of Nassau County and 97% of the Town of Oyster Bay can't *bike* to one. A single park at the Maccarone site closes roughly **90% of that access gap** for Glen Cove and the DAC core — taking those neighborhoods from *no skatepark within reach* to *one within a kid's bike ride* — and brings tens of thousands more across the Town of Oyster Bay into range. Crucially, because Bethpage's reach never touches the North Shore, our park's value to our own community is identical whether or not Bethpage ever comes back.
+
+Translation for a grant reviewer or a council member: this is precisely the "local data showing the community is underserved" that funders score on, and it pairs with the state's DAC designation to make the equity case twice over. *(Full methodology, maps, and caveats live in the project's analysis bundle; figures are area-weighted and should be refreshed against a firmer park census and the live DAC map before any submission.)*
+
+---
+
+## This has been done — by places like ours
+
+Every move in this brief is modeled on a real project that succeeded.
+
+**The New York playbook — Rochester, NY (ROC City Skatepark).** Opened downtown in 2020 after a coalition first pitched the city in 2008 — a twelve-year haul. The model is the *funding stack*: state revitalization money, a separate $3 million state grant, utility grants, Skatepark Project grants, a family foundation that gave unrestricted start-up money *and* matched every dollar raised, and a "Friends of" nonprofit. No single source carried it.
+
+**The peer city next door — Long Beach, NY.** The *other* independent city in Nassau County — same governance as Glen Cove. A modern, free, unfenced concrete park, designed through public workshops with local skaters, that gained urgency after kids skating in the streets were struck by a train. Proof that a Nassau city of our type gets this done, our way.
+
+**The local precedent to our west — Port Washington, NY (Manorhaven).** Nearer to home than any of these: a Nassau County North Shore municipality (Town of North Hempstead) that built a free ~10,000-square-foot concrete skate spot with local-skater input, designed by Spohn Ranch — and reopened it after the pandemic when a local teenager petitioned. It's both our western "nearest park" and a same-island, same-county governance-and-design comp.
+
+**The brownfield-to-asset transformation — Jersey City, NJ (Berry Lane Park).** A former 17-acre toxic brownfield turned into the lower-income neighborhood's premier park, opened 2020; a Skatepark Project grant plus a $500,000 county Open Space Trust Fund grant, designed by SITE Design Group with local skaters consulted throughout. Almost our exact story, told as a success.
+
+**The closest match, on Long Island — Brentwood, NY (Roberto Clemente Park).** Conceived 2019, opened 2023. One of Long Island's largest working-class, majority-Latino communities opened a free concrete skatepark on a former toxic-dumping site. Youth-led: a high-school senior's petition moved a state assemblyman to secure legislator-directed funding plus a $450,000 DASNY grant. Designed by the firm we'd call first (SITE Design Group) and built for $1.25 million — our best real-world cost benchmark. Long Island, an underserved immigrant community, a contaminated site redeemed, young people driving it, and a New York funding mechanism we can pursue. (Governance differs — Brentwood is within the Town of Islip — so we cite it for the equity case, the youth-advocacy engine, the cost anchor, and the funding path, and let Long Beach and Manorhaven carry the governance parallel.)
+
+**The working template for a town like ours — Ketchum, ID (Guy Coles Skate Park).** A small, affluent town's *free* concrete park, built by top firms and grown in phases over decades, funded by modest city money, a dedicated skatepark trust fund, and local business and foundation philanthropy. Our model for phasing: build a strong first phase, open it, and let a used park raise money for the next.
+
+**The ceiling — Charleston, SC (SK8 Charleston).** A $4.8 million, 32,500-square-foot county destination park that charges admission and requires a waiver behind a fenced gate — *not* grant-eligible under free-access rules. The aspirational ceiling, and a caution.
+
+**More proof, in brief:**
+- **West Bend, WI (2026):** a "Friends of" nonprofit and the city secured a $500,000 commitment — a *match* conditional on raising an equal amount — plus a donor-funded design phase.
+- **Ann Arbor, MI:** the county pledged up to $400,000 in matching funds *conditional* on private fundraising; a $300,000 state grant plus donor money unlocked it — private money triggering public money.
+- **Long Beach, CA (ASK Foundation):** youth at the center of design, and parks that *measurably reduced local crime* (drug-related incidents down ~61%, violent crime ~29% within three years of one opening) — evidence that answers a city's safety worries head-on.
+- **Riverside Park, NYC:** at-risk teens co-designed and helped build a park created to serve adolescents "designed out" of public space.
+- **Hoboken, NJ (2025):** a 250-person community survey drove the design and it drew a $250,000 county open-space grant.
+- **Northport, NY (Veterans Skatepark):** the Long Island example of the supervised-access model (fenced, staffed for helmets) — and our eastern "nearest park."
+
+---
+
+## The coalition taking shape
+
+The reason this stalled for years is that nobody quarterbacked it. That's the gap this group fills — and because the work is multi-year, the coalition is what carries it across the quiet seasons. Each role has a precedent that proves its value.
+
+- **The family — instigators and quarterback.** The organizing engine every successful campaign had at its core.
+- **Glen Cove benefactors — the founding funders.** Affluent residents recruited as private benefactors and a "Friends of" board, framed as a lasting way to give back — founders of a permanent asset. Also the door-openers to Long Island's regional family foundations. *(West Bend's match; Ann Arbor's donor-triggered match; Ketchum's trust fund.)*
+- **La Fuerza Unida — community anchor and possible nonprofit vehicle.** An established Latino-serving nonprofit downtown, already running youth programming for the exact population the park should serve; it sits in the same state-designated area as our lead site. *(Rochester, Ann Arbor, and Jersey City all ran through nonprofit or agency vehicles.)*
+- **Shane McGrane — design and programming lead, and the skater's voice.** A well-connected local skater and coach to anchor skater-led design (a grant requirement) and run youth clinics that open a second funding stream. *(The ASK model; NYC's Harold Hunter Foundation.)*
+- **Existing base.** The 1,200+ signatures from 2020 and the organized Bethpage Skatepark Coalition are a ready-made constituency. *(Brentwood shows how potent a focused petition aimed at a named official can be.)*
+
+*A note on optics: since our family lives in Locust Valley rather than Glen Cove, Glen Cove residents should be the public face, with the family organizing behind them. Locust Valley has a genuine tie regardless — Morgan Park's charter serves Glen Cove and Locust Valley alike, and the 2020 petition explicitly named Locust Valley as part of the same community.*
+
+---
+
+## Where it should go
+
+- **Lead candidate: John Maccarone Memorial City Stadium (Morris Ave).** ~19 acres of city-owned recreation land, central, with existing parking and ballfields — room to add a skate facility without displacing anything, and to phase it. It sits inside a New York State–designated Disadvantaged Community, confirmed at 22 Morris Ave on the live map. Our access modeling uses this exact location: a 20-minute bike ring from here covers roughly 90% of Glen Cove and the DAC core. (Worth a one-minute re-check on the live map before any application.)
+- **Ruled out: Morgan Memorial Park.** A residents-only, trust-run historic beach — its access restriction conflicts with the "free and open to the public" requirement every skatepark grant carries. Keep those board relationships for credibility and introductions.
+- **Alignment.** The equity case, grant eligibility, our strongest ally (La Fuerza), the state's designation, and the access modeling all point to the same central-south part of the city. Put the park where the underserved kids already are, and favor a transit- and trail-accessible spot.
+
+---
+
+## What it costs
+
+National industry guidance puts concrete skatepark construction around $50 per square foot — but that's a national average that understates a Long Island municipal project, where NY-metro costs, likely prevailing-wage rules, and inflation all push higher. The right benchmark is our closest real comp: **Brentwood's Roberto Clemente skatepark cost $1.25 million** for a park in the 8,000–12,000-square-foot range — same island, same plaza-concrete style, same design firm. So for a neighborhood-scale park of roughly 10,000–12,000 square feet, **plan on approximately $1.0–1.5 million for the full build**, with Brentwood's $1.25 million in the middle.
+
+Crucially, that full figure isn't the *first* number we need. Because the park can be **phased**, a defensible Phase 1 — a smaller but complete, open, usable park — can come in well under the full build and get kids skating years before the whole vision is funded (Ketchum and West Bend both did this). Donated land removes the single largest line item. A builder's site tour of Maccarone will replace this estimate with a real, scoped figure — worth doing early, because every funding conversation improves once we can name a number.
+
+---
+
+## The funding stack
+
+Modeled on Rochester, Jersey City, Brentwood, and West Bend — no single source, layered *and sequenced over years*. Two notes: New York's marquee municipal-parks grant awarded its most recent round in mid-2026, so for now we *lead* with the legislator-directed DASNY path and a private challenge gift, and get ready to file when it reopens. And this is a multi-year assembly, not a single application.
+
+1. **Private lead gift(s)** from Glen Cove's founding funders — the momentum-maker, and it carries more weight than ever. Structure it as a *match* where possible.
+2. **The Skatepark Project — Skatepark Grant** (up to $25,000). Nonprofit/municipal applicant, concrete, experienced builder, local skaters in design and fundraising, no fees, no waivers, underserved area. The credibility-and-modest-cash layer ($15k–$52k in comparable projects), not construction. LOI window January–March (next 2027).
+3. **The Skatepark Project — Community Activation Grant** for youth programming (Shane's clinics).
+4. **County / state / federal public capital — the big-money layer:**
+   - **DASNY — our leading state avenue.** Funded Brentwood; typically directed by a state legislator — so our Assembly seat, held by **Charles Lavine (D–Glen Cove)**, is the mechanism, and that relationship is the longest-lead move in the plan.
+   - **Environmental Bond Act Municipal Parks grant (OPRHP)** — up to **90% of eligible costs**, city applies as fee owner, 35–40% reserved for Disadvantaged Communities (our site qualifies). Most recent round awarded mid-2026 — be shovel-ready for the next. Its **EPF** sibling (50% match, via the annual CFA) is a live complement for the next cycle.
+   - **Local Waterfront Revitalization** (if a waterfront-adjacent site); **Land & Water Conservation Fund** via the same office.
+   - **Nassau County's own** park-capital mechanism (confirm availability); **CDBG** through the city's CDA (rolling open round).
+5. **A "Friends of" nonprofit** to hold private funds and endow ongoing maintenance. The New York Community Trust – Long Island is available as a fundraising home or fiscal sponsor alongside La Fuerza.
+6. **Private and corporate philanthropy beyond TSP.** The **DICK'S "Game On" program** (with LISC), $50k–$100k with a 1:1 match — a fit for a challenge-structured lead gift, pending eligibility. The **National Recreation Foundation**. And Long Island's regional family foundations — **Rauch, Greentree, Hagedorn, Claire Friedlander** — reachable through civic connections.
+7. **In-kind and grassroots.** Contractor donations, pro-bono concept work, donor-recognition pavers ($500–$1,000 each elsewhere), and skater-run fundraising events, which the Skatepark Project specifically wants to see.
+
+**How The Skatepark Project scores applications:** median household income; current access to skateparks; scope; work already done to fundraise and build awareness; and local data showing the community is underserved (its definition of "underserved" explicitly includes ethnicity and language). We now have *two* strong, independent pieces of that local data — the state's DAC designation and our own access/provisioning analysis. Lead with both, show there's no accessible park nearby, and arrive with visible fundraising and engagement underway.
+
+---
+
+## Experienced concrete builders to approach
+
+Grants require concrete built by an experienced firm, so bring one in early. Firms behind the parks in this brief include **SITE Design Group** (Berry Lane, Brentwood — priced Brentwood at $1.25M), **Spohn Ranch** (Long Beach NY, *and Manorhaven/Port Washington right next door*), **Team Pain**, **Dreamland** and **Grindline**, and **Action Sports Design**. Aim to get two or three — SITE Design Group and Spohn Ranch first, given their local history — to tour the site and give concept-level input and a real cost number (full build and a Phase 1) before you approach the city.
+
+---
+
+## The maintenance answer (this is what wins the city over)
+
+The single biggest reason cities hesitate isn't construction cost — it's the fear of an ongoing burden. Two facts dissolve it:
+- A properly built **concrete** skatepark needs very little upkeep — essentially trash collection and occasional cleaning. (This is exactly why grants require concrete.)
+- A **Friends of** board can commit to funding even that, for the life of the park. Ann Arbor's Friends group took on endowing roughly $10,000 a year as a condition of its city deal, so the city carried no ongoing cost. Walking in with an endowed maintenance plan — in writing — turns the city's biggest objection into a reason to say yes.
+
+---
+
+## If the city asks about supervision
+
+Most grant-funded parks are free and unsupervised (Ketchum; and right here in Nassau County, Long Beach runs its concrete park free and unfenced). The middle path open to us is a fence plus **volunteer marshals** from the skate community (Shane's network, the Friends group) to encourage helmets and etiquette — reassuring the city on liability without a payroll line. One firm caution: keep it **free — no entry fee, no waiver, no residency restriction.** Northport's original fee-and-residency setup and Baldwin's residency requirement are exactly the kind of thing that disqualifies a park from The Skatepark Project grant.
+
+---
+
+## Honest watch-outs
+
+- **Get real city co-investment, not just permission.** In Long Beach, California, the city approved a skatepark but contributed no money, leaving the nonprofit to raise every dollar. Use private dollars to unlock public dollars (the Ann Arbor match), not to let the city off the hook. When the parks grant reopens, the fact that the *city* must be the fee-owner applicant gives it a built-in reason to co-invest.
+- **Build neighborhood buy-in before you need it.** In NYC, a fully funded $11 million skatepark was cut nearly in half after resident pushback. Visible community support protects the project's scope.
+- **Private board supports; it never gates.** The park must stay free, public, and city-owned.
+- **Re-check the designation — and the data — before you cite it.** The site's DAC status is confirmed on the live map (July 2026); re-check at submission. Likewise refresh the access/provisioning figures against a firmer park census and the live DAC map before they go public.
+- **The number is an estimate until a builder quotes it.** The ~$1.0–1.5M band is anchored on Brentwood's real cost; get the site tour and quote before committing the figure.
+- **Pace the volunteers, not just the park.** A multi-year effort's real risk is burnout. The antidote is the phased plan — visible wins that keep the coalition energized.
+
+---
+
+## Suggested sequence
+
+A realistic arc runs in phases, not on a calendar — the comparable New York projects took four years (Brentwood) to twelve (Rochester). That length is the shape of the work, and the reason to begin now.
+
+**Phase 0 — Now (calls, not commitments).** The site's DAC status is confirmed, and the underserved case is now quantified (provisioning + access). First conversations with the 2020 petition's organizer, La Fuerza, Shane, and two or three benefactor friends. Learn the Bethpage rebuild timeline. Begin cultivating Assemblymember Charles Lavine — our primary path to state capital and the longest-lead relationship.
+
+**Phase 1 — Form up (the readiness stretch).** Stand up the coalition and a "Friends of" vehicle. Secure a lead gift, ideally a match. Settle on the site, and get two or three concrete builders to tour it for a real cost number. Firm up the supply census and re-verify the DAC tracts for the underserved exhibit. Begin approaching the regional Long Island foundations.
+
+**Phase 2 — Approach the city (the gate).** Bring the Recreation Commission and mayor's office a specific site, a real coalition, partial funding, a real cost figure, an endowed maintenance plan, and the access/provisioning analysis. Secure written site approval and press for co-investment. Nothing downstream moves until this is in hand.
+
+**Phase 3 — Fund and design (the funding years).** Apply to The Skatepark Project plus New York State/county capital — leading with DASNY through Lavine, filing for the Bond Act Municipal Parks grant when it reopens (and EPF in the next cycle), with the DICK'S/LISC grant paired with the match. Hire an experienced concrete design-build firm and run skater-led design workshops.
+
+**Phase 4 — Build, program, open (possibly in phases).** Construct — as one build or a Phase 1 that grows — launch Shane's youth clinics, and hold a grand opening that credits every partner.
+
+---
+
+*Prepared as a working strategy document and the source for outward-facing materials. Reframed July 2026 around the honest multi-year, phased reality, with a new quantified "measured case" (access + provisioning) and a corrected nearest-parks framing (the North Shore isn't parkless; our area is beyond reach of the nearest — Manorhaven west, Northport east, Bethpage closed). Figures on comparable projects are drawn from public reporting; the DAC designation, the access/provisioning numbers, the current park inventory, and the build cost should all be re-verified against the relevant agencies, a live map check, and a builder before applying or committing.*

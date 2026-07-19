@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Skatepark for Glen Cove — Within Reach</title>
+<meta name="description" content="A community vision for a free, public skatepark for the Greater Glen Cove and Oyster Bay area of Long Island's North Shore: the opening, the proof it's possible, and everyone who could help make it real.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F1EFE9;
+    --paper-2:#E9E6DF;
+    --card:#FBFAF6;
+    --ink:#191A1E;
+    --ink-soft:#4C4D55;
+    --pool:#1C6FB5;
+    --pool-bright:#2E8BE0;
+    --pool-deep:#0C4A84;
+    --sky:#DCEAF6;
+    --spark:#FF5A1F;
+    --spark-deep:#C43F0E;
+    --line:rgba(25,26,30,.14);
+    --line-2:rgba(25,26,30,.28);
+    --line-light:rgba(255,255,255,.18);
+    --maxw:1160px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:"Public Sans",system-ui,-apple-system,sans-serif;
+    font-size:clamp(16px,1.05vw + 12px,18px);line-height:1.62;
+    -webkit-font-smoothing:antialiased;overflow-x:hidden;
+  }
+  body::before{
+    content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.45;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.3'/%3E%3C/svg%3E");
+    mix-blend-mode:multiply;
+  }
+  a{color:var(--pool-deep);text-underline-offset:3px}
+  h1,h2,h3{font-family:"Anton",Impact,sans-serif;font-weight:400;text-transform:uppercase;line-height:.94;letter-spacing:.006em;margin:0}
+  .wrap{width:100%;max-width:var(--maxw);margin:0 auto;padding:0 clamp(20px,5vw,54px);position:relative;z-index:1}
+
+  .eyebrow{font-family:"Space Mono",monospace;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--pool-deep);display:inline-flex;align-items:center;gap:.7em;margin:0}
+  .eyebrow::before{content:"";width:26px;height:2px;background:var(--spark);display:inline-block}
+  .band-dark .eyebrow,.band-blue .eyebrow{color:#cfe4f6}
+  .band-dark .eyebrow::before,.band-blue .eyebrow::before{background:var(--spark)}
+
+  /* concept strip + topbar */
+  .concept-strip{position:relative;z-index:2;background:var(--ink);color:#f4d9cc;font-family:"Space Mono",monospace;font-size:.71rem;letter-spacing:.09em;text-align:center;padding:8px 16px;text-transform:uppercase}
+  .concept-strip b{color:var(--spark)}
+  .topbar{position:relative;z-index:3;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px clamp(20px,5vw,54px);border-bottom:1.5px solid var(--line)}
+  .brandmark{display:flex;align-items:center;gap:12px;font-family:"Space Mono",monospace;font-size:.74rem;letter-spacing:.15em;text-transform:uppercase}
+  .navcta{font-family:"Space Mono",monospace;font-size:.73rem;letter-spacing:.13em;text-transform:uppercase;text-decoration:none;color:#fff;background:var(--spark);padding:9px 16px;border-radius:2px;white-space:nowrap;transition:background .15s,transform .15s;box-shadow:0 2px 0 var(--spark-deep)}
+  .navcta:hover{transform:translateY(-1px);background:#ff6a34}
+
+  /* hero */
+  .hero{position:relative;z-index:1;padding:clamp(40px,6vw,80px) 0 clamp(30px,5vw,60px);overflow:hidden}
+  .hero .wrap{display:grid;grid-template-columns:1.08fr .92fr;gap:clamp(20px,3vw,48px);align-items:center}
+  .hero h1{font-size:clamp(3.6rem,13vw,10rem);margin:.24em 0 .34em}
+  .hero h1 .b{color:var(--pool)}
+  .hero .lede{font-size:clamp(1.08rem,1.5vw,1.34rem);max-width:38ch;color:var(--ink-soft);margin:0 0 30px}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:12px}
+  .btn{display:inline-flex;align-items:center;gap:.55em;font-weight:700;font-size:.98rem;text-decoration:none;padding:14px 26px;border-radius:2px;transition:transform .15s,background .15s,box-shadow .15s,border-color .15s}
+  .btn-primary{background:var(--spark);color:#1a0d06;box-shadow:0 2px 0 var(--spark-deep)}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 4px 0 var(--spark-deep)}
+  .btn-ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line-2)}
+  .btn-ghost:hover{border-color:var(--ink);transform:translateY(-2px)}
+
+  /* signature: the launch arc */
+  .arc{position:relative;width:100%}
+  .arc svg{width:100%;height:auto;display:block;overflow:visible}
+  .draw{stroke-dasharray:1500;stroke-dashoffset:1500;animation:draw 2.2s cubic-bezier(.55,.02,.2,1) .3s forwards}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  .pop{opacity:0;animation:pop .6s cubic-bezier(.2,1.4,.4,1) 2.15s forwards}
+  @keyframes pop{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:scale(1)}}
+  .lift{opacity:0;animation:lift .7s ease 1.4s forwards}
+  @keyframes lift{from{opacity:0;transform:translate(-10px,8px)}to{opacity:1;transform:none}}
+
+  /* opportunity tiles under hero */
+  .hero-tiles{display:flex;flex-wrap:wrap;border-top:1.5px solid var(--line);margin-top:clamp(30px,5vw,54px)}
+  .htile{flex:1 1 210px;padding:22px 28px 22px 0;border-right:1.5px solid var(--line)}
+  .htile:last-child{border-right:0}
+  .htile .n{font-family:"Anton",sans-serif;font-size:clamp(2.1rem,4vw,3rem);line-height:1;color:var(--pool-deep)}
+  .htile .t{font-size:.9rem;color:var(--ink-soft);margin-top:8px;max-width:28ch}
+
+  /* sections */
+  section{position:relative;z-index:1}
+  .band{padding:clamp(58px,8vw,108px) 0}
+  .band-dark{background:var(--ink);color:var(--paper)}
+  .band-dark h2,.band-dark h3{color:#fff}
+  .band-blue{background:var(--pool-deep);color:#e9f2fb}
+  .band-blue h2,.band-blue h3{color:#fff}
+
+  .act-head{display:flex;align-items:flex-start;gap:clamp(18px,3vw,40px);margin-bottom:clamp(30px,4vw,54px);flex-wrap:wrap}
+  .act-num{font-family:"Anton",sans-serif;font-size:clamp(3rem,7vw,6rem);line-height:.8;color:var(--pool);flex:0 0 auto}
+  .band-dark .act-num,.band-blue .act-num{color:var(--spark)}
+  .act-copy{max-width:60ch}
+  .act-copy h2{font-size:clamp(2.05rem,5vw,3.7rem);margin:.34em 0 .5em}
+  .act-copy p{font-size:clamp(1.02rem,1.2vw,1.2rem);color:var(--ink-soft);margin:0}
+  .band-dark .act-copy p,.band-blue .act-copy p{color:#c6cbd4}
+  .band-blue .act-copy p{color:#c9ddf0}
+  .act-copy p + p{margin-top:1em}
+  .val{color:var(--ink);font-weight:600}
+  .band-dark .val,.band-blue .val{color:#fff}
+
+  /* proof cards */
+  .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+  .pcard{background:#232228;border:1.5px solid rgba(255,255,255,.1);border-radius:4px;padding:28px 26px;position:relative;overflow:hidden}
+  .pcard::before{content:"";position:absolute;left:0;top:0;width:5px;height:100%;background:var(--pool-bright)}
+  .pcard:nth-child(2)::before{background:var(--spark)}
+  .pcard:nth-child(3)::before{background:#43c39a}
+  .pcard:nth-child(4)::before{background:var(--pool-bright)}
+  .pcard .place{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap}
+  .pcard h3{font-size:1.6rem;color:#fff}
+  .pcard .tag{font-family:"Space Mono",monospace;font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:#c8ccd4}
+  .pcard p{font-size:.98rem;color:#c6cbd4;margin:14px 0 0}
+  .proof-kicker{font-family:"Anton",sans-serif;text-transform:uppercase;font-size:clamp(1.4rem,3vw,2.1rem);color:#fff;margin-top:clamp(30px,4vw,48px);line-height:1.05;max-width:24ch}
+  .proof-kicker span{color:var(--spark)}
+
+  /* field / allies grid */
+  .allies{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .ally{background:var(--card);border:1.5px solid var(--line);border-radius:4px;padding:26px 24px;transition:transform .15s,box-shadow .15s}
+  .ally:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(25,26,30,.1)}
+  .ally .mark{font-family:"Space Mono",monospace;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--pool);display:flex;align-items:center;gap:8px}
+  .ally .mark .dot{width:9px;height:9px;border-radius:50%;background:var(--spark);flex:0 0 auto}
+  .ally h3{font-size:1.4rem;margin:12px 0 10px}
+  .ally p{font-size:.95rem;color:var(--ink-soft);margin:0}
+  .field-tally{margin-top:clamp(30px,4vw,46px);border-top:1.5px solid var(--line);padding-top:26px;font-family:"Anton",sans-serif;text-transform:uppercase;font-size:clamp(1.3rem,2.8vw,2rem);line-height:1.1}
+  .field-tally .hl{color:var(--pool)}
+  .field-tally .sp{color:var(--spark)}
+
+  /* close */
+  .close-inner{max-width:780px}
+  .close-inner h2{font-size:clamp(2.4rem,6.2vw,4.8rem);color:#fff;margin-bottom:22px}
+  .close-inner p{font-size:clamp(1.06rem,1.4vw,1.28rem);color:#dceaf6;margin:0 0 18px}
+  .close-inner p:last-of-type{margin-bottom:32px}
+  .placeholder{display:inline-block;background:#fff3cd;color:#7a5b00;border:2px dashed #b8860b;font-family:"Space Mono",monospace;font-size:.86rem;padding:4px 10px;border-radius:3px;margin-top:14px}
+  .close-actions{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+
+  /* footer */
+  footer{background:var(--ink);color:#93949d;padding:clamp(40px,6vw,64px) 0 48px;position:relative;z-index:1}
+  footer .fg{display:grid;grid-template-columns:1.3fr 1fr;gap:32px;align-items:start}
+  footer h3{font-family:"Anton",sans-serif;text-transform:uppercase;color:#fff;font-size:1.5rem;margin-bottom:14px}
+  footer p{font-size:.9rem;line-height:1.65;margin:0 0 12px;max-width:54ch}
+  footer .disc{font-size:.79rem;color:#6f7079;border-top:1.5px solid rgba(255,255,255,.12);margin-top:30px;padding-top:22px;max-width:none}
+
+  .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
+  .reveal.in{opacity:1;transform:none}
+  :focus-visible{outline:3px solid var(--spark);outline-offset:3px;border-radius:2px}
+
+  @media (max-width:900px){
+    .hero .wrap{grid-template-columns:1fr}
+    .arc{order:-1;max-width:460px}
+    .cards{grid-template-columns:1fr}
+    .allies{grid-template-columns:1fr}
+    footer .fg{grid-template-columns:1fr}
+  }
+  @media (max-width:560px){
+    .htile{flex:1 1 100%;border-right:0;border-bottom:1.5px solid var(--line);padding:20px 0}
+    .htile:last-child{border-bottom:0}
+    .act-head{gap:14px}
+    .brandmark span{display:none}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{scroll-behavior:auto}
+    .draw{animation:none;stroke-dashoffset:0}
+    .pop,.lift{animation:none;opacity:1;transform:none}
+    .reveal{transition:none;opacity:1;transform:none}
+  }
+</style>
+</head>
+<body>
+
+<div class="concept-strip">A community vision in the making — <b>not yet</b> an official City of Glen Cove project</div>
+
+<div class="topbar">
+  <div class="brandmark">
+    <svg width="28" height="24" viewBox="0 0 28 24" fill="none" aria-hidden="true">
+      <path d="M2 21 L12 21 Q24 21 24 5" stroke="#1C6FB5" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <circle cx="24" cy="5" r="3" fill="#FF5A1F"/>
+    </svg>
+    <span>Glen Cove Skatepark&nbsp;·&nbsp;A Vision</span>
+  </div>
+  <a class="navcta" href="#next">Start a conversation</a>
+</div>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Greater Glen Cove &amp; Oyster Bay · North Shore of Long Island</p>
+      <h1>A skatepark<br>within <span class="b">reach.</span></h1>
+      <p class="lede">Around here — Glen Cove, Locust Valley, and the North Shore communities beside them — there's nowhere close to skate. The nearest parks are a half-hour away in either direction. It doesn't have to stay that way: a park that's free, open to everyone, and built to outlast us all.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#next">Be part of it →</a>
+        <a class="btn btn-ghost" href="#act1">See the vision</a>
+      </div>
+    </div>
+    <div class="arc" aria-hidden="true">
+      <svg viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg">
+        <line x1="0" y1="256" x2="480" y2="256" stroke="var(--line-2)" stroke-width="2"/>
+        <!-- launch arc: momentum, up and off -->
+        <path class="draw" d="M24 256 L210 256 Q430 256 452 44" stroke="var(--pool)" stroke-width="8" stroke-linecap="round" fill="none"/>
+        <!-- spark of possibility at the lip -->
+        <g class="pop" style="transform-origin:452px 44px">
+          <circle cx="452" cy="44" r="9" fill="var(--spark)"/>
+          <path d="M452 20 L452 4 M470 30 L482 22 M434 30 L422 22" stroke="var(--spark)" stroke-width="4" stroke-linecap="round"/>
+        </g>
+        <!-- skater pushing off -->
+        <g class="lift">
+          <circle cx="150" cy="242" r="9" fill="var(--ink)"/>
+          <circle cx="144" cy="253" r="3" fill="var(--pool-deep)"/>
+          <circle cx="156" cy="253" r="3" fill="var(--pool-deep)"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="hero-tiles reveal">
+      <div class="htile"><div class="n">30<span style="font-size:.5em">+ min</span></div><div class="t">to the nearest skatepark — a half-hour west or east</div></div>
+      <div class="htile"><div class="n">1,200+</div><div class="t">neighbors already raised their hands for one</div></div>
+      <div class="htile"><div class="n">1</div><div class="t">independent city right here that can just say yes</div></div>
+    </div>
+  </div>
+</header>
+
+<!-- ACT 1 — THE OPENING -->
+<section class="band" id="act1">
+  <div class="wrap">
+    <div class="act-head reveal">
+      <div class="act-num">01</div>
+      <div class="act-copy">
+        <p class="eyebrow">The opening</p>
+        <h2>A gap this big is really an opportunity.</h2>
+        <p>Around here, kids skate in parking lots, driveways, and the fronts of stores — wherever they're tolerated, until they're not. There <em>are</em> skateparks on the North Shore, but the nearest ones sit more than a half-hour away in either direction: Port Washington to the west, Northport to the east — and the Town of Oyster Bay's own has been shut for years. For this whole stretch — Glen Cove, Locust Valley, and the communities beside them — there's simply <span class="val">nowhere close to go.</span></p>
+        <p>So where would you actually build one? The answer that keeps surfacing is <span class="val">Glen Cove</span> — not because it's the only option, but because it's the one place around here that can move on its own. It's an independent city: it owns its parks and answers to its own residents, so it can decide to build without waiting on the Town, the County, or anyone else. That's what turns a nice idea into a doable one.</p>
+        <p>And the appetite is already proven. More than a thousand people signed on to a North Shore skatepark years ago; it just never had anyone to carry it. The want is here. The place is buildable. The door is unlocked — nobody has walked through it yet.</p>
+        <p>There's a right way to do it, too: <span class="val">free, open to every kid</span> no matter their address or what their family earns, and put where the kids who'd use it most can actually walk to it. Get that right and it's not just a park — it's a place a whole community builds for its young people and keeps for good.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACT 2 — THE PROOF -->
+<section class="band band-dark">
+  <div class="wrap">
+    <div class="act-head reveal">
+      <div class="act-num">02</div>
+      <div class="act-copy">
+        <p class="eyebrow">The proof</p>
+        <h2>Towns like ours have already pulled this off.</h2>
+        <p>This is not a moonshot. All over the region, communities — some smaller than us, some that started from a rougher place — turned this same idea into free concrete parks their kids love. A few worth knowing:</p>
+      </div>
+    </div>
+    <div class="cards reveal">
+      <div class="pcard">
+        <div class="place"><h3>Long Beach, NY</h3><span class="tag">Our peer city</span></div>
+        <p>The other little city in our county built a free park by the water, designed with its own skaters. Same kind of town, same kind of government. They just did it.</p>
+      </div>
+      <div class="pcard">
+        <div class="place"><h3>Brentwood, NY</h3><span class="tag">Long Island</span></div>
+        <p>One high-schooler's petition lit a fire that pulled in real state money and turned a poisoned lot into a park. Youth-led, right here on the island.</p>
+      </div>
+      <div class="pcard">
+        <div class="place"><h3>Jersey City, NJ</h3><span class="tag">NY metro</span></div>
+        <p>A contaminated dead-end became the neighborhood's proudest park — free, concrete, shaped start to finish by the local skaters.</p>
+      </div>
+      <div class="pcard">
+        <div class="place"><h3>Rochester, NY</h3><span class="tag">The long game</span></div>
+        <p>Once the biggest U.S. city with no skatepark. They stacked grant on grant on gift, stayed patient, and built it anyway.</p>
+      </div>
+    </div>
+    <p class="proof-kicker reveal">None of them had more going for them than we do. <span>Most had less.</span></p>
+  </div>
+</section>
+
+<!-- ACT 3 — THE FIELD -->
+<section class="band">
+  <div class="wrap">
+    <div class="act-head reveal">
+      <div class="act-num">03</div>
+      <div class="act-copy">
+        <p class="eyebrow">The field</p>
+        <h2>We wouldn't be doing this alone.</h2>
+        <p>Here's the part that surprises people once they look: how many hands could be on this. None of them have been asked yet — this is simply the map of who's out there, and every one of them is reachable.</p>
+      </div>
+    </div>
+    <div class="allies reveal">
+      <div class="ally">
+        <div class="mark"><span class="dot"></span>The base</div>
+        <h3>Neighbors &amp; skaters</h3>
+        <p>The thousand-plus who already raised their hands, the local skate scene, and the families who'd be there every weekend.</p>
+      </div>
+      <div class="ally">
+        <div class="mark"><span class="dot"></span>The anchors</div>
+        <h3>Community groups</h3>
+        <p>Downtown nonprofits already doing right by local kids — the natural partners and the most credible local voices.</p>
+      </div>
+      <div class="ally">
+        <div class="mark"><span class="dot"></span>The owner</div>
+        <h3>The city itself</h3>
+        <p>Glen Cove owns the land, runs its own recreation department, and even keeps an in-house grant writer on staff. Real muscle, already there.</p>
+      </div>
+      <div class="ally">
+        <div class="mark"><span class="dot"></span>The craft</div>
+        <h3>The people who build these</h3>
+        <p>Specialist concrete-park firms have built free parks up and down the metro and across Long Island. This is a solved craft, not an experiment.</p>
+      </div>
+      <div class="ally">
+        <div class="mark"><span class="dot"></span>The money</div>
+        <h3>The funders</h3>
+        <p>A national grant made for exactly this. A sporting-goods foundation that funds neighborhood facilities. Recreation funders, Long Island's own family foundations, and state and county park dollars. No one source carries it — together they can.</p>
+      </div>
+      <div class="ally">
+        <div class="mark"><span class="dot"></span>The champions</div>
+        <h3>Local &amp; state leaders</h3>
+        <p>City, county, and state representatives — the kind of people who, in towns like Brentwood, became the ones to unlock the public money that builds parks like this.</p>
+      </div>
+    </div>
+    <p class="field-tally reveal">Six kinds of allies. <span class="hl">Dozens of doors.</span> <span class="sp">Zero knocked on yet.</span></p>
+  </div>
+</section>
+
+<!-- CLOSE -->
+<section class="band band-blue" id="next">
+  <div class="wrap">
+    <div class="close-inner reveal">
+      <p class="eyebrow">What happens next</p>
+      <h2>It starts with a conversation.</h2>
+      <p>Not a grant application. Not a groundbreaking. Not a showdown at city hall. Just conversations — with a few neighbors, a few skaters, the folks already running youth programs downtown, and, in time, the city.</p>
+      <p>That's the whole first move. Everything real grows out of it. If any of this stirred something — if you'd skate here, help build it, help fund it, or just want to see it happen — the best next step is to talk.</p>
+      <div class="close-actions">
+        <a class="btn btn-primary" href="mailto:PLACEHOLDER@EXAMPLE.COM?subject=Glen%20Cove%20Skatepark%20—%20let's%20talk">Start the conversation →</a>
+      </div>
+      <span class="placeholder">↑ Replace PLACEHOLDER@EXAMPLE.COM before sharing</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fg">
+      <div>
+        <h3>A skatepark for Glen Cove</h3>
+        <p>A community vision for a free, public skatepark serving Glen Cove, Locust Valley, and the surrounding Oyster Bay communities on Long Island's North Shore — and an open invitation to help imagine it into being.</p>
+        <p>Want in, or just want to talk it through? <a href="mailto:PLACEHOLDER@EXAMPLE.COM">Reach out</a>.</p>
+      </div>
+      <div>
+        <h3>Straight talk</h3>
+        <p>This is a grassroots vision at its earliest stage. No site, funding, or partnership is settled, and no one named or referenced here has been asked or should be assumed to support it.</p>
+      </div>
+    </div>
+    <p class="disc">This page is an independent community concept and is not affiliated with, or endorsed by, the City of Glen Cove or any agency, official, business, or organization referenced. Everything here is illustrative and will change as the idea takes shape. Facts about other communities' parks are drawn from public reporting.</p>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var els=document.querySelectorAll('.reveal');
+    if(!('IntersectionObserver' in window)||window.matchMedia('(prefers-reduced-motion:reduce)').matches){
+      els.forEach(function(e){e.classList.add('in')});return;
+    }
+    var io=new IntersectionObserver(function(en){
+      en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target);}});
+    },{threshold:.12});
+    els.forEach(function(e){io.observe(e)});
+  })();
+</script>
+</body>
+</html>

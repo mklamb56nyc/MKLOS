@@ -1,0 +1,84 @@
+GLEN COVE SKATEPARK — OPEN QUESTIONS & NEXT-ACTIONS TRACKER
+Last updated: July 2026 (this pass: ACCESS & PROVISIONING ANALYSIS completed and banked into dossier §12; Manorhaven added as precedent + nearest-park; supply methodology set; geographic-frame + threshold decisions logged; analysis reproducibility bundle created). This is the file to keep current; update it as things move.
+
+====================================================================
+OPEN QUESTIONS TO CONFIRM
+====================================================================
+[x] Underserved status for the SITE — DAC designation. RESOLVED (July 2026): 22 Morris Ave CONFIRMED as a state-designated Disadvantaged Community on the live NYSERDA V2.0 map. CAVEAT: point-in-time — re-run right before submitting. Screenshot saved.
+[x] Local data showing the community is underserved — GREATLY STRENGTHENED (July 2026): beyond the DAC label, we now have our own ACCESS & PROVISIONING ANALYSIS (dossier §12): Nassau at ~a quarter of the US-average skateparks per capita; Glen Cove + the DAC area 100% outside a 20-min trip to any skatepark (bike or car); a Glen Cove park closes ~90% of that access gap. This is exactly the "local data" TSP scores. [DONE]
+[~] State/county open-space & parks capital — UNCHANGED status:
+      • Bond Act MPR (OPRHP) — Round Two AWARDED/CLOSED (June 30, 2026). NOT available now. ACTION: MONITOR for Round 3.
+      • DASNY — legislature-directed; funded Brentwood ($450k). LEADING STATE PLAY. Access via Lavine. [VERIFY terms]
+      • EPF municipal-parks (OPRHP) — LIVE in 2026 CFA (50% match, max $675k, deadline July 31, 2026) but NOT reachable this cycle. Target NEXT CFA (~2027). [VERIFY eligibility]
+      • NY PLAYS (OPRHP; nonprofits allowed) — [VERIFY fit + open round]
+      • LWRP (NYS DOS) — only if waterfront-adjacent. [VERIFY]
+      • Federal LWCF via OPRHP. [VERIFY]
+      • Nassau County's own mechanism (2004/2006 Bond Acts, DPW). [VERIFY residual availability]
+[ ] BUILD COST — get a real number. Working band: ~$1.0–1.5M for ~10,000–12,000 sq ft (Brentwood-anchored, $1.25M mid-bracket). ACTION: a builder site tour of Maccarone (SITE Design Group / Spohn Ranch) for a scoped quote. [STILL OPEN — the biggest remaining data gap]
+[ ] SUPPLY CENSUS — firm up the LI/Nassau skatepark count (currently best-effort ≈14 LI open / 4 Nassau from OSM + additions). Also confirm Tanner-Copiague open/closed status (2026 rebuild). Matters for the provisioning ratio's precision (conclusion robust regardless). [NEW — do before anything goes public]
+[ ] DAC area under V2.0 — the §12 "Glen Cove DAC area" uses V1.0-designated tracts (517201/517202/517101). Re-confirm the exact V2.0 tract set on the live NYSERDA dataset before publishing area-level DAC numbers. [NEW]
+[ ] Current Bethpage skatepark rebuild timeline (LiRo redesign + remediation) — contrast, not competition. Modeling shows Bethpage never reaches the North Shore. [STILL OPEN]
+[ ] Is Frederick Clark still chairman of the Morgan Memorial Park board? (Confirm by calling him.)
+[x] Current elected officials — RESOLVED (Lavine A-13 CONFIRMED; DeRiggi-Whitton Leg-11 CONFIRMED; Senate D-5 person still [VERIFY]; GC mayor/council roster [VERIFY]).
+[x] TSP grant terms/windows — CONFIRMED (LOIs Jan–March; next Jan–March 2027; free/public/concrete/experienced-builder/no-fees/underserved).
+[ ] DICK'S/LISC "Game On" — confirm (a) skatepark eligibility and (b) open round.
+[ ] CDBG pathway — DIRECT entitlement vs THROUGH Nassau County? (NY CDBG open round rolling ~Mar 20–Dec 31, 2026.)
+[ ] Has Glen Cove ever formally considered a skatepark before (comprehensive plan)?
+[x] Fiscal-home / community foundation — RESOLVED (The New York Community Trust – Long Island; VP David Okorn; Commack).
+
+====================================================================
+NEXT ACTIONS — PHASED
+====================================================================
+NOTE (July 2026): 2026 is a READINESS YEAR. Build coalition, site approval, cost estimate, maintenance plan so the city can file the moment the next MPR/EPF/CFA window opens (~2027). The access/provisioning analysis (§12) is now a ready-made underserved-data exhibit for TSP, the city, and Lavine.
+
+PHASE 0 — Now (calls, not commitments):
+[x] Confirm the lead site is a designated DAC (V2.0). DONE.
+[x] Quantify + visualize the underserved case (access + provisioning). DONE — dossier §12 + analysis bundle.
+[ ] First conversations: Alex Greenberg (petition), La Fuerza Unida, Shane McGrane, and 2–3 benefactor friends.
+[ ] Reach out to Frederick Clark (confirm board status + read on Glen Cove players).
+[ ] Learn the Bethpage rebuild timeline.
+[ ] Begin cultivating Assemblymember Charles Lavine (A-13) — PRIMARY state-capital mechanism (DASNY); longest lead time. Note DeRiggi-Whitton as county ally.
+
+PHASE 1 — Form up:
+[ ] Stand up the coalition + a "Friends of" vehicle (or fiscal sponsorship via La Fuerza / NY Community Trust – LI).
+[ ] Secure a lead gift — ideally a MATCH/challenge (unlocks more; satisfies DICK'S 1:1). More important with MPR closed.
+[ ] Settle on the target site — lead candidate John Maccarone Memorial City Stadium (in a designated DAC).
+[ ] Get 2–3 concrete firms to tour the site for concept input AND a real cost number BEFORE the city — SITE Design Group + Spohn Ranch first.
+[ ] Firm up the supply census + re-verify DAC V2.0 tracts (for the underserved exhibit).
+[ ] Approach regional LI foundations via benefactor/Morgan Park connections.
+
+PHASE 2 — Approach the city:
+[ ] Bring the Rec Commission + mayor's office a specific site, a real coalition, partial funding, a real cost figure, an endowed maintenance plan (Ann Arbor ~$10k/yr), AND the §12 underserved analysis.
+[ ] Secure WRITTEN site approval — the critical-path gate (needed before TSP AND before the city can be fee-owner applicant on state parks grants). Push for city CO-INVESTMENT.
+
+PHASE 3 — Fund and design:
+[ ] Apply to TSP (Skatepark + Community Activation) — LOI Jan–March (next 2027). Cite the DAC designation AND the §12 access/provisioning analysis as the "underserved" data.
+[ ] Pursue NY State/county/federal capital — LEAD with DASNY via Lavine; EPF/OPRHP next CFA; LWRP/LWCF/NY PLAYS if eligible; confirm Nassau County + CDBG. Re-check MPR Round 3.
+[ ] DICK'S/LISC "Game On" paired with the challenge/match gift (pending eligibility).
+[ ] Hire an experienced concrete design-build firm; run skater-led design workshops.
+
+PHASE 4 — Build, program, open:
+[ ] Construct (possibly Phase 1 first); youth clinics; grand opening crediting every partner.
+
+====================================================================
+DECISION LOG (what we've settled)
+====================================================================
+- Target Glen Cove (independent city) over the Town of Oyster Bay — controls its own parks/budget.
+- Keep the park FREE, public, city-owned. Private board supports; never gates.
+- Site follows the underserved population (downtown/south) — serves equity + grant eligibility. Maccarone confirmed LEAD SITE (in a designated DAC, V1.0 + V2.0).
+- Morgan Park ruled out as a build site (residents-only); kept for relationships.
+- Supervision, if any: volunteer-marshaled and free — never a fee/waiver/residency gate.
+- State construction money: MPR (direct city application) was the lead but Round Two is awarded/closed — DASNY via Lavine is PRIMARY until a new MPR/EPF round opens.
+- Build-cost working assumption: ~$1.0–1.5M for ~10–12k sq ft (Brentwood-anchored), pending a builder quote.
+- GEOGRAPHIC FRAME (July 2026): frame the region as "Greater Glen Cove / Oyster Bay," with Glen Cove emerging as the CHOICE (independent city that can act), not a precondition. For the quantified analysis, use NASSAU COUNTY as the clean primary frame while keeping all nearby parks (incl. Suffolk/Queens) as supply. [NEW]
+- UNDERSERVED METRIC (July 2026): the arbitrary flat "20-min drive" is RETIRED as the headline. Lead with (1) PSDG provisioning + national per-capita benchmark, and (2) the ACCESS GAP by bike (car-free/kid) and car; keep 20-min drive as a generous floor. Report impact as % of the GAP closed, not % of total population. Standardize on AREA-WEIGHTING. [NEW]
+- SUPPLY METHODOLOGY (July 2026): count free public outdoor parks (Tanner counted open through its rebuild; Queens tested/included); exclude indoor/fee (Kohl's, Oil City, "110"); model Bethpage closed with a reopened scenario. [NEW]
+- BETHPAGE: modeling shows Bethpage's return does NOT close the North Shore gap; our area stays 100% underserved either way. Not a reason to wait. [NEW]
+
+====================================================================
+DELIVERABLES CREATED SO FAR
+====================================================================
+- Strategy brief (04) — master plan/case for support. UPDATED July 2026 with the quantified access/provisioning case, Manorhaven, and the nearest-parks correction.
+- Concept microsite (glen-cove-skatepark-concept.html) — REBUILT July 2026 as a 3-act vision/possibility piece (opening → proof → field of allies → conversations), with the Greater-Glen-Cove/Oyster-Bay geographic frame and nearest-parks correction. REMEMBER: replace the placeholder email (PLACEHOLDER@EXAMPLE.COM, two spots) before sharing.
+- Access & provisioning analysis — dossier §12 + the "skatepark-analysis-bundle" (data artifacts, coverage GeoPackages, 10 exhibit maps, methodology README, and a no-key map-rebuild script). NOTE: the pipeline needs a free Census API key and a free OpenRouteService key — stored (per user request) in 05_api-keys.txt and documented in the bundle README. They are free, low-stakes, and revocable; rotate anytime.
+- Project knowledge set: 01 research dossier (UPDATED — §12 analysis, Manorhaven, nearest-parks), 02 stakeholders & contacts, 03 this tracker.

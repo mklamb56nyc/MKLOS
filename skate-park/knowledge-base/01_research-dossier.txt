@@ -1,0 +1,204 @@
+GLEN COVE SKATEPARK — RESEARCH DOSSIER (FACT BASE)
+Last updated: July 2026 — this pass ADDS §12, a full ACCESS & PROVISIONING ANALYSIS (original geographic/demographic modeling: PSDG provisioning shortfall, national per-capita benchmark, the access gap by bike and car, the Bethpage scenarios, and a Glen Cove-park catchment measured as % of gap closed); ADDS a Manorhaven precedent entry (§8) and a Spohn Ranch note (§9); and CORRECTS the "North Shore has no skatepark" framing to a distance/access framing (nearest parks named). Prior pass RESOLVED the DAC V2.0 confirmation, CORRECTED the Bond Act MPR status (Round Two awarded/closed), ADDED a Brentwood-anchored build-cost band, and corrected the spelling of Shane McGrane. Time-sensitive items (officials, cleanup status, grant terms, grant rounds, park inventory) should be re-verified before use.
+Confidence is marked [CONFIRMED] from public sources/our own modeling during research, or [VERIFY] where it may be stale or was inferred.
+
+====================================================================
+1. GOVERNANCE & JURISDICTION — WHO WE ACTUALLY LOBBY
+====================================================================
+- Locust Valley is an unincorporated HAMLET within the Town of Oyster Bay (Nassau County). The user lives here, NOT in Glen Cove. Anything on Town land runs through the Town of Oyster Bay. [CONFIRMED]
+- Town of Oyster Bay: Supervisor Joseph Saladino; a Town Board of councilmembers (incl. Tom Hand, Vicki Walsh); Parks Department run by a Commissioner. [VERIFY current officials]
+- Glen Cove is an independent CITY — one of only two cities in Nassau County (the other is Long Beach). Pop ~28,000 (ACS: 28,132). Mayor–council government; it controls its own parkland, budget, and decisions. This is why it's the primary target. [CONFIRMED]
+- Glen Cove Mayor: Pamela Panzenbeck (R), third term, first elected 2021. Current council serves through Dec 31, 2027. Council members: Grady Farnan, Kevin Maccarone, Michael Ktistakis, Danielle Fugazy Scagliola, John Zozzaro, plus Perrone (sworn in Jan 2026). [VERIFY]
+- Recreation runs through the Glen Cove Youth Bureau & Recreation Department (Exec Dir Spiro Tsirkas) and a Recreation Commission (chair Deborah Patino). The mayor appoints the Rec Commission (per §243 NY General Municipal Law). The Rec Commission is the natural first target. [VERIFY names]
+- Glen Cove has a Community Development Agency (CDA) with an in-house senior grant writer (Jocelyn Wenk; Exec Dir Ann Fangmann) — a real asset for grant applications. [VERIFY]
+- STATE & COUNTY REPS (the mechanism for state capital) — updated July 2026:
+    • NY State Assembly, District 13: Charles Lavine (D–Glen Cove). District office AT 1 School Street, Glen Cove; Assembly Judiciary Committee Chair. A senior hometown member = our Ramos-analog for directing DASNY / state capital. [CONFIRMED]
+    • NY State Senate, District 5: covers Glen Cove (spans parts of Nassau & Suffolk incl. Oyster Bay, Northport). Sitting senator appears to be Steven Rhoads (R) — CONFIRM the current officeholder before outreach (2026 election underway). [VERIFY the person]
+    • Nassau County Legislator, District 11: Delia DeRiggi-Whitton (D–Glen Cove), sworn in for a 6th term, covers Glen Cove. CONFIRMED still in seat — a natural county-level ally. [CONFIRMED]
+- LIVE OPENING: In May 2026 the Glen Cove council approved a ~$4.9M bond that includes parks/recreation improvements (City Stadium Park, Morgan Park, golf course). The city is in active parks-capital mode and has a working funding mechanism (bonding). [CONFIRMED]
+
+====================================================================
+2. THE BETHPAGE SITUATION — WHY IT HELPS OUR CASE
+====================================================================
+- The Town of Oyster Bay's only skatepark, at Bethpage Community Park, has been closed for years due to TOXIC CONTAMINATION (not neglect, liability, or an anti-skatepark decision). Grumman/Navy used portions of the land as settling ponds / sludge beds before it was donated to the Town in 1962. [CONFIRMED]
+- April 2024: ~16–24 buried chemical drums discovered; testing found hexavalent chromium (carcinogen), plus VOCs and PCBs. The Town is suing Northrop Grumman, alleging concealment. [CONFIRMED]
+- Remediation ongoing; Grumman completed a 2nd cleanup phase Oct 30, 2025 (thermal). June 16, 2026: Town hired LiRo Engineers to redesign the whole park; redesign can't finish until PCBs are removed. [CONFIRMED — re-verify current rebuild timeline; still an OPEN tracker item]
+- NEAREST EXISTING SKATEPARKS (corrects the old "North Shore has none" line — it's an ACCESS gap, not a literal void) [CONFIRMED]: the North Shore is NOT parkless, but the nearest options are a half-hour-plus drive in every direction — Manorhaven Beach Park (Port Washington) to the WEST, Veterans Skatepark (Northport) to the EAST — and the Town of Oyster Bay's own (Bethpage) is ~35 min and closed. Our modeling (§12) confirms the Glen Cove North Shore area is beyond a 20-min drive of ALL of them (nearest ≈ 25 min).
+- An organized "Bethpage Skatepark Coalition" (Instagram @bethpageskateparkcoalition) exists, plus a "SAVE the Bethpage skatepark" petition. [CONFIRMED]
+- STRATEGIC READ: The Town isn't anti-skatepark, but its skatepark attention and dollars are tied up for years. Counter to any "wait for Bethpage" response: modeling (§12) shows Bethpage's 20-min reach never touches the North Shore, so our area stays fully in the gap whether Bethpage is open or closed. Bethpage solves central Nassau; it does not solve the North Shore.
+- CROSS-REF: Contaminated-site redemption is a repeated, winning skatepark story in the NY metro — see Berry Lane (Jersey City) AND Brentwood's Roberto Clemente Park (§8), both former toxic sites turned into premier community parks.
+
+====================================================================
+3. DEMOGRAPHICS & THE UNDERSERVED-COMMUNITY CASE
+====================================================================
+- Glen Cove median household income ~$92,064 (2024) — ABOVE New York State's median. So the CITYWIDE number does NOT clear The Skatepark Project's "significantly at or below the state median" test. [CONFIRMED]
+- BUT the average hides a real low-income cohort: poverty ~13.5% (high for Nassau County); ~33% Hispanic/Latino; ~30% foreign-born; Latino poverty ~19%, Black ~30%. Income barbell: ~19% of households under $25,000 vs ~29% over $150,000. [CONFIRMED] (Our ACS pull corroborates: Glen Cove pop 28,132, 15% poverty, 29% Latino, 29% foreign-born.)
+- "The Orchard" is the historic working-class/immigrant enclave in southern Glen Cove. [CONFIRMED]
+- STRENGTHENED: TSP's own current definition of "underserved" includes socioeconomic status, geography, race, ETHNICITY, LANGUAGE, disability, or other social determinants — not just income. Glen Cove's immigrant/Latino cohort qualifies on ethnicity + language + geography even before income. [CONFIRMED — skatepark.org]
+
+--- DAC DESIGNATION — A STATE-ISSUED "UNDERSERVED" LABEL (CONFIRMED, July 2026) ---
+- WHAT IT IS: New York's Disadvantaged Communities (DAC) designation (Climate Justice Working Group, Climate Act) flags census tracts as disadvantaged based on environmental burden + population/health vulnerability. ~35% of NY tracts are DACs. An OFFICIAL, tract-level, state-issued "underserved" label. [CONFIRMED]
+- GLEN COVE HAS TWO DESIGNATED TRACTS [CONFIRMED — V1.0]: Tract 5172 (now split into 5172.01/5172.02) and Tract 5171.01. Glen Cove's other residential tracts are NOT designated — the designation captures the genuine downtown/south core. In this dossier the "Glen Cove DAC area" = GEOIDs 36059517201, 36059517202, 36059517101.
+- LEAD SITE IS INSIDE A DAC [CONFIRMED under V1.0 AND V2.0]: John Maccarone Memorial City Stadium (22 Morris Ave) returns "This address meets the criteria identified for a disadvantaged community" on the live NYSERDA V2.0 map (July 2026); marker inside the shaded polygon. La Fuerza Unida (40 Glen St) is in the SAME area. CAVEAT: point-in-time — re-run the lookup right before submitting anything; screenshot saved as an application exhibit.
+- WHY IT MATTERS: state-issued underserved label (stronger than a self-assembled income argument), exactly the "local data showing the community is underserved" TSP scores (§7); and it triggers the NYS Environmental Bond Act DAC carve-out (35–40% of benefit to DACs). Our §12 access/provisioning modeling is a second, independent body of such "local data."
+
+====================================================================
+4. CANDIDATE SITES
+====================================================================
+- LEAD CANDIDATE — John Maccarone Memorial City Stadium (Morris Ave): ~19 acres, city-owned, existing parking + ballfields, central. CONFIRMED IN A DESIGNATED DAC (V1.0 and V2.0; 22 Morris Ave on the live NYSERDA map, July 2026 — see §3). Building inside the existing park shares parking/fencing/staging, trimming cost. Modeling (§12) uses this location (~40.8685, −73.6389) as the proposed-park point; a 20-min bike ring reaches ~90% of Glen Cove and the DAC core. [CONFIRMED]
+- Pascucci Soccer Field (2 Cedar Swamp Rd): closest to the Orchard core but only ~4 acres and a beloved lighted soccer field. Do NOT cannibalize. [CONFIRMED]
+- Pratt Park (8 Glen Cove Ave): central but constrained (pond; fire dept occupies part). [CONFIRMED]
+- Joe Stanco Park (Lattingtown Rd): north/affluent side; NOT in the low-income core. [CONFIRMED]
+- RULED OUT — Morgan Memorial Park: residents-only permit (Glen Cove + Locust Valley), historic J.P. Morgan memorial beach; residency restriction conflicts with the "free and open to the public" grant requirement. KEEP for connections/credibility. [CONFIRMED]
+- SITING NOTE: best-used parks are placed for ACCESS (Ketchum on bike trail/bus line; Long Beach NY and Brentwood next to rec centers). Maccarone sits in a designated DAC — no reason to move on equity grounds.
+
+====================================================================
+5. THE EXISTING BASE (activate, don't rebuild)
+====================================================================
+- Alex Greenberg's change.org petition "Build a Skatepark at Tappen Beach" — created June 2020, ~1,214 verified signatures, dormant. Targeted the Town of Oyster Bay, Supervisor Saladino, County Legislator DeRiggi-Whitton, and (then) State Sen. Gaughran. Public contact: alex.greenberg1@gmail.com. NOTE: Tappen Beach is a Town of Oyster Bay park (Glenwood Landing) — Town jurisdiction, not Glen Cove. [CONFIRMED]
+- A separate Bayville petition (starter: sean rogers) to the Town of Oyster Bay also exists. [CONFIRMED]
+- PRECEDENT FOR PETITIONS THAT WORK: Brentwood — a single HS senior's petition demanding settlement money fund a skatepark moved a State Assemblyman to act. A petition with a NAMED official target and a specific funding "ask" is far more potent than a general one. [CONFIRMED]
+
+====================================================================
+6. FUNDING LANDSCAPE
+====================================================================
+Layer deliberately; no single source carries a park. Pattern: a private lead gift + a "Friends of" nonprofit, then STATE/COUNTY capital grants (often via a legislator), with TSP grants and in-kind/grassroots proving community buy-in.
+
+** STRATEGIC SHIFT (July 2026): the Bond Act MPR grant — previously our single strongest state construction lead — has AWARDED and CLOSED Round Two, and there is no state deadline realistically hittable in 2026. This reframes 2026 as a READINESS YEAR: DASNY-via-Lavine now carries more of the state load; a match-structured private lead gift moves toward essential. **
+
+THE SKATEPARK PROJECT (TSP):
+- Skatepark Grant up to $25,000; Community Activation Grant (youth programming — Shane's clinics). TSP awards in the precedents landed $15k–$52k; a credibility/modest-cash layer, NOT construction funding. [CONFIRMED]
+- "Built to Play" (matching up to $250k) is WESTERN NY + SE MICHIGAN ONLY — Glen Cove NOT eligible. [CONFIRMED]
+- LOIs accepted January–March annually; next window Jan–March 2027; requirements = free, public, permanent CONCRETE, experienced contractor, no waivers/membership/fees, underserved area. [CONFIRMED]
+
+COUNTY / STATE / FEDERAL PUBLIC CAPITAL:
+- NYS ENVIRONMENTAL BOND ACT — MUNICIPAL PARKS & RECREATION (MPR) via OPRHP [ROUND TWO AWARDED/CLOSED]: funds CONSTRUCTION on municipally owned parkland; city (fee owner) applies directly; up to 90% of costs; DAC carve-out (35–40%). The $20M pot (Round 1 + Round 2, ~20 projects announced June 30, 2026) is spent. MONITOR for Round 3. [PROGRAM CONFIRMED]
+- DASNY [NOW THE LEADING STATE PLAY]: funded Brentwood's skatepark ($450k, the exact gap); Islip pursuing up to $4.5M more (March 2026). Legislature-directed — Assemblymember Lavine is the mechanism. [CONFIRMED funded Brentwood; VERIFY terms]
+- EPF Municipal Parks (OPRHP) [LIVE in 2026 CFA but NOT reachable this cycle]: 50% match, max $675k, deadline July 31, 2026. Target the NEXT CFA round (~2027). [VERIFY skatepark eligibility]
+- LWRP (NYS DOS): $3M into Rochester; relevant IF a waterfront-adjacent site. [VERIFY]
+- NY PLAYS (OPRHP youth-facilities; allows NONPROFIT applicants) [NEW LEAD — VERIFY fit].
+- Federal LWCF via OPRHP [VERIFY fit].
+- CDBG via Glen Cove CDA [LEAD]: NY State CDBG OPEN ROUND, rolling ~Mar 20–Dec 31, 2026 (two-step; CFA portal, not the annual deadline). Confirm whether Glen Cove is a DIRECT entitlement community or receives funds through Nassau County. [VERIFY pathway]
+- Nassau County park-capital mechanism (2004/2006 Environmental Bond Acts, DPW) — confirm current/residual availability. [VERIFY]
+
+** BUILD-COST PLANNING BAND [working assumption, pending a builder quote]:
+- National guide (~$50/sq ft; range $50–75) UNDERSTATES a Long Island municipal project (NY-metro costs + likely prevailing wage + inflation).
+- BEST REGIONAL COMP — Brentwood's Roberto Clemente skatepark (2023): $1.25M for an 8,000–12,000 sq ft plaza-concrete park, SITE Design Group — ≈$105–155/sq ft (2–3× the national figure).
+- PLANNING FIGURE: ~$1.0–$1.5M all-in for a ~10,000–12,000 sq ft park (Brentwood's $1.25M mid-bracket). Treat $50/sq ft as a FLOOR. Phasing is a live option. A builder site tour of Maccarone converts this band into a real scoped number. **
+
+PRIVATE / GRASSROOTS / IN-KIND:
+- Private lead gift(s) + a "Friends of" fund for capital AND an endowed maintenance reserve (Ann Arbor: ~$10,000/yr endowed as a condition of the city deal). Matching-gift structure beats a plain gift (West Bend, Ann Arbor). [CONFIRMED]
+- DICK'S SPORTING GOODS FOUNDATION — "Game On" (via LISC): $50k–$100k for facilities in low-/moderate-income neighborhoods; REQUIRES 1:1 MATCH. VERIFY skatepark eligibility + open round. Separate "Sports Matter" ($1k–$25k, largely invite-only) could fund Shane's clinics via a nonprofit. [CONFIRMED]
+- LISC (technical assistance + the DICK'S facility grants). National Recreation Foundation (at-risk-youth recreation). [CONFIRMED]
+- Regional LI foundations: Rauch, Greentree, Horace & Amy Hagedorn Fund, Claire Friedlander; Long Island Racial Equity Funder Collaborative. Relationship-driven — via benefactor friends / Morgan Park board. [CONFIRMED]
+- Fiscal home: The New York Community Trust – Long Island (VP David Okorn; Commack). [CONFIRMED]
+- Nouns DAO (Web3, via TSP) — creative supplemental. [CONFIRMED]
+- SKATE INDUSTRY [SOFT LEAD]: no open applies-to-us program beyond TSP; pursue via Shane's contacts. Shane's confirmed footprint is a small-brand flow deal (Blackstar) — scene credibility, not Vans/Nike-tier. [VERIFY]
+- Glen Cove's in-house CDA grant writer can help pursue all of the above.
+
+====================================================================
+7. THE SKATEPARK PROJECT — GRANT CRITERIA & SCORING
+====================================================================
+Eligibility: nonprofit/government/public applicant; free public CONCRETE park; experienced skatepark contractor; local skaters in planning/design/fundraising; NO entry fee/waivers/membership; open daylight hours ~365 days; underserved area; street + transition terrain. [CONFIRMED]
+Timeline: LOIs January–March annually (next Jan–March 2027). [CONFIRMED]
+Scoring: median household income; current access to skateparks; scope; work already done to fundraise + build awareness; local data showing the community is underserved.
+TIP: the DAC designation (§3) AND the §12 access/provisioning analysis are BOTH state-of-the-art "local data showing the community is underserved" — cite both. Partnering with Glen Cove PD/schools to document need (Long Beach CA model) adds more.
+
+====================================================================
+8. PRECEDENT ROSTER (success stories + key facts)
+====================================================================
+--- CLOSEST ANALOGUES (lead with these) ---
+- Brentwood, NY — Roberto Clemente Park (Town of Islip): closest analogue on LI. Plaza CONCRETE park (8,000–12,000 sq ft), opened March 2023, Nelson + Pope with SITE Design Group; a TOXIC-DUMPING brownfield reborn after $11M+ revitalization. YOUTH-LED (HS senior's petition moved Assemblyman Phil Ramos). Funding: Ramos $700k (incl. $250k 2019) + $450,000 DASNY + $627k AG polluter recovery. COST ANCHOR: $1.25M total (≈$105–155/sq ft) — our best regional build-cost comp. CAVEAT: TOWN jurisdiction, not an independent city. [CONFIRMED]
+- Long Beach, NY (peer city): the OTHER independent city in Nassau — the governance twin. Free, unfenced CONCRETE park ~7,000 sq ft, opened 2015, Spohn Ranch via public workshops. Catalyst: kids struck by a train ("give them a safe place"). [CONFIRMED]
+- Jersey City, NJ (Berry Lane Park): opened 2020; ~12,000 sq ft; first poured-in-place concrete park in Hudson County; former 17-acre TOXIC BROWNFIELD in lower-income Bergen-Lafayette. TSP grant + $500,000 county Open Space Trust Fund; SITE Design Group design, Tsivikos build. Do NOT cite as a per-sq-ft comp. [CONFIRMED]
+
+- MANORHAVEN ("Skate Spot" at Manorhaven Beach Park), Port Washington, NY — Town of North Hempstead (Village of Manorhaven) [CONFIRMED July 2026]: a FREE, public, CONCRETE ~10,000 sq ft skate spot, opened 2011 (~$350k, ≈$35/sq ft in 2011 dollars — a FLOOR, not a 2026 comp, like Ann Arbor), designed/built by SPOHN RANCH with local-skater input. Closed during the pandemic; reopened 2021 after a local teen's petition (a second youth-advocacy data point alongside Brentwood). WHY IT MATTERS: (a) it is the nearest existing park to our WEST — the western bookend of the North Shore access gap (§2, §12); (b) it is a strong LOCAL precedent — a Nassau County North Shore municipality that built a free concrete park with skater input — arguably our second-closest governance/geography comp after Long Beach. NOTE: this was a July-2026 blind-spot fix; it had been absent from the fact base. [CONFIRMED — re-verify status]
+
+--- THE FUNDING/GOVERNANCE PLAYBOOKS ---
+- Rochester, NY (ROC City): the NY playbook. Opened 2020; coalition pitched the city in 2008 (12-yr haul); once "largest US city without a skatepark." Grindline build; funding STACK incl. a $3,000,000 NYSDOS LWRP grant (2023), state/utility grants, TSP, Sands Family Foundation (unrestricted + dollar-for-dollar match), and a Friends-of nonprofit. (Built-to-Play NOT available to us.) [CONFIRMED]
+- Ketchum, ID (Guy Coles): free concrete park in a small affluent town, ~15,000 sq ft (Dreamland; later Grindline), phased, sited on bike trail/bus line. Trust fund + business/foundation money + percent-for-art mural. [CONFIRMED core; funding-blend VERIFY]
+- Ann Arbor, MI: private money triggering public money. 30,000 sq ft free concrete park (2014, Wally Hollyday). $400k county CHALLENGE grant + $300k MI Natural Resources Trust Fund + $100k+ private; ~$800–900k raised. Friends group ENDOWED ~$10,000/yr maintenance as a condition. (~$27–30/sq ft is a 2014/donated-design FLOOR.) [CONFIRMED]
+- West Bend, WI (2026): benefactor/match model. 22,000 sq ft (Grindline), ~$2.4M/three phases; $500,000 anonymous MATCHING commitment; donor-funded design phase. [CONFIRMED]
+
+--- DESIGN / OWNERSHIP MODELS ---
+- Long Beach, CA (ASK Foundation): skater-led vehicle; involved in 9 parks; youth-led design (150+ kids). CRIME DATA: within 3 yrs of the Michael K. Green park opening (2003), drug incidents −60.9%, violent crime −29.3%. WATCH-OUT: city approved Silverado but funded $0 (the "permission, not co-investment" trap). [CONFIRMED]
+- Riverside Park / Andy Kessler, NYC: at-risk teens co-designed/built (1996); NPS "Innovations in Recreation" grant matched by NYC Parks. Concrete rebuild 2021. [CONFIRMED]
+- Hoboken, NJ (Maritime Park): participatory design (250+ surveyed, 63% skaters); $250,000 Hudson County Open Space grant (2024). [CONFIRMED]
+
+--- CEILING / CAUTIONARY DATA POINTS ---
+- Charleston, SC (SK8 Charleston): $4.8M, 32,500 sq ft county destination (Team Pain, 2017; ~$148/sq ft) — but admission + waiver + gate = DISQUALIFYING for grants. The aspirational ceiling, not our model. [CONFIRMED]
+- Northport, NY (Veterans Skatepark, Town of Huntington): the supervised-access model AND the fee/residency TRAP; concrete, ~2010, attended gate, helmets. Also the nearest existing park to our EAST (§2, §12). [CONFIRMED]
+- Baldwin, NY (Town of Hempstead): ~11,000 sq ft public park requiring ID + PROOF OF RESIDENCE — a residency gate that would disqualify it from TSP. [CONFIRMED]
+- NYC Brooklyn Skate Garden ($11M) SCALED BACK from ~40,000 to 19,500 sq ft after resident opposition — build neighborhood support early. [CONFIRMED]
+
+====================================================================
+9. EXPERIENCED CONCRETE SKATEPARK BUILDERS / DESIGNERS
+====================================================================
+- SITE Design Group — Berry Lane + Brentwood + Tony Hawk's backyard; priced Brentwood at $1.25M. First call. [CONFIRMED]
+- Spohn Ranch — Long Beach NY (peer city), Long Beach CA, NJ; AND Manorhaven/Port Washington (nearest park to our west); runs public design workshops. Strong NY-metro/LI footprint = also a natural first call. [CONFIRMED]
+- Grindline — Rochester, West Bend, Ketchum addition. Dreamland — Ketchum. Team Pain — Charleston. Action Sports Design — Hoboken. California Skateparks + W Architecture — Riverside (NYC). Wally Hollyday — Ann Arbor. Tsivikos Enterprises — Berry Lane GC. Design leads: Stantec + Kanten Russell (Rochester); Nelson + Pope (Brentwood). [CONFIRMED]
+ACTION: get 2–3 firms (SITE Design Group and Spohn Ranch first) to tour Maccarone for concept input + a real cost number before approaching the city. TSP can refer vetted builders.
+
+====================================================================
+10. OPERATING / SUPERVISION MODELS (spectrum)
+====================================================================
+- Free & unsupervised (Ketchum; Long Beach NY, unfenced) — lowest cost; "skate at your own risk" signage.
+- Volunteer-marshaled (recommended middle path) — a fence + community volunteers encouraging helmets/etiquette; reassures the city on liability without a payroll line; keeps it free/grant-eligible.
+- Paid/staffed with admission + waivers (Charleston; Northport originally) — conflicts with grant free-access rules.
+KEY RULE: supervision must NEVER add a fee, waiver, or residency gate, or grant eligibility is lost.
+
+====================================================================
+11. SUPPORTING INSTITUTIONS & PARTNERSHIP MODELS
+====================================================================
+- "Friends of" nonprofit / conservancy: → stand up "Friends of the Glen Cove Skatepark" (or fiscal sponsorship via La Fuerza / a community foundation).
+- Community foundation fiscal home: The New York Community Trust – Long Island.
+- Latino-serving youth nonprofit anchor / possible applicant: La Fuerza Unida (40 Glen St; in the SAME DAC core as the lead site).
+- Skater-led programming (design credibility + TSP Community Activation): Shane McGrane's clinics; models = ASK (Long Beach CA), Harold Hunter Foundation (NYC).
+- Local PD + school district as IMPACT-DOCUMENTATION partners (Long Beach CA outcomes recognized by LBPD/LBUSD) → Glen Cove PD/schools.
+- LISC (money + know-how). National Recreation Foundation. State legislator sponsor (Lavine) unlocks DASNY. County ally: DeRiggi-Whitton.
+
+====================================================================
+12. ACCESS & PROVISIONING ANALYSIS  (NEW — July 2026; our own geographic/demographic modeling)
+====================================================================
+PURPOSE: convert "underserved" from adjectives into hard, defensible numbers. Two legs — PROVISIONING (how many parks the area should have) and ACCESS (who can actually reach one). This is state-of-the-art "local data showing the community is underserved" (§7) and complements the DAC designation (§3). Full pipeline, data, and exhibits preserved in the "skatepark-analysis-bundle."
+
+METHODOLOGY (for defensibility):
+- Demographics: US Census ACS 5-year 2018–2022 (tract level; Nassau FIPS 059, Suffolk 103). Boundaries: TIGER/Line 2023 (tracts, places, county subdivisions).
+- Supply: OpenStreetMap (Overpass, leisure=skatepark) reconciled with web sources + known additions (Brentwood). Travel time: OpenRouteService isochrones (driving-car and cycling-regular), 20 min = 1200 s.
+- Population math: AREAL APPORTIONMENT — tract population × (tract area inside a ring / total tract area). Standardized (more precise than whole-tract classification, which gave slightly higher, coarser numbers). CRS EPSG:32618.
+- Populations of interest: Nassau County (059); Town of Oyster Bay (county subdivision); Glen Cove city (place); Glen Cove DAC area (tracts 517201/517202/517101).
+- SUPPLY RULES: INCLUDED free public outdoor parks (~14 open on LI; Bethpage excluded as closed; Tanner/Copiague counted OPEN through its 2026 rebuild — conservative; Queens/NYC parks tested and INCLUDED). EXCLUDED indoor/fee/private (Kohl's-Massapequa, Oil City-Oceanside, "110"). Bethpage modeled CLOSED with a REOPENED scenario throughout.
+- CAVEATS: supply is best-effort (do a firmer census before publishing); park coords ±a few hundred m (robust); ACS carries margins of error; DAC tract set re-verify against live NYSERDA V2.0.
+
+--- PART 1: PROVISIONING (how short is the supply) [CONFIRMED — PSDG + Census/Statista] ---
+- STANDARD: Public Skatepark Development Guide "Level of Service" = one ~10,000 sq ft neighborhood skatepark per 25,000 residents (communities <200k; 1 per 40k for 200k+ cities). (Same authority we use for cost.)
+- SHORTFALL: Long Island needs ~117, has 14 (12% of standard). Nassau needs ~56, has 4 (7%). Suffolk needs ~61, has 10 (16%). Our North Shore ring needs ~3, has 0 (0%).
+- NATIONAL BENCHMARK (rebuts "the target is aspirational, nobody's close"): US ≈3,500 skateparks / ~335M people ≈ 1.0 per 100k (1 park per ~96,000 people). PSDG notes >80% of US communities have none. Per 100k: LI 0.48; Nassau 0.29; Suffolk 0.66. US leaders (Laredo 3.5, Reno/Sacramento ~3.3). => NASSAU HAS ≈ A QUARTER OF THE US-AVERAGE skateparks per capita (LI < half). Below the actual national norm, not merely an ideal. (Park counts are best-effort; even a generous recount keeps Nassau ≈ half the US average or worse.)
+
+--- PART 2: ACCESS (who can actually reach a park) ---
+THE ACCESS GAP TODAY (residents / kids with NO skatepark within a 20-min trip, before any Glen Cove park):
+- Glen Cove city:   28,132 / 5,154  = 100% shut out — by BIKE and by CAR, today AND if Bethpage reopens.
+- Glen Cove DAC area: 13,023 / 2,601 = 100% shut out (every mode/scenario).
+- Town of Oyster Bay: 97% can't BIKE to one (290,630 / 60,693); 61% can't CAR to one today (181,533 / 39,381; 21% if Bethpage back).
+- Nassau County: 77% can't BIKE (1,072,175 / 230,756); 28% can't CAR today (391,761 / 82,994; 14% if Bethpage back).
+
+BETHPAGE SCENARIO (car, 20-min):
+- Nassau gap ≈ 388–392k today → ≈207k if Bethpage reopens (Bethpage covers CENTRAL Nassau: Hicksville, Levittown, Plainview, Bethpage, Mineola-ish). LI-wide gap ≈866k → ≈685k.
+- OUR NORTH SHORE RING: 18/18 tracts in the gap whether Bethpage is open or closed — Bethpage's 20-min reach never touches the North Shore peninsulas. "Still needed even if Bethpage comes back."
+- Even with BOTH Bethpage AND a Glen Cove park, ≈99k Nassau residents remain in the gap (Mineola-area doughnut hole, Great Neck peninsula, Five Towns) — no over-building. (These are potential regional allies, not our target.)
+
+GLEN COVE PARK (at Maccarone) — CATCHMENT & % OF THE GAP CLOSED (area-weighted):
+- 20-min bike ring ≈17.6 sq mi; 20-min car ring ≈67.1 sq mi.
+- SHARE OF THE ACCESS GAP CLOSED:
+    • Glen Cove & DAC: ~89–91% (bike AND car; IDENTICAL with or without Bethpage — our park's value is Bethpage-proof).
+    • Town of Oyster Bay (car): 29% today → 72% if Bethpage reopens (our park becomes the North Shore fix once Bethpage refills the south).
+    • Nassau (car): 24% today → 43% if Bethpage back; (bike) 4% — one park can't serve a county (= Part 1 restated).
+- NET-NEW INTO RANGE (car; today / Bethpage-back): Glen Cove ~25,113 / 25,113 (4,702 kids); DAC ~11,632 / 11,632 (2,387); ToOB ~52,579 / 44,763; Nassau ~93,448 / 85,436. BIKE net-new ≈ full catchment (bike baseline ≈ 0 — no bikeable park exists today): Glen Cove ~25,467, DAC ~11,775, ToOB ~16,533, Nassau ~42,126.
+
+ROBUSTNESS CHECKS:
+- QUEENS: including 34 NYC/Queens parks as supply changes the Nassau numbers by ZERO. The nearest park of ANY kind to Kings Point (Great Neck tip) is 24-min car (Manorhaven, not Queens) — peninsula drive-times defeat map-proximity. [CONFIRMED]
+- MASSAPEQUA: no free public park there; it reads as covered via Tanner (Copiague). Kohl's-Massapequa is indoor/fee (excluded). [CONFIRMED]
+
+THRESHOLD NOTE (important for defensibility): a flat "20-min DRIVE" was arbitrary and modeled the wrong user (a driving parent). It is RETIRED as the headline. Lead with (1) PSDG provisioning + national benchmark, and (2) the access GAP shown by BIKE (kid, car-free — PSDG: "most skateboarders are too young to drive"; its access ideal is a ~½-mile walk) and by CAR. The 20-min drive is kept only as a generous floor.
+
+EXHIBITS (in the analysis bundle): provision_benchmark; li_gap_scenarios; nassau_glencove; bethpage_matrix; residual_gap; greatneck_check; gap_demographics; gc_catchment; study_area; coverage_gap.

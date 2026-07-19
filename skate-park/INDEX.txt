@@ -1,0 +1,22 @@
+GLEN COVE SKATEPARK — PROJECT SNAPSHOT
+Generated July 2026. Complete current state of the project.
+
+knowledge-base/    the fact base (load these into your Claude project)
+  01_research-dossier.txt ........ fact base incl. §12 Access & Provisioning Analysis + Manorhaven
+  02_stakeholders-and-contacts.txt people/orgs (unchanged this session)
+  03_open-questions-and-tracker.txt live to-dos + decision log
+  04_glen-cove-skatepark-brief.txt master case for support (incl. "The measured case")
+  05_api-keys.txt ................ Census + OpenRouteService keys for the analysis pipeline
+
+microsite/
+  glen-cove-skatepark-concept.html  public vision page. TODO before sharing: replace
+                                     PLACEHOLDER@EXAMPLE.COM (two spots); optionally add the
+                                     quantified hooks.
+
+analysis/         the access/provisioning analysis (reproducible)
+  README.md ...................... methodology, data sources, supply rules, caveats, API-key setup
+  regenerate_maps.py ............. rebuilds exhibits from /data (no API keys needed)
+  data/ .......................... computed CSVs + coverage GeoPackages
+  maps/ .......................... 10 exhibit PNGs
+
+PRE-PUBLICATION CHECKLIST: firm up the park census; re-verify DAC V2.0 tracts; microsite email.
