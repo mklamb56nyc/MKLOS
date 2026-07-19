@@ -1,7 +1,7 @@
 # toby-college — project context
 
 ## What this is
-(one line — fill in when you port the project content)
+The toby-college project in MKLOS — its files and working notes live in this directory.
 
 ## Current focus
 (fill in)

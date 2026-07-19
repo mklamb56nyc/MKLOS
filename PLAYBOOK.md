@@ -1,4 +1,4 @@
-# Setup playbook — personal superrepo + Claude Code on the web
+# Setup playbook — MKLOS + Claude Code on the web
 
 Order matters: the repo must exist and be pushed before Claude Code on the web
 has anything to point at. Repo first, environment second, porting last.
@@ -12,22 +12,22 @@ isolation from anything work-related):
     gh auth status
 
 ## 1. Land the scaffold locally
-    mkdir -p ~/projects && unzip ~/Downloads/personal-superrepo-scaffold.zip -d ~/projects && cd ~/projects/personal
+    mkdir -p ~/projects && unzip ~/Downloads/mklos-scaffold.zip -d ~/projects && cd ~/projects/mklos
 
 ## 2. Create the git repo (init + first commit)
-    git init -b main && git add -A && git commit -m "Initial personal superrepo"
+    git init -b main && git add -A && git commit -m "Initial MKLOS commit"
 
 ## 3. Publish to GitHub (private) and push
-    gh repo create personal --private --source=. --remote=origin --push
+    gh repo create mklos --private --source=. --remote=origin --push
     gh repo view --web
 
 ## 4. Connect GitHub to Claude Code on the web
 Go to claude.ai/code, connect GitHub, install the Claude GitHub App scoped to
-ONLY the `personal` repo (Select repositories -> personal). That scoping is your
+ONLY the `mklos` repo (Select repositories -> mklos). That scoping is your
 isolation boundary.
 
-## 5. Create the "personal" environment
-Add an environment: name `personal`, repo `personal`, network access Trusted,
+## 5. Create the "mklos" environment
+Add an environment: name `mklos`, repo `mklos`, network access Trusted,
 no env vars or setup script yet.
 
 ## 6. Verify the loop
@@ -40,7 +40,7 @@ confirm on main.
 No live website yet and cloud sessions already can't push to main, so this can
 wait. When you want the gate:
 
-    echo '{"required_status_checks":null,"enforce_admins":false,"required_pull_request_reviews":{"required_approving_review_count":0},"restrictions":null}' | gh api -X PUT repos/<YOUR-GH-USERNAME>/personal/branches/main/protection --input -
+    echo '{"required_status_checks":null,"enforce_admins":false,"required_pull_request_reviews":{"required_approving_review_count":0},"restrictions":null}' | gh api -X PUT repos/<YOUR-GH-USERNAME>/mklos/branches/main/protection --input -
 
 ## 8. Port your projects
 Open a session per project, bring content into `skate-park/` and `toby-college/`,

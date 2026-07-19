@@ -1,6 +1,6 @@
-# personal — superrepo working context for Claude
+# MKLOS — working context for Claude
 
-This is the single repo for my personal projects and knowledge. Files here are
+This is MKLOS, the single repo for my personal projects and knowledge. Files here are
 edited **in place** by Claude Code and version-controlled — this replaces the old
 "download, re-upload, new chat" loop. When I ask you to update something, change
 the file directly and let git track it.
