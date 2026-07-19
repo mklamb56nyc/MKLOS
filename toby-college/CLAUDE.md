@@ -5,6 +5,7 @@ The toby-college project in MKLOS — its files and working notes live in this d
 
 ## Current focus
 (fill in)
+- MKLOS uses auto-merge.
 
 ## Conventions
 - Edit files in place; keep changes scoped to this `toby-college/` directory.
