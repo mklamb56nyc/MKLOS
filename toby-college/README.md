@@ -41,11 +41,13 @@ then right-click → **Open with → Google Sheets** (this creates a native Shee
 **Share** it with edit access to the people who need it. Native format keeps the
 Decision Model formulas and the Task List dropdown live.
 
-**Programmatic sync (optional):** the repo is wired for a `google-sheets` MCP
-(see root `.mcp.json`) that can push/update the Sheet from a session — useful for
-refreshing the *static* reference tabs without touching the human-edited inputs. It
-needs a one-time OAuth authorization (claude.ai connector settings) before it can be
-used; until then, seed and edit manually as above.
+**Programmatic sync (optional, not yet set up):** the root `.mcp.json` has a
+`google-sheets` entry, but it's a **placeholder** (`https://REPLACE-ME.workers.dev/mcp`)
+— there is no working Sheets MCP/connector today. To enable programmatic push/update of
+the *static* reference tabs, you'd first have to stand up a real Sheets MCP endpoint (a
+Cloudflare Worker, or a registered custom connector in claude.ai) and point `.mcp.json`
+at it. Until then, **seed and edit manually as above** — note the native-Sheet creation
+is a Google **Drive** operation and doesn't require the Sheets MCP at all.
 
 ## The six tabs
 
