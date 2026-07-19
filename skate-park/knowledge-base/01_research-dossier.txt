@@ -202,3 +202,42 @@ ROBUSTNESS CHECKS:
 THRESHOLD NOTE (important for defensibility): a flat "20-min DRIVE" was arbitrary and modeled the wrong user (a driving parent). It is RETIRED as the headline. Lead with (1) PSDG provisioning + national benchmark, and (2) the access GAP shown by BIKE (kid, car-free — PSDG: "most skateboarders are too young to drive"; its access ideal is a ~½-mile walk) and by CAR. The 20-min drive is kept only as a generous floor.
 
 EXHIBITS (in the analysis bundle): provision_benchmark; li_gap_scenarios; nassau_glencove; bethpage_matrix; residual_gap; greatneck_check; gap_demographics; gc_catchment; study_area; coverage_gap.
+
+====================================================================
+13. WHY IT WORKS — SOCIAL / HEALTH / EQUITY EVIDENCE (backs Brief §1)
+====================================================================
+PURPOSE: the independent research behind the narrative's "our kids need this" case —
+that a skatepark answers a real deficit, works across race/class, and that the shortage
+falls hardest on lower-income kids (the equity spine that rebuts the "rich-kid amenity"
+framing). Gathered July 2026; primary figures re-verified full-text this session.
+
+- USC "BEYOND THE BOARD" (Pullias Center, USC Rossier + Annenberg; lead Neftalie
+  Williams). Largest national study of skaters: 5,000+ survey responses, 120+ interviews
+  across 7 cities, ages 13–25, deliberately centered on low-income/minoritized skaters —
+  so the strongest independent evidence IS the equity story. FINDINGS: top reasons kids
+  skate are to HAVE FUN (76%) and to GET AWAY FROM STRESS (62%); skating builds community
+  and friendships across race, social class, and age; racially minoritized skaters
+  reported feeling SAFER inside the skate community than in predominantly white spaces.
+  Funded by The Skatepark Project. [CONFIRMED — figures re-verified July 2026]
+  https://pullias.usc.edu/project/usc-skate-study/  |  https://skate.pullias.usc.edu/
+- PUBLIC SKATEPARK DEVELOPMENT GUIDE (planners' reference; also the source of the
+  1-per-25,000 provisioning benchmark in §12): credits skateparks with positive youth
+  development, physical activity, mental resilience, belonging, improved academic
+  performance, and "positive options for teens." [CONFIRMED]  https://publicskateparkguide.org/
+- ACCESS / PHYSICAL-ACTIVITY EQUITY (PMC review): lower-income and BIPOC youth are less
+  physically active and have less access to nearby, quality parks than wealthier peers;
+  modern skateparks have skewed toward affluent, white suburbs — a national mirror of our
+  local golf-course contrast (§3, §12). Anchors Brief §1a's "shortage falls hardest on
+  the kids with the least." [CONFIRMED]  https://pmc.ncbi.nlm.nih.gov/articles/PMC7494055/
+- "THIRD PLACE" FRAME (Ray Oldenburg, *The Great Good Place*): free public commons beyond
+  home and school; research holds these matter MOST for marginalized youth. Backs the
+  "one of the last third places left" line in Brief §1c. [supporting frame]
+- SKATEPARKS AS COMMUNITIES OF CARE (*Pedagogy, Culture & Society*, 2023): skateparks aided
+  girls'/non-binary youth mental-health recovery during lockdown. Plus a peer-reviewed
+  study (Sport & Exercise Psychology, 2023; 26 youth 14–17): skating fosters well-being,
+  companionship, a valued sense of community. [CONFIRMED — supporting]
+- LONG BEACH, CA CRIME OUTCOME — the safety-worry rebuttal (Brief §1d). Full figures in
+  §8 (Design/Ownership Models): within 3 yrs of the Michael K. Green skatepark opening
+  (2003), drug incidents −60.9% (~61%), violent crime −29.3% (~29%), overall −22.8% (~23%).
+  Source: City of Long Beach / ASK Foundation. NOTE: cite violent crime as ~29% (raw 29.3%),
+  NOT 30% — the lower figure is the accurate one. [CONFIRMED]

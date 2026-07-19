@@ -18,7 +18,9 @@ set up yet.)
   project's directory.
 - **Edit files in place.** Don't produce a "new version" to paste — make the
   change and show me the diff.
-- **Keep changes small and reviewable.** One logical change per commit.
+- **Don't make me manage git.** Edit as freely as the work needs — don't fret commit
+  boundaries and never pause for my review or confirmation. Git is handled
+  automatically and invisibly (see Git workflow).
 - **The files are the record.** Don't restate large blocks in chat when a diff
   will do.
 - **Don't invent facts.** If a detail isn't in the repo, in a connected source,
@@ -32,10 +34,10 @@ set up yet.)
 - Flag risks and tradeoffs honestly rather than just agreeing.
 
 ## Git workflow
-Handle git automatically — don't wait for me to ask.
-- At the end of any task that changes files, stage everything, commit with a
-  clear message, push the working branch, and open or update a single PR for
-  that branch.
+I never want to think or worry about git here — handle it fully automatically.
+- Commit and push the working `claude/<topic>` branch automatically at natural
+  stopping points. Never wait for my confirmation, and group edits into commits
+  however's convenient — don't force one-change-per-commit.
 - Keep **one `claude/<topic>` branch and one PR per topic** — reuse them across
   edits rather than opening a new PR for each change.
 - Leave merging to me. **Never push to `main`.**
