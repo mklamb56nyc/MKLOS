@@ -10,7 +10,22 @@ jobs:
     if: startsWith(github.head_ref, 'claude/')
     runs-on: ubuntu-latest
     steps:
-      - name: Merge claude/* PR
+      - name: Check for site/ changes
+        id: site
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          FILES=$(gh pr diff "$PR" --name-only --repo "$REPO")
+          if echo "$FILES" | grep -q '^site/'; then
+            echo "touches_site=true" >> "$GITHUB_OUTPUT"
+            echo "PR touches site/ — leaving open for review."
+          else
+            echo "touches_site=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Auto-merge (non-site PRs only)
+        if: steps.site.outputs.touches_site == 'false'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR: ${{ github.event.pull_request.number }}
