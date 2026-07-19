@@ -26,7 +26,8 @@ model math live in `docs/`.
 - Keep anything private in this directory out of anything that later gets published.
 - **The workbook is generated — don't hand-edit the `.xlsx`.** Edit `build_tracker.py`
   and re-run (`python build_tracker.py`) to produce `output/Toby_College_Tracker.xlsx`.
-- To share a live copy with collaborators, push to the Google Sheet via the
-  `google-sheets` MCP (see the root `CLAUDE.md` Google Sheets workflow); open the
-  workbook with File → Open with Google Sheets so the Decision Model formulas and the
-  Task List dropdown stay live.
+- **The live, shared tracker is a native Google Sheet in Drive** — that Sheet is the
+  source of truth for human edits (Decision Model inputs, Task statuses). `build_tracker.py`
+  is the seed/generator; the repo `.xlsx` is a snapshot/backup. Do **not** re-publish over
+  the live Sheet from a rebuild — it clobbers edits. See README → "Living copy in Google
+  Drive" for the seed steps and the `google-sheets` MCP sync path (needs OAuth first).
