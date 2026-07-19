@@ -1,7 +1,7 @@
 # skate-park — project context
 
 ## What this is
-(one line — fill in when you port the project content)
+The skate-park project in MKLOS — its files and working notes live in this directory.
 
 ## Current focus
 (fill in)

@@ -1,6 +1,6 @@
-# personal — superrepo working context for Claude
+# MKLOS — working context for Claude
 
-This is the single repo for my personal projects and knowledge. Files here are
+This is MKLOS, the single repo for my personal projects and knowledge. Files here are
 edited **in place** by Claude Code and version-controlled — this replaces the old
 "download, re-upload, new chat" loop. When I ask you to update something, change
 the file directly and let git track it.
@@ -30,6 +30,16 @@ set up yet.)
 - Be concise and direct. Lead with the answer or the change; skip preamble.
 - When you give shell commands, give single-line copyable commands.
 - Flag risks and tradeoffs honestly rather than just agreeing.
+
+## Git workflow
+Handle git automatically — don't wait for me to ask.
+- At the end of any task that changes files, stage everything, commit with a
+  clear message, push the working branch, and open or update a single PR for
+  that branch.
+- Keep **one `claude/<topic>` branch and one PR per topic** — reuse them across
+  edits rather than opening a new PR for each change.
+- Leave merging to me. **Never push to `main`.**
+- If a push fails, report the exact error instead of retrying.
 
 ## Google connectors
 When enabled on a session, you can use my personal Google connectors:

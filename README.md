@@ -1,7 +1,7 @@
-# personal (superrepo)
+# MKLOS
 
-Personal monorepo for use with **Claude Code on the web**. One source of truth,
-edited in place by Claude, tracked in git.
+Personal monorepo (MKLOS) for use with **Claude Code on the web**. One source of
+truth, edited in place by Claude, tracked in git.
 
 ## Layout
 - `skate-park/` — personal project (own `CLAUDE.md`)
@@ -13,11 +13,11 @@ edited in place by Claude, tracked in git.
 Coming later: `site/` — the public website, deployed by Cloudflare.
 
 ## Push it
-    git init && git add -A && git commit -m "Initial personal superrepo"
-    gh repo create personal --private --source=. --remote=origin --push
+    git init && git add -A && git commit -m "Initial MKLOS commit"
+    gh repo create mklos --private --source=. --remote=origin --push
 
 Then at claude.ai/code: connect this GitHub repo (scoped GitHub App on just this
-repo), add an environment named "personal" on Trusted networking, and enable your
+repo), add an environment named "mklos" on Trusted networking, and enable your
 Google connectors per session.
 
 ## The Sheets MCP (`.mcp.json`)
