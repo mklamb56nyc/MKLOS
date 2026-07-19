@@ -29,5 +29,6 @@ model math live in `docs/`.
 - **The live, shared tracker is a native Google Sheet in Drive** — that Sheet is the
   source of truth for human edits (Decision Model inputs, Task statuses). `build_tracker.py`
   is the seed/generator; the repo `.xlsx` is a snapshot/backup. Do **not** re-publish over
-  the live Sheet from a rebuild — it clobbers edits. See README → "Living copy in Google
-  Drive" for the seed steps and the `google-sheets` MCP sync path (needs OAuth first).
+  the live Sheet from a rebuild — it clobbers edits. Seed it manually (Drive upload →
+  Open with Google Sheets); the `google-sheets` entry in root `.mcp.json` is a **placeholder**,
+  not a working connector. See README → "Living copy in Google Drive".
