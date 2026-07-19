@@ -5,6 +5,7 @@ The skate-park project in MKLOS — its files and working notes live in this dir
 
 ## Current focus
 (fill in)
+- MKLOS has auto-merge enabled for `claude/*` branches.
 
 ## Conventions
 - Edit files in place; keep changes scoped to this `skate-park/` directory.
