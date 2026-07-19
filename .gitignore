@@ -3,6 +3,9 @@
 .env.*
 *.local
 secrets/
+# Project API-key files (keys go in env vars, not the repo)
+skate-park/knowledge-base/05_api-keys.txt
+**/*api-keys*.txt
 
 # OS
 .DS_Store
