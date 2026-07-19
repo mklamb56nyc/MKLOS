@@ -5,10 +5,10 @@ knowledge-base/    the fact base (load these into your Claude project)
   01_research-dossier.txt ........ fact base incl. §12 Access & Provisioning Analysis + Manorhaven
   02_stakeholders-and-contacts.txt people/orgs (unchanged this session)
   03_open-questions-and-tracker.txt live to-dos + decision log
-  04_glen-cove-skatepark-brief.txt master case for support (incl. "The measured case")
-  06_narrative-case.md ........... the story told our way (5-beat narrative spine for outward
-                                   materials): kids need it → underserved & unfair → it's been
-                                   done → the cast → honest next steps. Companion to 04.
+  04_glen-cove-skatepark-brief.txt THE narrative + case for support. Part One tells the story
+                                   our way (kids need it → underserved & unfair → it's been
+                                   done → the cast → honest next steps); Part Two is the working
+                                   plan (site, cost, funding stack, maintenance, sequence).
   05_api-keys.txt ................ LOCAL ONLY (git-ignored). Census + OpenRouteService keys for
                                    the analysis pipeline. Keys belong in env vars (CENSUS_API_KEY,
                                    ORS_API_KEY) per analysis/README.md §3 — not committed.
