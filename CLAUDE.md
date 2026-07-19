@@ -41,6 +41,18 @@ Handle git automatically — don't wait for me to ask.
 - Leave merging to me. **Never push to `main`.**
 - If a push fails, report the exact error instead of retrying.
 
+## Automation
+How git automation works here, for future sessions:
+- **Workflow policy (above):** commit, push a `claude/` branch, open/update one
+  PR per topic, never push to `main`.
+- **Auto-merge:** `.github/workflows/auto-merge-claude.yml` auto-merges `claude/*`
+  PRs by squash-and-delete, so most PRs land without manual action.
+- **Exception:** PRs that touch `site/` are **not** auto-merged — they stay open
+  for human review, because `site/` is the public website Cloudflare deploys and
+  production changes must be reviewed.
+- **Do not remove the `site/` guard** in that workflow — it's the safety gate
+  that keeps production changes from merging unreviewed.
+
 ## Google connectors
 When enabled on a session, you can use my personal Google connectors:
 - **Drive** — read reference docs and pull source data. Read-only.
