@@ -18,10 +18,9 @@ set up yet.)
   project's directory.
 - **Edit files in place.** Don't produce a "new version" to paste — make the
   change and show me the diff.
-- **Batch edits; review the aggregate once.** Work through changes interactively
-  across as many edits as it takes — don't stop to commit after each small change or
-  force one-logical-change-per-commit. Let edits accumulate, then I review the whole
-  aggregate diff in one pass and confirm before anything is committed.
+- **Don't make me manage git.** Edit as freely as the work needs — don't fret commit
+  boundaries and never pause for my review or confirmation. Git is handled
+  automatically and invisibly (see Git workflow).
 - **The files are the record.** Don't restate large blocks in chat when a diff
   will do.
 - **Don't invent facts.** If a detail isn't in the repo, in a connected source,
@@ -35,11 +34,10 @@ set up yet.)
 - Flag risks and tradeoffs honestly rather than just agreeing.
 
 ## Git workflow
-Handle git automatically — but commit on my confirmation, not after every task.
-- Let edits accumulate across the session. When I've reviewed the aggregate diff
-  and confirmed, stage everything, commit with a clear message, push the working
-  branch, and open or update a single PR for that branch. Don't auto-commit each
-  task's changes before I've had that single review.
+I never want to think or worry about git here — handle it fully automatically.
+- Commit and push the working `claude/<topic>` branch automatically at natural
+  stopping points. Never wait for my confirmation, and group edits into commits
+  however's convenient — don't force one-change-per-commit.
 - Keep **one `claude/<topic>` branch and one PR per topic** — reuse them across
   edits rather than opening a new PR for each change.
 - Leave merging to me. **Never push to `main`.**
