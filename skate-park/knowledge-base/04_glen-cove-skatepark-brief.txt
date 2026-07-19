@@ -73,8 +73,9 @@ value to our own community is identical whether or not Bethpage ever comes back.
 **Now make it personal, because the numbers understate the injustice.** The kids who
 need this most live in our downtown/south core — a New York State–designated
 Disadvantaged Community, confirmed at the lead site. And here is the contrast that
-should stop a reader cold: within a short drive of those neighborhoods sit roughly
-half a dozen private eighteen-hole golf courses — hundreds of acres of manicured,
+should stop a reader cold: within about four miles of those neighborhoods sit
+**seven private eighteen-hole golf courses** — Nassau, North Shore, Glen Head,
+Brookville, Piping Rock, The Creek, and Engineers — hundreds of acres of manicured,
 gated, private recreation — while the nearest *public* skatepark those kids can use
 is a twenty-five-minute drive away. A golf course is recreation for someone with a
 membership. A skatepark is recreation for a kid with a board and a bike. And the
@@ -319,8 +320,8 @@ Skatepark Project grant.
 - **Private board supports; it never gates.** The park must stay free, public, and city-owned.
 - **Re-check the designation — and the data — before you cite it.** The site's DAC status
   is confirmed on the live map (July 2026); re-check at submission. Likewise refresh the
-  access/provisioning figures — and the golf-course count — against a firmer park census
-  and the live DAC map before they go public.
+  access/provisioning figures against a firmer park census and the live DAC map before
+  they go public. (The golf-course count is now established — see below.)
 - **The number is an estimate until a builder quotes it.** The ~$1.0–1.5M band is anchored
   on Brentwood's real cost; get the site tour and quote before committing the figure.
 - **Pace the volunteers, not just the park.** A multi-year effort's real risk is burnout.
@@ -362,8 +363,12 @@ every partner.
 ---
 
 ### Before this goes public, verify
-- **Golf-course contrast** — confirm the actual count and radius ("roughly half a dozen
-  private eighteen-hole courses within ~5 miles") before printing a number.
+- **Golf-course contrast — ESTABLISHED (July 2026).** Seven private 18-hole clubs lie
+  within ~4 mi of the lead site (Nassau, North Shore, Glen Head, Brookville, Piping Rock,
+  The Creek, Engineers), plus the municipal Glen Cove GC as public contrast — see
+  `analysis/golf_courses.py` + `analysis/data/golf_courses.csv`. Sourced from club sites /
+  golf directories; re-run `golf_courses.py --osm` against OpenStreetMap to refresh
+  coordinates and confirm the exact count at the 5-mile edge.
 - **Disadvantaged Community tracts** — re-confirm the V2.0 set on the live NYSERDA map.
 - **Skatepark census** — firm up the LI / Nassau count behind the provisioning figures.
 - **Build cost** — replace the ~$1.0–1.5M band with a builder's scoped quote.

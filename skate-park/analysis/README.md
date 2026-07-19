@@ -89,7 +89,11 @@ Notes:
   access_areas.csv ....... per-tract area memberships + catchment fractions
   ring_acs.csv ........... ACS detail for the North Shore ring (income, ethnicity, nativity)
   study_tracts.csv, drive_times.csv .. the 18-tract ring + drive times
+  golf_courses.csv ....... golf-course counterpoint: private 18-hole clubs within ~5 mi of
+                            the lead site (7 private + the municipal course), with distances
   *.gpkg ................. coverage polygons (covA today-car, covB Bethpage-car, gc_iso GC car,
                             gc_bike GC bike, nyc_cov, bike_today, bike_beth, etc.)
 /maps  — exhibit PNGs (see filenames; provision_benchmark, gc_catchment, bethpage_matrix, etc.)
 regenerate_maps.py — rebuilds the exhibits from /data (no API keys needed)
+golf_courses.py ... establishes the private-18-hole-golf count within ~5 mi of the site
+                   (embedded researched table; `--osm` discovers/refreshes from OpenStreetMap)
