@@ -39,6 +39,10 @@ Handle git automatically — don't wait for me to ask.
 - Keep **one `claude/<topic>` branch and one PR per topic** — reuse them across
   edits rather than opening a new PR for each change.
 - Leave merging to me. **Never push to `main`.**
+- **Succeed silently.** When the git steps work, don't narrate them — no recap of
+  the commit, push, branch, or PR mechanics, and no "opened PR #N" outcome. Assume
+  success. Just do the actual work and report *that*. Only surface git when
+  something fails.
 - If a push fails, report the exact error instead of retrying.
 
 ## Automation
