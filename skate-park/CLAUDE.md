@@ -1,11 +1,25 @@
 # skate-park — project context
 
 ## What this is
-The skate-park project in MKLOS — its files and working notes live in this directory.
+Grassroots campaign to get a free, public, city-owned skatepark built in Glen Cove, NY —
+lead site John Maccarone Memorial City Stadium, inside a state-designated Disadvantaged
+Community (DAC). This directory is the project's working record: research dossier,
+stakeholders, an open-questions tracker, the strategy brief, a concept microsite, and a
+reproducible GIS access/provisioning analysis (the quantified "underserved" case).
 
 ## Current focus
-(fill in)
+2026 is a readiness year — line everything up to file the moment the next state park-grant
+window opens (~2027):
+- Get a real build-cost number (a builder site tour of Maccarone) — the biggest open gap.
+- Win **written** city site approval (the critical-path gate) via the Rec Commission / mayor.
+- Cultivate Assemblymember Lavine (A-13) as the primary state-capital path (DASNY).
+- Before anything goes public: firm up the LI/Nassau supply census, re-verify the DAC V2.0
+  tracts, and replace the placeholder email in the microsite (`PLACEHOLDER@EXAMPLE.COM`, two spots).
 
 ## Conventions
 - Edit files in place; keep changes scoped to this `skate-park/` directory.
 - Keep anything private in this directory out of anything that later gets published.
+- `INDEX.txt` is the file map / current-state snapshot — keep it current as things move.
+- API keys (Census, OpenRouteService) live in env vars `CENSUS_API_KEY` / `ORS_API_KEY`,
+  never committed. See `analysis/README.md` §3. `knowledge-base/05_api-keys.txt` is local-only
+  and git-ignored.
