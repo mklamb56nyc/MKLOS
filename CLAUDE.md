@@ -31,6 +31,16 @@ set up yet.)
 - When you give shell commands, give single-line copyable commands.
 - Flag risks and tradeoffs honestly rather than just agreeing.
 
+## Git workflow
+Handle git automatically — don't wait for me to ask.
+- At the end of any task that changes files, stage everything, commit with a
+  clear message, push the working branch, and open or update a single PR for
+  that branch.
+- Keep **one `claude/<topic>` branch and one PR per topic** — reuse them across
+  edits rather than opening a new PR for each change.
+- Leave merging to me. **Never push to `main`.**
+- If a push fails, report the exact error instead of retrying.
+
 ## Google connectors
 When enabled on a session, you can use my personal Google connectors:
 - **Drive** — read reference docs and pull source data. Read-only.
