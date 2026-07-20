@@ -207,9 +207,11 @@ Source: Teton County Land Development Code (adopted 2022-07-06, effective 2022-0
 ## 10. MARKET / VALUATION CONTEXT
 
 - **Countywide land actuals (2025, from Teton Valley Realty year-end MLS report):** avg land sale $388,530; **median land sale $245,000**; overall sold-to-original-list ~93.9% (buyers negotiate ~6% off).
-- **Median $/acre sold (Acres.com, 41 records):** ~$24,217/ac — vs. ~$40,000–52,400/ac on *listing* aggregators (asking >> closing).
+- **Median $/acre sold (Acres.com, 41 records):** ~$24,217/ac — vs. ~$38,600–52,400/ac on *listing* aggregators (asking >> closing; 2026 Land.com listing median ~$38.6k–39.4k/ac).
 - **Section-9/local comps (full-market assessed neighbors):** small 2.5-ac building lot assessed ~$250k (~$100k/ac); 80-ac vacant tract assessed ~$1.08M (~$13,360/ac).
-- **Comparable current listing:** 2075/2084 Moose Path Way — 24.3 ac at **$485,000** (~$20k/ac).
+- **Comparable current listings (both Moose Path Way, Tetonia, ~$20k/ac asking):** 2075/2084 Moose Path Way — 24.3 ac at **$485,000** (~$20.0k/ac); and 20 ac at **$399,000** (~$20.0k/ac). *(2nd comp added 2026-07-20.)*
+- **2026 refresh (2025 year-end + Q1 2025):** market **flat since 2023** — 2025 land avg $388,530 / median $245,000, within ~10% of 2024; Q1 2025 saw 58 land/ranch-site sales (avg $336,224, median $222,000). No material move.
+- **No public listing trail:** re-confirmed 2026-07-20 that none of the 5 Crossed Arrows lots appear on Zillow/Redfin/Land.com/LandWatch/Homes.com — the within-network sale means no asking price will ever surface online; the true number requires Caldwell or an MLS pull.
 - **Best price anchor for Lot 3:** ask Caldwell what he paid the Beards in 2023 (near-identical lots sold in one window; his number reveals the whole subdivision). Market ~flat since 2023.
 - **The MLS gap:** 2023 developer-sale prices exist in the MLS but are gated to licensed members (non-disclosure). Get via: any agent's one-off comp pull, a licensed appraiser, the title company, or Caldwell directly.
 

@@ -11,6 +11,12 @@ The septic determination and the price anchor gate everything else.
       or via a one-off MLS comp pull from anyone with Intermountain MLS / Teton Board of
       Realtors access, or a licensed appraiser / the title company. Near-identical lots
       sold in one window, so his number reveals the whole subdivision.
+      - _2026-07-20 round:_ confirmed **none of the 5 Crossed Arrows lots appear on any
+        aggregator** (Zillow/Redfin/Land.com/LandWatch/Homes.com) — the within-network sale
+        leaves no public listing trail, so no asking price will ever surface online. Public
+        band tightened (see Valuation anchors) but the actual number still needs a person or
+        the MLS. **This item cannot be closed by web research** — next action is a direct
+        ask (Caldwell) or an MLS favor.
 - [ ] **2. EIPH septic determination (CRITICAL PATH).** Book test holes + site evaluation
       with an EIPH Environmental Health Specialist present — needs 6–8 ft soil depth at the
       drainfield + replacement area. Lowland ground + shallow water table (5–38 ft locally)
@@ -61,11 +67,28 @@ The septic determination and the price anchor gate everything else.
 
 ## Valuation anchors (for reference)
 - Countywide 2025 MLS: avg land sale $388,530; **median $245,000**; ~93.9% sold-to-list.
-- Median $/acre sold ≈ **$24,217/ac** (Acres.com, 41 records) — asking aggregators run
-  $40k–52k/ac, well above closing.
-- Comparable current listing: 2075/2084 Moose Path Way — 24.3 ac at **$485,000** (~$20k/ac).
+  Market **flat 2024→2025** (most metrics within ~10%; residential, not land, drove the
+  overall median up). No material move since 2023.
+- Median $/acre **sold** ≈ **$24,217/ac** (Acres.com, 41 records) — asking aggregators run
+  higher: 2026 listing medians ~$38.6k–39.4k/ac (Land.com), well above closing.
+- Q1 2025 (Teton Valley Realty): 58 land/ranch-site sales, avg $336,224, median $222,000.
+- **Comparable current listings — both on Moose Path Way, Tetonia (~$20k/ac asking):**
+  - 2075/2084 Moose Path Way — 24.3 ac at **$485,000** (~$20.0k/ac).
+  - Moose Path Way — 20 ac at **$399,000** (~$20.0k/ac). *(new, this round)*
 - Assessed value of Lot 3 is **$13,814 (ag-productivity, NOT market)** — ignore for pricing.
+
+**Working public band for a ~24-ac Tetonia lot:** ~$20k/ac asking → ~$24k/ac is the
+county-wide *sold* median, but list-to-close runs ~6% under, so comparable **closings land
+roughly $18k–24k/ac (~$430k–575k for 23.85 ac).** Treat as an outer bound, not a quote —
+Crossed Arrows lots are entitled/permit-ready (a premium over raw ag) yet also sold as a
+within-network 2023 deal (possibly under open-market). Only Caldwell's actual number or an
+MLS comp pull resolves it.
 
 ## Decision log
 - 2026-07-20 — Research session captured into the dossier + relay; project scaffolded. No
   offer made, no professionals engaged. Next real move: items 1 and 2.
+- 2026-07-20 — Price-anchor round 2 (web). Market confirmed flat since 2023; added a 2nd
+  Moose Path Way comp (20 ac / $399k ≈ $20k/ac) and a working public band (~$18k–24k/ac
+  closing → ~$430k–575k for 23.85 ac). Verified the Crossed Arrows lots are unlisted
+  everywhere → the true number is only obtainable from Caldwell or an MLS pull. Item 1
+  reframed: web research is exhausted; it now needs a direct human ask.
