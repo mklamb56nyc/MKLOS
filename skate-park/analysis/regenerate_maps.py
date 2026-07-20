@@ -189,8 +189,7 @@ def access_story():
              mlines.Line2D([],[],color=SPARKD,linewidth=1.8,label="Glen Cove city limits"),
              mlines.Line2D([],[],color=NASSAU_C,linewidth=2.2,label="Nassau County line"),
              mlines.Line2D([],[],color=TOB_C,linewidth=2.0,linestyle=(0,(6,3)),label="Town of Oyster Bay line"),
-             mlines.Line2D([],[],marker="o",color="none",markerfacecolor=POOLD,markeredgecolor="white",markersize=9,label="existing free public skatepark"),
-             mlines.Line2D([],[],marker="*",color="none",markerfacecolor=SPARKD,markeredgecolor=INK,markersize=15,label="proposed park (City Stadium) — Bethpage ✕ (closed)")]
+             mlines.Line2D([],[],marker="o",color="none",markerfacecolor=POOLD,markeredgecolor="white",markersize=9,label="existing free public skatepark")]
     fig.legend(handles=handles,loc="lower center",ncol=4,frameon=False,fontsize=9,
                labelcolor=SOFT,bbox_to_anchor=(.5,.0))
     fig.suptitle("The access story: almost nobody on the North Shore can reach a skatepark on their own — one park changes that",
