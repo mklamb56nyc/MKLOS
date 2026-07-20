@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>A Skatepark for Glen Cove — Within Reach</title>
-<meta name="description" content="A community vision for a free, public skatepark for the Greater Glen Cove and Oyster Bay area of Long Island's North Shore: the opening, the proof it's possible, and everyone who could help make it real.">
+<meta name="description" content="A community vision for a free, public skatepark for the Greater Glen Cove and Oyster Bay area of Long Island's North Shore: the opportunity, the measured gap, the proof it's been done, and everyone who could help make it real.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --paper:#F1EFE9;
-    --paper-2:#E9E6DF;
+    --paper-2:#E4E0D7;
     --card:#FBFAF6;
     --ink:#191A1E;
     --ink-soft:#4C4D55;
@@ -42,6 +42,7 @@
   a{color:var(--pool-deep);text-underline-offset:3px}
   h1,h2,h3{font-family:"Anton",Impact,sans-serif;font-weight:400;text-transform:uppercase;line-height:.94;letter-spacing:.006em;margin:0}
   .wrap{width:100%;max-width:var(--maxw);margin:0 auto;padding:0 clamp(20px,5vw,54px);position:relative;z-index:1}
+  .tnum{font-variant-numeric:tabular-nums}
 
   .eyebrow{font-family:"Space Mono",monospace;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--pool-deep);display:inline-flex;align-items:center;gap:.7em;margin:0}
   .eyebrow::before{content:"";width:26px;height:2px;background:var(--spark);display:inline-block}
@@ -61,13 +62,15 @@
   .hero .wrap{display:grid;grid-template-columns:1.08fr .92fr;gap:clamp(20px,3vw,48px);align-items:center}
   .hero h1{font-size:clamp(3.6rem,13vw,10rem);margin:.24em 0 .34em}
   .hero h1 .b{color:var(--pool)}
-  .hero .lede{font-size:clamp(1.08rem,1.5vw,1.34rem);max-width:38ch;color:var(--ink-soft);margin:0 0 30px}
+  .hero .lede{font-size:clamp(1.08rem,1.5vw,1.34rem);max-width:40ch;color:var(--ink-soft);margin:0 0 30px}
   .hero-actions{display:flex;flex-wrap:wrap;gap:12px}
   .btn{display:inline-flex;align-items:center;gap:.55em;font-weight:700;font-size:.98rem;text-decoration:none;padding:14px 26px;border-radius:2px;transition:transform .15s,background .15s,box-shadow .15s,border-color .15s}
   .btn-primary{background:var(--spark);color:#1a0d06;box-shadow:0 2px 0 var(--spark-deep)}
   .btn-primary:hover{transform:translateY(-2px);box-shadow:0 4px 0 var(--spark-deep)}
   .btn-ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line-2)}
   .btn-ghost:hover{border-color:var(--ink);transform:translateY(-2px)}
+  .band-blue .btn-ghost{color:#fff;border-color:var(--line-light)}
+  .band-blue .btn-ghost:hover{border-color:#fff}
 
   /* signature: the launch arc */
   .arc{position:relative;width:100%}
@@ -84,7 +87,8 @@
   .htile{flex:1 1 210px;padding:22px 28px 22px 0;border-right:1.5px solid var(--line)}
   .htile:last-child{border-right:0}
   .htile .n{font-family:"Anton",sans-serif;font-size:clamp(2.1rem,4vw,3rem);line-height:1;color:var(--pool-deep)}
-  .htile .t{font-size:.9rem;color:var(--ink-soft);margin-top:8px;max-width:28ch}
+  .htile .n .u{font-size:.42em;color:var(--ink-soft)}
+  .htile .t{font-size:.9rem;color:var(--ink-soft);margin-top:8px;max-width:30ch}
 
   /* sections */
   section{position:relative;z-index:1}
@@ -98,13 +102,53 @@
   .act-num{font-family:"Anton",sans-serif;font-size:clamp(3rem,7vw,6rem);line-height:.8;color:var(--pool);flex:0 0 auto}
   .band-dark .act-num,.band-blue .act-num{color:var(--spark)}
   .act-copy{max-width:60ch}
-  .act-copy h2{font-size:clamp(2.05rem,5vw,3.7rem);margin:.34em 0 .5em}
+  .act-copy h2{font-size:clamp(2.05rem,5vw,3.7rem);margin:.34em 0 .5em;text-wrap:balance}
   .act-copy p{font-size:clamp(1.02rem,1.2vw,1.2rem);color:var(--ink-soft);margin:0}
   .band-dark .act-copy p,.band-blue .act-copy p{color:#c6cbd4}
   .band-blue .act-copy p{color:#c9ddf0}
   .act-copy p + p{margin-top:1em}
   .val{color:var(--ink);font-weight:600}
   .band-dark .val,.band-blue .val{color:#fff}
+
+  /* ---- STAT VISUALS ---- */
+  /* big-number tiles */
+  .statgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:clamp(26px,4vw,40px)}
+  .stile{background:var(--card);border:1.5px solid var(--line);border-radius:5px;padding:26px 24px;position:relative;overflow:hidden}
+  .stile::before{content:"";position:absolute;left:0;top:0;width:100%;height:5px;background:var(--pool-bright)}
+  .stile.spark::before{background:var(--spark)}
+  .stile .big{font-family:"Anton",sans-serif;font-size:clamp(2.9rem,6vw,4.4rem);line-height:.86;color:var(--pool-deep)}
+  .stile.spark .big{color:var(--spark-deep)}
+  .stile .big .u{font-size:.34em;color:var(--ink-soft);letter-spacing:.02em}
+  .stile .lab{font-size:.95rem;color:var(--ink-soft);margin-top:12px;max-width:32ch}
+
+  /* provisioning shortfall bars */
+  .bars{margin-top:clamp(26px,4vw,40px);display:flex;flex-direction:column;gap:22px}
+  .bar-cap{font-family:"Space Mono",monospace;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:clamp(20px,3vw,28px);max-width:60ch}
+  .bar-cap b{color:var(--ink)}
+  .bar-row .rl{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:8px}
+  .bar-row .rl .place{font-weight:700;font-size:1rem}
+  .bar-row .rl .fig{font-family:"Space Mono",monospace;font-size:.82rem;color:var(--ink-soft)}
+  .bar-row .rl .fig b{color:var(--pool-deep);font-size:1.02rem}
+  .track{position:relative;height:20px;background:var(--paper-2);border:1.5px solid var(--line);border-radius:4px;overflow:hidden}
+  .fill{position:absolute;left:0;top:0;height:100%;background:var(--pool);border-radius:0 4px 4px 0;width:0;min-width:0;transition:width 1.15s cubic-bezier(.5,.02,.2,1)}
+  .reveal.in .fill{width:var(--w)}
+  .track .none{position:absolute;left:8px;top:50%;transform:translateY(-50%);font-family:"Space Mono",monospace;font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--spark-deep);font-weight:700}
+  .bar-legend{margin-top:6px;display:flex;gap:20px;flex-wrap:wrap;font-family:"Space Mono",monospace;font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft)}
+  .bar-legend span{display:inline-flex;align-items:center;gap:7px}
+  .swatch{width:13px;height:13px;border-radius:3px;flex:0 0 auto}
+  .swatch.has{background:var(--pool)}
+  .swatch.need{background:var(--paper-2);border:1.5px solid var(--line)}
+
+  /* golf face-off */
+  .faceoff{margin-top:clamp(26px,4vw,40px);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:clamp(14px,3vw,30px);background:var(--card);border:1.5px solid var(--line);border-radius:5px;padding:clamp(24px,4vw,40px)}
+  .fo-side{text-align:center}
+  .fo-n{font-family:"Anton",sans-serif;font-size:clamp(3.4rem,11vw,7rem);line-height:.82}
+  .fo-golf .fo-n{color:var(--ink)}
+  .fo-skate .fo-n{color:var(--spark)}
+  .fo-lab{font-size:.92rem;color:var(--ink-soft);margin-top:4px;max-width:22ch;margin-left:auto;margin-right:auto}
+  .fo-vs{font-family:"Space Mono",monospace;font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);border-left:1.5px solid var(--line);border-right:1.5px solid var(--line);padding:14px 12px;line-height:1.5}
+  .fo-note{margin-top:18px;font-family:"Anton",sans-serif;text-transform:uppercase;font-size:clamp(1.2rem,2.6vw,1.9rem);line-height:1.12;max-width:30ch}
+  .fo-note span{color:var(--spark)}
 
   /* proof cards */
   .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
@@ -116,8 +160,21 @@
   .pcard .place{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap}
   .pcard h3{font-size:1.6rem;color:#fff}
   .pcard .tag{font-family:"Space Mono",monospace;font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:#c8ccd4}
-  .pcard p{font-size:.98rem;color:#c6cbd4;margin:14px 0 0}
-  .proof-kicker{font-family:"Anton",sans-serif;text-transform:uppercase;font-size:clamp(1.4rem,3vw,2.1rem);color:#fff;margin-top:clamp(30px,4vw,48px);line-height:1.05;max-width:24ch}
+  .pcard .stat{font-family:"Anton",sans-serif;font-size:1.35rem;color:var(--pool-bright);margin:14px 0 0}
+  .pcard:nth-child(2) .stat{color:var(--spark)}
+  .pcard p{font-size:.98rem;color:#c6cbd4;margin:8px 0 0}
+
+  /* evidence callouts on dark */
+  .evidence{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:clamp(28px,4vw,44px)}
+  .ecard{border:1.5px solid rgba(255,255,255,.14);border-radius:5px;padding:26px 26px;background:rgba(255,255,255,.02)}
+  .ecard .ehead{font-family:"Space Mono",monospace;font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:#cfe4f6}
+  .estat{display:flex;align-items:baseline;gap:16px;margin-top:16px;flex-wrap:wrap}
+  .estat .en{font-family:"Anton",sans-serif;font-size:clamp(2rem,4.5vw,3rem);line-height:.9;color:#fff}
+  .estat .en.dn{color:var(--spark)}
+  .estat .el{font-size:.9rem;color:#c6cbd4;max-width:20ch}
+  .ecard .esrc{font-size:.8rem;color:#93949d;margin:16px 0 0}
+
+  .proof-kicker{font-family:"Anton",sans-serif;text-transform:uppercase;font-size:clamp(1.4rem,3vw,2.1rem);color:#fff;margin-top:clamp(30px,4vw,48px);line-height:1.05;max-width:26ch}
   .proof-kicker span{color:var(--spark)}
 
   /* field / allies grid */
@@ -156,6 +213,8 @@
     .arc{order:-1;max-width:460px}
     .cards{grid-template-columns:1fr}
     .allies{grid-template-columns:1fr}
+    .statgrid{grid-template-columns:1fr}
+    .evidence{grid-template-columns:1fr}
     footer .fg{grid-template-columns:1fr}
   }
   @media (max-width:560px){
@@ -163,12 +222,15 @@
     .htile:last-child{border-bottom:0}
     .act-head{gap:14px}
     .brandmark span{display:none}
+    .faceoff{grid-template-columns:1fr;gap:8px}
+    .fo-vs{border:0;border-top:1.5px solid var(--line);border-bottom:1.5px solid var(--line);padding:12px 0}
   }
   @media (prefers-reduced-motion:reduce){
     *{scroll-behavior:auto}
     .draw{animation:none;stroke-dashoffset:0}
     .pop,.lift{animation:none;opacity:1;transform:none}
     .reveal{transition:none;opacity:1;transform:none}
+    .fill{transition:none}
   }
 </style>
 </head>
@@ -193,10 +255,10 @@
     <div>
       <p class="eyebrow">Greater Glen Cove &amp; Oyster Bay · North Shore of Long Island</p>
       <h1>A skatepark<br>within <span class="b">reach.</span></h1>
-      <p class="lede">Around here — Glen Cove, Locust Valley, and the North Shore communities beside them — there's nowhere close to skate. The nearest parks are a half-hour away in either direction. It doesn't have to stay that way: a park that's free, open to everyone, and built to outlast us all.</p>
+      <p class="lede">Every kid deserves a free place to move, make friends, and belong — outdoors, that costs nothing to walk into. Around here, fewer and fewer have one, and the kids who need it most can't reach one at all. It doesn't have to stay that way.</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="#next">Be part of it →</a>
-        <a class="btn btn-ghost" href="#act1">See the vision</a>
+        <a class="btn btn-ghost" href="#need">See the case</a>
       </div>
     </div>
     <div class="arc" aria-hidden="true">
@@ -221,39 +283,90 @@
 
   <div class="wrap">
     <div class="hero-tiles reveal">
-      <div class="htile"><div class="n">30<span style="font-size:.5em">+ min</span></div><div class="t">to the nearest skatepark — a half-hour west or east</div></div>
-      <div class="htile"><div class="n">1,200+</div><div class="t">neighbors already raised their hands for one</div></div>
-      <div class="htile"><div class="n">1</div><div class="t">independent city right here that can just say yes</div></div>
+      <div class="htile"><div class="n tnum">0</div><div class="t">skateparks a North Shore kid can reach on their own today</div></div>
+      <div class="htile"><div class="n tnum">100<span class="u">%</span></div><div class="t">of Glen Cove is beyond a 20-minute trip to the nearest one</div></div>
+      <div class="htile"><div class="n tnum">1,200<span class="u">+</span></div><div class="t">neighbors already signed on for a park like this</div></div>
     </div>
   </div>
 </header>
 
-<!-- ACT 1 — THE OPENING -->
+<!-- ACT 1 — THE OPPORTUNITY -->
 <section class="band" id="act1">
   <div class="wrap">
     <div class="act-head reveal">
       <div class="act-num">01</div>
       <div class="act-copy">
-        <p class="eyebrow">The opening</p>
-        <h2>A gap this big is really an opportunity.</h2>
-        <p>Around here, kids skate in parking lots, driveways, and the fronts of stores — wherever they're tolerated, until they're not. There <em>are</em> skateparks on the North Shore, but the nearest ones sit more than a half-hour away in either direction: Port Washington to the west, Northport to the east — and the Town of Oyster Bay's own has been shut for years. For this whole stretch — Glen Cove, Locust Valley, and the communities beside them — there's simply <span class="val">nowhere close to go.</span></p>
+        <p class="eyebrow">The opportunity</p>
+        <h2>A gap this big is really an opening.</h2>
+        <p>Around here, kids skate in parking lots, driveways, and the fronts of stores — wherever they're tolerated, until they're not. There <em>are</em> skateparks on the North Shore, but the nearest ones sit more than a half-hour away in either direction — and the Town of Oyster Bay's own has been shut for years. For this whole stretch — Glen Cove, Locust Valley, and the communities beside them — there's simply <span class="val">nowhere close to go.</span></p>
         <p>So where would you actually build one? The answer that keeps surfacing is <span class="val">Glen Cove</span> — not because it's the only option, but because it's the one place around here that can move on its own. It's an independent city: it owns its parks and answers to its own residents, so it can decide to build without waiting on the Town, the County, or anyone else. That's what turns a nice idea into a doable one.</p>
-        <p>And the appetite is already proven. More than a thousand people signed on to a North Shore skatepark years ago; it just never had anyone to carry it. The want is here. The place is buildable. The door is unlocked — nobody has walked through it yet.</p>
-        <p>There's a right way to do it, too: <span class="val">free, open to every kid</span> no matter their address or what their family earns, and put where the kids who'd use it most can actually walk to it. Get that right and it's not just a park — it's a place a whole community builds for its young people and keeps for good.</p>
+        <p>And the appetite is already proven — more than a thousand people signed on to a North Shore skatepark years ago; it just never had anyone to carry it. The want is here. The place is buildable. The door is unlocked — nobody has walked through it yet.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ACT 2 — THE PROOF -->
-<section class="band band-dark">
+<!-- THE NEED — THE UNFAIR MATH (stat-viz) -->
+<section class="band" id="need" style="background:var(--paper-2)">
   <div class="wrap">
     <div class="act-head reveal">
       <div class="act-num">02</div>
       <div class="act-copy">
+        <p class="eyebrow">The need</p>
+        <h2>The gap isn't just felt. It's measured — and it's unfair.</h2>
+        <p>You don't have to take our word for it. By the skatepark field's own yardstick — one neighborhood park per <span class="val">25,000 people</span> — this whole area is starved. And the shortage falls hardest on the kids with the least.</p>
+      </div>
+    </div>
+
+    <!-- provisioning shortfall bars -->
+    <div>
+      <p class="bar-cap reveal">Skateparks a place should have vs. how many it <b>actually has</b>:</p>
+      <div class="bars">
+        <div class="bar-row reveal" style="--w:7.7%">
+          <div class="rl"><span class="place">Long Island</span><span class="fig"><b>9</b> of ~117</span></div>
+          <div class="track"><div class="fill"></div></div>
+        </div>
+        <div class="bar-row reveal" style="--w:5.4%">
+          <div class="rl"><span class="place">Nassau County</span><span class="fig"><b>3</b> of ~56</span></div>
+          <div class="track"><div class="fill"></div></div>
+        </div>
+        <div class="bar-row reveal" style="--w:0%">
+          <div class="rl"><span class="place">Our North Shore stretch</span><span class="fig"><b>0</b> of ~3</span></div>
+          <div class="track"><div class="none">None</div></div>
+        </div>
+      </div>
+      <div class="bar-legend reveal">
+        <span><span class="swatch has"></span>What it has</span>
+        <span><span class="swatch need"></span>What the standard calls for</span>
+      </div>
+    </div>
+
+    <!-- access tiles -->
+    <div class="statgrid">
+      <div class="stile reveal"><div class="big tnum">100<span class="u">%</span></div><div class="lab">of Glen Cove — and every part of the state-designated disadvantaged community here — sits outside a 20-minute trip to any skatepark, by bike or by car.</div></div>
+      <div class="stile spark reveal"><div class="big tnum">~90<span class="u">%</span></div><div class="lab">of that gap closes with a single well-placed park — the kids who are shut out today would suddenly be in reach.</div></div>
+      <div class="stile reveal"><div class="big tnum">77<span class="u">%</span></div><div class="lab">of Nassau County can't even <em>bike</em> to a skatepark — the honest test for kids too young to drive.</div></div>
+    </div>
+
+    <!-- golf face-off -->
+    <div class="faceoff reveal">
+      <div class="fo-side fo-golf"><div class="fo-n tnum">7</div><div class="fo-lab">private 18-hole golf courses within four miles</div></div>
+      <div class="fo-vs">vs.</div>
+      <div class="fo-side fo-skate"><div class="fo-n tnum">0</div><div class="fo-lab">public skateparks those kids can use</div></div>
+    </div>
+    <p class="fo-note reveal">A golf course is recreation for someone with a membership. A skatepark is recreation for <span>a kid with a board and a bike.</span></p>
+  </div>
+</section>
+
+<!-- ACT 3 — THE PROOF -->
+<section class="band band-dark">
+  <div class="wrap">
+    <div class="act-head reveal">
+      <div class="act-num">03</div>
+      <div class="act-copy">
         <p class="eyebrow">The proof</p>
         <h2>Towns like ours have already pulled this off.</h2>
-        <p>This is not a moonshot. All over the region, communities — some smaller than us, some that started from a rougher place — turned this same idea into free concrete parks their kids love. A few worth knowing:</p>
+        <p>This is not a moonshot. All over the region, communities — some smaller than us, some that started from a rougher place — turned this same idea into free concrete parks their kids love.</p>
       </div>
     </div>
     <div class="cards reveal">
@@ -263,7 +376,8 @@
       </div>
       <div class="pcard">
         <div class="place"><h3>Brentwood, NY</h3><span class="tag">Long Island</span></div>
-        <p>One high-schooler's petition lit a fire that pulled in real state money and turned a poisoned lot into a park. Youth-led, right here on the island.</p>
+        <p class="stat tnum">$1.25M — built</p>
+        <p>A high-schooler's petition pulled in real state money and turned a poisoned lot into a free concrete park. Youth-led, right here on the island — and our closest read on what one actually costs.</p>
       </div>
       <div class="pcard">
         <div class="place"><h3>Jersey City, NJ</h3><span class="tag">NY metro</span></div>
@@ -274,18 +388,46 @@
         <p>Once the biggest U.S. city with no skatepark. They stacked grant on grant on gift, stayed patient, and built it anyway.</p>
       </div>
     </div>
+
+    <div class="evidence reveal">
+      <div class="ecard">
+        <div class="ehead">And where they open, neighborhoods get safer</div>
+        <div class="estat">
+          <span class="en dn tnum">↓61%</span>
+          <span class="el">drug-related incidents, within three years of one California park opening</span>
+        </div>
+        <div class="estat">
+          <span class="en dn tnum">↓29%</span>
+          <span class="el">violent crime over the same stretch</span>
+        </div>
+        <p class="esrc">City of Long Beach, CA / ASK Foundation</p>
+      </div>
+      <div class="ecard">
+        <div class="ehead">Because of what skating actually does for kids</div>
+        <div class="estat">
+          <span class="en tnum">76%</span>
+          <span class="el">of skaters say they skate to have fun</span>
+        </div>
+        <div class="estat">
+          <span class="en tnum">62%</span>
+          <span class="el">say they do it to get away from stress</span>
+        </div>
+        <p class="esrc">USC "Beyond the Board," the largest national study of skaters</p>
+      </div>
+    </div>
+
     <p class="proof-kicker reveal">None of them had more going for them than we do. <span>Most had less.</span></p>
   </div>
 </section>
 
-<!-- ACT 3 — THE FIELD -->
+<!-- ACT 4 — THE FIELD -->
 <section class="band">
   <div class="wrap">
     <div class="act-head reveal">
-      <div class="act-num">03</div>
+      <div class="act-num">04</div>
       <div class="act-copy">
         <p class="eyebrow">The field</p>
-        <h2>We wouldn't be doing this alone.</h2>
+        <h2>And we wouldn't be doing it alone.</h2>
         <p>Here's the part that surprises people once they look: how many hands could be on this. None of them have been asked yet — this is simply the map of who's out there, and every one of them is reachable.</p>
       </div>
     </div>
@@ -313,7 +455,7 @@
       <div class="ally">
         <div class="mark"><span class="dot"></span>The money</div>
         <h3>The funders</h3>
-        <p>A national grant made for exactly this. A sporting-goods foundation that funds neighborhood facilities. Recreation funders, Long Island's own family foundations, and state and county park dollars. No one source carries it — together they can.</p>
+        <p>A national grant made for exactly this, a sporting-goods foundation that funds neighborhood facilities, Long Island's own family foundations, and state and county park dollars. No one source carries it — together they can.</p>
       </div>
       <div class="ally">
         <div class="mark"><span class="dot"></span>The champions</div>
@@ -354,7 +496,7 @@
         <p>This is a grassroots vision at its earliest stage. No site, funding, or partnership is settled, and no one named or referenced here has been asked or should be assumed to support it.</p>
       </div>
     </div>
-    <p class="disc">This page is an independent community concept and is not affiliated with, or endorsed by, the City of Glen Cove or any agency, official, business, or organization referenced. Everything here is illustrative and will change as the idea takes shape. Facts about other communities' parks are drawn from public reporting.</p>
+    <p class="disc">This page is an independent community concept and is not affiliated with, or endorsed by, the City of Glen Cove or any agency, official, business, or organization referenced. Local figures — provisioning, access, and the nearby-recreation comparison — come from public data and the project's own mapping analysis and are being finalized; figures from other communities' parks are drawn from public reporting. Everything here is illustrative and will change as the idea takes shape.</p>
   </div>
 </footer>
 
