@@ -26,7 +26,7 @@ belong, and fewer and fewer have one.**
 Strip it to what's universal: regardless of family income, a kid needs a safe, free
 place to move their body, make friends, and belong — somewhere that's *theirs*,
 outdoors, that costs nothing to walk into. Fewer and fewer have it, and the shortage
-falls hardest on the kids with the least.
+falls hardest on the kids with the least access.
 - The need is universal; the shortage isn't evenly shared. Lower-income kids are
   **less physically active and have less access to nearby, quality parks** than
   wealthier kids — and skateparks themselves have too often been built in affluent
@@ -81,12 +81,13 @@ reach one, and the contrast next door makes it unfair.
 **2a. We're starved by the field's own standard — this isn't an amenity we happen to lack.**
 The Public Skatepark Development Guide (the industry reference planners use) sets a
 benchmark of one neighborhood skatepark per 25,000 residents. We aren't close.
-- By that standard Nassau County should have about **56** and has **4**; Long Island
-  should have about **117** and has **14**; our immediate North Shore area should have
-  about **3** and has **none.**
+- By that standard Nassau County should have about **56** and Long Island about **117**;
+  our immediate North Shore stretch should have about **3**. A firmed July-2026 census of
+  free, public, outdoor parks puts the real supply at roughly **9–12** across all of Long
+  Island, **3 or fewer** in Nassau — and **none** in our North Shore stretch.
 - And this isn't just falling short of an ideal nobody meets: the *national average* is
-  roughly one skatepark per **100,000** people, and Nassau sits at about a **quarter**
-  of that — fewer skateparks per person than the typical American community.
+  roughly one skatepark per **100,000** people, and Nassau sits **under a quarter** of
+  that — fewer skateparks per person than the typical American community.
 - Say it plainly: "By the standard the whole industry plans to, our stretch of the
   North Shore should have three skateparks. It has zero."
 
@@ -119,8 +120,8 @@ confirmed at the lead site.
 - And the drive is the trap: "twenty-five minutes away" really means "reachable only
   with a parent who has a car and the free time to make the trip" — exactly what many of
   these families don't have.
-- Say it plainly: "The kids with the least are asked to travel the farthest for the
-  simplest thing."
+- Say it plainly: "The kids with the least access are asked to travel the farthest for
+  the simplest thing."
 
 *Translation for a grant reviewer or a council member: this is precisely the "local
 data showing the community is underserved" that funders score on, and it pairs with
