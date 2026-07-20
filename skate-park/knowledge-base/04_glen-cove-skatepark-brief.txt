@@ -4,15 +4,15 @@
 *Re-sequenced July 2026 to lead the way we want to tell it — our kids need this now;
 the gap here is acute and unfair; it has been done before and shows us how; we have
 the cast to pull it off; and only then, the honest early next steps — with the
-working plan (site, cost, funding, maintenance, sequence) kept beneath the narrative
-in Part Two. Prepared as a working strategy document and the source for outward-facing
+hypothesis for how it actually gets built (site, cost, funding, maintenance, sequence)
+kept beneath the narrative in Part Two. Prepared as a working strategy document and the source for outward-facing
 materials. Figures on comparable projects are drawn from public reporting; the DAC
 designation, the access/provisioning numbers, the golf-course contrast, the current
 park inventory, and the build cost should all be re-verified against the relevant
 agencies, a live map check, and a builder before applying or committing.*
 
 ====================================================================
-PART ONE — THE CASE
+PART ONE — THE OPPORTUNITY
 ====================================================================
 
 ## 1. Our kids need this now more than ever
@@ -127,101 +127,135 @@ the state's DAC designation to make the equity case twice over.*
 
 ## 3. This has been done — and it shows us how
 
-None of this is uncharted. Every move in this brief is modeled on a real project that
-succeeded — and together they're less a bibliography than a how-to.
+None of this is uncharted. First two flagships for what's *possible* — then the working
+examples we actually build from, each handing us one piece of the plan that follows.
+Together they're less a bibliography than a how-to.
 
-**3a. The national playbook — the inspiration and the model.**
+**3a. First, the aspiration — what a skatepark can *be*.**
 - **Berry Lane Park, Jersey City NJ** — a 17-acre toxic brownfield turned into a
-  lower-income neighborhood's premier park (opened 2020); a Skatepark Project grant
-  plus a $500,000 county Open Space grant, designed by SITE Design Group with local
-  skaters throughout. Almost our exact story, told as a win.
-- **Long Beach, CA (the ASK model)** — youth at the center of the design, and the
-  measured drop in neighborhood crime that answers a city's safety worries head-on.
-- **Ketchum, ID (Guy Coles)** — a small, affluent town's *free* concrete park grown
-  in phases over decades on modest city money, a skatepark trust fund, and local
-  philanthropy: our template for building a strong Phase 1, opening it, and letting a
-  used park raise money for the next.
-- Say it plainly: "Everything we're proposing, some town has already pulled off — we're
-  not guessing, we're copying what worked."
+  lower-income neighborhood's premier park (opened 2020), with a Skatepark Project grant
+  and a $500,000 county Open Space grant, designed by SITE Design Group and local skaters
+  throughout. Almost our exact story — told as a win.
+- **Long Beach, CA (the ASK model)** — youth at the center of the design, and
+  neighborhood crime that *fell* where the park opened (the figures are in §1d). Proof a
+  skatepark makes a place safer, not less safe.
+- Say it plainly: "This isn't a fantasy. Cities like ours turned empty and poisoned lots
+  into the best thing in the neighborhood — now picture it *here*."
 
-**3b. Closer to home — the New York examples that prove it fits here.**
-- **Rochester, NY (ROC City)** — the funding-stack playbook: state revitalization
-  money, a separate $3M state grant, utility and Skatepark Project grants, a family
-  foundation that gave unrestricted money *and* matched every dollar, and a "Friends
-  of" nonprofit. No single source carried it — and it was a twelve-year haul, which
-  is the honest shape of the work.
-- **Brentwood, NY (Roberto Clemente Park)** — the closest match of all: one of Long
-  Island's working-class, majority-Latino communities opened a free concrete skatepark
-  on a former toxic-dumping site (conceived 2019, opened 2023). Youth-led — a
-  high-school senior's petition moved a state assemblyman to secure legislator-directed
-  funding plus a $450,000 DASNY grant — designed by the firm we'd call first (SITE
-  Design Group) and built for $1.25M, our best real-world cost anchor.
-- **Long Beach, NY** — the *other* independent city in Nassau County, same governance
-  as Glen Cove, running a free, unfenced concrete park designed through public
-  workshops. Proof a city of our exact type gets this done, our way.
-- **Manorhaven / Port Washington, NY** — a North Shore Nassau municipality that built
-  a free ~10,000 sq ft concrete park with local-skater input (designed by Spohn Ranch),
-  and reopened it after the pandemic when a teenager petitioned. Our nearest western
-  neighbor and a same-county governance-and-design comp.
-- Say it plainly: "A working-class Long Island town built a free concrete park on a
-  poisoned lot for $1.25 million. That isn't a dream — it's a neighbor."
+**3b. Then, the building blocks — each example hands us one piece of the plan.**
+- **Phase it → Ketchum, ID (Guy Coles).** A small town's *free* concrete park grown in
+  phases over decades on modest city money, a skate trust fund, and local philanthropy —
+  our template for a strong Phase 1 that opens, gets used, and funds the next.
+- **Layer the funding → Rochester, NY (ROC City).** No single source carried it: a $3M
+  state grant, utility and Skatepark Project grants, a family foundation that gave
+  unrestricted money *and* matched every dollar (up to $110,000), and a "Friends of"
+  nonprofit — a twelve-year haul, the honest shape of the work.
+- **The neighbor proof — and the cost anchor → Brentwood, NY (Roberto Clemente Park).**
+  The closest match of all: one of Long Island's working-class, majority-Latino
+  communities put a free concrete skatepark on a former toxic-dumping site (conceived
+  2019, opened 2023). Youth-led — a Brentwood High grad's petition to the state Attorney
+  General helped pry loose toxic-settlement money, an assemblyman added directed funds,
+  and a $450,000 DASNY grant closed the gap — designed by the firm we'd call first (SITE
+  Design Group) and built for **$1.25 million (as built)**, our best real-world cost anchor.
+- **A city of our exact type runs one → Long Beach, NY.** The *other* independent city in
+  Nassau County, same governance as Glen Cove, running a free, unfenced concrete park
+  designed through public workshops.
+- **Our nearest governance-and-design comp → Manorhaven / Port Washington, NY.** A North
+  Shore Nassau municipality that built a free ~10,000 sq ft concrete park with
+  local-skater input (Spohn Ranch), and reopened it after the pandemic when a teenager
+  petitioned.
+- **Private money unlocks public — and endow the upkeep → Ann Arbor, MI.** The county
+  pledged up to $400,000 in matching funds conditional on private fundraising, and the
+  Friends group endowed ~$10,000/yr maintenance as a condition of the deal.
+- **Structure the lead gift as a match → West Bend, WI (2026).** A "Friends of" nonprofit
+  and the city secured a $500,000 *match* commitment conditional on raising an equal
+  amount, plus a donor-funded design.
+- **Let the community — and its kids — design it → Hoboken, NJ (2025) & Riverside Park,
+  NYC.** In Hoboken a 250-person survey drove the design and drew a $250,000 county
+  open-space grant; in NYC, at-risk teens co-designed and built a park for adolescents
+  "designed out" of public space.
+- **Supervision is optional; the fee/residency trap isn't → Northport, NY (Veterans
+  Skatepark).** Long Island's supervised-access model (fenced, staffed for helmets) — and
+  a caution, since a fee or residency gate is exactly what disqualifies a park from the grants.
 
-**3c. More proof, in brief.**
-- **West Bend, WI (2026):** a "Friends of" nonprofit and the city secured a $500,000
-  *match* commitment conditional on raising an equal amount, plus a donor-funded design.
-- **Ann Arbor, MI:** the county pledged up to $400,000 in matching funds conditional
-  on private fundraising — private money triggering public money.
-- **Riverside Park, NYC:** at-risk teens co-designed and helped build a park created
-  for adolescents "designed out" of public space.
-- **Hoboken, NJ (2025):** a 250-person community survey drove the design and drew a
-  $250,000 county open-space grant.
-- **Northport, NY (Veterans Skatepark):** the Long Island example of the
-  supervised-access model (fenced, staffed for helmets) — and our eastern "nearest park."
+**3c. The playbook these prove — the bridge to Part Two.**
+Read together, the building blocks are a checklist the working plan simply executes:
+- **Keep it free** — no entry fee, waiver, or residency gate — or forfeit the grants.
+  The rule that outranks all the rest. → *supervision & watch-outs.*
+- **Layer and sequence the funding** — no single source; lead with private dollars to
+  unlock public ones, structured as a *match*. → *the funding stack.*
+- **Phase it** — a complete, open Phase 1 that funds what comes next. → *what it costs.*
+- **Youth- and community-led design** — a grant requirement, and what makes the park
+  theirs. → *design workshops.*
+- **Endow the maintenance up front** — it turns the city's biggest fear into a yes.
+  → *the maintenance answer.*
+- **Win co-investment and buy-in, not just permission** — real city money and visible
+  neighborhood support, secured early. → *honest watch-outs.*
+- Say it plainly: "None of this is invented — it's the playbook a dozen towns already
+  ran. The one rule none could break is where we start: keep it free."
 
-**3d. The ceiling — and the one caution. Charleston, SC (SK8 Charleston).**
-- A $4.8M, 32,500 sq ft county destination park that charges admission and requires a
-  waiver behind a fenced gate — and is therefore *not* grant-eligible under free-access
-  rules. The aspiration, and the reminder to keep ours free.
-- Say it plainly: "We can dream that big — but the day you charge admission, you lose
-  the grants. Ours stays free."
+**And the ceiling, as the caution — Charleston, SC (SK8 Charleston).** A $4.8M, 32,500 sq
+ft county destination park — thrilling to picture — but admission + waiver + gate make it
+grant-*ineligible*. Say it plainly: "We can dream that big — but the day you charge
+admission, you lose the grants. Ours stays free."
 
-## 4. We have the cast to pull it off
+## 4. We have the cast this playbook needs
 
-We are not starting from nothing. There is a remarkable set of people, institutions,
-and programs already within reach — the ingredients of a coalition, if we convene them.
+The playbook in §3 asks for specific things — money layered from many sources, a
+youth-led design, a builder who can phase it, an endowed maintenance plan, and a city
+that co-invests. Here's the striking part: for almost every one of those ingredients, we
+already have someone within reach. This isn't a coalition yet — it's the makings of one,
+lined up against exactly what the plan calls for.
 
-**4a. The people — a coalition already within arm's reach.**
-- A family ready to quarterback it; Glen Cove benefactor friends who could be the
-  founding funders and a "Friends of" board (and the door-openers to Long Island's
-  regional foundations); **Shane McGrane**, a credible local skater and the son's coach,
-  to lead skater-driven design (a grant requirement) and run youth clinics that open a
-  second funding stream; and **La Fuerza Unida**, an established Latino-serving nonprofit
-  downtown — in the same designated community as the site — as a community anchor and
-  possible nonprofit vehicle.
-- On top of that, a ready-made base: **1,200+ signatures** from a dormant 2020 petition
-  and the organized Bethpage Skatepark Coalition next door.
-- Say it plainly: "We already have a coach to lead the design, a downtown nonprofit to
-  anchor it, and 1,200 people who signed up once. We're not building from zero."
+**4a. Someone to quarterback it — and a "Friends of" to keep it free and endow it.**
+*(the playbook's "keep it free" + "endow the maintenance")*
+- A family ready to quarterback the effort, and a circle of Glen Cove benefactor friends
+  who could be the founding funders and the **"Friends of" board** — the vehicle that
+  holds private money, endows the ~$10k/yr maintenance (the Ann Arbor move), and backs
+  the park without ever gating it.
+- Say it plainly: "The two questions that make a city hesitate — who runs it, who
+  maintains it — we can answer on day one."
 
-**4b. The institutions — a city that owns its own parks, and the officials who can fund them.**
+**4b. The money to layer — private, public, and philanthropic.**
+*(the playbook's "layer the funding" + "structure the gift as a match")*
+- **Private, as a match:** the benefactor circle for a lead/challenge gift, plus
+  **DICK'S / LISC "Game On"** ($50k–$100k at 1:1).
+- **Public capital:** Assemblymember **Charles Lavine** is our line to directed state
+  money through **DASNY** — the exact path Brentwood used — with County Legislator
+  **Delia DeRiggi-Whitton** a natural ally, and the CDA's **in-house senior grant writer**
+  to run the applications.
+- **Philanthropic:** **The Skatepark Project**; the **New York Community Trust – Long
+  Island** as a fiscal home; and Long Island's regional family foundations — **Rauch,
+  Greentree, Hagedorn, Claire Friedlander** — reachable through civic connections.
+- Say it plainly: "No single check builds this — and we already have a line on all three
+  kinds: the private, the public, and the foundation money."
+
+**4c. The people to lead a youth- and community-led design.**
+*(the playbook's "youth- and community-led design" + "buy-in")*
+- **Shane McGrane** — a credible local skater and the son's coach — to lead skater-driven
+  design (a grant requirement) and run the youth clinics that open a second funding stream.
+- **La Fuerza Unida** — an established Latino-serving nonprofit in the same DAC core as
+  the site — as the community anchor and a possible nonprofit vehicle.
+- A ready-made base: **1,200+ signatures** from the dormant 2020 petition and the
+  organized Bethpage Skatepark Coalition next door.
+- Say it plainly: "A design leader, a community anchor, and 1,200 people who already
+  signed on — the hard part of 'community-led' is half-built."
+
+**4d. The builders to phase and pour it.**
+*(the playbook's "phase it")*
+- Experienced concrete design-build firms with Long Island track records — **SITE Design
+  Group** (Berry Lane, Brentwood) and **Spohn Ranch** (Long Beach NY, Manorhaven) — to
+  turn the vision into a real Phase 1 and a real cost number.
+- Say it plainly: "The firms that built our comps work right here — the first call is a
+  phone number, not a search."
+
+**4e. A city that can say yes — and co-invest.**
+*(the playbook's "co-investment, not just permission")*
 - Glen Cove is an independent city that controls its own parkland and budget, with a
-  Recreation Commission as the natural first door and a Community Development Agency
-  that has an in-house senior grant writer.
-- At the state and county level, Assemblymember **Charles Lavine** is our primary path
-  to directed state capital (DASNY), with County Legislator **Delia DeRiggi-Whitton**
-  a natural ally.
-- Say it plainly: "Glen Cove answers to no county board for its own parks — the people
-  who can say yes are all local, and we can reach every one of them."
-
-**4c. The programs and funders — the money layers, already mapped.**
-- The Skatepark Project (construction and youth-program grants); DICK'S / LISC "Game On"
-  ($50k–$100k against a 1:1 match); the New York Community Trust – Long Island as a
-  fundraising home or fiscal sponsor; and Long Island's regional family foundations —
-  Rauch, Greentree, Hagedorn, Claire Friedlander — reachable through civic connections.
-- Plus experienced concrete builders (SITE Design Group, Spohn Ranch) with Long Island
-  track records to turn a vision into a park.
-- Say it plainly: "The grants, the foundations, and the builders that made this happen
-  everywhere else all operate right here — none of it is out of reach."
+  **Recreation Commission** as the natural first door and a mayor's office that can commit
+  city money — no county board to clear.
+- Say it plainly: "The people who can approve this *and* put money behind it are all
+  local. We can reach every one of them."
 
 *Two honest notes we keep in front of us. First: almost none of these people have been
 asked yet — this is the cast that **could** help, not a list of supporters, and nobody
@@ -231,36 +265,62 @@ the public face, with the family organizing behind them. (Locust Valley has a ge
 tie regardless — Morgan Park's charter serves both, and the 2020 petition named Locust
 Valley as part of the same community.)*
 
-## 5. This is real, early — the crucial next steps
+## 5. This is real, early — and the next steps are conversations
 
-Told plainly: this is a multi-year, phased effort — the comparable New York projects
-took four years (Brentwood) to twelve (Rochester). We're at the very start, and 2026
-is a readiness year: line everything up so the city can file the moment the next state
-grant window opens (~2027). The goal now isn't to build a park; it's the handful of
-discovery steps that unlock everything after them.
+Told plainly: this is a multi-year, phased effort — the comparable New York projects took
+four years (Brentwood) to twelve (Rochester). We're at the very start, and 2026 is a
+readiness year — line everything up so the city can file the moment the next state grant
+window opens (~2027). The goal now isn't to build a park; it's to have the handful of
+first conversations that turn the cast in §4 into a coalition — each one activating a
+piece of the playbook.
 
-1. **Get a real, scoped build-cost number** — a builder's site tour of the Maccarone
-   site (SITE Design Group / Spohn Ranch first). The single biggest gap; every funding
-   conversation improves the moment we can name a figure.
-2. **Win written city site approval** — via the Recreation Commission and mayor's
-   office. The critical-path gate; nothing downstream moves until it's in hand.
-3. **Begin cultivating Assemblymember Lavine** — the DASNY path is our leading state
-   avenue and the longest-lead relationship, so it has to start earliest.
-4. **Have the first warm conversations** — the 2020 petition's organizer, La Fuerza
-   Unida, Shane, and two or three benefactor friends — to turn a case into a coalition.
-5. **Firm up the underserved exhibit** — a firmer LI / Nassau skatepark census and a
-   re-verification of the DAC tracts on the live state map, so the numbers are
-   submission-ready.
+**The first calls — who, and what each one unlocks:**
+- **Alex Greenberg**, who ran the 2020 petition (~1,200 signatures) → reawaken the
+  ready-made base of community support.
+- **Fred Clark** (Morgan Park board) → a friend and door-opener: a read on Glen Cove's
+  players and the intro path to the regional Long Island foundations — and confirming
+  whether he's still chair is reason enough to make the call.
+- **La Fuerza Unida** → the community anchor in the DAC core, and a possible nonprofit
+  vehicle.
+- **Shane McGrane** → the skater-design lead who makes youth-led design real, and whose
+  clinics open a second funding stream.
+- **Two or three benefactor friends** → the founding funders and "Friends of" board — the
+  private match that unlocks the public money, and the endowment that answers maintenance.
+- **The Skatepark Project** → an early relationship for guidance and vetted-builder
+  referrals, ahead of the January–March LOI window (they're a funder, so this is intel and
+  rapport, not an ask yet).
+- **Assemblymember Lavine** → begin cultivating the DASNY path — our leading state avenue
+  and the longest lead, so it has to start earliest.
+
+**And the two concrete asks those conversations drive toward:**
+- **A builder's site tour of Maccarone** (SITE Design Group / Spohn Ranch) for a real,
+  scoped **cost number** — the single biggest gap; every funding conversation improves the
+  moment we can name a figure.
+- **Written city site approval** from the Recreation Commission and Mayor Panzenbeck — the
+  critical-path gate; nothing downstream moves until it's in hand.
+
+(The underserved exhibit is already largely done — the access/provisioning analysis and
+the DAC designation are in hand; only a firmer skatepark census and a DAC re-check on the
+live map remain before anything goes public.)
 
 Say it plainly: "We're not asking anyone to fund a skatepark today. We're asking for a
 site tour, a letter of support, and a handful of conversations — the cheap first steps
 that make everything after them possible." The people who start this now become its founders.
 
 ====================================================================
-PART TWO — THE WORKING PLAN
+PART TWO — THE HYPOTHESIS: imagine we run the playbook here
 ====================================================================
 
+*This isn't a plan we're asserting — it's a hypothesis to test. Part One set up the
+opportunity and the playbook that proves it's winnable; here we imagine running that
+playbook at Maccarone — how each piece would go, which §3 principle it's built on, and
+what still has to be confirmed. Every figure and name below is a bet the readiness-year
+conversations (§5) are meant to test, not a claim we're making.*
+
 ## Where it should go
+
+*Runs §2's equity logic — put the park where the underserved kids already are, which is
+also where the grants score highest. The open bet: written city site approval, still to win.*
 
 - **Lead candidate: John Maccarone Memorial City Stadium (Morris Ave).** ~19 acres of
   city-owned recreation land, central, with existing parking and ballfields — room to
@@ -279,14 +339,17 @@ PART TWO — THE WORKING PLAN
 
 ## What it costs
 
+*Runs the playbook's "phase it" plus the Brentwood cost anchor. The open bet: the real
+number — a builder's scoped quote replaces this estimate.*
+
 National industry guidance puts concrete skatepark construction around $50 per square
 foot — but that national average understates a Long Island municipal project, where
 NY-metro costs, likely prevailing-wage rules, and inflation all push higher. The right
 benchmark is our closest real comp: **Brentwood's Roberto Clemente skatepark cost
 $1.25 million** for a park in the 8,000–12,000 sq ft range — same island, same
 plaza-concrete style, same design firm. So for a neighborhood-scale park of roughly
-10,000–12,000 sq ft, **plan on approximately $1.0–1.5 million for the full build**,
-with Brentwood's $1.25M in the middle.
+10,000–12,000 sq ft, **figure on roughly $1.0–1.5 million for the full build**,
+with Brentwood's $1.25M in the middle — a band, not a number, until a builder quotes it.
 
 Crucially, that full figure isn't the *first* number we need. Because the park can be
 **phased**, a defensible Phase 1 — a smaller but complete, open, usable park — can come
@@ -297,6 +360,9 @@ real, scoped figure — worth doing early, because every funding conversation im
 we can name a number.
 
 ## The funding stack
+
+*Runs the playbook's "layer & sequence the funding" and "private unlocks public (match)."
+The open bet: which sources actually land, and in what order — none is committed yet.*
 
 Modeled on Rochester, Jersey City, Brentwood, and West Bend — no single source, layered
 *and sequenced over years*. Note: New York's marquee municipal-parks grant (the
@@ -342,7 +408,10 @@ showing the community is underserved (its definition explicitly includes ethnici
 language). We now have *two* strong, independent pieces of that local data — the state's
 DAC designation and our own access/provisioning analysis. Lead with both.
 
-## The maintenance answer (this is what wins the city over)
+## The maintenance answer (likely the key to a yes)
+
+*Runs the playbook's "endow the maintenance up front." The open bet: a Friends-of board
+that will commit the ~$10k/yr in writing.*
 
 The single biggest reason cities hesitate isn't construction cost — it's the fear of an
 ongoing burden. Two facts dissolve it:
@@ -351,9 +420,12 @@ ongoing burden. Two facts dissolve it:
 - A **Friends of** board can commit to funding even that, for the life of the park. Ann
   Arbor's Friends group took on endowing roughly $10,000 a year as a condition of its
   city deal, so the city carried no ongoing cost. Walking in with an endowed maintenance
-  plan — in writing — turns the city's biggest objection into a reason to say yes.
+  plan — in writing — can turn the city's biggest objection into a reason to say yes.
 
 ## If the city asks about supervision
+
+*Runs the playbook's "keep it free" — the rule that outranks all. Not really a bet: free
+access is non-negotiable; the only open choice is the supervision model.*
 
 Most grant-funded parks are free and unsupervised (Ketchum; and right here in Nassau
 County, Long Beach runs its concrete park free and unfenced). The middle path open to us
@@ -365,6 +437,9 @@ residency requirement are exactly the kind of thing that disqualifies a park fro
 Skatepark Project grant.
 
 ## Honest watch-outs
+
+*Runs the playbook's "co-investment, not just permission" and "build buy-in early" — the
+bets most likely to go wrong, and how we'd hedge each.*
 
 - **Get real city co-investment, not just permission.** In Long Beach, California, the
   city approved a skatepark but contributed no money, leaving the nonprofit to raise
@@ -386,13 +461,16 @@ Skatepark Project grant.
 
 ## Suggested sequence
 
+*The order the bets get tested — the hypothesis's experiment plan, not a calendar.*
+
 A realistic arc runs in phases, not on a calendar — the comparable New York projects took
 four years (Brentwood) to twelve (Rochester). That length is the shape of the work, and
 the reason to begin now.
 
 **Phase 0 — Now (calls, not commitments).** The site's DAC status is confirmed and the
-underserved case is quantified. First conversations with the 2020 petition's organizer, La
-Fuerza, Shane, and two or three benefactor friends. Learn the Bethpage rebuild timeline.
+underserved case is quantified. First conversations — the 2020 petition's organizer (Alex Greenberg),
+Fred Clark, La Fuerza, Shane, two or three benefactor friends, and an early relationship
+call to The Skatepark Project. Learn the Bethpage rebuild timeline.
 Begin cultivating Assemblymember Lavine — our primary path to state capital and the
 longest-lead relationship.
 
@@ -420,6 +498,7 @@ every partner.
 ---
 
 ### Before this goes public, verify
+*The hypothesis's still-unconfirmed variables — lock each one before any public or submission use.*
 - **Golf-course contrast — ESTABLISHED (July 2026).** Seven private 18-hole clubs lie
   within ~4 mi of the lead site (Nassau, North Shore, Glen Head, Brookville, Piping Rock,
   The Creek, Engineers), plus the municipal Glen Cove GC as public contrast — see
