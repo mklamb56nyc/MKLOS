@@ -1,0 +1,538 @@
+GLEN COVE SKATEPARK — PRECEDENT PROJECT PROFILES (deep file)
+Compiled July 2026 via full-text research; every load-bearing fact carries a source URL.
+Purpose: the deep evidence layer behind brief §3 and dossier §8. One profile per precedent,
+consistent fields: WHO DECIDED / TIMELINE / SIZE-SURFACE-BUILDER / COST & FUNDING STACK /
+KEY PEOPLE / GOVERNANCE PATH / ACCESS MODEL / STATUS / NEARLY-DIED & LESSONS.
+Items marked UNVERIFIED could not be pinned to a source — do not cite them outward.
+Corrections vs. our prior facts are marked ⚠ CORRECTION and have been synced to 01/04.
+
+====================================================================
+CROSS-CUTTING LESSONS (read this first)
+====================================================================
+- EVERY project had (a) one relentless inside-or-outside champion who stayed for years,
+  and (b) a youth/community face. None was carried by a single funding source.
+- "Approval without appropriation" is the recurring trap (Long Beach CA Silverado sat
+  fully-approved and $0-funded ~18 months; Jersey City's skatepark waited 4+ years behind
+  other phases). Get a city dollar commitment, not a blessing.
+- County open-space trust money is the repeat load-bearing line item in NY-metro stacks
+  (Berry Lane $500K; Hoboken $500K) — Nassau's equivalent is a primary target to confirm.
+- Small national grants (TSP $15–25K) never build the park; they anchor credibility that
+  attracts the big public money. Sequence them first anyway.
+- Youth petitions repeatedly moved governments (Brentwood; Manorhaven's reopening at 742
+  signatures; Riverside's volunteer-era revival) — our dormant 1,200+ is a real asset.
+- Concrete-vs-wood is a maintenance decision with decades of consequences: Riverside's
+  wood rotted into near-removal; Manorhaven's concrete needed no capital attention 2011–25.
+- Unsupervised facilities are the first thing a risk-averse government closes and the last
+  it reopens (Manorhaven 2020–21) — the volunteer-marshal middle path pre-answers this.
+
+====================================================================
+1. MANORHAVEN / PORT WASHINGTON, NY — "North Hempstead's Skate Spot" (nearest west)
+====================================================================
+WHO DECIDED: ⚠ CORRECTION — the TOWN OF NORTH HEMPSTEAD, not the Village of Manorhaven.
+The park sits inside the Village geographically but is town-owned/operated; every decision
+(siting, funding, design, 2020 closure, 2021 reopening) was made by Town officials.
+  https://en.wikipedia.org/wiki/Manorhaven_Beach_Park
+  https://www.northhempsteadny.gov/departments/parks_recreation/parks_directory/manorhaven_beach_park.php
+TIMELINE (~4 yrs advocacy→open): 2007 SNAPP ("Skaters Need a Park in Port") founded by
+Howard & Karen Cohen (Robert Laker later president) → Apr 28 2010 Town siting meeting
+(Supervisor Jon Kaiman, Councilman Fred Pollack) → Dec 2010 Spohn Ranch designer Jason
+Baldessari works directly with teen skaters → built 2011, grand opening Oct 23, 2011.
+  https://patch.com/new-york/portwashington/port-skateboarders-gear-up-for-skate-park-meeting
+  https://patch.com/new-york/portwashington/new-skate-spot-in-port-washington-video
+SIZE/SURFACE/BUILDER: ~10,000 sq ft concrete (street + transition, raised central plaza,
+bowl feature, lights). Design-build: Spohn Ranch (Jason Baldessari), with teen input.
+SNAPP had wanted 15,000 sq ft; the Town built smaller — hence "Skate Spot" branding.
+COST & FUNDING: contract just under $349,000 (2011), funded by a Town bond issue for park
+improvements — single-source, no county/state/village money in any coverage. (Whether a
+line inside the concurrent $12M Manorhaven Beach Park renovation bond: UNVERIFIED.)
+KEY PEOPLE: the Cohens/SNAPP (parent-led engine); Councilman Fred Pollack (political
+champion, brokered teen-designer collaboration); Supervisor Jon Kaiman (convened siting);
+teen campaigners (press dubbed them "Roll Models"). 2021 reopening: Jett Gillis, 13
+(petition, 742 signatures final), Councilwoman Mariann Dalimonte (struck the deal).
+GOVERNANCE PATH: Town Board/Supervisor throughout — public siting meeting → design meeting
+→ ~$349K bond-funded contract → town-run operation. Closure/reopening were administrative
+decisions, not board votes. (Specific 2010-11 contract resolution: UNVERIFIED — minutes
+not online.)
+ACCESS MODEL TODAY: free to skate, unsupervised; park hours 7am–10pm in season.
+⚠ FLAG FOR OUR CENSUS: the Town enforces a general residency-ID policy for park admission
+(in force since 1946 per Wikipedia/town page), and parking is fee-based. If the Skate Spot
+actually sits behind a residency gate, it would fail our own free-access rule (as we
+applied to Huntington) and Nassau's count drops 3→2 — which would make our shortfall case
+STRONGER but change the census. VERIFY on the ground / by phone before publishing counts.
+  https://www.northhempsteadny.gov/departments/parks_recreation/parks_directory/manorhaven_beach_park.php
+STATUS: open, active town amenity; no renovation/controversy coverage 2024–25.
+NEARLY DIED / LESSONS: Nov 23 2020 the Town closed it "indefinitely" (COVID congregating);
+Supervisor refused to reopen; a 13-year-old's petition + one councilmember produced the
+"skate-park ambassadors" deal and a spring-2021 reopening. Lessons: (1) unsupervised parks
+are the first closed, last reopened — the Town literally paid guards to turn skaters away;
+(2) both the creation and the rescue were kid/parent pressure aimed at the CORRECT
+jurisdiction plus one willing councilmember; (3) concrete's near-zero maintenance is why
+it needed no capital attention for 14 years.
+
+====================================================================
+2. LONG BEACH, CA — THE ASK FOUNDATION MODEL (safety evidence + the $0-city watch-out)
+====================================================================
+WHO DECIDED: City of Long Beach (council + Parks, Recreation & Marine Dept); ASK
+(Action Sports Kids Foundation, 501(c)(3), EIN 45-2300860, founded 2011 by former
+Councilman Mike Donelon) is the private advocacy/fundraising engine, not the landowner.
+  https://www.asklongbeach.org/about  https://projects.propublica.org/nonprofits/organizations/452300860
+TIMELINE: 1996 Donelon (then on council) identifies need → 1998 first feasibility study →
+2000 El Dorado (city's first) → 2002/03 14th St plaza opens (⚠ sources conflict 2002 vs
+2003) → Apr 9 2005 Michael Keith Green, 20, sponsored young pro, killed in gang crossfire
+(not gang-affiliated) → Jan 2010 park expanded + unanimously renamed Michael K. Green
+Skate Park (Donelon petition, 1,000+ signatures) → 2011 ASK founded → Silverado remodel:
+vision ~2010, launched 2021, funded late 2023, reopened Feb 24 2024.
+  https://sigtrib.com/skate-park-renamed-after-young-man-killed-in-gang-crossfire/
+  https://lbpost.com/news/photos-silverado-skatepark-reopens-after-153k-upgrade/
+⚠ CORRECTION: "Michael K. Green skatepark opened 2003" conflates two facts — the plaza
+opened 2002/03 unnamed; the Green name + expanded facility date to Jan 2010.
+THE CRIME STATISTIC (brief §1d) — CITE WITH CARE:
+- Canonical (ASK's wording): within three years of the 2003 opening, drug-related
+  incidents −60.9%, violent crime −29.3%, overall incidents −22.8% — IN THE AREA AROUND
+  THE PARK (roughly the 90813 zip), not citywide. https://www.asklongbeach.org/about
+- ⚠ No published LBPD report/study could be located; every citation chain terminates at
+  ASK/Donelon. Precise decimals suggest a real LBPD data pull, but treat as
+  ASK-REPORTED, single-park, correlational. Defensible phrasing: "ASK Foundation reports
+  that in the three years after the park opened, drug-related incidents in the
+  surrounding area fell ~61%, violent crime ~29%, overall ~23%."
+- Safer companion stat: TSP's law-enforcement survey — nearly half of officers surveyed
+  reported reduced youth crime after a skatepark opened.
+  https://publicskateparkguide.org/advocacy/thf-police-study/
+SILVERADO — THE WATCH-OUT (verified): Parks Dept approved the vision plan but contributed
+$0; ASK had to raise everything. The project sat ~18 months approved-but-unfunded until
+Nouns DAO (on-chain Prop 303, co-branded with TSP) gave $133,250 (~86% of the total);
+final stack ≈$153–155K: Nouns $133,250 + TSP $15,000 + Port of Long Beach $5,000 +
+fireworks-show proceeds $5,000. Youth design: 150+ Long Beach youth shaped Silverado
+specifically (don't generalize the "150 kids" claim to all parks).
+  https://lbpost.com/news/tony-hawk-silverado-skatepark-project/
+  https://lbpost.com/news/westside-skate-park-silverado-remodel-reopen/
+KEY PEOPLE: Mike Donelon (25+ years on one issue: council feasibility study → nine-ish
+parks → ASK; the entire model is his persistence); Tony Hawk/TSP; Geoff Rowley (designed
+Bixby, Vans-funded). ASK 2022 revenue just $141K — the leverage is the network, not the
+balance sheet. Named 2026 CA Nonprofit of the Year (nom. Asm. Josh Lowenthal).
+STATUS: ~9–10 city skateparks (counts vary by source); 2024–25 citywide feasibility study
+(631 surveyed, 90% pro); proposed ~$5M Alamitos Beach destination park called "a long
+shot." ACCESS: city-run; free/unsupervised is the likely default but UNVERIFIED (city
+page 503'd during research).
+LESSONS: (1) the $0-city posture is the model's chief fragility — approval without
+appropriation strands projects; (2) an unconventional funder (a crypto DAO) rescued
+Silverado — no plan could have counted on that; (3) one champion who never leaves the
+issue compounds for decades; (4) facts drift in retellings — cite the primary-est source.
+
+====================================================================
+3. BERRY LANE PARK SKATEPARK — JERSEY CITY, NJ (the brownfield-equity flagship)
+====================================================================
+WHO DECIDED: City of Jersey City, delivered through the Jersey City Redevelopment Agency
+(JCRA) as the final phase of the 17.5-acre Berry Lane Park redevelopment (Bergen-
+Lafayette / Communipaw, the city's underserved south side).
+  https://www.jerseycitynj.gov/news/pressreleases2020/jcopensskateparkwithtonyhawkfoundationgrant
+  https://thejcra.org/berry-lane-park-environmental-investigation-and-remediation-summary/
+TIMELINE (~5.5 yrs grant→open): Tony Hawk Foundation top-tier grant Mar 2015 →
+construction announced Aug 2019 → groundbreaking Nov 2019 (with 2,113 sq ft LEED-Silver
+pavilion) → opened early Aug 2020 (COVID slipped spring target). Parent park: remediation
+began Aug 2012, park opened Jun 2016; skatepark was phase six of six.
+  https://juicemagazine.com/home/jersey-city-receives-tony-hawk-foundation-top-skatepark-grant/
+SIZE/SURFACE/BUILDER: ~12,000 sq ft poured-in-place concrete — first in Hudson County,
+largest in JC (layback bank, quarter pipes, A-frames, ~6-ft bowl). Designer: SITE Design
+Group (secondary-sourced attribution). Builder: Tsivikos Enterprises (pavilion: ML Inc.).
+COST & FUNDING: ⚠ CORRECTION/nuance — skatepark+pavilion job ≈ $2.8M combined (NJBIZ);
+a conflicting $250K figure attaches to the Tsivikos skatepark contract (seems low for
+12,000 sq ft; split UNVERIFIED — flag both, don't cite a single number).
+Stack: TSP/THF $25,000 (top-tier, Winter 2015 — ⚠ our brief had no amount) + Hudson
+County Open Space Trust Fund $500,000 + city capital via JCRA (amount UNVERIFIED).
+Parent park ~$38–40M total: PPG chromium-settlement money, EPA brownfield, HUD CDBG,
+NJ EDA $5M, NJDEP, county — city paid only ~15%.
+  https://njbiz.com/jersey-city-breaks-ground-berry-lane-skate-park/
+  https://www.cdfa.net/cdfa/cdfaweb.nsf/ord/911C5C4221C4833F88257DBD007102AA/$file/Berry-Lane-Park.pdf
+BROWNFIELD STORY: 11 former industrial properties; three NJDEP chromium sites within the
+footprint (PPG's Garfield Ave plant); JCRA remediation 2012–13; PPG separately removed
+~700,000 tons of chromium waste from area sites.
+KEY PEOPLE: Mayor Steven Fulop (public champion, framed as equity investment); Diana
+Jeffrey (JCRA ED, delivery); Ward F Councilman Jermaine Robinson; THF's Miki Vuckovich +
+Tony Hawk. Named grassroots advocates: UNVERIFIED.
+ACCESS: free, open 8am–9pm, lit; run by JC Recreation. STATUS: open; NJ Grind (2025)
+calls it arguably the best in NJ.
+NEARLY DIED / LESSONS: (1) the enemy was the WAIT, not opposition — the 2015 seed grant
+anchored a claim while big public money assembled behind five other phases; (2) the
+county open-space trust was the load-bearing skatepark line; (3) attaching the skatepark
+to a flagship equity project gave electeds a reason to own it publicly.
+
+====================================================================
+4. MARITIME PARK SKATEPARK — HOBOKEN, NJ (the survey model; NOT yet open)
+====================================================================
+⚠ CORRECTION (brief §3c implies it exists): the park is UNDER CONSTRUCTION — ground
+broken Dec 10 2025, major work began Q1 2026, Phase 1 completion targeted FALL 2027.
+And the county money is $500,000 TOTAL (two $250K Hudson County Open Space grants), not
+$250K. Both synced to the brief.
+WHO DECIDED: City of Hoboken (mayor + council), at the former Union Dry Dock site the
+city acquired for $18.5M after a years-long fight (NY Waterway ferry-depot plan; a 2017
+NJ Transit takeover attempt; litigation + eminent-domain ordinance Oct 2022).
+  https://www.hobokennj.gov/news/city-of-hoboken-unveils-design-of-maritime-park-phase-i
+  https://hudsoncountyview.com/city-of-hoboken-reaches-terms-to-acquire-union-dry-dock-from-ny-waterway-for-18-5m/
+TIMELINE: ~decade of site fight → acquisition Dec 2022 → design (Dattner/SCAPE, then
+Colliers; skatepark by Action Sports Design) → council unanimously approved final concept
+Feb 7 2024 → bids due Nov 2025 → groundbreaking Dec 10 2025 → opening ~fall 2027.
+THE SIGNATURE MOVE (why it's in our brief): 250+ survey respondents, 63% self-identified
+skaters, plus an in-person skater design meeting — the features list traces directly to
+that input. A cheap, replicable legitimacy tactic.
+COST & FUNDING: Phase I ≈ $16.5M — $15M city bond + $1M State of NJ (Asm. John Allen) +
+$500K county (2×$250K). Skatepark-only cost: UNVERIFIED (bundled). Full-park estimate
+$74.5M, Phase 2 unfunded as of Mar 2026.
+KEY PEOPLE: Mayor Ravi Bhalla ("crowning achievement"); Asm. John Allen ($1M state);
+county executive/commissioners (open-space money); Fund for a Better Waterfront (ally
+AND chief fiscal critic).
+LESSONS: (1) the site fight, not the skatepark, was the battle; (2) ⚠ cost-transparency
+blowback — the $74.5M estimate was withheld until after design approval, drawing
+criticism: sequence cost disclosure honestly (relevant to our builder-quote step);
+(3) same county funding vehicle as Berry Lane — the county open-space trust pattern.
+
+====================================================================
+5. ANDY KESSLER SKATEPARK (ex-Riverside), NYC — the youth-built original
+====================================================================
+WHO DECIDED: NYC Parks (owner/operator both eras); Riverside Park Conservancy supported
+but did not control. ⚠ CORRECTIONS: original opened AUG 1996 (not 1995); original total
+~$130K ($50K NPS "Innovations in Recreation" grant + $50K NYC Parks match + Riverside
+Park Fund/City Parks Foundation contributions + donated materials); the youth program was
+the Salvadori Institute (recruited the West Harlem/UWS teens) + Alternatives to Violence
+Project (teamwork workshop) under Park Administrator Charles McKinney; teen builders were
+paid $80/week. Rebuild: $2,864,000 city capital (Boro President + Council discretionary),
+design W Architecture, skate construction California Skateparks; street plaza opened Aug
+2020, bowl 2021; renamed for Andy Kessler (CB7 unanimous, Mar 2020; signage Oct 2021).
+  https://www.pps.org/article/riversideskatepark
+  https://www.nycgovparks.org/planning-and-building/capital-project-tracker/project/6733
+  https://www.nycgovparks.org/parks/riverside-park/facilities/skateparks
+STORY: early-90s — skater Andy Kessler proposes to Parks; teens design with him, build it
+in ~5 weeks, summer 1996; first municipal skatepark in NYC. By 2012 the wood was rotting
+and the park faced removal; volunteers under Ian Clarke (with Conservancy blessing) ran
+permitted repairs + annual Skate Jams 2013–18, keeping it alive and visible — that
+advocacy produced the $2.86M concrete rebuild AND the renaming.
+2016 REDESIGN FIGHT: Parks' first concrete design dropped the vert progression; organized
+skaters ("weak and exclusionary") forced a 6-to-11-ft pool bowl back in via CB7; then
+Landmarks + Public Design Commission review (scenic-landmark park).
+ACCESS TODAY: free; street plaza unsupervised/unfenced 6am–1am; the BOWL is seasonal
+(Jun–Sep), limited hours, waiver + full pads required. Helmets/pads park-wide; the 1990s
+$3 fee is long gone.
+LESSONS: (1) wood construction nearly killed it — concrete is the survival decision;
+(2) a dormant park was saved by users who kept it visibly loved (jams, volunteer repairs)
+— stewardship is advocacy; (3) core users must be at the design table or the fight comes
+later; (4) youth-built ownership (1996) is the deepest version of "the ownership is the
+point" — and it started as one skater's proposal to a parks administrator.
+
+====================================================================
+6. BRENTWOOD, NY — ROBERTO CLEMENTE PARK SKATEPARK (the cost anchor, fully mapped)
+====================================================================
+WHO DECIDED: the TOWN OF ISLIP — town-owned park, every approval through the Islip Town
+Board + Supervisor. State actors (DASNY, the AG) were funders/prosecutors, not deciders.
+  https://ag.ny.gov/press-release/2021/attorney-general-james-delivers-627000-brentwood-community-marred-waste-dumping
+TIMELINE (~5 years; ⚠ conceived 2018, not 2019): Mar 2018 residents address the Town
+Board; Supervisor Angie Carpenter + Parks meet them → Jan 2019 design kickoff → 2019
+board approves initial contracts → 2020–21 stalls (pandemic, costs); Nov 2020 first
+youth petition (Islip students, 500+) → May 2021 AG delivers $627K settlement money →
+MAR 2022 construction resolution TABLED over a ~$452K inflation shortfall → May 28 2022
+Brentwood Youth Advisory Board rally + Melgar/Ahmed petition (1,110 signatures) → within
+weeks: board resolves to apply for/accept $450K DASNY → groundbreaking Jul 8 2022 →
+OPENED MAR 24 2023.  https://patch.com/new-york/brentwood-central-islip/brentwood-skate-park-garners-needed-funding-after-outcry
+⚠ PETITION NUANCE (corrects our correction): Melgar's petition pressured the TOWN to
+allocate already-delivered settlement + grant money — the AG money had arrived a year
+earlier. The accurate story: TWO youth petitions + a rally rescued a tabled project.
+SIZE/SURFACE/BUILDER: ⚠ ~12,000 sq ft FOOTPRINT with ~7,000 sq ft actual SKATING surface
+(deputy parks commissioner — most authoritative). Plaza-style concrete ("concrete" is
+inferred from descriptions/photos, never stated — flag if load-bearing). Engineer:
+Nelson + Pope (prime), with SITE DESIGN GROUP as skatepark design sub-consultant
+(confirmed on N+P's own portfolio page). Construction contractor: UNVERIFIED (public
+bid; never named in press).  https://nelsonpope.com/portfolio/roberto-clemente-park-pool-spray-park-and-skate-park/
+COST & FUNDING — THE RECONCILED LEDGER (⚠ fixes a double-count in our dossier):
+- As-built: $1.25M (News12 once said $1.2M — rounding).
+- Press lists "$627K AG + $700K Ramos + $450K DASNY" as if separate ($1.78M ≠ $1.25M).
+  Best-supported: **$700K = the $250K + $450K DASNY SAM grants, BOTH secured by Ramos**.
+  True stack ≈ $627K AG toxic-dumping settlement + $700K Ramos/DASNY = $1.327M toward a
+  $1.25M build, town absorbing the rest of the package. Exact ledger UNVERIFIED.
+- ⚠ THE $4.5M RED HERRING, UPDATED: it's a MAR 24, 2026 Islip board resolution
+  authorizing application for up to $4.5M DASNY SAM for "a skate park at Roberto
+  Clemente Park" — a FUTURE ask (expansion? replacement? unclear), unrelated to the 2023
+  build, and it does not approve construction. Anyone Googling "Brentwood skatepark
+  $4.5M" will hit this — always cite $1.25M AS-BUILT (2023).
+  https://liparks.com/articles/islip-roberto-clemente-park-skate-park-dasny-grant/_6874/
+THE ORIGIN STORY (why it's OUR closest analogue): Aug 2013–Apr 2014, tens of thousands
+of tons of construction debris illegally dumped in the park; closed May 2014 (asbestos,
+heavy metals); ~39,000 tons removed; $6M town cleanup bond; felony convictions; reopened
+2017. The AG's settlement recovery from 8 dumping companies then became a third of the
+skatepark's funding — THE SCANDAL LITERALLY PAID FOR IT.
+KEY PEOPLE: Supervisor Angie Carpenter (drove restoration; tabled then delivered);
+Asm. Phil Ramos (both DASNY grants — our Lavine analog); AG Letitia James ($627K);
+Alberto Melgar (HS senior, the 1,110-signature petition); Joshua Chan + Brentwood Youth
+Advisory Board ("You constantly overlook Brentwood" — the equity line, to the
+Supervisor's face); parks staff Wahlberg/Owens.
+ACCESS TODAY: free, gated facility, skateboards/inline only (no BMX), gear
+"recommended"; official islipny.gov policy UNVERIFIED (Cloudflare-blocked).
+STATUS: open, well-regarded, centerpiece of an $11–13M park revitalization; May 2023
+graffiti incident (cleaned within a week, prosecuted loudly); community group Uplift Our
+Towns pushing further amenities (~$800K state, Jan 2025); the 2026 $4.5M application.
+LESSONS: (1) approved ≠ built — a "Future Site" sign stood for years and became the
+broken promise that fueled the youth movement; (2) an inflation shortfall nearly killed
+it a SECOND time — rescued in weeks by youth pressure + a legislator's DASNY grant (the
+exact Lavine play); (3) the equity narrative ("the overlooked side of town") was
+leverage, wielded by the town's own youth board; (4) budget figures in press clippings
+are traps — reconcile before citing.
+
+====================================================================
+7. LONG BEACH, NY — CITY SKATEPARK (the governance twin — our single best template)
+====================================================================
+⚠ CORRECTION: the "kids struck by a train" catalyst is NOT SUPPORTED — four targeted
+searches found no such incident connected to the park. The real story: the old prefab
+park (renovated 2007 as a memorial to Scott Reilly, a student who died of cancer in
+2004) was damaged by Hurricane Sandy (2012), outdated, and badly sited by the sewage
+plant. Corrected in dossier §8.
+WHO DECIDED: the City of Long Beach itself — council-manager city (5-member council +
+appointed City Manager). No county/town/state body owned the decision.
+  https://liherald.com/stories/city-to-expedite-new-skate-park,61690
+TIMELINE (~9 months vote→ribbon): new park entered the 5-yr capital plan (slated
+FY2015-16) → Dec 2 2014 council UNANIMOUSLY approved a $5,000 Spohn Ranch design
+contract AND accelerated construction a fiscal year under community pressure → two
+public design meetings early 2015 (first design REJECTED by skaters; redrawn) → opened
+Sept 6 2015 with a ribbon-cutting + skate jam (100+ skaters).
+  https://www.liherald.com/stories/long-beach-opens-new-skate-park,71219
+SIZE/SURFACE/BUILDER: poured concrete, ~7,000 sq ft skateable (the Herald's "15,000 sq
+ft L-shape" is likely full site footprint — conflict noted). Spohn Ranch design-build.
+Surf-themed, ~50/50 street/transition per skater request.
+COST & FUNDING: **$300,000 TOTAL — city-bonded as part of the 5-year capital plan.** No
+grants, no donations documented for the 2015 build. DPW's reusable defense: the park was
+"less than 10%" of that year's >$3M road spend.
+  PREDECESSOR STACK (2007, $99K — gold for us, same county): $37K city CDBG (via County
+  Exec + Legislator), $25K NYS parks grant (via Assemblyman Weisenberg), $25K Nassau
+  County, $12K raised by HIGH SCHOOL STUDENTS over 2 years ("Students Skate for Scott"),
+  $7K surfcasting-tournament gift. https://www.liherald.com/stories/skate-park-reopens-in-long-beach,5315
+KEY PEOPLE: City Manager Jack Schnirman (announced/framed the acceleration); DPW Comm'r
+Jim LaCarrubba (ran the 5-firm RFP, chose the site, defended budget); Councilman Anthony
+Eramo (visible elected champion — made "they redrew the design the skaters rejected" the
+story); resident advocate Maggie Medrano; DPW secretary Christine Murphy (the inside-city-
+hall staffer skaters first approached in 2005); Cliff Skudin (surf-community connector).
+GOVERNANCE PATH: capital plan line → unanimous council vote (design contract + accelerate
++ bond authorization) → RFP procurement → public design meetings → build.
+ACCESS TODAY: free, unfenced, no residency rule; city says 7am–10pm. Open and active;
+no post-opening controversy found through 2026.
+LESSONS: (1) an independent small city (pop ~33K) delivered a free concrete park for
+$300K of ITS OWN BONDED MONEY, 9 months from vote to ribbon — the strongest possible
+answer to "can a city like ours just do this?"; (2) letting skaters reject the first
+design BUILT the buy-in; (3) objections were budget-priority, not anti-skatepark — and
+the "<10% of road spend" comparison disarmed them; (4) the 2007 predecessor shows youth
+fundraising + CDBG + county + state grants all working at small scale in NASSAU COUNTY.
+
+====================================================================
+8. ROCHESTER, NY — ROC CITY (the funding-stack playbook — and the long game won)
+====================================================================
+WHO DECIDED: City of Rochester (DES/Recreation operates); wrinkle — the land under the
+Frederick Douglass–Susan B. Anthony bridge is owned by NYSDOT, adding permit complexity.
+Phase 1's decisive money came administratively via the state's ROC the Riverway program.
+  https://www.roccitymag.com/news-opinion/long-grind-how-skateboarders-shredded-a-13-year-road-to-rochesters-first-public-skatepark-12429290/
+TIMELINE: Feb 2008 Friends of the Roc City Skatepark organizes (+$10K Tony Hawk Fdn
+grant) → 2013 bridge-site feasibility ($50K study) → 2014 site pivot to Charles Carroll
+Plaza, later scrapped → 2018 Cuomo's ROC the Riverway allocates $1M → groundbreaking Oct
+9 2019 (date honors Akeer Matthews, a young skater who died in 2010) → PHASE 1 OPENS NOV
+5 2020 (~12.75 years) → Jan 2023 $3M NYS DOS LWRP grant (CFA Rd 12) → council authorizes
+Phase 2 Sept 2025 → Phase 2 groundbreaking Oct 16 2025 → opening OCT 2026, ahead of
+schedule.  https://www.wxxinews.org/local-news/2026-07-06/finished-roc-city-skatepark-to-open-in-october-ahead-of-schedule
+SIZE/SURFACE/BUILDER: concrete; Phase 1 ~14,300 sq ft skate area (a 26,000 figure is
+likely site footprint); Phase 2 adds ~11,200 sq ft skate area + restrooms/event space
+(~20K incl. site). Combined ~35,000 sq ft — claimed LARGEST concrete park in NY State.
+Designer: Kanten Russell (pro-turned-designer; Stantec Ph1, New Line Ph2); builder:
+Grindline, both phases.
+COST & FUNDING: ⚠ CORRECTION — Phase 1 cost $1.5M (the $3.1M on the city page is the
+multi-phase master plan). Ph1 stack: $1M NYS ROC the Riverway + $250K Tony Hawk Fdn/TSP
+via BUILT TO PLAY (Ralph C. Wilson Jr. Fdn program — western-NY-only, NOT available to
+us) + Sands Family Foundation (unrestricted startup + dollar-for-dollar match UP TO
+$110K, construction-restricted) + RG&E, Xerox, individual donors, Friends fundraising.
+Phase 2 ≈$4.68M: $3M LWRP (EPF) + ~$1.68M city capital.
+  https://regionalcouncils.ny.gov/cfa/project/385892
+  https://rochesterbeacon.com/2020/12/03/first-phase-of-downtown-skate-park-completed/
+KEY PEOPLE: Alan Presutti (Friends ED/co-founder — the persistent face 2008–2026); Jim
+Maddison (Friends founder/president — "promised his kids"); Aaron Costa (Krudco shop
+owner, advocate); Mayors Warren (pushed Ph1) and Evans (Ph2); Council VP LaShay Harris
+championed the 2025 vote — framing it "It's the anti-violence."
+ACCESS: free, public, unsupervised, lit, no fees; under-bridge = partial weather cover.
+NEARLY DIED / LESSONS: stalled for a decade by no dedicated funding, "higher-priority"
+projects, conservative attitudes, site churn, four mayoral administrations, and NYSDOT
+land ownership. What unstuck it: (1) an OUTSIDE MONEY EVENT (the 2018 state windfall the
+city didn't have to appropriate itself — our DASNY/Bond Act analog); (2) a durable
+nonprofit that NEVER DISBANDED and brought its own match money; (3) a site framing that
+displaced nothing ("unbuildable" land under a bridge); (4) a shame statistic (largest US
+city without a skatepark). And Phase 1 opened "half done" — but its proven popularity
+made Phase 2 politically easy. Phasing wins twice.
+
+====================================================================
+9. EAST NORTHPORT, NY — VETERANS SKATE PARK (the gate/residency cautionary, up close)
+====================================================================
+WHO DECIDED: Town of Huntington (town park, town capital); Parks & Rec operates and sets
+rules/fees. (Distinct from the town's older Greenlawn park, opened May 2004 — sources
+conflate them; ⚠ no evidence of an earlier ramp park at Veterans itself.)
+  https://www.huntingtonny.gov/skate-parks
+TIMELINE: catalyst was the Lenny Lamb Memorial Skateboard Contest (2007; honoring a teen
+skater killed with his father in a motorcycle accident — classmates asked Councilman Mark
+Cuthbertson for a memorial event) → community design meetings → OPENED FALL 2010 (town
+letter targeted Sept 20, 2010; the "2011" in some accounts is weaker).
+  https://nyskateboarding.com/2010/09/15/northportveterans-skate-park-official-info-2010/
+SIZE/SURFACE/BUILDER: concrete; 15,000 (town) vs 18,700 (designer) vs 19,000 sq ft
+(directory) — conflict noted. Designed by SITE DESIGN GROUP, built by California
+Skateparks. Street course, flow bowl, "Beast of the East" vert bowl (6.5–10 ft).
+  https://www.sitedesigngroup.com/new-york-northport-veterans
+COST: $420,000 for the skatepark, inside an $8.3M Veterans Park renovation (town
+spokeswoman via TBR, 2018 — sole primary attribution). Funding itemization UNVERIFIED.
+  https://tbrnewsmedia.com/huntington-teen-starts-petition-breezy-skate-park/
+THE ACCESS-MODEL EVOLUTION (the reason it's in our brief):
+- 2010 opening: resident rec card $10–20/2yr, NON-resident card $50/yr, PLUS daily fees
+  $5 resident / $10 non-resident; helmets required; staffed gate.
+- By 2017: daily fees eliminated (card-only entry).
+- 2018: enforcement drift — "staff that mans the gate have relaxed… just show up."
+- Nov 2022: town goes year-round "due to popular demand."
+- 2025–26 (current): RESIDENTS ONLY — "Must have Resident Recreation ID Card to enter";
+  no non-resident option listed at all anymore; card $15–40/2yr; helmet mandatory, pads
+  now optional; weekdays only 2pm–dusk.
+KEY PEOPLE: Councilman Mark Cuthbertson (political patron, ran the contest series);
+Daenys Cruz (Huntington Station teen whose 2017–18 petition, 606 signatures, argued the
+parks are unreachable without a car and afternoon-only hours shut out working teens — no
+new park resulted). Current grassroots life: "Aged Skaters" adult group (~55 sessions
+since 2024), Brother Malcolm Skateboarding Program (youth mentoring).
+LESSONS (a quieter failure mode than "nearly died"): the friction-heavy model ERODED
+step by step — per-visit fees didn't survive; gate staffing constrains hours (afternoon-
+only weekdays 15 years on); enforcement drifts lenient when demand doesn't justify the
+friction; the residency wall generates durable regional resentment (…"a travesty" —
+Concrete Disciples review) and STILL disqualifies the park from TSP-style grants. It's
+what our free/unfenced principle exists to avoid — while its Lenny Lamb origin shows the
+same memorial-community energy our §1 describes.
+
+====================================================================
+10. KETCHUM, ID — GUY COLES SKATE PARK (the phasing + trust-fund template)
+====================================================================
+⚠ CORRECTIONS: no Grindline involvement — both major expansions were DREAMLAND (our
+"later Grindline addition" was wrong; fixed in dossier §8/§9). Site is Saddle Rd at Warm
+Springs Rd (across from the YMCA). "Sited on bike trail/bus line" is UNVERIFIED — don't
+use without checking Mountain Rides maps.
+WHO DECIDED: City of Ketchum (council approves contracts; park named for former MAYOR
+Guy Coles, "a particularly enthusiastic public recreation proponent").
+  https://visitsunvalley.com/to-do/skate-parks/
+TIMELINE (~27 years of phases — the template itself):
+- Mid-1990s (1995/96, sources conflict): original build by POINTER MASONRY, a LOCAL
+  business (keyhole bowl, oververt pocket). A modest local build created the constituency.
+- Reported 2005: Dreamland pours over the old bowl + adds a second (Dreamland lists the
+  park at "15,000 sq ft, Phase 1 & 2"). https://www.dreamlandskateparks.com/idaho
+- 2017: council approves $127,000+ Dreamland addition (rails, elevated ramps, enlarged
+  bowls; a possible $40K Ketchum URA component is unreconciled). Public art by Molly Snee.
+- Jun 2021 → ribbon-cut Jun 2 2022: "micro-expansion" + preventative maintenance by
+  LOCAL contractors, funded by donations to the city-held GUY COLES SKATE PARK TRUST
+  FUND + the Board Bin (local skate shop) + Sun Valley Ski Education Foundation; pro
+  photographer Tal Roberts donated his time to drive it.
+  https://www.ketchumidaho.org/administration/page/ribbon-cutting-guy-coles-skate-park
+COST: lifetime total UNVERIFIED (no source aggregates); known: $127K+ (2017), ~$349K-
+scale earlier phases unknown, 2021 phase donation-funded.
+ACCESS: free, unfenced, no lights, helmets recommended not required, unsupervised;
+scooter-friendly since 2021.
+LESSONS: (1) the mid-90s local build → professional expansions sequence is the phasing
+template: build the constituency FIRST, at whatever scale; (2) the STANDING CITY TRUST
+FUND is the mechanism — small donations accumulate between phases, and a private
+champion can plug into city procurement quickly (Roberts, 2021); (3) local businesses
+fill gaps at the margin (Board Bin, SVSEF); (4) a park can keep improving for 27 years
+without a single big-bang appropriation.
+
+====================================================================
+11. ANN ARBOR, MI — ANN ARBOR SKATEPARK (the match + endowed-maintenance model)
+====================================================================
+WHO DECIDED: Ann Arbor City Council (city parkland; Park Advisory Commission recommends);
+Washtenaw County Parks & Rec Commission and Michigan DNR were FUNDERS, not owners.
+  http://annarborchronicle.com/2013/06/18/skatepark-construction-contract-budget-okd/
+TIMELINE (~9 yrs): 2005 Skatepark Action Committee formed (⚠ started by DUG SONG, later
+of Duo Security; TREVOR STAPLES led it and became Friends president — the public face
+for ~9 years) → Dec 2008 council MOU designating the Veterans Memorial Park parcel →
+Jan 2009 formal fundraising begins with the ANN ARBOR AREA COMMUNITY FOUNDATION as
+fiduciary → Oct 2012 council accepts $400K county grant + $300K MDNR Trust Fund → Jan
+2013 design approved → Jul 2013 council approves $1,031,592 construction contract
+(Krull Construction) + $1,224,311 total budget → GRAND OPENING JUN 21 2014, Tony Hawk
+appearing. Fundraising methods: bake sales, punk-rock benefit shows, sponsored bricks.
+  https://localwiki.org/ann-arbor/Ann_Arbor_Skatepark
+SIZE/SURFACE: in-ground concrete; ⚠ 20,000 (Friends' own site) vs 30,000 sq ft
+(LocalWiki/committee goal) — conflict; cite "20–30,000". Designer Wally Hollyday.
+COST & FUNDING (⚠ corrects our "~$800–900K raised"): total budget $1,224,311 —
+$400K county challenge match + $300K MDNR + $100K Friends private donations + ~$374K in
+CITY money (parks millage $155K, stormwater loan $80K, memorial/contribution funds,
+general fund) + $50K Knight Foundation grant to Friends ($5K of it seeding the
+maintenance endowment). Grassroots money alone did NOT finish it; the city closed the
+gap. Per-sq-ft: ~$41–61 depending on which size figure — revise our "$27–30/sq ft floor."
+ENDOWMENT MECHANICS (our maintenance-answer template): the Ann Arbor Skatepark Endowment
+Fund is administered by the AA Area Community Foundation; under the city arrangement
+Friends is responsible for ~$10,000/yr maintenance/repairs. ⚠ NUANCE: the endowment was
+NOT fully funded at opening (reports conflict: "final $50K" vs "$180K more needed");
+the operating agreement says maintenance "may be provided by city or volunteers," city
+contributing "at its discretion." So pitch it as "committed to endow," not "endowed on
+day one." Post-opening: a 9-member Skatepark Advisory Committee (staff+county+Friends).
+ACCESS: free, unfenced, unsupervised, 6am–10pm year-round. Friends still active (All
+Girls Skate, Peace Skate programs).
+LESSONS: (1) the county CHALLENGE MATCH + state trust grant were the unlock — private
+fundraising alone had crawled for 4 years; (2) budgets grow ($800K → $1.22M) and the
+CITY closed the gap — get co-investment; (3) the community-foundation-administered
+endowment is the credible mechanism for our "maintenance answer," with the honest
+caveat that even Ann Arbor's wasn't full on opening day; (4) nine years, sustained by
+two leaders who never left.
+
+====================================================================
+12. WEST BEND, WI — REGNER PARK (the live lead-gift + donor-funded-design model)
+====================================================================
+⚠ MAJOR CORRECTION (settled by our own fetch of the city's release): the $500,000 is a
+LEAD GIFT, not a matching commitment — the city page says "a $500,000 lead gift from an
+anonymous donor," with NO matching mechanism or condition stated. (A TMJ4 quote — "it's
+not free money" — likely fed the match characterization; the primary source controls.)
+Our brief's "match" framing for West Bend is corrected; the match principle rests on
+Ann Arbor ($400K county challenge) and Rochester/Sands ($110K match) instead.
+  https://www.westbendwi.gov/news_detail_T41_R666.php
+WHO DECIDED: City of West Bend (parks apparatus/council) + FRIENDS OF WEST BEND
+SKATEPARK, a 501(c)(3) formed ~2024 (EIN 99-1734552).
+TIMELINE: DECADES without a permanent site (siting, not money, was the original
+blocker) → Friends nonprofit ~2024 → design RFP, bids due Jul 1 2025 → city approves
+GRINDLINE design contract → "$53,000 separate anonymous donation funded the design
+phase" → design complete → $500K lead gift announced APR 16 2026 → construction of
+Phases I & II targeted EARLY 2027, contingent on fundraising (⚠ our "2026" was stale).
+COST: ~$2.4M total in 3 phases, but the city's two pages conflict on the split (news
+release: Ph I+II $1.6M, Ph III $800K; project page: $925K/$600K/$675K = $2.2M). As of
+Apr 2026: ~$553K committed, ~1/3 of the initial goal. Donor tiers ("Regner Rat" $250 →
+naming rights $750K). ⚠ "No tax dollars" framing (press) conflicts with the city's own
+mention of parks development funds — explicit city appropriation UNVERIFIED.
+KEY PEOPLE: Mike Jentsch (city Parks Director, project lead, announced the gift); Isaac
+Sharpe (Friends president); the anonymous donor(s).
+STATUS: design done, fundraising active, NOT YET BUILT.
+LESSONS: (1) a dedicated 501(c)(3) formed in ~2024 unlocked serious philanthropy within
+~2 years; (2) the DONOR-FUNDED DESIGN PHASE ($53K) produced a shovel-ready Grindline
+plan that then attracted the $500K lead gift — design money is the cheapest credibility
+multiplier; (3) explicit phasing lets construction start before the full sum exists;
+(4) decide the "no tax dollars" vs co-investment framing deliberately — West Bend's is
+internally inconsistent.
+
+====================================================================
+13. SK8 CHARLESTON, SC — THE CEILING AND THE CAUTION (now with the post-opening story)
+====================================================================
+WHO DECIDED: Charleston County Park & Recreation Commission (CCPRC) — an independent,
+fee-and-millage-funded county park agency; NOT the City of Charleston. The paid model is
+agency-wide policy ("user fees to decrease reliance on tax dollars"), not a skatepark-
+specific choice.  https://www.ccprc.com/1725/SK8-Charleston
+TIMELINE: mid-2000s Ryan Cockrell (Pour It Now) begins lobbying → 2010 CCPRC allocates
+$2M from reserves → slippage → concrete work 2015 → OPENED MAR 4 2017 (7 years funding→
+ribbon; 10+ years advocacy).
+SIZE/BUILD: 32,500 sq ft concrete (200-ft snake run, 11.5-ft pro bowl, street course,
+lights, concessions, retail). Team Pain design-build. Total $4.8M (itemization beyond
+the $2M reserve allocation UNVERIFIED; no state grant or philanthropy appears anywhere).
+ACCESS MODEL (unchanged since opening): $3/day skate/BMX, $1 spectator, $40/yr pass,
+signed waiver on file (parent for minors), mandatory helmet, staffed check-in, closed
+when wet; Jan–Feb hours shortened. (⚠ our "county resident rate" detail is unsupported —
+the fee is flat.)  https://www.ccprc.com/3172/Rules
+POST-OPENING PERFORMANCE (the payoff of this profile):
+- Year 1 (2017): >28,000 attendees. FY2022–23: 22,587 — ~20% BELOW year 1, six years on.
+- At $3/day–$40/yr, gross admissions revenue is plausibly well under $100K/yr against a
+  staffed 8–12hr/day operation (hard revenue-vs-cost figures UNVERIFIED).
+- The fee model persists — no conversion to free access, but no evidence it "works"
+  either; the county simply absorbs it as policy.
+KEY PEOPLE: Ryan Cockrell / Pour It Now (10+ years of advocacy — and the group DRIFTED
+AWAY before opening; why is unverified); Josh McFadden (CCPRC park manager).
+NEARLY DIED / LESSONS: (1) opening-week press was literally headlined "…but some not
+thrilled about its rules" — the gate/helmet/fee model alienated the core constituency on
+day one, and some skaters kept riding the free DIY spot instead; (2) a world-class $4.8M
+Team Pain build still drew only ~22–28K visits/yr when gated at $3 — versus Ann Arbor's
+free, unfenced model at a quarter of the cost; (3) the founding advocates fell away
+before the ribbon — a warning about what gated models do to community ownership. The
+aspiration stands; the access model is the anti-pattern.

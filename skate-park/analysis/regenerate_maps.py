@@ -13,8 +13,8 @@ matplotlib.use("Agg"); import matplotlib.pyplot as plt
 def provision_benchmark():
     data=[("Aspirational standard (PSDG, 1 per 25k)",4.0,"#9a9a9a"),
           ("Laredo, TX (US leader)",3.5,"#7fb2df"),("Reno, NV",3.3,"#7fb2df"),("Sacramento, CA",3.3,"#7fb2df"),
-          ("U.S. AVERAGE",1.04,"#111111"),("Suffolk County",0.66,"#FF9A6C"),
-          ("Long Island (Nassau+Suffolk)",0.48,"#FF7A45"),("Nassau County",0.29,"#E8420E"),
+          ("U.S. AVERAGE",1.04,"#111111"),("Suffolk County",0.39,"#FF9A6C"),
+          ("Long Island (Nassau+Suffolk)",0.31,"#FF7A45"),("Nassau County",0.22,"#E8420E"),
           ("Our North Shore ring",0.0,"#8a1a05")]
     labels=[d[0] for d in data]; vals=[d[1] for d in data]; cols=[d[2] for d in data]
     fig,ax=plt.subplots(figsize=(11,6.2),dpi=150); y=list(range(len(data)))[::-1]
@@ -23,7 +23,9 @@ def provision_benchmark():
     ax.set_yticks(y); ax.set_yticklabels(labels,fontsize=9.5)
     ax.axvline(1.04,color="#111",ls="--",lw=1); ax.axvline(4.0,color="#9a9a9a",ls=":",lw=1)
     ax.set_xlabel("Public skateparks per 100,000 residents"); ax.set_xlim(0,4.4)
-    ax.set_title("Skatepark provision per capita: benchmarks vs. Long Island",fontweight="bold",loc="left")
+    ax.set_title("Nassau isn't just short of the ideal — it's about a fifth of the U.S. average\n"
+                 "Skatepark provision per capita: benchmarks vs. Long Island (firmed July-2026 census: LI 9, Nassau 3, Suffolk 6)",
+                 fontweight="bold",loc="left",fontsize=11)
     ax.spines[["top","right"]].set_visible(False)
     plt.tight_layout(); plt.savefig("maps/provision_benchmark.png",bbox_inches="tight"); plt.close()
     print("rebuilt maps/provision_benchmark.png")
