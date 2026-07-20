@@ -37,6 +37,19 @@ Confidence is marked [CONFIRMED] from public sources/our own modeling during res
 - STRENGTHENED: TSP's own current definition of "underserved" includes socioeconomic status, geography, race, ETHNICITY, LANGUAGE, disability, or other social determinants — not just income. Glen Cove's immigrant/Latino cohort qualifies on ethnicity + language + geography even before income. [CONFIRMED — skatepark.org]
 
 --- DAC DESIGNATION — A STATE-ISSUED "UNDERSERVED" LABEL (CONFIRMED, July 2026) ---
+- THE FULL NASSAU PICTURE (NEW July 2026 — official Final-2023 DAC dataset pulled from
+  data.ny.gov, dataset 2e6c-s6fp; geometries banked at analysis/data/dac_nassau_2023.geojson):
+  Nassau has 44 DAC tracts, ~226,600 people. By community: Hempstead 10, Freeport 7,
+  Uniondale 6, New Cassel 3, Roosevelt 3, Valley Stream 3, GLEN COVE 2, Inwood 2, and
+  1 each in Westbury, Elmont, Long Beach city, East Meadow, East Massapequa, South
+  Valley Stream, Rockville Centre, Oceanside. TOWN OF OYSTER BAY: exactly ONE DAC tract
+  (East Massapequa, 36059522000, the town's southern edge). HEADLINE FOR US: the DACs
+  cluster on the SOUTH SHORE — GLEN COVE'S IS THE ONLY DAC ON THE ENTIRE NORTH SHORE.
+  All 44 are now hatched on the access-story exhibit. VINTAGE NOTE: this dataset uses
+  2010-census tracts — Glen Cove appears as 517101 + 517200, where 5172.00 later split
+  into our 5172.01/5172.02 (2020 vintage): SAME AREA, independent confirmation of our
+  tract set. V2.0 (Feb 2025 CJWG vote, 2020-census-based) is what the live map runs;
+  re-check the tract list at submission as already flagged.
 - WHAT IT IS: New York's Disadvantaged Communities (DAC) designation (Climate Justice Working Group, Climate Act) flags census tracts as disadvantaged based on environmental burden + population/health vulnerability. ~35% of NY tracts are DACs. An OFFICIAL, tract-level, state-issued "underserved" label. [CONFIRMED]
 - GLEN COVE HAS TWO DESIGNATED TRACTS [CONFIRMED — V1.0]: Tract 5172 (now split into 5172.01/5172.02) and Tract 5171.01. Glen Cove's other residential tracts are NOT designated — the designation captures the genuine downtown/south core. In this dossier the "Glen Cove DAC area" = GEOIDs 36059517201, 36059517202, 36059517101.
 - LEAD SITE IS INSIDE A DAC [CONFIRMED under V1.0 AND V2.0]: John Maccarone Memorial City Stadium (22 Morris Ave) returns "This address meets the criteria identified for a disadvantaged community" on the live NYSERDA V2.0 map (July 2026); marker inside the shaded polygon. La Fuerza Unida (40 Glen St) is in the SAME area. CAVEAT: point-in-time — re-run the lookup right before submitting anything; screenshot saved as an application exhibit.

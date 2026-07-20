@@ -47,7 +47,9 @@ def gc_catchment():
     cs=gpd.read_file("tl_2023_36_cousub.shp").to_crs(32618)
     toob=cs[(cs.COUNTYFP=="059")&(cs.NAME.str.contains("Oyster Bay"))]
     gc_city=gpd.read_file("tl_2023_36_place.shp").to_crs(32618); gc_city=gc_city[gc_city.NAME=="Glen Cove"]
-    dac=na[na.GEOID.isin(["36059517201","36059517202","36059517101"])]
+    if not os.path.exists("data/dac_nassau_2023.geojson"):
+        urllib.request.urlretrieve("https://data.ny.gov/resource/2e6c-s6fp.geojson?$select=the_geom,geoid,city_town&$where=county='Nassau' AND dac_designation='Designated as DAC'&$limit=60".replace(" ","%20"),"data/dac_nassau_2023.geojson")
+    dac=gpd.read_file("data/dac_nassau_2023.geojson").to_crs(32618)  # ALL 44 Nassau DAC tracts (Final 2023)
     bike=gpd.read_file("data/gc_bike.gpkg"); car=gpd.read_file("data/gc_iso.gpkg")
     GC=gpd.GeoSeries([Point(-73.6389,40.8685)],crs=4326).to_crs(32618)
     fig,ax=plt.subplots(figsize=(11,10),dpi=145)
@@ -98,7 +100,9 @@ def access_story():
     cs=gpd.read_file("tl_2023_36_cousub.shp").to_crs(32618)
     toob=cs[(cs.COUNTYFP=="059")&(cs.NAME.str.contains("Oyster Bay"))]
     gc=gpd.read_file("tl_2023_36_place.shp").to_crs(32618); gc=gc[gc.NAME=="Glen Cove"]
-    dac=na[na.GEOID.isin(["36059517201","36059517202","36059517101"])]
+    if not os.path.exists("data/dac_nassau_2023.geojson"):
+        urllib.request.urlretrieve("https://data.ny.gov/resource/2e6c-s6fp.geojson?$select=the_geom,geoid,city_town&$where=county='Nassau' AND dac_designation='Designated as DAC'&$limit=60".replace(" ","%20"),"data/dac_nassau_2023.geojson")
+    dac=gpd.read_file("data/dac_nassau_2023.geojson").to_crs(32618)  # ALL 44 Nassau DAC tracts (Final 2023)
     bike=gpd.read_file("data/bike_today.gpkg").to_crs(32618)
     car=gpd.read_file("data/covA.gpkg").to_crs(32618)
     excl=[(-73.3649,40.8625),(-73.3113,40.8822),(-73.3978,40.6579),(-72.5356,40.8873)]
@@ -135,21 +139,26 @@ def access_story():
         su.plot(ax=ax,color="#E7E3D9",edgecolor="#cfc9bc",linewidth=.25)
         na.plot(ax=ax,color="#EDEAE1",edgecolor="#d8d3c7",linewidth=.3)
         waterdf.plot(ax=ax,color=WATER,edgecolor="none",zorder=2)
-        toob.plot(ax=ax,color="none",edgecolor=SOFT,linewidth=1.4,linestyle=(0,(5,3)))
+        gpd.GeoSeries([unary_union(na.geometry.values).intersection(land)],crs=32618).boundary.plot(ax=ax,color=INK,linewidth=1.0,zorder=4)
+        gpd.GeoSeries([unary_union(toob.geometry.values).intersection(land)],crs=32618).boundary.plot(ax=ax,color=SOFT,linewidth=1.7,linestyle=(0,(5,3)),zorder=4)
         car.plot(ax=ax,color=POOL,alpha=.12,edgecolor=POOLD,linewidth=.6)
         bike.plot(ax=ax,color=POOL,alpha=.36,edgecolor=POOLD,linewidth=1.2)
         if i==1:
             gcc.plot(ax=ax,color=SPARK,alpha=.14,edgecolor=SPARKD,linewidth=.7)
             gcb.plot(ax=ax,color=SPARK,alpha=.40,edgecolor=SPARKD,linewidth=1.8)
             mac.plot(ax=ax,color=SPARKD,marker="*",markersize=430,edgecolor=INK,zorder=9)
-        gc.plot(ax=ax,color="none",edgecolor=SPARKD,linewidth=1.7)
-        dac.plot(ax=ax,facecolor="none",edgecolor=SPARKD,linewidth=1.0,hatch="///")
+        gpd.GeoSeries([unary_union(gc.geometry.values).intersection(land)],crs=32618).boundary.plot(ax=ax,color=SPARKD,linewidth=1.8,zorder=5)
+        dac.plot(ax=ax,facecolor="none",edgecolor=SPARKD,linewidth=.8,hatch="///",zorder=3)
         pk.plot(ax=ax,color=POOLD,markersize=55,edgecolor="white",linewidth=1,zorder=8)
         ax.scatter(beth.x,beth.y,marker="X",s=100,color=SOFT,edgecolor="white",linewidth=1,zorder=8)
         ax.annotate("Bethpage\n(closed)",xy=(float(beth.x.iloc[0]),float(beth.y.iloc[0])),
                     xytext=(8,-26),textcoords="offset points",fontsize=8.5,color=SOFT)
         ax.annotate("Town of Oyster Bay",xy=(.565,.185),xycoords="axes fraction",
                     fontsize=9,color=SOFT,style="italic")
+        ax.annotate("NASSAU COUNTY",xy=(.24,.60),xycoords="axes fraction",fontsize=8.5,
+                    color=INK,alpha=.55,fontweight="bold")
+        ax.annotate("QUEENS",xy=(.015,.47),xycoords="axes fraction",fontsize=8,color=SOFT,alpha=.7)
+        ax.annotate("SUFFOLK",xy=(.905,.52),xycoords="axes fraction",fontsize=8,color=SOFT,alpha=.7)
         ax.annotate("Glen Cove",xy=(float(gc.geometry.centroid.x.iloc[0]),
                     float(gc.geometry.centroid.y.iloc[0])),xytext=(-64,34),
                     textcoords="offset points",fontsize=9,color=SPARKD,fontweight="bold")
@@ -158,16 +167,16 @@ def access_story():
     A.set_title("TODAY — a 20-minute bike ride (solid) or drive (pale) to a skatepark",
                 loc="left",fontsize=13,fontweight="bold",color=INK)
     B.set_title("WITH ONE PARK IN GLEN COVE",loc="left",fontsize=13,fontweight="bold",color=INK)
-    A.text(.015,.155,"Shut out today:",transform=A.transAxes,fontsize=11,
+    A.text(.015,.175,"Shut out today:",transform=A.transAxes,fontsize=11,
            color=INK,fontweight="bold")
-    A.text(.015,.02,"77% of Nassau County\n97% of the Town of Oyster Bay\n"
-           "100% of Glen Cove & the DAC core —\neven by car, even counting every park",transform=A.transAxes,fontsize=10.5,
-           color=INK,linespacing=1.55)
+    A.text(.015,.02,"~67,000 kids across Glen Cove & the\nTown of Oyster Bay — 100% of both —\n"
+           "live beyond a 20-min bike ride;\ntwo-thirds beyond even a drive",transform=A.transAxes,
+           fontsize=10.5,color=INK,linespacing=1.5)
     B.text(.015,.155,"One park at City Stadium:",transform=B.transAxes,fontsize=11,
            color=SPARKD,fontweight="bold")
-    B.text(.015,.02,"~90% of Glen Cove & the DAC core\ncome inside a kid's bike ride —\n"
-           "plus thousands more across the Town",transform=B.transAxes,fontsize=10.5,
-           color=INK,linespacing=1.55)
+    B.text(.015,.02,"~8,700 kids come inside a bike ride\n— nine in ten Glen Cove kids —\n"
+           "and ~17,000 within a short drive",transform=B.transAxes,fontsize=10.5,
+           color=INK,linespacing=1.5)
     import matplotlib.patches as mpatches
     import matplotlib.lines as mlines
     handles=[mpatches.Patch(facecolor=POOL,alpha=.36,edgecolor=POOLD,label="20-min BIKE ride to an existing free park"),
@@ -175,7 +184,9 @@ def access_story():
              mpatches.Patch(facecolor=SPARK,alpha=.40,edgecolor=SPARKD,label="20-min BIKE ride to a Glen Cove park"),
              mpatches.Patch(facecolor=SPARK,alpha=.14,edgecolor=SPARKD,label="20-min DRIVE to a Glen Cove park"),
              mpatches.Patch(facecolor="none",edgecolor=SPARKD,hatch="///",label="state-designated disadvantaged community (hatched)"),
-             mlines.Line2D([],[],color=SPARKD,linewidth=1.7,label="Glen Cove city limits"),
+             mlines.Line2D([],[],color=SPARKD,linewidth=1.8,label="Glen Cove city limits"),
+             mlines.Line2D([],[],color=INK,linewidth=1.0,label="Nassau County line"),
+             mlines.Line2D([],[],color=SOFT,linewidth=1.7,linestyle=(0,(5,3)),label="Town of Oyster Bay line"),
              mlines.Line2D([],[],marker="o",color="none",markerfacecolor=POOLD,markeredgecolor="white",markersize=9,label="existing free public skatepark"),
              mlines.Line2D([],[],marker="*",color="none",markerfacecolor=SPARKD,markeredgecolor=INK,markersize=15,label="proposed park (City Stadium) — Bethpage ✕ (closed)")]
     fig.legend(handles=handles,loc="lower center",ncol=4,frameon=False,fontsize=9,
