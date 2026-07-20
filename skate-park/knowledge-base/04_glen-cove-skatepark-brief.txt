@@ -83,10 +83,10 @@ The Public Skatepark Development Guide (the industry reference planners use) set
 benchmark of one neighborhood skatepark per 25,000 residents. We aren't close.
 - By that standard Nassau County should have about **56** and Long Island about **117**;
   our immediate North Shore stretch should have about **3**. A firmed July-2026 census of
-  free, public, outdoor parks puts the real supply at roughly **9–12** across all of Long
-  Island, **3 or fewer** in Nassau — and **none** in our North Shore stretch.
+  free, public, outdoor parks puts the real supply at roughly **9** across all of Long
+  Island — **3** in Nassau, and **none** in our North Shore stretch.
 - And this isn't just falling short of an ideal nobody meets: the *national average* is
-  roughly one skatepark per **100,000** people, and Nassau sits **under a quarter** of
+  roughly one skatepark per **100,000** people, and Nassau sits at **about a fifth** of
   that — fewer skateparks per person than the typical American community.
 - Say it plainly: "By the standard the whole industry plans to, our stretch of the
   North Shore should have three skateparks. It has zero."
