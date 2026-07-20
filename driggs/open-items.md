@@ -88,6 +88,19 @@ hrs**. Always check the pass before a Wyoming-side trip.
 ## Deliverables
 - `crossed-arrows-lot3-overview.pdf` — one-page shareable overview (property + build rights +
   travel/airports + Teton Pass). Source: `crossed-arrows-lot3-overview.html` (edit + re-render).
+- `construction-estimate.md` + `construction-estimate.xlsx` — phased build-out cost model
+  (bunkhouse ADU + 3-car garage now, 3,500 sf main house as Phase 2). **~$4.1M likely all-in**
+  ($1.45M Phase 1 + $2.7M Phase 2), land separate (~$0.5M). Planning-grade ±25%; the xlsx is the
+  tweakable version. Biggest swing = finish level ($/sf). New cost-side DD items below.
+
+## Construction / build DD (new)
+- [ ] **EIPH septic feasibility drives the site budget** — conventional (~$12k) vs engineered/
+      mound (~$32k). Same as build DD item #2; now also a cost line. Do test holes early.
+- [ ] **Get a real GC $/sf** for Teton Valley 2026 (model assumes ~$600/sf; local range $500–950).
+- [ ] **Fall River line-extension quote** to the planned building envelope (also cost item #5).
+- [ ] **Confirm geothermal vs cold-climate air-source** — geo is ~$40–60k more upfront across both
+      phases now that the 30% federal credit has expired (ended 2025-12-31); ASHP is the cheaper path.
+- [ ] **Whole-site plan up front** so Phase 1 grading/utilities are sized & stubbed for the Phase 2 house.
 
 ## Key contacts
 | Who | For | Contact |
