@@ -80,7 +80,7 @@ def access_story():
     12 km of any of them, so the erase is clean. On-brand palette."""
     import geopandas as gpd
     from shapely.geometry import Point
-    PAPER="#F1EFE9"; INK="#191A1E"; SOFT="#4C4D55"; POOL="#1C6FB5"; POOLD="#0C4A84"
+    PAPER="#F1EFE9"; WATER="#DFEBF4"; INK="#191A1E"; SOFT="#4C4D55"; POOL="#1C6FB5"; POOLD="#0C4A84"
     SPARK="#FF5A1F"; SPARKD="#C43F0E"
     for f,u in [("tl_2023_36_tract.shp","TRACT/tl_2023_36_tract.zip"),
                 ("tl_2023_36_cousub.shp","COUSUB/tl_2023_36_cousub.zip"),
@@ -95,12 +95,14 @@ def access_story():
     gc=gpd.read_file("tl_2023_36_place.shp").to_crs(32618); gc=gc[gc.NAME=="Glen Cove"]
     dac=na[na.GEOID.isin(["36059517201","36059517202","36059517101"])]
     bike=gpd.read_file("data/bike_today.gpkg").to_crs(32618)
+    car=gpd.read_file("data/covA.gpkg").to_crs(32618)
     excl=[(-73.3649,40.8625),(-73.3113,40.8822),(-73.3978,40.6579),(-72.5356,40.8873)]
     ex=gpd.GeoSeries([Point(x,y) for x,y in excl],crs=4326).to_crs(32618).buffer(9000)
     from shapely.ops import unary_union
     bike_geom=unary_union(bike.geometry.values).difference(unary_union(ex.values))
     bike=gpd.GeoDataFrame(geometry=[bike_geom],crs=32618)
     gcb=gpd.read_file("data/gc_bike.gpkg").to_crs(32618)
+    gcc=gpd.read_file("data/gc_iso.gpkg").to_crs(32618)
     parks=[("Long Beach",-73.6013,40.5902),("Baldwin",-73.6092,40.6256),
            ("Manorhaven",-73.7161,40.8388),("Laurelton (Queens)",-73.7365,40.6703),
            ("Far Rockaway (Queens)",-73.7465,40.5952)]
@@ -112,13 +114,15 @@ def access_story():
     fig,axes=plt.subplots(1,2,figsize=(16,8.8),dpi=140)
     fig.patch.set_facecolor(PAPER)
     for i,ax in enumerate(axes):
-        ax.set_facecolor(PAPER)
-        su.plot(ax=ax,color="#E9E6DF",edgecolor="white",linewidth=.2)
-        na.plot(ax=ax,color="#EFEDE7",edgecolor="white",linewidth=.3)
+        ax.set_facecolor(WATER)
+        su.plot(ax=ax,color="#E7E3D9",edgecolor="#d8d3c7",linewidth=.25)
+        na.plot(ax=ax,color="#EDEAE1",edgecolor="#d8d3c7",linewidth=.3)
         toob.plot(ax=ax,color="none",edgecolor=SOFT,linewidth=1.4,linestyle=(0,(5,3)))
-        bike.plot(ax=ax,color=POOL,alpha=.32,edgecolor=POOLD,linewidth=1.2)
+        car.plot(ax=ax,color=POOL,alpha=.12,edgecolor=POOLD,linewidth=.6)
+        bike.plot(ax=ax,color=POOL,alpha=.36,edgecolor=POOLD,linewidth=1.2)
         if i==1:
-            gcb.plot(ax=ax,color=SPARK,alpha=.36,edgecolor=SPARKD,linewidth=1.8)
+            gcc.plot(ax=ax,color=SPARK,alpha=.14,edgecolor=SPARKD,linewidth=.7)
+            gcb.plot(ax=ax,color=SPARK,alpha=.40,edgecolor=SPARKD,linewidth=1.8)
             mac.plot(ax=ax,color=SPARKD,marker="*",markersize=430,edgecolor=INK,zorder=9)
         gc.plot(ax=ax,color="none",edgecolor=SPARKD,linewidth=1.7)
         dac.plot(ax=ax,color=SPARK,alpha=(.55 if i==0 else .25),edgecolor=SPARKD,linewidth=.7)
@@ -133,13 +137,13 @@ def access_story():
                     textcoords="offset points",fontsize=9,color=SPARKD,fontweight="bold")
         ax.set_xlim(b[0]-pad,b[2]+pad); ax.set_ylim(b[1]-pad,b[3]+pad); ax.axis("off")
     A,B=axes
-    A.set_title("TODAY — where a kid can bike to a free skatepark in 20 minutes",
+    A.set_title("TODAY — a 20-minute bike ride (solid) or drive (pale) to a skatepark",
                 loc="left",fontsize=13,fontweight="bold",color=INK)
     B.set_title("WITH ONE PARK IN GLEN COVE",loc="left",fontsize=13,fontweight="bold",color=INK)
     A.text(.015,.155,"Shut out today:",transform=A.transAxes,fontsize=11,
            color=INK,fontweight="bold")
     A.text(.015,.02,"77% of Nassau County\n97% of the Town of Oyster Bay\n"
-           "100% of Glen Cove & the DAC core",transform=A.transAxes,fontsize=10.5,
+           "100% of Glen Cove & the DAC core —\neven by car, even counting every park",transform=A.transAxes,fontsize=10.5,
            color=INK,linespacing=1.55)
     B.text(.015,.155,"One park at Maccarone:",transform=B.transAxes,fontsize=11,
            color=SPARKD,fontweight="bold")
@@ -148,13 +152,15 @@ def access_story():
            color=INK,linespacing=1.55)
     import matplotlib.patches as mpatches
     import matplotlib.lines as mlines
-    handles=[mpatches.Patch(facecolor=POOL,alpha=.32,edgecolor=POOLD,label="20-min bike ride to an existing free park"),
-             mpatches.Patch(facecolor=SPARK,alpha=.36,edgecolor=SPARKD,label="20-min bike ride to a Glen Cove park"),
+    handles=[mpatches.Patch(facecolor=POOL,alpha=.36,edgecolor=POOLD,label="20-min BIKE ride to an existing free park"),
+             mpatches.Patch(facecolor=POOL,alpha=.12,edgecolor=POOLD,label="20-min DRIVE (most generous park count)"),
+             mpatches.Patch(facecolor=SPARK,alpha=.40,edgecolor=SPARKD,label="20-min BIKE ride to a Glen Cove park"),
+             mpatches.Patch(facecolor=SPARK,alpha=.14,edgecolor=SPARKD,label="20-min DRIVE to a Glen Cove park"),
              mpatches.Patch(facecolor=SPARK,alpha=.55,edgecolor=SPARKD,label="state-designated disadvantaged community"),
              mlines.Line2D([],[],color=SPARKD,linewidth=1.7,label="Glen Cove city limits"),
              mlines.Line2D([],[],marker="o",color="none",markerfacecolor=POOLD,markeredgecolor="white",markersize=9,label="existing free public skatepark"),
              mlines.Line2D([],[],marker="*",color="none",markerfacecolor=SPARKD,markeredgecolor=INK,markersize=15,label="proposed park (Maccarone) — and Bethpage marked ✕ (closed)")]
-    fig.legend(handles=handles,loc="lower center",ncol=3,frameon=False,fontsize=9.5,
+    fig.legend(handles=handles,loc="lower center",ncol=4,frameon=False,fontsize=9,
                labelcolor=SOFT,bbox_to_anchor=(.5,.0))
     fig.suptitle("The access story: almost nobody on the North Shore can reach a skatepark on their own — one park changes that",
                  x=.02,ha="left",fontsize=15,fontweight="bold",color=INK)
