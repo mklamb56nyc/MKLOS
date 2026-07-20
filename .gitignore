@@ -17,3 +17,6 @@ Thumbs.db
 # Auto-downloaded TIGER/Line shapefiles + fetch artifacts (regenerate_maps.py re-downloads on demand)
 skate-park/analysis/tl_20*
 skate-park/analysis/*.zip
+
+# Python
+__pycache__/
