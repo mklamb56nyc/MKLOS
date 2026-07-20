@@ -9,6 +9,7 @@ the file directly and let git track it.
 Each project lives in its own top-level directory with its own `CLAUDE.md`:
 - `skate-park/`
 - `toby-college/`
+- `driggs/` — due diligence on a Crossed Arrows Lot 3 land purchase, Tetonia, Idaho
 
 (The public website will be added later as `site/`, deployed by Cloudflare — not
 set up yet.)
