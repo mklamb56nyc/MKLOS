@@ -180,16 +180,6 @@ def access_story():
     A.set_title("TODAY — a 20-minute bike ride (solid) or drive (pale) to a skatepark",
                 loc="left",fontsize=13,fontweight="bold",color=INK)
     B.set_title("WITH ONE PARK IN GLEN COVE",loc="left",fontsize=13,fontweight="bold",color=INK)
-    A.text(.015,.175,"Shut out today:",transform=A.transAxes,fontsize=11,
-           color=INK,fontweight="bold")
-    A.text(.015,.02,"~67,000 kids across Glen Cove & the\nTown of Oyster Bay — 100% of both —\n"
-           "live beyond a 20-min bike ride;\ntwo-thirds beyond even a drive",transform=A.transAxes,
-           fontsize=10.5,color=INK,linespacing=1.5)
-    B.text(.015,.155,"One park at City Stadium:",transform=B.transAxes,fontsize=11,
-           color=SPARKD,fontweight="bold")
-    B.text(.015,.02,"~8,700 kids come inside a bike ride\n— nine in ten Glen Cove kids —\n"
-           "and ~17,000 within a short drive",transform=B.transAxes,fontsize=10.5,
-           color=INK,linespacing=1.5)
     import matplotlib.patches as mpatches
     import matplotlib.lines as mlines
     handles=[mpatches.Patch(facecolor=POOL,alpha=.36,edgecolor=POOLD,label="20-min BIKE ride to an existing free park"),
