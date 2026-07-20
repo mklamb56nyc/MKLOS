@@ -89,3 +89,9 @@ DELIVERABLES CREATED SO FAR
 - Concept microsite (glen-cove-skatepark-concept.html) — REBUILT July 2026 as a 3-act vision/possibility piece (opening → proof → field of allies → conversations), with the Greater-Glen-Cove/Oyster-Bay geographic frame and nearest-parks correction. REMEMBER: replace the placeholder email (PLACEHOLDER@EXAMPLE.COM, two spots) before sharing.
 - Access & provisioning analysis — dossier §12 + the "skatepark-analysis-bundle" (data artifacts, coverage GeoPackages, 10 exhibit maps, methodology README, and a no-key map-rebuild script). NOTE: the pipeline needs a free Census API key and a free OpenRouteService key — stored (per user request) in 05_api-keys.txt and documented in the bundle README. They are free, low-stakes, and revocable; rotate anytime.
 - Project knowledge set: 01 research dossier (UPDATED — §12 analysis, Manorhaven, nearest-parks), 02 stakeholders & contacts, 03 this tracker.
+- NAMING (July 2026): the lead site is "John Maccarone Memorial City Stadium" formally, but locals call it
+  "CITY STADIUM" — use "City Stadium" in all outward-facing and speakable material (full formal name on
+  first/formal mention only). "Maccarone" alone stays internal shorthand at most. [NEW]
+- MAP ACCESSIBILITY (July 2026): the DAC zone on the access-story exhibit is HATCHED in the city-limits
+  color, not orange-filled — a red/green-colorblind-safe choice (form, not hue). Keep that convention in
+  future exhibits. [NEW]
