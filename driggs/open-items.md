@@ -92,6 +92,10 @@ hrs**. Always check the pass before a Wyoming-side trip.
   (bunkhouse ADU + 3-car garage now, 3,500 sf main house as Phase 2). **~$4.1M likely all-in**
   ($1.45M Phase 1 + $2.7M Phase 2), land separate (~$0.5M). Planning-grade ±25%; the xlsx is the
   tweakable version. Biggest swing = finish level ($/sf). New cost-side DD items below.
+  - **Operating-cost view** added (xlsx `Operating Cost` tab + md section): annual carrying cost
+    ~**$23k/yr Phase 1**, ~**$56k/yr Phase 2** all-in (~$38k cash), dominated by tax + insurance +
+    upkeep reserve. Teton Co. effective tax rate low (~0.35–0.5%); ag-valuation retention (§63-604)
+    can keep the land portion tiny **if CC&Rs allow ag use**. Insurance (WUI) is the escalating risk.
 
 ## Construction / build DD (new)
 - [ ] **EIPH septic feasibility drives the site budget** — conventional (~$12k) vs engineered/

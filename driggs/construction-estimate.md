@@ -108,6 +108,38 @@ space, snow-melt driveway, pool/outbuildings, and financing/interest carry durin
 
 ---
 
+## Annual operating cost — what it costs to *run* the place
+A first-estimate carrying cost at the end of each phase (2026 dollars). The `Operating Cost`
+tab in the spreadsheet is the live version.
+
+| Annual cost | Phase 1 (ADU + garage) | Phase 2 (full build-out) | Notes |
+|---|--:|--:|---|
+| Property tax | ~$5,250 | ~$15,750 | Teton Co. effective rate is low (~0.35–0.5%), but it scales with value built |
+| Insurance (WUI / high-value) | ~$4,000 | ~$11,000 | Wildfire-exposed; market is hardening — a real risk line |
+| Electricity (net of solar) | ~$900 | ~$2,400 | $39/mo access fee; solar offsets much of the geo load |
+| Propane (cooking/backup) | ~$500 | ~$1,200 | Optional; minimal if fully electric |
+| Internet (Starlink/rural) | ~$1,400 | ~$1,400 | ~$120/mo |
+| Trash / recycling | ~$500 | ~$600 | Rural hauler or county transfer station |
+| Snow removal (driveway) | ~$2,000 | ~$2,500 | Long rural drive, heavy Teton snow, all winter |
+| Shared road maintenance | ~$500 | ~$600 | Crossed Arrows road easement (per CC&Rs) |
+| Landscape / defensible space | ~$1,000 | ~$2,000 | WUI upkeep; low-maintenance design helps |
+| Well / septic / HVAC servicing | ~$700 | ~$1,000 | Septic pump ~3–5 yr; well & geo annual service |
+| **Cash operating subtotal** | **~$16,750** | **~$38,450** | what actually leaves your pocket |
+| Major repair/replacement reserve (~0.5%) | ~$5,000 | ~$15,500 | sinking fund for long-cycle replacements |
+| Caretaking / mgmt (if 2nd home) | ~$1,000 | ~$2,000 | optional; winter check-ins |
+| **TOTAL ALL-IN / YEAR** | **~$22,750** | **~$56,000** | **~$1,900/mo → ~$4,660/mo** |
+
+**The story:** holding the finished place runs **~$38k/yr cash (~$56k all-in with reserves)**,
+dominated by **property tax, insurance, and the upkeep reserve** — all of which scale with the
+*value* of what's built. The actual utility bills stay modest: well + septic mean no water/sewer
+bill, and solar keeps the net electric small. Two levers unique to this property:
+- **Keep the land ag-valued** (Idaho §63-604): lease the non-homesite acres for grazing/hay and
+  only the ~1-ac homesite + buildings get taxed at market — *if* the CC&Rs allow ag use (verify).
+  If not farmed, add ~$2–3k/yr as the full parcel goes to market value.
+- **Insurance is the wildcard going up, not down** — WUI underwriting is tightening across the
+  Mountain West; get a real quote early, and firewise construction/defensible space help both
+  premium and insurability.
+
 ## Levers — how to move the number
 - **Finish level is the master dial.** $500 vs $750/sq ft on 4,200 sq ft ≈ a **$1M** swing. A
   restrained "simple/sleek" palette (concrete/plywood/steel, modest glass) lands low; a big
