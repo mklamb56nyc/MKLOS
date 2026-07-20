@@ -38,21 +38,35 @@ I never want to think or worry about git here — handle it fully automatically.
 - Commit and push the working `claude/<topic>` branch automatically at natural
   stopping points. Never wait for my confirmation, and group edits into commits
   however's convenient — don't force one-change-per-commit.
-- Keep **one `claude/<topic>` branch and one PR per topic** — reuse them across
-  edits rather than opening a new PR for each change.
+- Keep **one `claude/<topic>` branch *name* per topic**, but treat a merged branch as
+  finished. Because `claude/*` PRs auto-merge (squash) and the branch is then deleted,
+  reusing it stacks already-merged history and creates a merge conflict. So **before each
+  new chunk of work, re-cut the branch from the latest main**:
+  `git fetch origin main && git checkout -B claude/<topic> origin/main`. Never add commits
+  to a branch whose PR already merged. Expect several short-lived PRs per topic, not one
+  long-lived one.
 - Leave merging to me. **Never push to `main`.**
-- **Succeed silently.** When the git steps work, don't narrate them — no recap of
-  the commit, push, branch, or PR mechanics, and no "opened PR #N" outcome. Assume
-  success. Just do the actual work and report *that*. Only surface git when
-  something fails.
+- **Succeed silently — but verify the merge landed.** When the git steps work, don't
+  narrate them — no recap of the commit, push, branch, or PR mechanics, and no "opened
+  PR #N" outcome. Just do the actual work and report *that*. Only surface git when
+  something fails. **The one check to always run: after pushing work you expect to
+  auto-merge, confirm it actually merged — a PR stuck at `mergeable_state: dirty` (a
+  conflict) fails silently. If you find one, re-cut the branch from main, re-apply, and
+  `git push --force-with-lease`, then say so.**
 - If a push fails, report the exact error instead of retrying.
 
 ## Automation
 How git automation works here, for future sessions:
-- **Workflow policy (above):** commit, push a `claude/` branch, open/update one
-  PR per topic, never push to `main`.
+- **Workflow policy (above):** commit, push a `claude/` branch, open a PR, never push
+  to `main`. Re-cut the branch from main before each new chunk (merged branches are
+  finished — see Git workflow).
 - **Auto-merge:** `.github/workflows/auto-merge-claude.yml` auto-merges `claude/*`
   PRs by squash-and-delete, so most PRs land without manual action.
+- **Squash-merge caveat (learned the hard way):** squash creates a new commit on main,
+  so a *reused* branch never sees its old commits as merged and will eventually conflict.
+  Always re-cut `claude/<topic>` from the latest main before new work. If a base does go
+  stale, the workflow now labels the PR `automerge-blocked` and comments how to fix it
+  instead of failing silently in the Actions log — rebase and force-push to clear it.
 - **Exception:** PRs that touch `site/` are **not** auto-merged — they stay open
   for human review, because `site/` is the public website Cloudflare deploys and
   production changes must be reviewed.
