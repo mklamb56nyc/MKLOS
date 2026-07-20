@@ -65,10 +65,12 @@ delinquency. That image is decades stale.
 
 **1d. For the skeptic who fears it invites trouble — the evidence runs the other way.**
 Where these parks open, neighborhoods tend to get *safer*, not less safe.
-- The hard number: after Long Beach, California's **Michael K. Green skatepark**
-  opened, drug-related incidents fell roughly **61%**, violent crime roughly **29%**,
-  and overall incidents roughly **23%** within three years (City of Long Beach /
-  ASK Foundation).
+- The hard number: the ASK Foundation reports that within three years of Long Beach,
+  California's **Michael K. Green skatepark** opening, drug-related incidents in the
+  surrounding area fell roughly **61%**, violent crime roughly **29%**, and overall
+  incidents roughly **23%**. And in The Skatepark Project's national survey of law
+  enforcement, nearly half of officers reported reduced youth crime after a skatepark
+  opened.
 - The one-line answer to the safety worry: "Give kids somewhere to belong and they
   use it." A watched, well-used public space displaces the trouble people fear.
 
@@ -153,10 +155,12 @@ Together they're less a bibliography than a how-to.
 - **The neighbor proof — and the cost anchor → Brentwood, NY (Roberto Clemente Park).**
   The closest match of all: one of Long Island's working-class, majority-Latino
   communities put a free concrete skatepark on a former toxic-dumping site (conceived
-  2019, opened 2023). Youth-led — a Brentwood High grad's petition to the state Attorney
-  General helped pry loose toxic-settlement money, an assemblyman added directed funds,
-  and a $450,000 DASNY grant closed the gap — designed by the firm we'd call first (SITE
-  Design Group) and built for **$1.25 million (as built)**, our best real-world cost anchor.
+  2018, opened 2023) — funded in part by the very settlement the polluters paid.
+  Youth-led, twice over: when inflation stalled the approved project, two student
+  petitions and a youth-board rally pushed the town to act, and their assemblyman's
+  $450,000 DASNY grant closed the gap within weeks — designed by the firm we'd call
+  first (SITE Design Group) and built for **$1.25 million (as built)**, our best
+  real-world cost anchor.
 - **A city of our exact type runs one → Long Beach, NY.** The *other* independent city in
   Nassau County, same governance as Glen Cove, running a free, unfenced concrete park
   designed through public workshops.
@@ -167,13 +171,14 @@ Together they're less a bibliography than a how-to.
 - **Private money unlocks public — and endow the upkeep → Ann Arbor, MI.** The county
   pledged up to $400,000 in matching funds conditional on private fundraising, and the
   Friends group endowed ~$10,000/yr maintenance as a condition of the deal.
-- **Structure the lead gift as a match → West Bend, WI (2026).** A "Friends of" nonprofit
-  and the city secured a $500,000 *match* commitment conditional on raising an equal
-  amount, plus a donor-funded design.
-- **Let the community — and its kids — design it → Hoboken, NJ (2025) & Riverside Park,
-  NYC.** In Hoboken a 250-person survey drove the design and drew a $250,000 county
-  open-space grant; in NYC, at-risk teens co-designed and built a park for adolescents
-  "designed out" of public space.
+- **A lead gift — and a donor-funded design — start the avalanche → West Bend, WI
+  (live, opening target 2027).** A "Friends of" nonprofit formed in 2024 drew a $53,000
+  gift that paid for a shovel-ready professional design — which then attracted a
+  **$500,000 anonymous lead gift**. Design money is the cheapest credibility multiplier.
+- **Let the community — and its kids — design it → Hoboken, NJ & Riverside Park, NYC.**
+  In Hoboken a 250-person survey (63% skaters) drove the design and helped draw $500,000
+  in county open-space grants (park now under construction, opening 2027); in NYC, teens
+  co-designed and physically built the city's first municipal skatepark in 1996.
 - **Supervision is optional; the fee/residency trap isn't → Northport, NY (Veterans
   Skatepark).** Long Island's supervised-access model (fenced, staffed for helmets) — and
   a caution, since a fee or residency gate is exactly what disqualifies a park from the grants.
