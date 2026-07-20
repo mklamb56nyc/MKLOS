@@ -32,10 +32,18 @@ jobs:
           REPO: ${{ github.repository }}
         run: |
           for i in 1 2 3 4 5 6; do
+            STATE=$(gh pr view "$PR" --repo "$REPO" --json mergeStateStatus -q .mergeStateStatus)
+            if [ "$STATE" = "DIRTY" ]; then
+              echo "PR conflicts with the base branch — surfacing and stopping."
+              gh pr edit "$PR" --repo "$REPO" --add-label "automerge-blocked" || true
+              gh pr comment "$PR" --repo "$REPO" --body 'Auto-merge blocked: this branch conflicts with `main` (usually a stale base after a prior squash-merge). To clear it, re-cut the branch from main and force-push: `git fetch origin main && git checkout -B <branch> origin/main`, re-apply your changes, then `git push --force-with-lease`.'
+              exit 1
+            fi
             if gh pr merge "$PR" --squash --delete-branch --repo "$REPO"; then
               echo "Merged."; exit 0
             fi
-            echo "Not mergeable yet; retrying in 10s..."
+            echo "Not mergeable yet (state=$STATE); retrying in 10s..."
             sleep 10
           done
+          gh pr comment "$PR" --repo "$REPO" --body "Auto-merge could not complete after retries (last mergeStateStatus: $STATE). Needs a manual look." || true
           echo "Could not merge after retries."; exit 1
