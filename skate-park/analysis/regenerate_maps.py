@@ -143,7 +143,7 @@ def access_story():
             gcb.plot(ax=ax,color=SPARK,alpha=.40,edgecolor=SPARKD,linewidth=1.8)
             mac.plot(ax=ax,color=SPARKD,marker="*",markersize=430,edgecolor=INK,zorder=9)
         gc.plot(ax=ax,color="none",edgecolor=SPARKD,linewidth=1.7)
-        dac.plot(ax=ax,color=SPARK,alpha=(.55 if i==0 else .25),edgecolor=SPARKD,linewidth=.7)
+        dac.plot(ax=ax,facecolor="none",edgecolor=SPARKD,linewidth=1.0,hatch="///")
         pk.plot(ax=ax,color=POOLD,markersize=55,edgecolor="white",linewidth=1,zorder=8)
         ax.scatter(beth.x,beth.y,marker="X",s=100,color=SOFT,edgecolor="white",linewidth=1,zorder=8)
         ax.annotate("Bethpage\n(closed)",xy=(float(beth.x.iloc[0]),float(beth.y.iloc[0])),
@@ -163,7 +163,7 @@ def access_story():
     A.text(.015,.02,"77% of Nassau County\n97% of the Town of Oyster Bay\n"
            "100% of Glen Cove & the DAC core —\neven by car, even counting every park",transform=A.transAxes,fontsize=10.5,
            color=INK,linespacing=1.55)
-    B.text(.015,.155,"One park at Maccarone:",transform=B.transAxes,fontsize=11,
+    B.text(.015,.155,"One park at City Stadium:",transform=B.transAxes,fontsize=11,
            color=SPARKD,fontweight="bold")
     B.text(.015,.02,"~90% of Glen Cove & the DAC core\ncome inside a kid's bike ride —\n"
            "plus thousands more across the Town",transform=B.transAxes,fontsize=10.5,
@@ -174,10 +174,10 @@ def access_story():
              mpatches.Patch(facecolor=POOL,alpha=.12,edgecolor=POOLD,label="20-min DRIVE (most generous park count)"),
              mpatches.Patch(facecolor=SPARK,alpha=.40,edgecolor=SPARKD,label="20-min BIKE ride to a Glen Cove park"),
              mpatches.Patch(facecolor=SPARK,alpha=.14,edgecolor=SPARKD,label="20-min DRIVE to a Glen Cove park"),
-             mpatches.Patch(facecolor=SPARK,alpha=.55,edgecolor=SPARKD,label="state-designated disadvantaged community"),
+             mpatches.Patch(facecolor="none",edgecolor=SPARKD,hatch="///",label="state-designated disadvantaged community (hatched)"),
              mlines.Line2D([],[],color=SPARKD,linewidth=1.7,label="Glen Cove city limits"),
              mlines.Line2D([],[],marker="o",color="none",markerfacecolor=POOLD,markeredgecolor="white",markersize=9,label="existing free public skatepark"),
-             mlines.Line2D([],[],marker="*",color="none",markerfacecolor=SPARKD,markeredgecolor=INK,markersize=15,label="proposed park (Maccarone) — and Bethpage marked ✕ (closed)")]
+             mlines.Line2D([],[],marker="*",color="none",markerfacecolor=SPARKD,markeredgecolor=INK,markersize=15,label="proposed park (City Stadium) — Bethpage ✕ (closed)")]
     fig.legend(handles=handles,loc="lower center",ncol=4,frameon=False,fontsize=9,
                labelcolor=SOFT,bbox_to_anchor=(.5,.0))
     fig.suptitle("The access story: almost nobody on the North Shore can reach a skatepark on their own — one park changes that",
