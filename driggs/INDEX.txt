@@ -16,6 +16,10 @@ dossier/       the fact base
                                    sequence, CC&Rs, market/valuation, identifiers, sources
   crossed_arrows_lot3_relay.json . same research, machine-readable structured relay
 
+crossed-arrows-lot3-overview.pdf . one-page shareable overview (property, build rights, drive
+                 times, Teton Pass explanation, airport ranking). Source: same-name .html —
+                 edit it and re-render with headless Chromium to regenerate the PDF.
+
 open-items.md .. LIVE DD tracker — prioritized next steps, key contacts, valuation anchors,
                  decision log. Critical path: (1) price Caldwell paid in 2023, (2) EIPH
                  septic test holes, (3) recorded CC&Rs, (4) confirm subdivision build-ready.
