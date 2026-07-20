@@ -26,7 +26,7 @@ belong, and fewer and fewer have one.**
 Strip it to what's universal: regardless of family income, a kid needs a safe, free
 place to move their body, make friends, and belong — somewhere that's *theirs*,
 outdoors, that costs nothing to walk into. Fewer and fewer have it, and the shortage
-falls hardest on the kids with the least.
+falls hardest on the kids with the least access.
 - The need is universal; the shortage isn't evenly shared. Lower-income kids are
   **less physically active and have less access to nearby, quality parks** than
   wealthier kids — and skateparks themselves have too often been built in affluent
@@ -81,46 +81,45 @@ reach one, and the contrast next door makes it unfair.
 **2a. We're starved by the field's own standard — this isn't an amenity we happen to lack.**
 The Public Skatepark Development Guide (the industry reference planners use) sets a
 benchmark of one neighborhood skatepark per 25,000 residents. We aren't close.
-- By that standard Nassau County should have about **56** and has **4**; Long Island
-  should have about **117** and has **14**; our immediate North Shore area should have
-  about **3** and has **none.**
+- By that standard Nassau County should have about **56** and Long Island about **117**;
+  our immediate North Shore stretch should have about **3**. A firmed July-2026 census of
+  free, public, outdoor parks puts the real supply at roughly **9** across all of Long
+  Island — **3** in Nassau, and **none** in our North Shore stretch.
 - And this isn't just falling short of an ideal nobody meets: the *national average* is
-  roughly one skatepark per **100,000** people, and Nassau sits at about a **quarter**
-  of that — fewer skateparks per person than the typical American community.
+  roughly one skatepark per **100,000** people, and Nassau sits at **about a fifth** of
+  that — fewer skateparks per person than the typical American community.
 - Say it plainly: "By the standard the whole industry plans to, our stretch of the
   North Shore should have three skateparks. It has zero."
 
 **2b. And the kids who'd actually use it can't reach one.**
-Because the actual users are kids who mostly can't drive, the honest test isn't how many
-parks sit on a map — it's whether a young person can get to one on their own.
-- Today, **100% of Glen Cove's residents — and 100% of the state-designated
-  Disadvantaged Community area — are outside a 20-minute trip to any skatepark, by bike
-  or by car**, and that stays true even if Bethpage's shuttered park reopens.
-- Zoom out and **77% of Nassau County and 97% of the Town of Oyster Bay can't *bike*
-  to one.**
-- A single park at the Maccarone site closes roughly **90% of that access gap** for
-  Glen Cove and the DAC core, and brings tens of thousands more across the Town of
-  Oyster Bay into range. Because Bethpage's reach never touches the North Shore, our
-  park's value to our own community is identical whether or not Bethpage ever comes back.
-- Say it plainly: "There isn't one skatepark a Glen Cove kid can get to on their own.
-  One park here fixes that for nine out of ten of them."
+The real users are kids who can't drive — so the honest test isn't how many parks exist
+on a map, but whether a kid can reach one on their own.
+- **100% of Glen Cove's residents — and 100% of the state-designated Disadvantaged
+  Community — live outside a 20-minute trip to any skatepark, by bike *or* car.**
+- Widen the lens: **77% of Nassau County and 97% of the Town of Oyster Bay can't even
+  *bike* to one.**
+- One park at the Maccarone site closes roughly **90% of that gap** for Glen Cove and
+  the DAC core and brings tens of thousands more across Oyster Bay into range — and
+  because Bethpage's shuttered park never reached the North Shore, none of this changes
+  if it reopens.
+- Say it plainly: "There isn't one skatepark a Glen Cove kid can reach on their own.
+  One park here fixes that for nine in ten of them."
 
 **2c. And the contrast next door makes it unfair — not merely short.**
 The numbers understate the injustice, so make it personal. The kids who need this most
-live in our downtown/south core — a New York State–designated Disadvantaged Community,
+live in our downtown/south core, a New York State–designated Disadvantaged Community
 confirmed at the lead site.
-- Here is the contrast that should stop a reader cold: within about four miles of those
-  neighborhoods sit **seven private eighteen-hole golf courses** — Nassau, North Shore,
-  Glen Head, Brookville, Piping Rock, The Creek, and Engineers — hundreds of acres of
-  manicured, gated, private recreation — while the nearest *public* skatepark those kids
-  can use is a twenty-five-minute drive away.
+- The contrast should stop a reader cold: within four miles of those neighborhoods sit
+  **seven private eighteen-hole golf courses** — Nassau, North Shore, Glen Head,
+  Brookville, Piping Rock, The Creek, and Engineers — hundreds of gated acres — while
+  the nearest *public* skatepark those kids can use is a twenty-five-minute drive away.
 - A golf course is recreation for someone with a membership. A skatepark is recreation
   for a kid with a board and a bike.
-- And the drive is the trap: "twenty-five minutes away" really means "reachable only
-  with a parent who has a car and the free time to make the trip" — exactly what many of
-  these families don't have.
-- Say it plainly: "The kids with the least are asked to travel the farthest for the
-  simplest thing."
+- And the drive is the trap: "twenty-five minutes away" means "only reachable with a
+  parent who has a car and the free time for the trip" — exactly what many of these
+  families don't have.
+- Say it plainly: "The kids with the least access are asked to travel the farthest for
+  the simplest thing."
 
 *Translation for a grant reviewer or a council member: this is precisely the "local
 data showing the community is underserved" that funders score on, and it pairs with
