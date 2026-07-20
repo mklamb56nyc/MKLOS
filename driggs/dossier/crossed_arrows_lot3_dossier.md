@@ -158,7 +158,11 @@ Source: Teton County Land Development Code (adopted 2022-07-06, effective 2022-0
 
 **Zone description:** LA-35 ("Mixed Agriculture/Wetland" in the comp plan) — average density ≤ 1 lot / 35 acres; covers lands limited by remoteness of services, topography, jurisdictional wetlands, floodplains. Intent: maintain undeveloped floodplains, protect water quality, protect native vegetation & critical wildlife habitat.
 
-**Building right:** Lot 3 is a platted lot of record → the 35-ac density was satisfied at platting (5 lots / 119 ac ≈ 24 ac each) → **one primary dwelling with no further density hurdle.**
+**Zoning history (clarified 2026-07-20):** the application was submitted under the OLD code, when the parcel was zoned **A/RR 2.5** (Agriculture/Rural Residential, 2.5-ac); VARD's write-up describes the applied density as **"Agriculture – 20-Acre."** Under the NEW 2022 LDC the mapped zone is now **LA-35 (Lowland Agriculture)** — "Lowland" because of the wetland/NRO overlays. The 5-lots-on-119-ac layout (~24 ac each) was approvable under the 20-ac density that governed at application; it would NOT satisfy LA-35's 35-ac density from scratch. This is why building rights are secure regardless of the label —
+
+**Building right:** Lot 3 is a **platted lot of record** → the density question was settled at platting → **one primary dwelling, no further density hurdle**, whether you read the zone as A/RR 2.5, A-20, or LA-35.
+
+**Home SIZE is not a county matter (confirmed 2026-07-20):** Teton County code sets **no minimum and no maximum square footage** for a primary residence — only setbacks (30/30/40) and 30-ft height. Any min/max house-size number (e.g. the **3,000–8,000 sq ft** range Karen Bond, Lot 2 owner, reports) therefore comes from the **private CC&Rs**, not zoning — see §9.
 
 ### Uses permitted by right (P) in LA-35
 - Primary dwelling (house; manufactured home qualifies)
@@ -197,6 +201,20 @@ Source: Teton County Land Development Code (adopted 2022-07-06, effective 2022-0
 
 ## 9. CC&Rs & DEVELOPMENT AGREEMENT
 
+- **First concrete read on the covenants (Karen Bond, Lot 2 owner, text July 2026):** the
+  CC&Rs allow **one primary residence of 3,000–8,000 sq ft** plus **a second structure up
+  to 1,500 sq ft.** Reconciled against primary sources (2026-07-20):
+  - The **1,500 sq ft second structure = the county ADU cap**, exactly (LDC §3-9-2: one ADU
+    per parcel, ≤1,500 sq ft, 2 parking, wastewater verification). Karen's number matches
+    county code precisely → high confidence.
+  - The **3,000 min / 8,000 max residence = a CC&R architectural standard**, NOT zoning —
+    the county sets no house-size floor or ceiling (§7). This is the standard Teton County
+    CC&R pattern (min main-house sqft + max guest-house sqft). Karen owns Lot 2 and is
+    quoting the covenants she received at closing → credible, but the **exact figures and
+    the rest of the covenants still need the recorded document to confirm.**
+  - Status: the actual Crossed Arrows CC&R text could NOT be retrieved online this round —
+    not in the county's pending-subdivisions doc center (the plat is recorded/complete, so
+    it's out of that system) and the county eScribe filestream blocks automated fetches.
 - **Recorded CC&Rs** (filed with plat, ~279xxx series, early 2023): NOT freely browsable online. Get from (a) **title company** (Schedule B exceptions, attached), (b) **Teton County Clerk/Recorder** by plat 279826, or (c) **Caldwell** (received at his 2023 closing — fastest given the relationship).
 - **Development Agreement + draft CC&Rs:** in the county's eScribe meeting system + Planning document center (path: Planning Zoning → Sub Division → [subdivision] → Final Plat), from the 2022–2023 hearings.
 - **County rule:** CC&Rs are a civil agreement between owners, may be MORE restrictive than county code, but the **County only enforces the County Code** — CC&Rs are enforced by the other lot owners (your Charleston group). Must read them independently: min home size, materials, guest-house limits, outbuildings, animals, build deadlines, road-maintenance obligations. These can quietly remove the LA-35 by-right flexibility (detached guest house, barn, STR).
