@@ -80,16 +80,21 @@ def access_story():
     12 km of any of them, so the erase is clean. On-brand palette."""
     import geopandas as gpd
     from shapely.geometry import Point
-    PAPER="#F1EFE9"; WATER="#DFEBF4"; INK="#191A1E"; SOFT="#4C4D55"; POOL="#1C6FB5"; POOLD="#0C4A84"
+    PAPER="#F1EFE9"; WATER="#BCD6EA"; INK="#191A1E"; SOFT="#4C4D55"; POOL="#1C6FB5"; POOLD="#0C4A84"
     SPARK="#FF5A1F"; SPARKD="#C43F0E"
     for f,u in [("tl_2023_36_tract.shp","TRACT/tl_2023_36_tract.zip"),
                 ("tl_2023_36_cousub.shp","COUSUB/tl_2023_36_cousub.zip"),
-                ("tl_2023_36_place.shp","PLACE/tl_2023_36_place.zip")]:
+                ("tl_2023_36_place.shp","PLACE/tl_2023_36_place.zip"),
+                ("tl_2023_36059_areawater.shp","AREAWATER/tl_2023_36059_areawater.zip"),
+                ("tl_2023_36103_areawater.shp","AREAWATER/tl_2023_36103_areawater.zip"),
+                ("tl_2023_36081_areawater.shp","AREAWATER/tl_2023_36081_areawater.zip"),
+                ("tl_2023_36047_areawater.shp","AREAWATER/tl_2023_36047_areawater.zip")]:
         if not os.path.exists(f):
             urllib.request.urlretrieve("https://www2.census.gov/geo/tiger/TIGER2023/"+u,"z.zip")
             zipfile.ZipFile("z.zip").extractall(".")
     tr=gpd.read_file("tl_2023_36_tract.shp").to_crs(32618)
     na=tr[tr.COUNTYFP=="059"]; su=tr[tr.COUNTYFP=="103"]
+    nyc=tr[tr.COUNTYFP.isin(["081","047","005","061"])]
     cs=gpd.read_file("tl_2023_36_cousub.shp").to_crs(32618)
     toob=cs[(cs.COUNTYFP=="059")&(cs.NAME.str.contains("Oyster Bay"))]
     gc=gpd.read_file("tl_2023_36_place.shp").to_crs(32618); gc=gc[gc.NAME=="Glen Cove"]
@@ -99,10 +104,17 @@ def access_story():
     excl=[(-73.3649,40.8625),(-73.3113,40.8822),(-73.3978,40.6579),(-72.5356,40.8873)]
     ex=gpd.GeoSeries([Point(x,y) for x,y in excl],crs=4326).to_crs(32618).buffer(9000)
     from shapely.ops import unary_union
-    bike_geom=unary_union(bike.geometry.values).difference(unary_union(ex.values))
+    aw=[gpd.read_file(f"tl_2023_36{c}_areawater.shp").to_crs(32618) for c in ("059","103","081","047")]
+    water_polys=unary_union([g for w in aw for g in w.geometry.values])
+    land=unary_union(list(na.geometry.values)+list(su.geometry.values)+list(nyc.geometry.values)).difference(water_polys)
+    waterdf=gpd.GeoDataFrame(geometry=[water_polys],crs=32618)
+    bike_geom=unary_union(bike.geometry.values).difference(unary_union(ex.values)).intersection(land)
     bike=gpd.GeoDataFrame(geometry=[bike_geom],crs=32618)
     gcb=gpd.read_file("data/gc_bike.gpkg").to_crs(32618)
     gcc=gpd.read_file("data/gc_iso.gpkg").to_crs(32618)
+    car=gpd.GeoDataFrame(geometry=[unary_union(car.geometry.values).intersection(land)],crs=32618)
+    gcb=gpd.GeoDataFrame(geometry=[unary_union(gcb.geometry.values).intersection(land)],crs=32618)
+    gcc=gpd.GeoDataFrame(geometry=[unary_union(gcc.geometry.values).intersection(land)],crs=32618)
     parks=[("Long Beach",-73.6013,40.5902),("Baldwin",-73.6092,40.6256),
            ("Manorhaven",-73.7161,40.8388),("Laurelton (Queens)",-73.7365,40.6703),
            ("Far Rockaway (Queens)",-73.7465,40.5952)]
@@ -113,10 +125,16 @@ def access_story():
     b=na.total_bounds; pad=2000
     fig,axes=plt.subplots(1,2,figsize=(16,8.8),dpi=140)
     fig.patch.set_facecolor(PAPER)
+    from matplotlib.patches import Rectangle as _WaterRect
     for i,ax in enumerate(axes):
         ax.set_facecolor(WATER)
-        su.plot(ax=ax,color="#E7E3D9",edgecolor="#d8d3c7",linewidth=.25)
+        # axis('off') hides the axes patch, so paint water explicitly beneath everything
+        ax.add_patch(_WaterRect((b[0]-pad*8,b[1]-pad*8),(b[2]-b[0])+pad*16,(b[3]-b[1])+pad*16,
+                     facecolor=WATER,edgecolor="none",zorder=0))
+        nyc.plot(ax=ax,color="#E7E3D9",edgecolor="#cfc9bc",linewidth=.25)
+        su.plot(ax=ax,color="#E7E3D9",edgecolor="#cfc9bc",linewidth=.25)
         na.plot(ax=ax,color="#EDEAE1",edgecolor="#d8d3c7",linewidth=.3)
+        waterdf.plot(ax=ax,color=WATER,edgecolor="none",zorder=2)
         toob.plot(ax=ax,color="none",edgecolor=SOFT,linewidth=1.4,linestyle=(0,(5,3)))
         car.plot(ax=ax,color=POOL,alpha=.12,edgecolor=POOLD,linewidth=.6)
         bike.plot(ax=ax,color=POOL,alpha=.36,edgecolor=POOLD,linewidth=1.2)
