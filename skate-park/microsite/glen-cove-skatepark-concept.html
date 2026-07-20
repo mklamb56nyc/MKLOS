@@ -189,6 +189,27 @@
   .pcard p{font-size:.9rem;color:#c6cbd4;margin:8px 0 0}
   .chip{display:inline-block;margin-top:12px;font-family:"Space Mono",monospace;font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:#f0b9a2;border:1px solid rgba(255,90,31,.45);border-radius:3px;padding:3px 8px}
   .chip.blue{color:#bcd9f2;border-color:rgba(46,139,224,.5)}
+  .pcard::after{content:"Read the story →";display:block;margin-top:12px;font-family:"Space Mono",monospace;font-size:.63rem;letter-spacing:.1em;text-transform:uppercase;color:var(--spark)}
+  .pcard:hover::after,.pcard:focus-visible::after{text-decoration:underline;text-underline-offset:3px}
+  .ally{cursor:pointer}
+  .ally::after{content:"See how they help →";display:block;margin-top:12px;font-family:"Space Mono",monospace;font-size:.63rem;letter-spacing:.1em;text-transform:uppercase;color:var(--pool)}
+  .ally:hover::after,.ally:focus-visible::after{text-decoration:underline;text-underline-offset:3px}
+
+  /* the distilled-playbook table */
+  .ptable{margin-top:clamp(34px,5vw,56px);border-top:2px solid rgba(255,255,255,.55)}
+  .ptable .pt-title{font-family:"Anton",sans-serif;text-transform:uppercase;color:#fff;font-size:clamp(1.3rem,2.8vw,2rem);margin:18px 0 4px}
+  .ptable .pt-sub{font-size:.95rem;color:#c6cbd4;margin:0 0 18px;max-width:70ch}
+  .prow{display:grid;grid-template-columns:52px 220px 1fr 230px;gap:14px;align-items:baseline;padding:14px 0;border-bottom:1.5px solid rgba(255,255,255,.12)}
+  .prow .pnum{font-family:"Anton",sans-serif;color:var(--spark);font-size:1.15rem}
+  .prow .pname{font-family:"Anton",sans-serif;text-transform:uppercase;color:#fff;font-size:1.02rem;line-height:1.15}
+  .prow .pline{font-size:.9rem;color:#c6cbd4;line-height:1.55}
+  .prow .pwho{font-family:"Space Mono",monospace;font-size:.66rem;letter-spacing:.05em;text-transform:uppercase;color:#8f929c;line-height:2}
+  .tlink{background:none;border:0;padding:0;margin:0;font:inherit;color:#bcd9f2;cursor:pointer;text-decoration:underline;text-underline-offset:3px;text-decoration-color:rgba(188,217,242,.45)}
+  .tlink:hover{color:#fff}
+  @media (max-width:900px){
+    .prow{grid-template-columns:44px 1fr;grid-template-areas:"n name" "n line" "n who"}
+    .prow .pnum{grid-area:n}.prow .pname{grid-area:name}.prow .pline{grid-area:line}.prow .pwho{grid-area:who}
+  }
   .hoverhint{font-family:"Space Mono",monospace;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:#8f929c;margin-top:14px}
   .hoverhint b{color:var(--spark)}
   .band:not(.band-dark) .hoverhint{color:var(--ink-soft)}
@@ -445,7 +466,7 @@
         <p class="eyebrow">This has been done — and it shows us how</p>
         <h2>Towns like ours have already pulled this off.</h2>
         <p>This is not a moonshot. All over the country — some places smaller than us, some that started from a rougher spot — communities turned this same idea into free concrete parks their kids love. Twelve of them, studied closely, hand us a playbook.</p>
-        <p class="hoverhint"><b>Hover</b> (or tap) any card for the full story — and what it teaches us.</p>
+        <p class="hoverhint"><b>Click</b> any card for the full story — and what it teaches us. The distilled rules are tabled below.</p>
       </div>
     </div>
     <div class="cards reveal">
@@ -510,6 +531,64 @@
         <span class="chip">Teaches: keep it free, or lose the point</span>
       </div>
     </div>
+    <div class="ptable reveal">
+      <p class="pt-title">The playbook, distilled</p>
+      <p class="pt-sub">Twelve parks, one set of rules. Everything the plan below proposes traces back to a row in this table.</p>
+      <div class="prow">
+        <div class="pnum tnum">01</div>
+        <div class="pname">Keep it free</div>
+        <div class="pline">No fees, waivers, or residency gates — ever. A gate forfeits the grants, thins the crowds, and costs the community ownership that makes a park work.</div>
+        <div class="pwho">Taught by <button class="tlink" data-case="charleston">Charleston</button> · <button class="tlink" data-case="longbeachny">Long Beach NY</button></div>
+      </div>
+      <div class="prow">
+        <div class="pnum tnum">02</div>
+        <div class="pname">Kids move governments</div>
+        <div class="pline">Youth petitions and rallies created these parks, funded them, and saved them — and kids who shape a place defend it for decades. The ownership is the point.</div>
+        <div class="pwho">Taught by <button class="tlink" data-case="brentwood">Brentwood</button> · <button class="tlink" data-case="manorhaven">Port Washington</button> · <button class="tlink" data-case="riverside">Riverside NYC</button></div>
+      </div>
+      <div class="prow">
+        <div class="pnum tnum">03</div>
+        <div class="pname">One champion who stays</div>
+        <div class="pline">The single best predictor across every story: one person — inside or outside government — who simply never leaves the issue. Persistence compounds.</div>
+        <div class="pwho">Taught by <button class="tlink" data-case="longbeachca">Long Beach CA</button> · <button class="tlink" data-case="rochester">Rochester</button></div>
+      </div>
+      <div class="prow">
+        <div class="pnum tnum">04</div>
+        <div class="pname">Ask the community first</div>
+        <div class="pline">A survey and open design sessions are cheap, fast legitimacy — and letting skaters redraw the plan is what turns approval into pride.</div>
+        <div class="pwho">Taught by <button class="tlink" data-case="hoboken">Hoboken</button> · <button class="tlink" data-case="longbeachny">Long Beach NY</button> · <button class="tlink" data-case="manorhaven">Port Washington</button></div>
+      </div>
+      <div class="prow">
+        <div class="pnum tnum">05</div>
+        <div class="pname">Small money unlocks big money</div>
+        <div class="pline">Seed grants anchor a claim; a five-figure design gift attracts six-figure lead gifts; a challenge match multiplies every private dollar into public ones.</div>
+        <div class="pwho">Taught by <button class="tlink" data-case="westbend">West Bend</button> · <button class="tlink" data-case="annarbor">Ann Arbor</button> · <button class="tlink" data-case="jerseycity">Jersey City</button></div>
+      </div>
+      <div class="prow">
+        <div class="pnum tnum">06</div>
+        <div class="pname">Layer &amp; sequence the funding</div>
+        <div class="pline">No single check builds a park. County open-space and state capital carry the load, layered over years — and directed public money flows through champions.</div>
+        <div class="pwho">Taught by <button class="tlink" data-case="rochester">Rochester</button> · <button class="tlink" data-case="jerseycity">Jersey City</button> · <button class="tlink" data-case="brentwood">Brentwood</button></div>
+      </div>
+      <div class="prow">
+        <div class="pnum tnum">07</div>
+        <div class="pname">Endow the maintenance up front</div>
+        <div class="pline">Concrete needs almost nothing — wood rots toward removal — and a Friends fund can endow even that little, so the city carries no burden. It answers the biggest objection before it's spoken.</div>
+        <div class="pwho">Taught by <button class="tlink" data-case="annarbor">Ann Arbor</button> · <button class="tlink" data-case="riverside">Riverside NYC</button> · <button class="tlink" data-case="manorhaven">Port Washington</button></div>
+      </div>
+      <div class="prow">
+        <div class="pnum tnum">08</div>
+        <div class="pname">Phase it — open, then grow</div>
+        <div class="pline">A real Phase 1 that opens beats a perfect park that doesn't: a used, loved park raises the money and the votes for the next pour. A standing trust fund collects between phases.</div>
+        <div class="pwho">Taught by <button class="tlink" data-case="ketchum">Ketchum</button> · <button class="tlink" data-case="rochester">Rochester</button> · <button class="tlink" data-case="westbend">West Bend</button></div>
+      </div>
+      <div class="prow">
+        <div class="pnum tnum">09</div>
+        <div class="pname">Co-investment, not just permission</div>
+        <div class="pline">A blessing without a budget strands a project — one approved park sat unfunded for 18 months. Our peer city put its own $300K in and cut a ribbon nine months later.</div>
+        <div class="pwho">Taught by <button class="tlink" data-case="longbeachny">Long Beach NY</button> · <button class="tlink" data-case="longbeachca">Long Beach CA</button></div>
+      </div>
+    </div>
     <p class="proof-kicker reveal">None of them had more going for them than we do. <span>Most had less.</span></p>
   </div>
 </section>
@@ -523,7 +602,7 @@
         <p class="eyebrow">We have the cast to pull it off</p>
         <h2>And we wouldn't be doing it alone.</h2>
         <p>Here's the part that surprises people once they look: how many hands could be on this. None of them have been asked yet — this is simply the map of who's out there, and every one of them is reachable. Each kind of ally runs a different play from the playbook above.</p>
-        <p class="hoverhint"><b>Hover</b> (or tap) any ally to see exactly how they help.</p>
+        <p class="hoverhint"><b>Click</b> any ally to see exactly how they help.</p>
       </div>
     </div>
     <div class="allies reveal">
@@ -753,8 +832,7 @@
 
   (function(){
     var wrap=document.getElementById('modal');
-    var lastFocus=null, hoverTimer=null;
-    function esc(s){return s}
+    var lastFocus=null;
     function render(d){
       document.getElementById('m-eyebrow').textContent=d.cast?"The cast · how they help":"Case study · what it teaches us";
       document.getElementById('m-title').textContent=d.name;
@@ -787,19 +865,11 @@
     }
     wrap.addEventListener('click',function(e){if(e.target.hasAttribute('data-close'))close();});
     document.addEventListener('keydown',function(e){if(e.key==='Escape'&&wrap.classList.contains('open'))close();});
-    var canHover=window.matchMedia('(hover:hover)').matches;
     document.querySelectorAll('[data-case],[data-cast]').forEach(function(card){
       var d=card.hasAttribute('data-case')?CASES[card.getAttribute('data-case')]:CAST[card.getAttribute('data-cast')];
       if(!d)return;
       card.addEventListener('click',function(){open(d,card);});
       card.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();open(d,card);}});
-      if(canHover){
-        card.addEventListener('mouseenter',function(){
-          clearTimeout(hoverTimer);
-          hoverTimer=setTimeout(function(){open(d,card);},220);
-        });
-        card.addEventListener('mouseleave',function(){clearTimeout(hoverTimer);});
-      }
     });
   })();
 </script>
