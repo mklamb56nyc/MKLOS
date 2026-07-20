@@ -197,6 +197,26 @@ GLEN COVE PARK (at Maccarone) — CATCHMENT & % OF THE GAP CLOSED (area-weighted
     • Nassau (car): 24% today → 43% if Bethpage back; (bike) 4% — one park can't serve a county (= Part 1 restated).
 - NET-NEW INTO RANGE (car; today / Bethpage-back): Glen Cove ~25,113 / 25,113 (4,702 kids); DAC ~11,632 / 11,632 (2,387); ToOB ~52,579 / 44,763; Nassau ~93,448 / 85,436. BIKE net-new ≈ full catchment (bike baseline ≈ 0 — no bikeable park exists today): Glen Cove ~25,467, DAC ~11,775, ToOB ~16,533, Nassau ~42,126.
 
+KID-LEVEL SCENARIO TABLE — GLEN COVE + TOWN OF OYSTER BAY (NEW, July 2026):
+Computed from cached per-tract data (access_areas.csv kids counts × geometric coverage,
+areal apportionment, EPSG:32618) with the BIKE layers cleaned to the FIRMED census (the
+same excluded-parks erase as the access-story map: Huntington's gated pair, Tanner, Red
+Creek). CAR layers remain the generous pre-firming supply → car gaps are FLOORS.
+Total kids: Glen Cove 5,154; TOB 62,212; combined 67,366.
+  Kids OUTSIDE a 20-min trip (GC / TOB / combined):
+  - BIKE today:            5,154 (100%) / 62,212 (100%) / 67,366
+  - BIKE, Bethpage back:   5,154 (100%) / 52,748 (85%)  / 57,902
+  - CAR today:             5,154 (100%) / 39,381 (63%)  / 44,535
+  - CAR, Bethpage back:    5,154 (100%) / 13,848 (22%)  / 19,002
+  - BIKE today + GC park:    399 (7.7%) / 58,229 (94%)  / 58,628
+  - CAR today + GC park:     452 (8.8%) / 27,128 (44%)  / 27,580
+  => A City Stadium park moves ~8,738 kids into BIKE range (92% of Glen Cove's kids;
+  identical with or without Bethpage) and ~16,955 kids into CAR range.
+⚠ SUPERSEDES the "TOB 97% can't bike" figure for kid-level use: under the FIRMED census
+(gated/closed parks excluded), the Town of Oyster Bay's bike gap is 100% OF KIDS — the
+old 97% only held while counting Huntington's resident-ID parks as reachable. Microsite
+§02 prose now uses this kid-level frame (67K/45K/58K/19K/8.7K/17K).
+
 ROBUSTNESS CHECKS:
 - QUEENS: including 34 NYC/Queens parks as supply changes the Nassau numbers by ZERO. The nearest park of ANY kind to Kings Point (Great Neck tip) is 24-min car (Manorhaven, not Queens) — peninsula drive-times defeat map-proximity. [CONFIRMED]
 - MASSAPEQUA: no free public park there; it reads as covered via Tanner (Copiague). Kohl's-Massapequa is indoor/fee (excluded). [CONFIRMED]
