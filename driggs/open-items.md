@@ -62,6 +62,33 @@ The septic determination and the price anchor gate everything else.
 - [ ] **10. Verify title** — the parcel's own chain (`280113 WD` → `279826 SUR` →
       `275597 WD` → `243162 WD` → `185044 WD`) and any easements, via a title commitment.
 
+## Access & travel (drive times from the lot)
+Idaho-side destinations are quick and road-reliable; everything in Wyoming (Jackson) is
+~1 hr **over Teton Pass (WY-22)** — the single point of fragility.
+- **Driggs** (Broulim's grocery + county seat): **~12 min** (~7 mi).
+- **Grand Targhee** ski resort: **~35 min** (~19 mi; longer in snow).
+- **Town of Jackson, WY:** **~1h05m** (~40 mi) via Teton Pass.
+- **Jackson Hole Mtn Resort (Teton Village):** **~1h00m** (~42 mi) via Teton Pass.
+- **Jackson Hole Airport (JAC):** **~1h10m** (~48 mi) via Teton Pass.
+
+**Teton Pass caveat (matters for JAC + all Jackson trips):** WY-22 tops 8,431 ft with 10%
+grades; closes intermittently in winter storms / avalanche control; no trailers Nov 15–Apr 1.
+It **collapsed in a June 2024 landslide** and was fully closed ~3 weeks. When closed, the only
+route is south via Swan Valley/Alpine (+~1 hr each way) → a ~1 hr airport run becomes **2–2½
+hrs**. Always check the pass before a Wyoming-side trip.
+
+**Airport options (ranked):**
+1. **Idaho Falls (IDA)** — ~1h20m (~72 mi), **no mountain pass**, reliable year-round;
+   regional service (SLC, Denver, Phoenix, Dallas, Seattle). *The everyday-reliable pick.*
+2. **Jackson Hole (JAC)** — ~1h10m, closest + most direct flights, but **pass-dependent** and
+   premium fares; risky for tight winter connections.
+3. **Salt Lake City (SLC)** — ~4h30m, major hub: cheapest fares, most nonstops, international.
+4. **Bozeman, MT (BZN)** — ~3h30m north, growing direct service.
+
+## Deliverables
+- `crossed-arrows-lot3-overview.pdf` — one-page shareable overview (property + build rights +
+  travel/airports + Teton Pass). Source: `crossed-arrows-lot3-overview.html` (edit + re-render).
+
 ## Key contacts
 | Who | For | Contact |
 |---|---|---|
