@@ -174,19 +174,45 @@
   .fo-note{margin-top:20px;font-family:"Anton",sans-serif;text-transform:uppercase;font-size:clamp(1.2rem,2.6vw,1.95rem);line-height:1.14;max-width:34ch}
   .fo-note span{color:var(--spark)}
 
-  /* proof cards */
-  .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
-  .pcard{background:#232228;border:1.5px solid rgba(255,255,255,.1);border-radius:5px;padding:28px 26px;position:relative;overflow:hidden}
+  /* proof cards (compact roster; full story lives in the modal) */
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .pcard{background:#232228;border:1.5px solid rgba(255,255,255,.1);border-radius:5px;padding:20px 20px 18px;position:relative;overflow:hidden;cursor:pointer;transition:transform .15s,border-color .15s}
+  .pcard:hover,.pcard:focus-visible{transform:translateY(-3px);border-color:rgba(255,255,255,.32)}
   .pcard::before{content:"";position:absolute;left:0;top:0;width:5px;height:100%;background:var(--pool-bright)}
-  .pcard:nth-child(2)::before{background:var(--spark)}
-  .pcard:nth-child(3)::before{background:#43c39a}
-  .pcard:nth-child(4)::before{background:var(--pool-bright)}
+  .pcard:nth-child(3n+2)::before{background:#43c39a}
+  .pcard:nth-child(3n)::before{background:var(--spark)}
+  .pcard.caution{border-color:rgba(255,90,31,.4)}
+  .pcard.caution::before{background:var(--spark)}
   .pcard .place{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap}
-  .pcard h3{font-size:1.55rem;color:#fff}
-  .pcard .tag{font-family:"Space Mono",monospace;font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:#c8ccd4}
-  .pcard .stat{font-family:"Anton",sans-serif;font-size:1.3rem;color:var(--pool-bright);margin:14px 0 0}
-  .pcard:nth-child(2) .stat{color:var(--spark)}
-  .pcard p{font-size:.97rem;color:#c6cbd4;margin:8px 0 0}
+  .pcard h3{font-size:1.18rem;color:#fff}
+  .pcard .tag{font-family:"Space Mono",monospace;font-size:.6rem;letter-spacing:.09em;text-transform:uppercase;color:#c8ccd4}
+  .pcard p{font-size:.9rem;color:#c6cbd4;margin:8px 0 0}
+  .chip{display:inline-block;margin-top:12px;font-family:"Space Mono",monospace;font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:#f0b9a2;border:1px solid rgba(255,90,31,.45);border-radius:3px;padding:3px 8px}
+  .chip.blue{color:#bcd9f2;border-color:rgba(46,139,224,.5)}
+  .hoverhint{font-family:"Space Mono",monospace;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:#8f929c;margin-top:14px}
+  .hoverhint b{color:var(--spark)}
+  .band:not(.band-dark) .hoverhint{color:var(--ink-soft)}
+
+  /* shared modal */
+  .modal-wrap{position:fixed;inset:0;z-index:60;display:none;align-items:center;justify-content:center;padding:clamp(14px,4vw,40px)}
+  .modal-wrap.open{display:flex}
+  .modal-back{position:absolute;inset:0;background:rgba(15,15,18,.66);backdrop-filter:blur(2px)}
+  .mbox{position:relative;z-index:1;width:min(680px,100%);max-height:min(84vh,760px);overflow-y:auto;background:var(--card);color:var(--ink);border:2px solid var(--ink);border-radius:8px;box-shadow:0 24px 70px rgba(0,0,0,.45);padding:clamp(24px,3.5vw,38px)}
+  .mbox .m-eyebrow{font-family:"Space Mono",monospace;font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;color:var(--pool-deep);display:flex;align-items:center;gap:.6em}
+  .mbox .m-eyebrow::before{content:"";width:22px;height:2px;background:var(--spark)}
+  .mbox h3{font-family:"Anton",sans-serif;text-transform:uppercase;font-size:clamp(1.5rem,3.4vw,2.2rem);margin:10px 0 2px;line-height:.98}
+  .mbox .m-tag{font-family:"Space Mono",monospace;font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft)}
+  .mbox .m-story{font-size:.99rem;color:var(--ink-soft);line-height:1.62;margin:16px 0 0}
+  .m-stats{display:flex;flex-wrap:wrap;gap:10px 26px;margin:18px 0 0;padding:14px 0;border-top:1.5px solid var(--line);border-bottom:1.5px solid var(--line)}
+  .m-stat .n{font-family:"Anton",sans-serif;font-size:1.35rem;color:var(--pool-deep);line-height:1}
+  .m-stat .l{font-size:.74rem;color:var(--ink-soft);margin-top:3px;max-width:15ch}
+  .m-teach{margin-top:18px}
+  .m-teach .t-head{font-family:"Space Mono",monospace;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--spark-deep)}
+  .m-teach .t-principles{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 10px}
+  .m-teach .pchip{font-family:"Space Mono",monospace;font-size:.66rem;letter-spacing:.06em;text-transform:uppercase;background:var(--ink);color:#fff;border-radius:3px;padding:4px 10px}
+  .m-teach p{font-size:.95rem;color:var(--ink-soft);margin:0}
+  .m-close{position:absolute;top:12px;right:12px;width:34px;height:34px;border:1.5px solid var(--line-2);border-radius:4px;background:var(--card);color:var(--ink);font-size:1.05rem;line-height:1;cursor:pointer}
+  .m-close:hover{border-color:var(--ink)}
   .proof-kicker{font-family:"Anton",sans-serif;text-transform:uppercase;font-size:clamp(1.4rem,3vw,2.1rem);color:#fff;margin-top:clamp(30px,4vw,48px);line-height:1.05;max-width:26ch}
   .proof-kicker span{color:var(--spark)}
 
@@ -339,11 +365,12 @@
         <div class="ih">What the research actually finds</div>
         <div class="in-stat"><span class="en tnum">76%</span><span class="el">of skaters say they skate to <b>have fun</b></span></div>
         <div class="in-stat"><span class="en tnum">62%</span><span class="el">say they do it to <b>get away from stress</b></span></div>
-        <div class="in-stat"><span class="en tnum">↓61%</span><span class="el">drug-related incidents within three years of one California park opening</span></div>
-        <div class="in-stat"><span class="en tnum">↓29%</span><span class="el">violent crime over that same stretch</span></div>
+        <div class="in-stat"><span class="en tnum">↓61%</span><span class="el">drug-related incidents near one California park in the three years after it opened, as reported by the foundation behind it</span></div>
+        <div class="in-stat"><span class="en tnum">↓29%</span><span class="el">violent crime nearby over that same stretch — and in a national survey, nearly half of police officers reported less youth crime after a skatepark opened</span></div>
         <div class="srcs">
           <a class="src" href="https://pullias.usc.edu/project/usc-skate-study/">USC "Beyond the Board" study</a>
-          <a class="src" href="https://www.asklongbeach.org/">City of Long Beach, CA / ASK Foundation</a>
+          <a class="src" href="https://www.asklongbeach.org/">ASK Foundation, Long Beach CA</a>
+          <a class="src" href="https://publicskateparkguide.org/advocacy/thf-police-study/">Skatepark Project law-enforcement survey</a>
         </div>
       </div>
     </div>
@@ -417,29 +444,70 @@
       <div class="act-copy">
         <p class="eyebrow">This has been done — and it shows us how</p>
         <h2>Towns like ours have already pulled this off.</h2>
-        <p>This is not a moonshot. All over the region — some places smaller than us, some that started from a rougher spot — communities turned this same idea into free concrete parks their kids love. And each one hands us a piece of the how.</p>
+        <p>This is not a moonshot. All over the country — some places smaller than us, some that started from a rougher spot — communities turned this same idea into free concrete parks their kids love. Twelve of them, studied closely, hand us a playbook.</p>
+        <p class="hoverhint"><b>Hover</b> (or tap) any card for the full story — and what it teaches us.</p>
       </div>
     </div>
     <div class="cards reveal">
-      <div class="pcard">
+      <div class="pcard" data-case="longbeachny" tabindex="0" role="button" aria-haspopup="dialog">
         <div class="place"><h3>Long Beach, NY</h3><span class="tag">Our peer city</span></div>
-        <p>The other small independent city in our county built a free, unfenced concrete park by the water, designed with its own skaters. Same kind of town, same kind of government. They just did it.</p>
+        <p>The other small independent city in Nassau built one with its own money — in nine months.</p>
+        <span class="chip blue">Teaches: a city like ours can just decide</span>
       </div>
-      <div class="pcard">
-        <div class="place"><h3>Brentwood, NY</h3><span class="tag">Long Island</span></div>
-        <p class="stat tnum">$1.25M — built</p>
-        <p>A high-schooler's petition helped free up state money and turned a poisoned lot into a free concrete park. Youth-led, right here on the island — and our closest read on what one actually costs.</p>
-        <div class="srcs"><a class="src" href="https://patch.com/new-york/brentwood-central-islip/long-awaited-brentwood-skate-park-opens-roberto-clemente-park">Patch / News 12</a></div>
+      <div class="pcard" data-case="brentwood" tabindex="0" role="button" aria-haspopup="dialog">
+        <div class="place"><h3>Brentwood, NY</h3><span class="tag">The neighbor proof</span></div>
+        <p>A poisoned lot became a free concrete park — $1.25M as built, our closest cost anchor.</p>
+        <span class="chip">Teaches: kids move governments</span>
       </div>
-      <div class="pcard">
-        <div class="place"><h3>Jersey City, NJ</h3><span class="tag">NY metro</span></div>
-        <p>A 17-acre contaminated brownfield became the neighborhood's proudest park — free, concrete, shaped start to finish with the local skaters.</p>
-        <div class="srcs"><a class="src" href="https://www.jerseycitynj.gov/news/pressreleases2020/jcopensskateparkwithtonyhawkfoundationgrant">City of Jersey City</a></div>
+      <div class="pcard" data-case="manorhaven" tabindex="0" role="button" aria-haspopup="dialog">
+        <div class="place"><h3>Port Washington, NY</h3><span class="tag">Nearest west</span></div>
+        <p>Parents and teens campaigned four years for it — then a 13-year-old's petition saved it.</p>
+        <span class="chip">Teaches: youth voices build it &amp; save it</span>
       </div>
-      <div class="pcard">
+      <div class="pcard" data-case="rochester" tabindex="0" role="button" aria-haspopup="dialog">
         <div class="place"><h3>Rochester, NY</h3><span class="tag">The long game</span></div>
-        <p>Once the biggest U.S. city with no skatepark. They stacked grant on grant on gift, stayed patient, and built it anyway — no single source carried it.</p>
-        <div class="srcs"><a class="src" href="https://www.rochesterfirst.com/rochester/roc-city-skatepark-awarded-3-million-in-state-funding/">Rochester First</a></div>
+        <p>Once the biggest U.S. city without one. Twelve patient years of stacked grants later, they won.</p>
+        <span class="chip blue">Teaches: layer the funding &amp; never quit</span>
+      </div>
+      <div class="pcard" data-case="jerseycity" tabindex="0" role="button" aria-haspopup="dialog">
+        <div class="place"><h3>Jersey City, NJ</h3><span class="tag">NY metro</span></div>
+        <p>A 17-acre brownfield became the neighborhood's proudest park; the skatepark crowned it.</p>
+        <span class="chip blue">Teaches: county money carries the load</span>
+      </div>
+      <div class="pcard" data-case="riverside" tabindex="0" role="button" aria-haspopup="dialog">
+        <div class="place"><h3>Riverside Park, NYC</h3><span class="tag">The original</span></div>
+        <p>Teens designed and physically built NYC's first municipal skatepark in 1996.</p>
+        <span class="chip">Teaches: the ownership is the point</span>
+      </div>
+      <div class="pcard" data-case="annarbor" tabindex="0" role="button" aria-haspopup="dialog">
+        <div class="place"><h3>Ann Arbor, MI</h3><span class="tag">The match</span></div>
+        <p>A county challenge match unlocked what nine years of bake sales couldn't.</p>
+        <span class="chip blue">Teaches: private money unlocks public</span>
+      </div>
+      <div class="pcard" data-case="ketchum" tabindex="0" role="button" aria-haspopup="dialog">
+        <div class="place"><h3>Ketchum, ID</h3><span class="tag">The phased park</span></div>
+        <p>A modest local build kept growing for 27 years on a standing city trust fund.</p>
+        <span class="chip blue">Teaches: phase it — start, then grow</span>
+      </div>
+      <div class="pcard" data-case="westbend" tabindex="0" role="button" aria-haspopup="dialog">
+        <div class="place"><h3>West Bend, WI</h3><span class="tag">Happening now</span></div>
+        <p>A $53K design gift attracted a $500K lead gift within months. Opening target 2027.</p>
+        <span class="chip">Teaches: design money multiplies</span>
+      </div>
+      <div class="pcard" data-case="hoboken" tabindex="0" role="button" aria-haspopup="dialog">
+        <div class="place"><h3>Hoboken, NJ</h3><span class="tag">Under construction</span></div>
+        <p>250+ residents shaped the design — and put a skatepark at the heart of a waterfront park.</p>
+        <span class="chip">Teaches: ask the community first</span>
+      </div>
+      <div class="pcard" data-case="longbeachca" tabindex="0" role="button" aria-haspopup="dialog">
+        <div class="place"><h3>Long Beach, CA</h3><span class="tag">The evidence</span></div>
+        <p>One champion, 25+ years, roughly nine parks — and the neighborhood got safer.</p>
+        <span class="chip blue">Teaches: a champion compounds</span>
+      </div>
+      <div class="pcard caution" data-case="charleston" tabindex="0" role="button" aria-haspopup="dialog">
+        <div class="place"><h3>Charleston, SC</h3><span class="tag">The caution</span></div>
+        <p>$4.8M and world-class — behind a $3 gate. Attendance fell; the advocates walked away.</p>
+        <span class="chip">Teaches: keep it free, or lose the point</span>
       </div>
     </div>
     <p class="proof-kicker reveal">None of them had more going for them than we do. <span>Most had less.</span></p>
@@ -454,36 +522,37 @@
       <div class="act-copy">
         <p class="eyebrow">We have the cast to pull it off</p>
         <h2>And we wouldn't be doing it alone.</h2>
-        <p>Here's the part that surprises people once they look: how many hands could be on this. None of them have been asked yet — this is simply the map of who's out there, and every one of them is reachable.</p>
+        <p>Here's the part that surprises people once they look: how many hands could be on this. None of them have been asked yet — this is simply the map of who's out there, and every one of them is reachable. Each kind of ally runs a different play from the playbook above.</p>
+        <p class="hoverhint"><b>Hover</b> (or tap) any ally to see exactly how they help.</p>
       </div>
     </div>
     <div class="allies reveal">
-      <div class="ally">
+      <div class="ally" data-cast="base" tabindex="0" role="button" aria-haspopup="dialog">
         <div class="mark"><span class="dot"></span>The base</div>
         <h3>Neighbors &amp; skaters</h3>
         <p>The thousand-plus who already raised their hands, the local skate scene, and the families who'd be there every weekend.</p>
       </div>
-      <div class="ally">
+      <div class="ally" data-cast="anchors" tabindex="0" role="button" aria-haspopup="dialog">
         <div class="mark"><span class="dot"></span>The anchors</div>
         <h3>Community groups</h3>
         <p>Downtown nonprofits already doing right by local kids — the natural partners and the most credible local voices.</p>
       </div>
-      <div class="ally">
+      <div class="ally" data-cast="owner" tabindex="0" role="button" aria-haspopup="dialog">
         <div class="mark"><span class="dot"></span>The owner</div>
         <h3>The city itself</h3>
         <p>Glen Cove owns the land, runs its own recreation department, and even keeps an in-house grant writer on staff. Real muscle, already there.</p>
       </div>
-      <div class="ally">
+      <div class="ally" data-cast="craft" tabindex="0" role="button" aria-haspopup="dialog">
         <div class="mark"><span class="dot"></span>The craft</div>
         <h3>The people who build these</h3>
         <p>Specialist concrete-park firms have built free parks up and down the metro and across Long Island. This is a solved craft, not an experiment.</p>
       </div>
-      <div class="ally">
+      <div class="ally" data-cast="money" tabindex="0" role="button" aria-haspopup="dialog">
         <div class="mark"><span class="dot"></span>The money</div>
         <h3>The funders</h3>
         <p>A national skatepark grant made for exactly this, a sporting-goods foundation that funds neighborhood facilities, Long Island's own family foundations, and state and county park dollars. No one source carries it — together they can.</p>
       </div>
-      <div class="ally">
+      <div class="ally" data-cast="champions" tabindex="0" role="button" aria-haspopup="dialog">
         <div class="mark"><span class="dot"></span>The champions</div>
         <h3>Local &amp; state leaders</h3>
         <p>City, county, and state representatives — the kind of people who, in towns like Brentwood, became the ones to unlock the public money that builds parks like this.</p>
@@ -567,6 +636,173 @@
     <p class="disc">This page is an independent community concept and is not affiliated with, or endorsed by, the City of Glen Cove or any agency, official, business, or organization referenced. Local figures — provisioning, access, and the nearby-recreation comparison — come from public data (US Census ACS, OpenStreetMap, the Public Skatepark Development Guide) and the project's own mapping analysis, and are being finalized; figures from other communities' parks are drawn from public reporting. Everything here is illustrative and will change as the idea takes shape.</p>
   </div>
 </footer>
+
+<!-- shared hover/tap modal for case studies + cast -->
+<div class="modal-wrap" id="modal" aria-hidden="true">
+  <div class="modal-back" data-close></div>
+  <div class="mbox" role="dialog" aria-modal="true" aria-labelledby="m-title">
+    <button class="m-close" type="button" data-close aria-label="Close">✕</button>
+    <p class="m-eyebrow" id="m-eyebrow"></p>
+    <h3 id="m-title"></h3>
+    <p class="m-tag" id="m-tag"></p>
+    <p class="m-story" id="m-story"></p>
+    <div class="m-stats" id="m-stats"></div>
+    <div class="m-teach">
+      <p class="t-head" id="m-teachhead"></p>
+      <div class="t-principles" id="m-principles"></div>
+      <p id="m-teach"></p>
+    </div>
+  </div>
+</div>
+
+<script>
+  var CASES={
+    longbeachny:{name:"Long Beach, NY",tag:"City of Long Beach · opened 2015",
+      story:"The other small independent city in Nassau County put a skatepark line in its own capital plan, voted unanimously, and had a free concrete park open nine months later. The first design got rejected by local skaters — so the city redrew it with them, and that's what built the buy-in. A decade on it's still free, unfenced, and beloved.",
+      stats:[["$300K","city-bonded, no grants"],["9 mo","council vote to ribbon"],["~7,000","sq ft of concrete"]],
+      principles:["A city like ours can just decide","Let the skaters shape it"],
+      teach:"An independent city our size doesn't need permission or a windfall — it needs a modest line in its own capital plan and the will to vote. And letting the community redraw the plan is what turns approval into pride."},
+    brentwood:{name:"Brentwood, NY",tag:"Town of Islip · opened 2023",
+      story:"Illegal dumpers poisoned this park; the settlement they paid helped fund its rebirth. When inflation stalled the approved skatepark, two student petitions and a youth-board rally pushed the town — and their assemblymember's $450K state grant closed the gap within weeks. It opened as the pride of a working-class, majority-Latino community.",
+      stats:[["$1.25M","as built — our cost anchor"],["$627K","from the polluters' settlement"],["1,110","signatures on the student petition"]],
+      principles:["Kids move governments","A legislator can close the gap"],
+      teach:"Our closest comp in every way: the equity story, the youth pressure, and the exact state-capital mechanism (legislator-directed grants) we'd pursue. It also prices the dream: $1.25M, real."},
+    manorhaven:{name:"Port Washington, NY",tag:"Town of North Hempstead · opened 2011",
+      story:"A parent-and-teen campaign (\"Skaters Need a Park in Port\") worked town meetings for four years; the town bonded ~$349K and the design firm sat with the kids to shape it. When COVID closed the park \"indefinitely,\" a 13-year-old's 742-signature petition and one councilmember's deal — the teens became \"skate ambassadors\" — reopened it.",
+      stats:[["~$349K","one town bond, 2011"],["~10,000","sq ft, concrete"],["742","signatures to reopen it"]],
+      principles:["Youth voices build it — and save it","Concrete lasts"],
+      teach:"Our nearest neighbor-park proves the North Shore pattern: sustained kid-and-parent pressure aimed at the right government, plus one willing official. And its concrete needed no capital work for 14 years."},
+    rochester:{name:"Rochester, NY",tag:"City of Rochester · Phase 1 2020, Phase 2 opens 2026",
+      story:"Once the largest U.S. city without a skatepark. The Friends group organized in 2008 and simply never disbanded — through four mayors and a scrapped site — until a state windfall delivered Phase 1 under a bridge in 2020. Its popularity made the $4.7M Phase 2 politically easy; it opens this fall as New York State's largest skatepark.",
+      stats:[["12 yrs","organizing to Phase 1"],["$1.5M","Phase 1 (state + foundation + match)"],["~35,000","sq ft when Phase 2 opens"]],
+      principles:["Layer & sequence the funding","A champion who stays","Phase it"],
+      teach:"No single source carried it — state money, a foundation match, a national grant, and local donors, sequenced over years. And a \"half-done\" park that opens beats a perfect one that doesn't: Phase 1's crowds won Phase 2's votes."},
+    jerseycity:{name:"Berry Lane Park, Jersey City, NJ",tag:"City of Jersey City · opened 2020",
+      story:"Seventeen acres of chromium-contaminated rail yards and junkyards became an underserved neighborhood's premier park. The skatepark was the final crown: a $25K Tony Hawk Foundation grant staked the claim in 2015, then $500K of county open-space money and city capital assembled behind it over five years.",
+      stats:[["$25K","the 2015 seed grant"],["$500K","county open-space trust fund"],["~12,000","sq ft, poured concrete"]],
+      principles:["Small grants anchor big money","County money carries the load"],
+      teach:"Seed grants don't build parks — they anchor a claim while the real money assembles. The load-bearing line was the county open-space fund: Nassau's equivalent is exactly the kind of layer we'd pursue."},
+    riverside:{name:"Andy Kessler Skatepark, NYC",tag:"NYC Parks · 1996, rebuilt 2021",
+      story:"One skater proposed it; a dozen teens designed it and physically built it in five weeks in 1996 — the city's first municipal skatepark, for about $130K. When the wooden ramps rotted toward removal, the skaters themselves kept it alive with volunteer repairs and annual jams until the city rebuilt it in concrete for $2.86M and named it for the skater who started it.",
+      stats:[["$130K","the 1996 youth-built original"],["$2.86M","the concrete rebuild"],["25 yrs","and the community never left"]],
+      principles:["The ownership is the point","Build in concrete"],
+      teach:"Kids who build a place defend it for decades. And the wood-vs-concrete lesson is written in this park's near-death: concrete is the survival decision every grant program now insists on."},
+    annarbor:{name:"Ann Arbor, MI",tag:"City of Ann Arbor · opened 2014",
+      story:"Nine years of bake sales, punk-rock benefits, and brick sales crawled toward a park — until the county put up a $400K challenge match and the state added $300K. The Friends group also committed to endow roughly $10K a year of maintenance through the community foundation, so the city carried no ongoing burden.",
+      stats:[["$400K","county challenge match"],["$1.22M","total build, 2014"],["~$10K/yr","maintenance, endowed via the community foundation"]],
+      principles:["Private money unlocks public","Endow the maintenance up front"],
+      teach:"Structure gifts as a match and they multiply; grassroots money alone crawls. And walking in with an endowed maintenance plan answers the city's biggest fear before it's spoken."},
+    ketchum:{name:"Guy Coles Skate Park, Ketchum, ID",tag:"City of Ketchum · phased since the mid-1990s",
+      story:"A modest local build in the mid-90s created the constituency; professional expansions followed in the 2000s and 2017, and a donation-funded refresh in 2022 — 27 years of growth, funded between phases by a standing city trust fund that lets small local gifts accumulate until they're enough for the next pour.",
+      stats:[["27 yrs","of phases, still improving"],["~15,000","sq ft and counting"],["1","standing city trust fund"]],
+      principles:["Phase it — start, then grow","A trust fund keeps it growing"],
+      teach:"You don't need the whole park on day one. Open something real, and give the community a permanent, city-held place to put money — then every phase funds the next."},
+    westbend:{name:"West Bend, WI",tag:"City + Friends nonprofit · construction target 2027",
+      story:"Decades without a site, then sudden momentum: a Friends nonprofit formed in 2024, a $53K anonymous gift bought a shovel-ready professional design — and that design attracted a $500,000 anonymous lead gift within months. Phased construction starts once the community raises the rest.",
+      stats:[["$53K","bought the design"],["$500K","the lead gift it attracted"],["22,000","sq ft planned, in phases"]],
+      principles:["Design money multiplies","A lead gift starts the avalanche"],
+      teach:"The cheapest credibility in this field is a real design: five figures of design money turned into six figures of lead-gift money almost immediately. Sequence the small catalytic gift first."},
+    hoboken:{name:"Maritime Park, Hoboken, NJ",tag:"City of Hoboken · broke ground Dec 2025, opens ~2027",
+      story:"When Hoboken finally won its decade-long fight for the last open waterfront parcel, it asked residents what to build. Over 250 responded — 63% of them skaters — and that survey put a skatepark at the heart of a marquee $16.5M waterfront park, backed by $500K in county open-space grants.",
+      stats:[["250+","survey voices, 63% skaters"],["$500K","county open-space grants"],["2027","target opening"]],
+      principles:["Ask the community first","Buy-in early protects the plan"],
+      teach:"A simple survey is cheap, fast legitimacy: it turned \"skaters want a park\" into \"the community chose this\" — armor that survives budget fights and design reviews."},
+    longbeachca:{name:"Long Beach, CA",tag:"The ASK Foundation model · 1996–today",
+      story:"One former councilman stayed on this single issue for 25+ years and drove roughly nine parks. Around the flagship park, the foundation reports drug-related incidents fell ~61% and violent crime ~29% within three years. The cautionary half: the city once approved a park but contributed zero dollars — it sat fully-approved and unfunded for 18 months until an outside donor rescued it.",
+      stats:[["~9","parks, one persistent champion"],["↓61%","drug incidents nearby (as reported)"],["$0","the city's share of one approved park"]],
+      principles:["A champion compounds","Approval without money is a trap"],
+      teach:"Persistence is the multiplier — and the warning is just as valuable: get the city to co-invest, not merely bless. \"Yes, but no dollars\" can strand a project for years."},
+    charleston:{name:"SK8 Charleston, SC",tag:"County park agency · opened 2017",
+      story:"The ceiling: $4.8M, 32,500 square feet, world-class construction. But it sits behind a staffed gate — $3 a day, a signed waiver, mandatory helmets — because the county agency runs on user fees. Opening-week coverage was literally headlined by skaters unhappy with the rules; the founding advocates drifted away before the ribbon; attendance fell ~20% from year one.",
+      stats:[["$4.8M","32,500 sq ft — the ceiling"],["$3 + waiver","the gate"],["↓20%","attendance since year one"]],
+      principles:["Keep it free — the rule that outranks the rest"],
+      teach:"Every dollar of ambition is undone by a gate: fees forfeit the grants, thin the crowds, and cost the community ownership that makes a park work. Dream Charleston-big; keep it Long-Beach-free."}
+  };
+  var CAST={
+    base:{name:"Neighbors & skaters",tag:"The base — the people it's for",
+      story:"The 1,200+ neighbors who signed the 2020 petition, the local skate scene, and the families who'd be there every weekend. In every story above, this group supplied the decisive pressure: Brentwood's two student petitions, Port Washington's 742 signatures, Rochester's Friends group that outlasted four mayors.",
+      stats:[["1,200+","already signed on here"],["3","precedent parks saved or won by petitions"]],
+      principles:["Youth- & community-led design","Buy-in early"],
+      teach:"How they help: they are the legitimacy. Signing, showing up, and shaping the design is what turns a proposal into a movement a government can't quietly shelve.",cast:true},
+    anchors:{name:"Community groups",tag:"The anchors — credibility where it counts",
+      story:"Downtown youth-serving nonprofits already trusted by the families this park would serve most. In Jersey City and Brentwood, the equity case landed because the community's own institutions and young people carried it — not outside advocates.",
+      stats:[["1","designated disadvantaged community, same neighborhood"],["2","precedents where the equity case won the money"]],
+      principles:["Community-led, community-owned","Keep it pointed at the kids who need it most"],
+      teach:"How they help: they keep the project anchored in the neighborhood it's for — co-hosting listening sessions, lending credible voices, and, if they choose, serving as the nonprofit vehicle grants can flow through.",cast:true},
+    owner:{name:"The city itself",tag:"The owner — the one door that must open",
+      story:"Glen Cove is an independent city: it owns its parkland, runs its own recreation department, and keeps grant-writing staff in-house. Long Beach — the other small city in Nassau — showed what that means: one capital-plan line, one unanimous vote, nine months to a ribbon.",
+      stats:[["1","council resolution = the written approval grants require"],["$300K","what our peer city's park cost it"]],
+      principles:["Co-investment, not just permission","A city like ours can just decide"],
+      teach:"How they help: the city is the applicant, the owner, and the approval. The ask is co-investment — real skin alongside private and grant dollars — because California's lesson is that approval with zero dollars strands projects.",cast:true},
+    craft:{name:"The people who build these",tag:"The craft — a solved problem",
+      story:"The same specialist firms that built our comparison parks work right here: the designers behind Brentwood's park and the builders behind Long Beach's and Port Washington's. A site walk with one of them turns our cost guess into a real, quotable number — and a design shaped for a Phase 1 that opens early.",
+      stats:[["3+","firms with Long Island parks standing"],["1","site tour = a real cost number"]],
+      principles:["Phase it","Real numbers beat estimates"],
+      teach:"How they help: credibility and precision. A professional concept and quote is what unlocked West Bend's lead gift and what every grant application requires — and phasing expertise gets kids skating years sooner.",cast:true},
+    money:{name:"The funders",tag:"The money — many layers, no single check",
+      story:"A national skatepark grant program built for exactly this; state and county park capital; Long Island's own family foundations; and private lead gifts — ideally structured as a match, the way Ann Arbor's county challenge and Rochester's foundation match multiplied every private dollar.",
+      stats:[["5+","distinct funding layers in every successful stack"],["1:1","the match structure that multiplies gifts"]],
+      principles:["Layer & sequence the funding","Private money unlocks public","Endow the maintenance"],
+      teach:"How they help: no one writes the whole check — each layer validates the next. The private layer moves first (it's required before the big applications), and an endowed maintenance fund answers the city's largest single fear.",cast:true},
+    champions:{name:"Local & state leaders",tag:"The champions — the big-money layer",
+      story:"City, county, and state representatives. In Brentwood, an assemblymember's directed state grants — $700K across two rounds — were the difference between a stalled promise and an open park. In Rochester, a state initiative delivered the million that twelve years of advocacy had earned.",
+      stats:[["$700K","one assemblymember delivered next door"],["#1","predictor across all 12 studies: a champion who stays"]],
+      principles:["The big-money layer runs through champions","A champion compounds"],
+      teach:"How they help: public capital is directed by people, not portals. A leader who adopts this cause can unlock sums no bake sale reaches — which is why the longest, most patient relationship-building starts now.",cast:true}
+  };
+
+  (function(){
+    var wrap=document.getElementById('modal');
+    var lastFocus=null, hoverTimer=null;
+    function esc(s){return s}
+    function render(d){
+      document.getElementById('m-eyebrow').textContent=d.cast?"The cast · how they help":"Case study · what it teaches us";
+      document.getElementById('m-title').textContent=d.name;
+      document.getElementById('m-tag').textContent=d.tag;
+      document.getElementById('m-story').textContent=d.story;
+      var st=document.getElementById('m-stats'); st.innerHTML="";
+      (d.stats||[]).forEach(function(s){
+        var div=document.createElement('div'); div.className='m-stat';
+        var n=document.createElement('div'); n.className='n tnum'; n.textContent=s[0];
+        var l=document.createElement('div'); l.className='l'; l.textContent=s[1];
+        div.appendChild(n); div.appendChild(l); st.appendChild(div);
+      });
+      document.getElementById('m-teachhead').textContent=d.cast?"How they help — the plays they run":"What it teaches us";
+      var pr=document.getElementById('m-principles'); pr.innerHTML="";
+      (d.principles||[]).forEach(function(p){
+        var c=document.createElement('span'); c.className='pchip'; c.textContent=p; pr.appendChild(c);
+      });
+      document.getElementById('m-teach').textContent=d.teach;
+    }
+    function open(d,fromEl){
+      render(d); lastFocus=fromEl||document.activeElement;
+      wrap.classList.add('open'); wrap.setAttribute('aria-hidden','false');
+      document.body.style.overflow='hidden';
+      wrap.querySelector('.m-close').focus({preventScroll:true});
+    }
+    function close(){
+      wrap.classList.remove('open'); wrap.setAttribute('aria-hidden','true');
+      document.body.style.overflow='';
+      if(lastFocus&&lastFocus.focus)lastFocus.focus({preventScroll:true});
+    }
+    wrap.addEventListener('click',function(e){if(e.target.hasAttribute('data-close'))close();});
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'&&wrap.classList.contains('open'))close();});
+    var canHover=window.matchMedia('(hover:hover)').matches;
+    document.querySelectorAll('[data-case],[data-cast]').forEach(function(card){
+      var d=card.hasAttribute('data-case')?CASES[card.getAttribute('data-case')]:CAST[card.getAttribute('data-cast')];
+      if(!d)return;
+      card.addEventListener('click',function(){open(d,card);});
+      card.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();open(d,card);}});
+      if(canHover){
+        card.addEventListener('mouseenter',function(){
+          clearTimeout(hoverTimer);
+          hoverTimer=setTimeout(function(){open(d,card);},220);
+        });
+        card.addEventListener('mouseleave',function(){clearTimeout(hoverTimer);});
+      }
+    });
+  })();
+</script>
 
 <script>
   (function(){
