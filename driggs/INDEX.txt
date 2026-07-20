@@ -1,0 +1,31 @@
+DRIGGS / CROSSED ARROWS LOT 3 — PROJECT SNAPSHOT
+Generated July 2026. Current state of the property due-diligence project.
+
+SUBJECT: Lot 3, Crossed Arrows Subdivision, Tetonia, Teton County, ID
+  PIN RP021290000030 · ~23.85 ac · raw/vacant · LA-35 zoning · permit-ready building lot
+  Seller: Hardwick "Hacker" Caldwell (Charleston, SC) — known-party resale
+  Centroid lat 43.77493, lon -111.15373 · Sec 9 T5N R45E · ~2.7 mi S of Tetonia
+
+CLAUDE.md ...... working context for Claude Code — read first
+README.md ...... project overview + orientation
+
+dossier/       the fact base
+  crossed_arrows_lot3_dossier.md . full human-readable investigation (14 sections):
+                                   subject parcel, subdivision, developers, neighborhood,
+                                   utilities model, LA-35 zoning & permissions, build-permit
+                                   sequence, CC&Rs, market/valuation, identifiers, sources
+  crossed_arrows_lot3_relay.json . same research, machine-readable structured relay
+
+open-items.md .. LIVE DD tracker — prioritized next steps, key contacts, valuation anchors,
+                 decision log. Critical path: (1) price Caldwell paid in 2023, (2) EIPH
+                 septic test holes, (3) recorded CC&Rs, (4) confirm subdivision build-ready.
+
+KEY CONSTRAINT: Idaho is a NON-DISCLOSURE state — real sale prices are not public record.
+Assessed values (~$13.8k, ~$37/yr tax) are AG-PRODUCTIVITY figures, NOT market value.
+Market signal (~$24k/ac median sold) lives only in the MLS.
+
+STATUS: research captured; no offer made, no professionals engaged. Next moves are the DD
+gates in open-items.md.
+
+MAP FILES: five PNGs were generated in the original research session (see dossier §14) but
+are not in the repo yet — regenerate or add if needed.
