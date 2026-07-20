@@ -20,6 +20,11 @@ crossed-arrows-lot3-overview.pdf . one-page shareable overview (property, build 
                  times, Teton Pass explanation, airport ranking). Source: same-name .html —
                  edit it and re-render with headless Chromium to regenerate the PDF.
 
+construction-estimate.md/.xlsx . phased build-out cost model. Phase 1 = 1,500 sf bunkhouse ADU
+                 + 3-car garage + full site; Phase 2 = 3,500 sf main house. ~$4.1M likely all-in
+                 (land separate). .md = narrative + tables + sources; .xlsx = tweakable (edit blue
+                 input cells). Geothermal/solar/well/septic, one-story, minimal-maintenance brief.
+
 open-items.md .. LIVE DD tracker — prioritized next steps, key contacts, valuation anchors,
                  decision log. Critical path: (1) price Caldwell paid in 2023, (2) EIPH
                  septic test holes, (3) recorded CC&Rs, (4) confirm subdivision build-ready.
