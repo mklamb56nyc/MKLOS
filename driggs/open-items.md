@@ -29,6 +29,13 @@ The septic determination and the price anchor gate everything else.
       architectural review, build deadlines, guest-house/barn/STR limits, road-maintenance
       obligations. CC&Rs can be stricter than county code and are enforced by the other lot
       owners, not the county.
+      - _2026-07-20 (Karen Bond, Lot 2 owner):_ reports the covenants allow **one 3,000–
+        8,000 sq ft residence + a second structure ≤1,500 sq ft.** Confirmed the 1,500 =
+        county ADU cap (LDC §3-9-2, exact match). The **3,000–8,000 range is a CC&R rule,
+        not zoning** — county sets no house-size min/max — so it's credible but needs the
+        recorded document to pin exact figures + the rest (build deadline, architectural
+        committee, materials, detached-guest-house allowance, STR rules). **Ask Karen to
+        forward her copy of the CC&Rs** — fastest route, she already has them.
 - [ ] **4. Confirm subdivision is "build-ready."** Verify a **Certificate of Subdivision
       Completion** was issued and **sanitary restrictions are lifted** on the plat — the DA
       lets the County withhold building permits until improvements are accepted. Teton
@@ -87,6 +94,13 @@ MLS comp pull resolves it.
 ## Decision log
 - 2026-07-20 — Research session captured into the dossier + relay; project scaffolded. No
   offer made, no professionals engaged. Next real move: items 1 and 2.
+- 2026-07-20 — Zoning/building round (web + Karen Bond text). Confirmed county LA-35 baseline
+  (1 house + 1 ADU ≤1,500 sq ft; setbacks 30/30/40; height 30 ft; **no county house-size
+  min/max**). Karen's "3,000–8,000 sq ft residence + 1,500 sq ft second structure" splits
+  into: 1,500 = county ADU cap (exact); 3,000–8,000 = CC&R architectural rule (credible,
+  unconfirmed — actual CC&R doc not retrievable online). Resolved zoning history: applied
+  under A/RR 2.5 → now LA-35; building right secure as a platted lot of record. Next: get
+  the recorded CC&Rs from Karen (fastest).
 - 2026-07-20 — Price-anchor round 2 (web). Market confirmed flat since 2023; added a 2nd
   Moose Path Way comp (20 ac / $399k ≈ $20k/ac) and a working public band (~$18k–24k/ac
   closing → ~$430k–575k for 23.85 ac). Verified the Crossed Arrows lots are unlisted
