@@ -124,10 +124,16 @@ def access_story():
     beth=gpd.GeoSeries([Point(-73.4869,40.7439)],crs=4326).to_crs(32618)
     mac=gpd.GeoSeries([Point(-73.6389,40.8685)],crs=4326).to_crs(32618)
     def landline(poly,min_km2=3.0):
+        # exterior rings only — interior (pond/lake) holes would render as dot-rings
         g=poly.intersection(land)
         parts=list(g.geoms) if hasattr(g,"geoms") else [g]
-        keep=[p for p in parts if "Polygon" in p.geom_type and p.area>=min_km2*1e6]
-        return gpd.GeoSeries([unary_union(keep).simplify(120).boundary],crs=32618)
+        polys=[]
+        for p in parts:
+            if p.geom_type=="Polygon": polys.append(p)
+            elif p.geom_type=="MultiPolygon": polys.extend(p.geoms)
+        keep=[p for p in polys if p.area>=min_km2*1e6]
+        from shapely.geometry import MultiLineString
+        return gpd.GeoSeries([MultiLineString([p.exterior.simplify(120) for p in keep])],crs=32618)
     na_line=landline(unary_union(na.geometry.values))
     toob_line=landline(unary_union(toob.geometry.values))
     gc_line=landline(unary_union(gc.geometry.values))
