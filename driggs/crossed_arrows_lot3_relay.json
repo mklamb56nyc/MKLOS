@@ -1,0 +1,920 @@
+{
+  "meta": {
+    "title": "Property Investigation Relay - Lot 3 Crossed Arrows Subdivision, Tetonia ID",
+    "prepared_date": "2026-07-20",
+    "purpose": "Machine-readable capture of full research session for scaffolding in downstream project. Evaluate cost, development opportunity, appeal of purchasing a ~24ac lot in Crossed Arrows Subdivision, Teton County Idaho.",
+    "critical_constraints": [
+      "Idaho is a NON-DISCLOSURE state: actual sale prices are NOT public record (not on deeds - no transfer tax/stamps; not in assessor/recorder). Prices exist only in MLS (Teton Board of Realtors / Intermountain MLS), gated to licensed members.",
+      "Assessed values below are county modeled figures. For ag-exempt parcels they reflect AGRICULTURAL PRODUCTIVITY value (~$580/ac), NOT market value (market ~$24k/ac median sold).",
+      "Recorded CC&Rs for Crossed Arrows were NOT retrievable online this session.",
+      "Instrument numbers with suffixes: WD=Warranty Deed, QCD=Quit Claim Deed, SUR/PLT=Survey/Plat, SD=Sheriff Deed, GD=Grant Deed, AFF=Affidavit, SOI=?, SD=?. Idaho deeds do not state price."
+    ]
+  },
+  "subject": {
+    "role": "SUBJECT_PARCEL_FOR_PURCHASE",
+    "lot": 3,
+    "pin": "RP021290000030",
+    "subdivision": "Crossed Arrows",
+    "legal": "Lot 3, Crossed Arrow Sub, Sec 9 T5N R45E",
+    "seller_name_common": "Hacker Caldwell",
+    "owner_of_record": "CALDWELL, HARDWICK",
+    "owner_note": "'Hacker' is a nickname for 'Hardwick'. Seller is brother of Kate, wife of Lindsay Nevin (owner of adjacent Lot 4). Both Charleston SC households.",
+    "owner_mailing": {
+      "street": "11 Saint Michael's Alley",
+      "city": "Charleston",
+      "state": "SC",
+      "zip": "29401"
+    },
+    "acreage_nominal": 23.85,
+    "acreage_gis": 23.69,
+    "centroid_wgs84": {
+      "lon": -111.15373,
+      "lat": 43.77493
+    },
+    "assessment_category": "|04|",
+    "assessment_category_note": "Pure agricultural. Lots 4 & 5 differ with |04|19| (unexplained; verify with assessor).",
+    "land_value_assessed_usd": 13814,
+    "improved_value_usd": 0,
+    "total_value_assessed_usd": 13814,
+    "current_tax_annual_usd": 37.14,
+    "value_note": "Ag-productivity value ~$580/ac, NOT market.",
+    "acquired_by_owner": {
+      "date": "2023-04-03",
+      "instrument": "280113",
+      "type": "WD",
+      "note": "Last of 5 lots to close; direct from developer Beard."
+    },
+    "structures": {
+      "count": 0,
+      "note": "Clean/vacant. (Contrast Lot 4 which has 2 ghost 2019 footprints.)"
+    },
+    "wells_on_lot": 0,
+    "water_rights": {
+      "present": false,
+      "note": "IDWR AdjudicationClaimPous and AppropriationPermitPous both empty at parcel. Dry land - no irrigation/domestic right conveys."
+    },
+    "position_in_subdivision": "Southeast lot; east side = closest Teton view exposure of the five",
+    "title_chain_newest_to_oldest": [
+      "280113 WD (Caldwell acq 2023-04-03)",
+      "279826 SUR (plat 2023-03-03)",
+      "275597 WD (Beard acq ~spring 2022)",
+      "243162 WD (~2016)",
+      "185044 WD (~2006)"
+    ]
+  },
+  "zoning": {
+    "zone_code": "LA-35",
+    "zone_name": "Lowland Agriculture",
+    "comp_plan_name": "Mixed Agriculture/Wetland",
+    "average_density": "1 dwelling unit per 35 acres",
+    "building_right_note": "Lot 3 is a platted lot of record; 35ac density satisfied at platting (5 lots/119ac ~24ac each) -> ONE primary dwelling, no further density hurdle.",
+    "dimensional_standards": {
+      "min_lot_size_ac": 1,
+      "min_lot_width_ft": 100,
+      "setback_front_ft": 30,
+      "setback_side_ft": 30,
+      "setback_rear_ft": 40,
+      "max_height_primary_and_accessory_ft": 30,
+      "max_height_agricultural_building_ft": 60
+    },
+    "uses_permitted_by_right": [
+      "Primary dwelling (house; manufactured home qualifies)",
+      "Detached Accessory Dwelling Unit / guest house (P in LA-35)",
+      "Attached ADU (P; max 1500 sqft, 2 parking, wastewater verification)",
+      "Accessory buildings (garage/shop)",
+      "Agricultural buildings (barn/silo, up to 60ft)",
+      "Horse Stable/Equestrian (min 10ac - qualifies)",
+      "Backyard beekeeping",
+      "Home business",
+      "Nursery"
+    ],
+    "uses_limited_permit_required": [
+      "Short-Term Rental (registration + septic-capacity verification)",
+      "Bed & Breakfast"
+    ],
+    "overlays_on_lot": {
+      "wetland_nwi": {
+        "present": true,
+        "extent": "edge_only",
+        "note": "Touches lot boundary along drainage line; does NOT consume interior. Wetland setback applies, measured from NWI boundary or Army Corps-approved delineation."
+      },
+      "natural_resource_overlay": {
+        "present_via": "wetland edge",
+        "note": "May trigger Abbreviated Wildlife Habitat Analysis (A-WHA) at building permit. Common exemption: site building envelope >=100ft from overlay boundary."
+      },
+      "wildland_urban_interface": {
+        "present": true,
+        "note": "Firewise/defensible-space building + wildfire insurance scrutiny."
+      },
+      "wildfire_hazard_overlay_formal": {
+        "present": false
+      },
+      "floodplain": {
+        "present": false,
+        "firm_panel": "16081C0100C"
+      },
+      "hillside_overlay": {
+        "present": false
+      },
+      "nitrate_priority_ideq": {
+        "present": false
+      },
+      "scenic_corridor": {
+        "present": false
+      }
+    }
+  },
+  "subdivision_crossed_arrows": {
+    "name": "Crossed Arrows",
+    "plat_instrument": "279826",
+    "plat_recorded": "2023-03-03",
+    "total_lots": 5,
+    "total_acres": 119.5,
+    "section_township_range": "Sec 9 T5N R45E (Boise Meridian)",
+    "common_area_or_road_parcel": false,
+    "access_note": "Via easements on plat; fronts N 3000 W (partly paved minor collector); paved W 4000 N major collector nearby; internal roads gravel.",
+    "developer": "Jessica Lyndsay Beard & Nate Clayton Beard",
+    "sold_out_window": "2023-03-03 to 2023-04-03 (~5 weeks), all direct from developer via warranty deed",
+    "current_status": "All 5 lots vacant 3+ years later; all keep ag exemption; investment/hold pattern",
+    "placeholder_address_note": "County stamped identical placeholder '3627 N 3000 W' on ALL 5 lots. Address cannot ID the correct lot; seller name does.",
+    "ownership_pattern": "4 of 5 owners in Charleston SC area (3 in downtown 29401); 1 in Atlanta. Connected family/friends group, not independent buyers. Caldwell(L3) & Nevin(L4) are family. 4H-L LLC(L5) same 29401 zip.",
+    "lots": [
+      {
+        "lot": 1,
+        "pin": "RP021290000010",
+        "owner": "HOST, BROOKS",
+        "mailing": {
+          "street": "940 Paul Revere Dr",
+          "city": "Charleston",
+          "state": "SC",
+          "zip": "29412"
+        },
+        "acres": 24.02,
+        "acquired_date": "2023-03-28",
+        "instrument": "280045",
+        "instrument_type": "WD",
+        "land_value_assessed": 13866,
+        "improved_value": 0,
+        "tax_annual": 37.26,
+        "category": "|04|",
+        "wetland_edge": false,
+        "structures": 0,
+        "centroid": {
+          "lon": -111.15423,
+          "lat": 43.77885
+        }
+      },
+      {
+        "lot": 2,
+        "pin": "RP021290000020",
+        "owner": "BOND, RICHARD WATTS",
+        "mailing": {
+          "street": "886 Glen Arden Way NE",
+          "city": "Atlanta",
+          "state": "GA",
+          "zip": "30306"
+        },
+        "acres": 23.89,
+        "acquired_date": "2023-03-17",
+        "instrument": "279960",
+        "instrument_type": "WD",
+        "land_value_assessed": 13808,
+        "improved_value": 0,
+        "tax_annual": 37.12,
+        "category": "|04|",
+        "wetland_edge": true,
+        "structures": 0,
+        "centroid": {
+          "lon": -111.15371,
+          "lat": 43.7769
+        },
+        "note": "Recorded same day as Lot 5 (consecutive instruments 279960/279961) - likely paired purchase"
+      },
+      {
+        "lot": 3,
+        "pin": "RP021290000030",
+        "owner": "CALDWELL, HARDWICK",
+        "mailing": {
+          "street": "11 Saint Michael's Alley",
+          "city": "Charleston",
+          "state": "SC",
+          "zip": "29401"
+        },
+        "acres": 23.85,
+        "acquired_date": "2023-04-03",
+        "instrument": "280113",
+        "instrument_type": "WD",
+        "land_value_assessed": 13814,
+        "improved_value": 0,
+        "tax_annual": 37.14,
+        "category": "|04|",
+        "wetland_edge": true,
+        "structures": 0,
+        "centroid": {
+          "lon": -111.15373,
+          "lat": 43.77493
+        },
+        "is_subject": true
+      },
+      {
+        "lot": 4,
+        "pin": "RP021290000040",
+        "owner": "NEVIN, LINDSAY NELSON",
+        "mailing": {
+          "street": "3211 Eenjy Lane",
+          "city": "Johns Island area (listed 'Long Island')",
+          "state": "SC",
+          "zip": "29455"
+        },
+        "acres": 23.84,
+        "acquired_date": "2023-03-03",
+        "instrument": "279826",
+        "instrument_type": "plat/SUR",
+        "land_value_assessed": 13450,
+        "improved_value": 0,
+        "tax_annual": 61.74,
+        "category": "|04|19|",
+        "wetland_edge": "partial",
+        "structures": 2,
+        "structures_note": "2 ghost footprints from 2019 imagery (~2216sqft residential + ~348sqft outbuilding), $0 improved - former farmstead apparently removed pre-subdivision",
+        "centroid": {
+          "lon": -111.15871,
+          "lat": 43.77513
+        },
+        "physical_address": "3627 N 3000 W (the true one)"
+      },
+      {
+        "lot": 5,
+        "pin": "RP021290000050",
+        "owner": "4H-L LLC",
+        "mailing": {
+          "street": "113 Rutledge Ave",
+          "city": "Charleston",
+          "state": "SC",
+          "zip": "29401"
+        },
+        "acres": 23.92,
+        "acquired_date": "2023-03-17",
+        "instrument": "279961",
+        "instrument_type": "WD",
+        "land_value_assessed": 13525,
+        "improved_value": 0,
+        "tax_annual": 36.34,
+        "category": "|04|19|",
+        "wetland_edge": false,
+        "structures": 0,
+        "centroid": {
+          "lon": -111.15867,
+          "lat": 43.77762
+        }
+      }
+    ],
+    "wetland_summary": "NWI overlay touches Lots 2, 3, and part of 4 along a drainage line (edge-touch only). Lots 1 & 5 clear.",
+    "current_listings": "None of the 5 lots currently listed. No public listing trail on Zillow/Redfin/land.com/LandWatch (consistent with within-network sale)."
+  },
+  "developers": {
+    "principals": [
+      "Jessica Lyndsay Beard",
+      "Nate Clayton Beard"
+    ],
+    "profile": "Fifth-generation Teton Valley ranching family (per JH News&Guide). NOT career developers. Crossed Arrows reads as ranch family converting land to lots during 2020-2023 subdivision wave.",
+    "jessica_beard_personal_holdings": [
+      {
+        "pin": "RP06N45E237850",
+        "acres": 2.5,
+        "total_value": 233563,
+        "acquired": "2024-03-15",
+        "legal": "TAX #7521 SEC 23 T6N R45E",
+        "note": "her home"
+      },
+      {
+        "pin": "RP06N45E237900",
+        "acres": 8.4,
+        "total_value": 4878,
+        "acquired": "2024-10-10",
+        "legal": "TAX #7522 SEC 23 T6N R45E",
+        "note": "vacant, acquired AFTER Crossed Arrows"
+      }
+    ],
+    "track_record": "No evidence Jessica/Nate platted any other subdivision - appears one-off. Extended Beard clan owns large countywide acreage (hundreds of ac T4N/T6N) but that is the broader family.",
+    "retained_in_crossed_arrows": "Nothing - sold all 5 lots",
+    "parent_land": {
+      "size_acres": 119,
+      "section": "Sec 9 T5N R45E",
+      "acquisition_instrument": "275597",
+      "acquisition_type": "WD",
+      "acquisition_date_estimate": "~spring 2022 (~May), by instrument-number interpolation between 274473 (2022-03-02) and 277223 (2022-08-12)",
+      "prior_chain": [
+        "243162 WD (~2016)",
+        "185044 WD (~2006)"
+      ],
+      "cycle": "~12-month buy->subdivide->sell-out",
+      "remainder_parcel": "None - 275597 covered exactly the 119ac = 5 lots. No second subdivision from same plot.",
+      "price_paid": {
+        "obtainable": false,
+        "note": "Idaho non-disclosure; no transfer stamps. Instrument 275597 at Recorder shows grantor/grantee/date but not price. Only via MLS (if listed) or ask Beards/Caldwell."
+      }
+    }
+  },
+  "neighborhood_subdivisions": [
+    {
+      "name": "Crossed Arrow",
+      "instrument": "279826",
+      "recorded": "2023-03-03",
+      "note": "SUBJECT (5 lots/119ac)"
+    },
+    {
+      "name": "Norville",
+      "instrument": "279377",
+      "recorded": "2023-01-24",
+      "lots": 3,
+      "note": "~5wks before Crossed Arrows but SEPARATE parent chain (260947) & owners (Tzompa Driggs, Kuhlman PA). Different developer, NOT same plot.",
+      "parcels": [
+        {
+          "pin": "RP021250000010",
+          "owner": "TZOMPA, MARCELO",
+          "acres": 4.1
+        },
+        {
+          "pin": "RP021250000020",
+          "owner": "TZOMPA, MARCELO",
+          "acres": 4.0
+        },
+        {
+          "pin": "RP021250000030",
+          "owner": "KUHLMAN, DANIEL",
+          "acres": 32.1,
+          "mailing_state": "PA"
+        }
+      ]
+    },
+    {
+      "name": "Cache Townsite",
+      "instrument": "historic",
+      "recorded": "1907-06-24",
+      "note": "Built-out settlement directly NORTH along W 4000 N; the utilities proxy"
+    },
+    {
+      "name": "Gee PUD",
+      "instrument": "201008",
+      "recorded": "2008-10-30"
+    },
+    {
+      "name": "Crooked Creek",
+      "instrument": "193521",
+      "recorded": "2007-11-27"
+    },
+    {
+      "name": "Cache Tracts Amended",
+      "instrument": "169964",
+      "recorded": "2005-08-03"
+    },
+    {
+      "name": "Thornberry Acres",
+      "instrument": "176708",
+      "recorded": "2006-05-09"
+    },
+    {
+      "name": "Daydream Ranch",
+      "instrument": "154258",
+      "recorded": "2003-04-17"
+    },
+    {
+      "name": "Cache Vista",
+      "instrument": "120090",
+      "recorded": "1995-05-24"
+    },
+    {
+      "name": "Farm View Estates",
+      "instrument": "292591",
+      "recorded": "2025-10-16",
+      "note": "newest"
+    }
+  ],
+  "utilities_model": {
+    "proxy_source": "Cache Townsite (built-out, platted 1907, directly north)",
+    "cache_townsite_build_status": {
+      "parcels": 15,
+      "with_homes": 12,
+      "vacant": 3
+    },
+    "cache_townsite_example_built": {
+      "pin": "RPD0007010002A",
+      "owner": "MIENTJES, CHRISTOPHER",
+      "address": "2999 W 4000 N",
+      "acres": 0.4,
+      "improved_value": 382665,
+      "legal": "N2 Lot 2 Blk 10 Cache Townsite"
+    },
+    "water": {
+      "type": "individual private domestic wells (one per home)",
+      "municipal_or_community": false,
+      "wells_found_in_cache_area": 20,
+      "domestic_single_residence_classified": 15,
+      "depth_range_ft": [
+        40,
+        120
+      ],
+      "depth_typical_ft": [
+        60,
+        105
+      ],
+      "static_water_level_ft": [
+        4,
+        27
+      ],
+      "yield_gpm_recorded": [
+        20,
+        45
+      ],
+      "conclusion": "Easy, cheap, reliable drilling. Lot 3 would drill its own well."
+    },
+    "sewer": {
+      "type": "individual on-site EIPH-permitted septic",
+      "municipal_sewer": false,
+      "note": "No sewer main; individual-well pattern confirms individual septic. Lot 3 same."
+    },
+    "electricity": {
+      "municipal_utility": false,
+      "provider": "Fall River Rural Electric Cooperative",
+      "provider_type": "member-owned nonprofit rural electric co-op",
+      "coverage": "All of Teton Valley ID since 1960; 7 counties across ID/MT/WY",
+      "delivery": "Overhead distribution lines along county roads (W 4000 N, 3000 W)",
+      "contact": {
+        "local": "208-652-7431",
+        "toll_free": "800-632-5726"
+      },
+      "lot3_action": "Apply for new service connection; price line-extension distance from nearest distribution line to building envelope"
+    }
+  },
+  "build_permit_sequence": [
+    {
+      "step": 1,
+      "action": "Confirm build-ready",
+      "agency": "Teton County Planning",
+      "phone": "208-354-2593 / 208-776-8240",
+      "detail": "Verify Required Improvements complete (Certificate of Subdivision Completion issued) AND sanitary restrictions lifted on plat. DA lets County withhold building permits until improvements accepted."
+    },
+    {
+      "step": 2,
+      "action": "Soil test holes + site evaluation",
+      "agency": "EIPH",
+      "detail": "Test holes show 6-8ft soil depth at drainfield + replacement area, EIPH EHS present. CRITICAL PATH - lowland ground + shallow water table (5-38ft) may force mound/pressure system."
+    },
+    {
+      "step": 3,
+      "action": "Septic permit",
+      "agency": "EIPH",
+      "detail": "Septic Permit Application + legal desc + scaled plot plan (primary + replacement drainfield) + floor plans + fee. Tank=2x daily flow; drainfield 63 gal/person/day (IDAPA 58.01.03 + DEQ TGM). Inspect before covering."
+    },
+    {
+      "step": 4,
+      "action": "Well",
+      "agency": "IDWR + licensed driller",
+      "detail": "Single-family domestic well exempt from water-right permit; licensed driller files Well Driller's Report. Shallow local water."
+    },
+    {
+      "step": 5,
+      "action": "GEC permit + Building Permit",
+      "agency": "Teton County Building Dept",
+      "detail": "Engineer-stamped plans (Idaho structural engineer; height grade-to-ridge); site plan showing structures+driveway+well+septic+measurements to property lines (SAME plan for GEC/building/septic); proof of ownership (deed); driveway/approach permit."
+    },
+    {
+      "step": 6,
+      "action": "Zoning + wetland/wildlife review",
+      "agency": "Teton County Planning",
+      "detail": "LA-35 setbacks 30/30/40, 30ft height, wetland setback; NRO/A-WHA determination (avoid via envelope >=100ft from wetland)."
+    },
+    {
+      "step": 7,
+      "action": "State + fire inspections -> CO",
+      "agency": "Idaho Div of Building Safety + EIPH + Fire District",
+      "detail": "Final electrical & plumbing inspections; EIPH final septic approval before Certificate of Occupancy; post address per Title 13; Fire District sign-off (WUI)."
+    },
+    {
+      "step": 8,
+      "action": "CC&R architectural review",
+      "agency": "Private (subdivision architectural committee if any)",
+      "detail": "Separate from and potentially stricter than county code."
+    }
+  ],
+  "build_critical_path": "Septic determination drives everything on lowland ground. Do EIPH test holes early - conventional drainfield vs engineered system shapes budget + building envelope.",
+  "ccrs_and_da": {
+    "recorded_ccrs": {
+      "retrieved": false,
+      "instrument_series": "~279xxx early 2023",
+      "how_to_get": [
+        "Title company (Schedule B exceptions, attached)",
+        "Teton County Clerk/Recorder by plat 279826",
+        "Caldwell (received at 2023 closing - fastest)"
+      ]
+    },
+    "development_agreement": {
+      "location": "County eScribe + Planning doc center (Planning Zoning > Sub Division > [name] > Final Plat), 2022-2023 hearings"
+    },
+    "county_rule": "CC&Rs are civil agreements between owners, may be MORE restrictive than county code, but County only enforces County Code. Enforced by other lot owners (Charleston group).",
+    "watch_items_in_ccrs": [
+      "min home size",
+      "materials/architectural",
+      "build deadlines",
+      "guest-house/barn limits",
+      "STR restrictions",
+      "road-maintenance obligations"
+    ],
+    "da_standard_mechanics": "Developer completes Required Improvements per recorded plans; County can withhold permits/COs until complete; warranties 1yr most improvements / 2yr landscaping; completion = Certificate of Subdivision Completion. CONFIRM issued for Crossed Arrows."
+  },
+  "market_valuation": {
+    "countywide_2025_land_actuals": {
+      "source": "Teton Valley Realty year-end MLS report",
+      "avg_sale_usd": 388530,
+      "median_sale_usd": 245000,
+      "sold_to_original_list_pct": 93.9
+    },
+    "median_price_per_acre_sold_usd": 24217,
+    "median_price_per_acre_sold_source": "Acres.com (41 records)",
+    "listing_per_acre_usd": [
+      40000,
+      52400
+    ],
+    "local_full_market_assessed_comps": [
+      {
+        "desc": "2.5ac building lot (Hardwick, Sec16)",
+        "assessed_land_usd": 250000,
+        "per_ac": 100000,
+        "deed": "2026-03-04"
+      },
+      {
+        "desc": "80.8ac vacant tract (Hinton, Sec16)",
+        "assessed_land_usd": 1080000,
+        "per_ac": 13360,
+        "deed": "2023-08-10"
+      }
+    ],
+    "comparable_current_listing": {
+      "address": "2075/2084 Moose Path Way",
+      "acres": 24.3,
+      "list_price_usd": 485000,
+      "per_ac": 20000
+    },
+    "best_price_anchor": "Ask Caldwell what he paid Beards in 2023 (near-identical lots, one window). Market ~flat since.",
+    "mls_gap": "2023 developer-sale prices exist in MLS but gated to licensed members (non-disclosure). Get via: agent one-off comp pull, licensed appraiser, title company, or Caldwell.",
+    "agent_necessity": "Not required for known-party resale. Non-optional pro = title/escrow company (flat fee). Consider real-estate attorney for purchase agreement. MLS lookup needs someone with MLS access (5-min favor), not full representation."
+  },
+  "quick_reference_identifiers": {
+    "subject_pin": "RP021290000030",
+    "all_lot_pins": {
+      "1": "RP021290000010",
+      "2": "RP021290000020",
+      "3": "RP021290000030",
+      "4": "RP021290000040",
+      "5": "RP021290000050"
+    },
+    "plat_instrument": "279826",
+    "beard_acquisition_deed": "275597 WD",
+    "prior_chain": [
+      "243162 WD ~2016",
+      "185044 WD ~2006"
+    ],
+    "plss": "Section 9, Township 5N, Range 45E, Boise Meridian",
+    "subject_centroid": {
+      "lon": -111.15373,
+      "lat": 43.77493
+    },
+    "tetonia_town": {
+      "lon": -111.15861,
+      "lat": 43.81444
+    },
+    "distance_to_tetonia_mi": 2.7,
+    "pin_decode_format": "RP + TwpNNN (e.g. 05N) + RngNNE (e.g. 45E) + SectionNN + serial. Subdivision PINs (RP02129...) = subdivision code + lot serial.",
+    "zoning": "LA-35 Lowland Agriculture, 35-ac avg density"
+  },
+  "data_sources": {
+    "county_state_gis": {
+      "teton_county_arcgis_org_id": "as6biEYkl7PaUM4Y",
+      "teton_county_arcgis_org_name": "Teton County, Idaho GIS",
+      "teton_county_services_root": "https://services1.arcgis.com/as6biEYkl7PaUM4Y/arcgis/rest/services",
+      "layers_used": [
+        "TETON_COUNTY_PARCELS_(PUBLIC)",
+        "ZONING_CURRENT",
+        "NAT_RESOURCE_OVERLAY_2023 (sublayers 1-7)",
+        "FIRM_BOUNDARIES",
+        "FLOOD_PRELIMINARY_2018",
+        "Depth_Grid",
+        "WILDFIRE_HAZARD_OVERLAY_2022",
+        "Wildland_Urban_Interface",
+        "HILLSIDE_OVERLAY_2004",
+        "Nitrate_Priority_Areas_IDEQ_2020",
+        "SCENIC_CORRIDOR",
+        "SUBDIVISIONS_(PUBLIC)",
+        "ADDRESS_POINTS_PUBLIC_(OPEN_DATA)",
+        "BUILDING_FOOTPRINTS_ALL_YEARS",
+        "ROADS_(PUBLIC)"
+      ],
+      "parcel_layer_key_fields": [
+        "PIN",
+        "Owner",
+        "Mailing_Address/City/State/Zip",
+        "Acres",
+        "Land_Value",
+        "Improved_Value",
+        "Total_Value",
+        "Current_Tax",
+        "Categories",
+        "Legal_1..6",
+        "Deed_Date",
+        "Deed_Ref1..5",
+        "Deed1..5_Num",
+        "Physical_Address"
+      ],
+      "gis_hub": "https://teton-county-idaho-gis-open-data-tetonidaho.hub.arcgis.com/",
+      "assessor_page": "https://www.tetoncountyidaho.gov/government/elected_officials/assessor_-_property_values/index.php",
+      "idwr_parcels": "https://gis.idwr.idaho.gov/hosting/rest/services/Reference/Parcels/FeatureServer/0",
+      "idwr_wells": "https://gis.idwr.idaho.gov/hosting/rest/services/groundwater/Wells/FeatureServer/0",
+      "idwr_well_search": "https://research.idwr.idaho.gov/apps/wellconstruction/wcinfosearchexternal/",
+      "idwr_water_right_pou": [
+        "https://gis.idwr.idaho.gov/hosting/rest/services/Allocation/AdjudicationClaimPous/MapServer",
+        "https://gis.idwr.idaho.gov/hosting/rest/services/Allocation/AppropriationPermitPous/MapServer"
+      ],
+      "idwr_water_right_locator": "https://maps.idwr.idaho.gov/agol/WaterRightLocator/",
+      "esri_world_imagery": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export",
+      "imagery_vintage_local": "2021-08-04"
+    },
+    "zoning_code_permits": {
+      "land_development_code_pdf": "https://cms3.revize.com/revize/tetoncounty/documents/Government/Teton%20County%20Code/Land%20Development%20Code_As%20amended.pdf",
+      "ldc_adopted": "2022-07-06 effective 2022-08-03, amended through 2024; also a 2026-05-27 amended version",
+      "county_code_page": "https://tetoncountyidaho.gov/government/teton_county_code.php",
+      "planning_zoning": "https://tetoncountyidaho.gov/departments/planning_zoning_department/index.php",
+      "pz_faqs": "https://tetoncountyidaho.gov/departments/planning_zoning_department/faqs.php",
+      "pending_subdivisions": "https://www.tetoncountyidaho.gov/departments/planning_zoning_department/pending_subdivisions.php",
+      "building_submittal_checklist": "https://cms3.revize.com/revize/tetoncounty/documents/Service/Forms/1st%20steps_residential%20submittal%20cklist%20rev%205.22.2024_jk_tb%20edits.pdf",
+      "septic_capacity_form": "https://cms3.revize.com/revize/tetoncounty/documents/Department/Planning%20Zoning/Forms/septiccapacityform2023.pdf",
+      "eiph_septic_program": "https://eiph.id.gov/environmental-health/septic/",
+      "eiph_rules_forms": "https://eiph.id.gov/environmental-health/septic/septic-rules-forms/",
+      "eiph_septic_permit_packet": "https://eiph.id.gov/wp-content/uploads/2025/09/Septic-Permit-Application-Packet-1125.pdf",
+      "eiph_subdivision_septic_packet": "https://eiph.id.gov/wp-content/uploads/2025/03/Subdivision-App-Packet-Septic-1.pdf",
+      "eiph_example_approval": "https://www.tetoncountyidaho.gov/documents/Department/Planning%20Zoning/Sub%20Division/Sweetwater%20Plat%20Amend.%20Trulove/Final%20Plat/F.%20EIPH%20Approval%20for%20Individual%20Wells%20and%20Septic%20Systems.pdf",
+      "development_agreement_escribe": [
+        "https://pub-tetoncounty.escribemeetings.com/filestream.ashx?DocumentId=3648",
+        "https://pub-tetoncounty.escribemeetings.com/filestream.ashx?documentid=8574"
+      ]
+    },
+    "developer_neighborhood_news": {
+      "vard_crossed_arrows_staff_report": "https://tetonvalleyadvocates.org/our-work/featured-project/",
+      "vard_dev_map": "https://tetonvalleyadvocates.org/teton-valley-development-map/",
+      "teton_realty_blog": "https://tetonrealtyblog.com/category/local-info/teton-county-idaho/",
+      "teton_realty_blog_zoning": "https://tetonrealtyblog.com/new-zoning-and-land-development-code-part-ii-zoning-districts-teton-county-id/",
+      "teton_realty_blog_2025_yearend": "https://tetonrealtyblog.com/2025-year-end-market-report/",
+      "beard_ranch_news": "https://www.jhnewsandguide.com/news/environmental/billionaire-knocking-as-idaho-governor-officials-vote-to-auction-teton-valley-ranch-land/article_0ca9f7ae-ae4b-45f8-a1ce-1130fc2eb044.html",
+      "subdivision_boom_context": "https://www.tetonvalleynews.net/news/local_government/county-p-z-commissioners-agonize-over-massive-subdivision/article_c9112eb5-b8ad-5eb7-aa9b-f04652a155e6.html"
+    },
+    "utilities": {
+      "fall_river_electric_about": "https://www.fallriverelectric.com/about-us",
+      "fall_river_electric_history": "https://fallriverelectric.com/history",
+      "fall_river_electric_contact": "https://www.fallriverelectric.com/contact-us"
+    },
+    "non_disclosure_market": {
+      "housecanary": "https://www.housecanary.com/blog/non-disclosure-states",
+      "stateimpact_idaho": "https://stateimpact.npr.org/idaho/2011/12/23/reporters-notebook-how-to-get-information-in-a-non-disclosure-state/",
+      "idaho_capital_sun": "https://idahocapitalsun.com/2021/08/31/as-tax-gap-widens-idaho-1-of-10-states-with-no-obligation-to-disclose-propertys-sale-price/",
+      "acres_teton": "https://www.acres.com/plat-map/map/id/teton-county-id",
+      "listing_aggregators": [
+        "https://www.land.com/Tetonia-ID/undeveloped-land/",
+        "https://www.landsearch.com/properties/tetonia-id",
+        "https://www.zillow.com/tetonia-id/land/",
+        "https://www.homes.com/tetonia-id/land-for-sale/"
+      ]
+    }
+  },
+  "cache_townsite_parcels": [
+    {
+      "pin": "RP05N45E093450",
+      "owner": "STAUFFER, MARCUS",
+      "acres": 1.4,
+      "improved_value": 0,
+      "built": false
+    },
+    {
+      "pin": "RP05N45E093455",
+      "owner": "RODRIGUEZ, REMIGIO",
+      "acres": 1.4,
+      "improved_value": 0,
+      "built": false
+    },
+    {
+      "pin": "RPD0007007001A",
+      "owner": "SEDDON, SCOTT REVOCABLE",
+      "acres": 2.0,
+      "improved_value": 240972,
+      "built": true
+    },
+    {
+      "pin": "RPD0007007002A",
+      "owner": "CACHE RANCH INC, THE",
+      "acres": 2.3,
+      "improved_value": 262184,
+      "built": true,
+      "legal": "Blk 7"
+    },
+    {
+      "pin": "RPD00070090020",
+      "owner": "AGNEW, DAVID FAMILY TRUST",
+      "acres": 1.1,
+      "improved_value": 330487,
+      "built": true,
+      "legal": "Lot 2 Blk 9"
+    },
+    {
+      "pin": "RPD00070100010",
+      "owner": "KELLY-MCCRACKEN, LESLI A",
+      "acres": 1.1,
+      "improved_value": 13150,
+      "built": true,
+      "legal": "Lot 1 Blk 10"
+    },
+    {
+      "pin": "RPD0007010002A",
+      "owner": "MIENTJES, CHRISTOPHER",
+      "acres": 0.4,
+      "improved_value": 382665,
+      "built": true,
+      "legal": "N2 Lot 2 Blk 10",
+      "address": "2999 W 4000 N"
+    },
+    {
+      "pin": "RPD0007010002C",
+      "owner": "KELLY-MCCRACKEN, LESLI A",
+      "acres": 0.4,
+      "improved_value": 750,
+      "built": true,
+      "legal": "S2 Lot 2 Blk 10"
+    },
+    {
+      "pin": "RPD0007010003A",
+      "owner": "AHRENS, ALEXANDRA ISABEL",
+      "acres": 1.1,
+      "improved_value": 143723,
+      "built": true,
+      "legal": "Lot 3 Blk 10"
+    },
+    {
+      "pin": "RPD00070100040",
+      "owner": "KELLY-MCCRACKEN, LESLI A",
+      "acres": 1.4,
+      "improved_value": 191997,
+      "built": true,
+      "legal": "Lot 4 Blk 10"
+    },
+    {
+      "pin": "RPD0007011001A",
+      "owner": "VALLADE, KEVIN",
+      "acres": 1.4,
+      "improved_value": 419084,
+      "built": true,
+      "legal": "Blk 11"
+    },
+    {
+      "pin": "RPD00070150010",
+      "owner": "WIELANG, JOSEPH ANTHONY",
+      "acres": 1.1,
+      "improved_value": 3400,
+      "built": true,
+      "legal": "Lot 1 Blk 15"
+    },
+    {
+      "pin": "RPD00070150020",
+      "owner": "KAISER, DOUGLAS A",
+      "acres": 1.4,
+      "improved_value": 118537,
+      "built": true,
+      "legal": "Lot 2 Blk 15",
+      "mailing_state": "WI"
+    },
+    {
+      "pin": "RPD00070150030",
+      "owner": "HUETT, WILLIAM DENNIS",
+      "acres": 1.1,
+      "improved_value": 7400,
+      "built": true,
+      "legal": "Lot 3 Blk 15",
+      "mailing_state": "FL"
+    },
+    {
+      "pin": "RPD00070150040",
+      "owner": "RINTOUL REVOCABLE TRUST",
+      "acres": 1.4,
+      "improved_value": 0,
+      "built": false,
+      "legal": "Lot 4 Blk 15",
+      "mailing_state": "CA"
+    }
+  ],
+  "cache_area_wells_sample": [
+    {
+      "owner": "BRETT COOKE",
+      "use": "Domestic-Single Residence",
+      "depth_ft": 60,
+      "static_ft": 20,
+      "constructed": "2007-04-02"
+    },
+    {
+      "owner": "JOHN SINGH",
+      "use": "Domestic-Single Residence",
+      "depth_ft": 79,
+      "static_ft": 10,
+      "constructed": "2015-10-07"
+    },
+    {
+      "owner": "LELAND MCCRACKEN",
+      "use": "Domestic-Single Residence",
+      "depth_ft": 60,
+      "static_ft": 16,
+      "constructed": "2007-03-30"
+    },
+    {
+      "owner": "JUDY JACKSON",
+      "use": "Domestic-Single Residence",
+      "depth_ft": 120,
+      "static_ft": 27,
+      "constructed": "2005-05-24"
+    },
+    {
+      "owner": "DOUG KAISER",
+      "use": "Domestic-Single Residence",
+      "depth_ft": 78,
+      "static_ft": 14,
+      "constructed": "2015-09-11"
+    },
+    {
+      "owner": "ALEX DACEY",
+      "use": "Domestic-Single Residence",
+      "depth_ft": 89,
+      "static_ft": 14,
+      "yield_gpm": 20,
+      "constructed": "2019-04-23"
+    },
+    {
+      "owner": "NEREIDA ORTIZ",
+      "use": "Domestic-Single Residence",
+      "depth_ft": 98,
+      "static_ft": 20,
+      "constructed": "2016-11-10"
+    },
+    {
+      "owner": "TONY WIELANY",
+      "use": "Domestic-Single Residence",
+      "depth_ft": 78,
+      "static_ft": 18,
+      "constructed": "2016-11-11"
+    },
+    {
+      "owner": "RICK JOHNSON C/O SKIP YANCY",
+      "use": "Domestic-Single Residence",
+      "depth_ft": 98,
+      "static_ft": 10,
+      "yield_gpm": 30,
+      "constructed": "2020-06-22"
+    },
+    {
+      "owner": "DENNIS HUETT",
+      "use": "Domestic-Single Residence",
+      "depth_ft": 105,
+      "static_ft": 14,
+      "yield_gpm": 35,
+      "constructed": "2022-08-08"
+    }
+  ],
+  "open_items_next_steps": [
+    "Get 2023 price Caldwell paid Beards (from Caldwell or MLS comp pull) - key valuation anchor",
+    "Pull recorded CC&Rs + Development Agreement (title co / Recorder by plat 279826 / Caldwell)",
+    "Confirm subdivision build-ready: Certificate of Subdivision Completion + sanitary restrictions lifted",
+    "EIPH test holes/soils on Lot 3 early - determines septic type given shallow water table",
+    "Fall River Electric line-extension estimate to building envelope (208-652-7431)",
+    "Well cost estimate (local drillers; ~60-105ft domestic)",
+    "Wetland delineation near east/boundary edge - confirm setback, keep envelope >=100ft from NRO",
+    "Recorder lookup instrument 275597 - names who Beards bought 119ac from in 2022 (context not price)",
+    "Decode assessment category |04|19| on Lots 4&5 vs |04| on Lots 1-3 (ask assessor)",
+    "Title commitment - parcel title chain + easements"
+  ],
+  "map_files": [
+    {
+      "file": "crossed_arrows_lot3.png",
+      "desc": "Subdivision with Lot 3 (Caldwell) highlighted as subject"
+    },
+    {
+      "file": "crossed_arrows_full.png",
+      "desc": "All 5 lots, owners, wetland overlay"
+    },
+    {
+      "file": "crossed_arrow_lot4.png",
+      "desc": "Lot 4 (Nevin) reference map"
+    },
+    {
+      "file": "lot4_aerial_structures.png",
+      "desc": "2021 aerial with parcel boundary + 2019 building footprints"
+    },
+    {
+      "file": "cache_area_subdivisions.png",
+      "desc": "Neighborhood subdivisions by plat year"
+    }
+  ]
+}
