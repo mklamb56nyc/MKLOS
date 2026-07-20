@@ -83,7 +83,7 @@ def access_story():
     import geopandas as gpd
     from shapely.geometry import Point
     PAPER="#F1EFE9"; WATER="#BCD6EA"; INK="#191A1E"; SOFT="#4C4D55"; POOL="#1C6FB5"; POOLD="#0C4A84"
-    SPARK="#FF5A1F"; SPARKD="#C43F0E"
+    SPARK="#FF5A1F"; SPARKD="#C43F0E"; NASSAU_C="#5B3FA8"; TOB_C="#0E6B70"
     for f,u in [("tl_2023_36_tract.shp","TRACT/tl_2023_36_tract.zip"),
                 ("tl_2023_36_cousub.shp","COUSUB/tl_2023_36_cousub.zip"),
                 ("tl_2023_36_place.shp","PLACE/tl_2023_36_place.zip"),
@@ -100,9 +100,6 @@ def access_story():
     cs=gpd.read_file("tl_2023_36_cousub.shp").to_crs(32618)
     toob=cs[(cs.COUNTYFP=="059")&(cs.NAME.str.contains("Oyster Bay"))]
     gc=gpd.read_file("tl_2023_36_place.shp").to_crs(32618); gc=gc[gc.NAME=="Glen Cove"]
-    if not os.path.exists("data/dac_nassau_2023.geojson"):
-        urllib.request.urlretrieve("https://data.ny.gov/resource/2e6c-s6fp.geojson?$select=the_geom,geoid,city_town&$where=county='Nassau' AND dac_designation='Designated as DAC'&$limit=60".replace(" ","%20"),"data/dac_nassau_2023.geojson")
-    dac=gpd.read_file("data/dac_nassau_2023.geojson").to_crs(32618)  # ALL 44 Nassau DAC tracts (Final 2023)
     bike=gpd.read_file("data/bike_today.gpkg").to_crs(32618)
     car=gpd.read_file("data/covA.gpkg").to_crs(32618)
     excl=[(-73.3649,40.8625),(-73.3113,40.8822),(-73.3978,40.6579),(-72.5356,40.8873)]
@@ -126,6 +123,17 @@ def access_story():
         geometry=[Point(p[1],p[2]) for p in parks],crs=4326).to_crs(32618)
     beth=gpd.GeoSeries([Point(-73.4869,40.7439)],crs=4326).to_crs(32618)
     mac=gpd.GeoSeries([Point(-73.6389,40.8685)],crs=4326).to_crs(32618)
+    def landline(poly,min_km2=3.0):
+        g=poly.intersection(land)
+        parts=list(g.geoms) if hasattr(g,"geoms") else [g]
+        keep=[p for p in parts if "Polygon" in p.geom_type and p.area>=min_km2*1e6]
+        return gpd.GeoSeries([unary_union(keep).simplify(120).boundary],crs=32618)
+    na_line=landline(unary_union(na.geometry.values))
+    toob_line=landline(unary_union(toob.geometry.values))
+    gc_line=landline(unary_union(gc.geometry.values))
+    print("boundary line lengths (km):",
+          float(na_line.length.iloc[0])/1000, float(toob_line.length.iloc[0])/1000,
+          float(gc_line.length.iloc[0])/1000)
     b=na.total_bounds; pad=2000
     fig,axes=plt.subplots(1,2,figsize=(16,8.8),dpi=140)
     fig.patch.set_facecolor(PAPER)
@@ -139,24 +147,23 @@ def access_story():
         su.plot(ax=ax,color="#E7E3D9",edgecolor="#cfc9bc",linewidth=.25)
         na.plot(ax=ax,color="#EDEAE1",edgecolor="#d8d3c7",linewidth=.3)
         waterdf.plot(ax=ax,color=WATER,edgecolor="none",zorder=2)
-        gpd.GeoSeries([unary_union(na.geometry.values).intersection(land)],crs=32618).boundary.plot(ax=ax,color=INK,linewidth=1.0,zorder=4)
-        gpd.GeoSeries([unary_union(toob.geometry.values).intersection(land)],crs=32618).boundary.plot(ax=ax,color=SOFT,linewidth=1.7,linestyle=(0,(5,3)),zorder=4)
+        na_line.plot(ax=ax,color=NASSAU_C,linewidth=2.2,zorder=6)
+        toob_line.plot(ax=ax,color=TOB_C,linewidth=2.0,linestyle=(0,(6,3)),zorder=6)
         car.plot(ax=ax,color=POOL,alpha=.12,edgecolor=POOLD,linewidth=.6)
         bike.plot(ax=ax,color=POOL,alpha=.36,edgecolor=POOLD,linewidth=1.2)
         if i==1:
             gcc.plot(ax=ax,color=SPARK,alpha=.14,edgecolor=SPARKD,linewidth=.7)
             gcb.plot(ax=ax,color=SPARK,alpha=.40,edgecolor=SPARKD,linewidth=1.8)
             mac.plot(ax=ax,color=SPARKD,marker="*",markersize=430,edgecolor=INK,zorder=9)
-        gpd.GeoSeries([unary_union(gc.geometry.values).intersection(land)],crs=32618).boundary.plot(ax=ax,color=SPARKD,linewidth=1.8,zorder=5)
-        dac.plot(ax=ax,facecolor="none",edgecolor=SPARKD,linewidth=.8,hatch="///",zorder=3)
+        gc_line.plot(ax=ax,color=SPARKD,linewidth=1.8,zorder=7)
         pk.plot(ax=ax,color=POOLD,markersize=55,edgecolor="white",linewidth=1,zorder=8)
         ax.scatter(beth.x,beth.y,marker="X",s=100,color=SOFT,edgecolor="white",linewidth=1,zorder=8)
         ax.annotate("Bethpage\n(closed)",xy=(float(beth.x.iloc[0]),float(beth.y.iloc[0])),
                     xytext=(8,-26),textcoords="offset points",fontsize=8.5,color=SOFT)
         ax.annotate("Town of Oyster Bay",xy=(.565,.185),xycoords="axes fraction",
-                    fontsize=9,color=SOFT,style="italic")
+                    fontsize=9,color=TOB_C,style="italic",fontweight="bold")
         ax.annotate("NASSAU COUNTY",xy=(.24,.60),xycoords="axes fraction",fontsize=8.5,
-                    color=INK,alpha=.55,fontweight="bold")
+                    color=NASSAU_C,alpha=.85,fontweight="bold")
         ax.annotate("QUEENS",xy=(.015,.47),xycoords="axes fraction",fontsize=8,color=SOFT,alpha=.7)
         ax.annotate("SUFFOLK",xy=(.905,.52),xycoords="axes fraction",fontsize=8,color=SOFT,alpha=.7)
         ax.annotate("Glen Cove",xy=(float(gc.geometry.centroid.x.iloc[0]),
@@ -183,10 +190,9 @@ def access_story():
              mpatches.Patch(facecolor=POOL,alpha=.12,edgecolor=POOLD,label="20-min DRIVE (most generous park count)"),
              mpatches.Patch(facecolor=SPARK,alpha=.40,edgecolor=SPARKD,label="20-min BIKE ride to a Glen Cove park"),
              mpatches.Patch(facecolor=SPARK,alpha=.14,edgecolor=SPARKD,label="20-min DRIVE to a Glen Cove park"),
-             mpatches.Patch(facecolor="none",edgecolor=SPARKD,hatch="///",label="state-designated disadvantaged community (hatched)"),
              mlines.Line2D([],[],color=SPARKD,linewidth=1.8,label="Glen Cove city limits"),
-             mlines.Line2D([],[],color=INK,linewidth=1.0,label="Nassau County line"),
-             mlines.Line2D([],[],color=SOFT,linewidth=1.7,linestyle=(0,(5,3)),label="Town of Oyster Bay line"),
+             mlines.Line2D([],[],color=NASSAU_C,linewidth=2.2,label="Nassau County line"),
+             mlines.Line2D([],[],color=TOB_C,linewidth=2.0,linestyle=(0,(6,3)),label="Town of Oyster Bay line"),
              mlines.Line2D([],[],marker="o",color="none",markerfacecolor=POOLD,markeredgecolor="white",markersize=9,label="existing free public skatepark"),
              mlines.Line2D([],[],marker="*",color="none",markerfacecolor=SPARKD,markeredgecolor=INK,markersize=15,label="proposed park (City Stadium) — Bethpage ✕ (closed)")]
     fig.legend(handles=handles,loc="lower center",ncol=4,frameon=False,fontsize=9,
