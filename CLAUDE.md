@@ -12,8 +12,10 @@ Each project lives in its own top-level directory with its own `CLAUDE.md`:
 - `driggs/` — due diligence on a Crossed Arrows Lot 3 land purchase, Tetonia, Idaho
 - `bold-by-nature/` — outdoor leadership club at Miss Porter's School, founded by Molly
 
-(The public website will be added later as `site/`, deployed by Cloudflare — not
-set up yet.)
+The public website is **not** in this repo (an earlier plan to import it as `site/`
+was dropped — no migration needed). It lives in its own repo,
+`mklamb56nyc/received-wisdom-site`, and is worked on from here — see
+"Website (received-wisdom-site)".
 
 ## How to work here
 - **Read the project's `CLAUDE.md` first** and keep changes scoped to that
@@ -70,10 +72,25 @@ How git automation works here, for future sessions:
   stale, the workflow now labels the PR `automerge-blocked` and comments how to fix it
   instead of failing silently in the Actions log — rebase and force-push to clear it.
 - **Exception:** PRs that touch `site/` are **not** auto-merged — they stay open
-  for human review, because `site/` is the public website Cloudflare deploys and
-  production changes must be reviewed.
-- **Do not remove the `site/` guard** in that workflow — it's the safety gate
-  that keeps production changes from merging unreviewed.
+  for human review. (The website ultimately stayed in its own repo rather than
+  moving to `site/`, but keep the guard: it's harmless, and it's the safety gate
+  if anything production-deployed ever does land in this repo.)
+- **Do not remove the `site/` guard** in that workflow.
+
+## Website (received-wisdom-site)
+The public website is a separate repo, `mklamb56nyc/received-wisdom-site`,
+deployed by Cloudflare Pages **directly from its `main` branch** — a push to
+`main` there goes to production. To work on the site from a session:
+- Ask me to attach the repo if it isn't already (`add_repo received-wisdom-site`);
+  it clones to `/workspace/received-wisdom-site`.
+- It's a plain static site: HTML pages at the root, `images/`, `private/`, and a
+  Cloudflare Pages `_headers` file. No build step, no framework.
+- **Never push to its `main`.** Publish by pushing a `claude/<topic>` branch and
+  opening a PR in that repo; I review and merge, and the merge is the deploy.
+  That repo has **no auto-merge workflow** — PRs waiting for me is the intended
+  production gate, not a malfunction.
+- MKLOS's auto-merge machinery does not apply there; its git conventions
+  (re-cut branches from main, never reuse a merged branch) still do.
 
 ## Google connectors
 When enabled on a session, you can use my personal Google connectors:
