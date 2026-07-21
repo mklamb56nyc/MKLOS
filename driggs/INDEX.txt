@@ -18,7 +18,10 @@ dossier/       the fact base
 
 crossed-arrows-lot3-overview.pdf . one-page shareable overview (property, build rights, drive
                  times, Teton Pass explanation, airport ranking). Source: same-name .html —
-                 edit it and re-render with headless Chromium to regenerate the PDF.
+                 edit it and re-render with headless Chromium to regenerate the PDF. Published
+                 July 2026 to the live site's private area as /private/lot3.html
+                 (received-wisdom-site repo — republish there when the source changes; note
+                 /private/ is unlisted, not authenticated).
 
 construction-estimate.md/.xlsx . phased build-out cost model + operating-cost view. Phase 1 =
                  1,500 sf bunkhouse ADU + 3-car garage + full site; Phase 2 = 3,500 sf main house.
