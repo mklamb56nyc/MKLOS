@@ -128,6 +128,14 @@
   .band-dark .inset .in-stat .en{color:#fff}
   .in-stat .el{font-size:.92rem;color:var(--ink-soft)}
   .band-dark .in-stat .el{color:#c6cbd4}
+  .flip{display:grid;gap:14px;margin-top:6px}
+  .frow{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(16px,2.5vw,36px);background:var(--card);border:1.5px solid var(--line);border-radius:6px;padding:clamp(18px,2.5vw,26px)}
+  .frow .tag{font-family:"Space Mono",monospace;font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;display:block;margin-bottom:8px}
+  .frow .fear .tag{color:#9a938a}
+  .frow .real .tag{color:var(--spark-deep)}
+  .frow .fear p{color:#8d867d;font-size:clamp(1rem,1.15vw,1.12rem);margin:0;font-style:italic}
+  .frow .real p{color:var(--ink-soft);font-size:.97rem;margin:0}
+  @media(max-width:760px){.frow{grid-template-columns:1fr}}
 
   /* source links */
   .srcs{margin-top:14px;display:flex;flex-wrap:wrap;gap:8px 18px}
@@ -368,21 +376,40 @@
     <div class="split reveal">
       <div class="prose">
         <p>A skatepark fits that need almost exactly. It's exercise that doesn't feel like exercise — outdoors, creative, self-paced. It's radically inclusive: no team to make, no bench, no season, no cut. A kid shows up at their own level, next to kids older, younger, better, and nothing like them otherwise. And it builds the character we say we want — you fall, you get up, you try the thing again. That's the whole sport.</p>
-        <p>Forget the old caricature of the skatepark as a den of trouble; that picture is decades stale. What a modern concrete park actually is: an all-ages public commons — one of the last "third places" left where kids gather in person instead of through a screen. The part that matters most is <span class="val">ownership</span> — a place that's theirs, that they help design and look after because it belongs to them.</p>
-        <p>And for anyone who worries a skatepark invites trouble, the evidence runs the other way: where these parks open, neighborhoods tend to get <span class="val">safer</span>, not less safe.</p>
+        <p>Forget the old caricature of the skatepark as a den of trouble; that picture is decades stale. What a modern concrete park actually is: a healthy, all-ages <span class="val">gathering place</span> in the open — one of the last "third places" left where teenagers meet in person instead of through a screen, with parents at the rail and younger kids working up the nerve to drop in. The part that matters most is <span class="val">ownership</span> — a place that's theirs, that they help design and look after because it belongs to them.</p>
+        <p>And the "it attracts bad kids" worry deserves a direct answer, because the evidence <span class="val">reverses</span> it: a skatepark doesn't gather trouble — it gathers kids in the open, doing something healthy, where the whole town can see them.</p>
       </div>
       <div class="inset reveal">
         <div class="ih">What the research actually finds</div>
         <div class="in-stat"><span class="en tnum">76%</span><span class="el">of skaters say they skate <b>to have fun</b> — the #1 reason, in the largest national study ever done</span></div>
         <div class="in-stat"><span class="en tnum">62%</span><span class="el">skate <b>to get away from stress</b> — the sport is a mental-health outlet kids choose on their own</span></div>
         <div class="in-stat"><span class="en tnum">5,000<span style="font-size:.55em">+</span></span><span class="el">skaters studied — and the friendships they build cross <b>race, class, and age</b> in ways few sports match</span></div>
-        <div class="in-stat"><span class="en tnum">↓61%</span><span class="el">and the safety worry runs backwards: near one California park, drug incidents fell ~61% and violent crime ~29% after it opened — and nearly half of surveyed police report less youth crime once a park exists</span></div>
+        <div class="in-stat"><span class="en">"Safer"</span><span class="el">is how skaters of color in that study described the skate community — they reported feeling <b>safer inside it</b> than in predominantly white spaces</span></div>
         <div class="srcs">
           <a class="src" href="https://pullias.usc.edu/project/usc-skate-study/">USC "Beyond the Board" study</a>
-          <a class="src" href="https://www.asklongbeach.org/">ASK Foundation, Long Beach CA</a>
-          <a class="src" href="https://publicskateparkguide.org/advocacy/thf-police-study/">Skatepark Project law-enforcement survey</a>
         </div>
       </div>
+    </div>
+
+    <h3 class="subhead reveal">The "bad kids" worry, taken head-on</h3>
+    <div class="flip">
+      <div class="frow reveal">
+        <div class="fear"><span class="tag">The fear</span><p>"A skatepark is a magnet for troublemakers."</p></div>
+        <div class="real"><span class="tag">What actually happens</span><p>It's a magnet for <b>kids</b> — and the adults who come with them. A modern park sits in the open at a busy public site: parents at the rail, little kids on scooters, teenagers coaching them. A full, watched park in daylight is the opposite of an empty lot after dark — and kids look after a place that's theirs, because they helped design it.</p></div>
+      </div>
+      <div class="frow reveal">
+        <div class="fear"><span class="tag">The fear</span><p>"It'll bring crime to the neighborhood."</p></div>
+        <div class="real"><span class="tag">What actually happens</span><p>Where these parks open, the numbers run the other way. In Long Beach, CA, the ASK Foundation reports that in the three years after its skatepark opened, drug incidents in the surrounding area fell <b>~61%</b> and violent crime <b>~29%</b> — and in The Skatepark Project's national survey of law enforcement, nearly half of officers reported <b>less</b> youth crime once a park existed.</p></div>
+      </div>
+      <div class="frow reveal">
+        <div class="fear"><span class="tag">The fear</span><p>"The kids who'd hang out there are up to no good."</p></div>
+        <div class="real"><span class="tag">What actually happens</span><p>The kids who'd "hang out there" are getting outdoor exercise — on their own initiative, for free, at a sport with no bench and no cut. The largest national study of skaters found they show up to have fun and shake off stress, and peer-reviewed research finds skating builds well-being, companionship, and a valued sense of community. There are no bad kids here; there are kids with <b>nowhere to go</b>.</p></div>
+      </div>
+    </div>
+    <p class="ladder-note reveal">The one-line answer to the safety worry: give kids somewhere to belong, and they use it. A watched, well-used public space displaces the trouble people fear.</p>
+    <div class="srcs reveal" style="margin-top:10px">
+      <a class="src" href="https://www.asklongbeach.org/">ASK Foundation, Long Beach CA</a>
+      <a class="src" href="https://publicskateparkguide.org/advocacy/thf-police-study/">Skatepark Project law-enforcement survey</a>
     </div>
   </div>
 </section>
