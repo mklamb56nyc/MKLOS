@@ -97,6 +97,14 @@ hrs**. Always check the pass before a Wyoming-side trip.
     upkeep reserve. Teton Co. effective tax rate low (~0.35–0.5%); ag-valuation retention (§63-604)
     can keep the land portion tiny **if CC&Rs allow ag use**. Insurance (WUI) is the escalating risk.
 
+## Design concept (rough)
+- `design/site-plan.md` + `site-plan-schematic.svg` — 3 buildings on a shallow arc concave to the
+  east (garage N · main house center · bunkhouse S), flat roofs sloping E→W, full-height east glass
+  view walls, minimalist Cor-Ten/wood west entries; modeled on KieranTimberlake's High Horse Ranch.
+- `design/gemini-mockup-prompt.md` — image-gen prompts for a visual mockup.
+- Open design Qs: arc radius / building separations; detached vs. breezeway-linked; roof vs. ground
+  solar (roof plane tilts west); driveway length. Envelope must sit ≥100 ft off the east wetland/NRO.
+
 ## Construction / build DD (new)
 - [ ] **EIPH septic feasibility drives the site budget** — conventional (~$12k) vs engineered/
       mound (~$32k). Same as build DD item #2; now also a cost line. Do test holes early.
