@@ -141,10 +141,8 @@ def access_story():
           float(na_line.length.iloc[0])/1000, float(toob_line.length.iloc[0])/1000,
           float(gc_line.length.iloc[0])/1000)
     b=na.total_bounds; pad=2000
-    fig,axes=plt.subplots(1,2,figsize=(16,8.8),dpi=140)
-    fig.patch.set_facecolor(PAPER)
     from matplotlib.patches import Rectangle as _WaterRect
-    for i,ax in enumerate(axes):
+    def draw_panel(ax,with_park):
         ax.set_facecolor(WATER)
         # axis('off') hides the axes patch, so paint water explicitly beneath everything
         ax.add_patch(_WaterRect((b[0]-pad*8,b[1]-pad*8),(b[2]-b[0])+pad*16,(b[3]-b[1])+pad*16,
@@ -157,7 +155,7 @@ def access_story():
         toob_line.plot(ax=ax,color=TOB_C,linewidth=2.0,linestyle=(0,(6,3)),zorder=6)
         car.plot(ax=ax,color=POOL,alpha=.12,edgecolor=POOLD,linewidth=.6)
         bike.plot(ax=ax,color=POOL,alpha=.36,edgecolor=POOLD,linewidth=1.2)
-        if i==1:
+        if with_park:
             gcc.plot(ax=ax,color=SPARK,alpha=.14,edgecolor=SPARKD,linewidth=.7)
             gcb.plot(ax=ax,color=SPARK,alpha=.40,edgecolor=SPARKD,linewidth=1.8)
             mac.plot(ax=ax,color=SPARKD,marker="*",markersize=430,edgecolor=INK,zorder=9)
@@ -176,6 +174,9 @@ def access_story():
                     float(gc.geometry.centroid.y.iloc[0])),xytext=(-64,34),
                     textcoords="offset points",fontsize=9,color=SPARKD,fontweight="bold")
         ax.set_xlim(b[0]-pad,b[2]+pad); ax.set_ylim(b[1]-pad,b[3]+pad); ax.axis("off")
+    fig,axes=plt.subplots(1,2,figsize=(16,8.8),dpi=140)
+    fig.patch.set_facecolor(PAPER)
+    for i,ax in enumerate(axes): draw_panel(ax,i==1)
     A,B=axes
     A.set_title("TODAY — a 20-minute bike ride (solid) or drive (pale) to a skatepark",
                 loc="left",fontsize=13,fontweight="bold",color=INK)
@@ -197,3 +198,11 @@ def access_story():
     plt.tight_layout(rect=[0,.055,1,.94])
     plt.savefig("maps/access_story.png",bbox_inches="tight",facecolor=PAPER); plt.close()
     print("rebuilt maps/access_story.png")
+    # standalone panels for the microsite's two-row layout: pure maps —
+    # titles, legend, and narration live in the surrounding HTML
+    for fname,wp in (("maps/access_today.png",False),("maps/access_withpark.png",True)):
+        f2,ax2=plt.subplots(figsize=(9,9.7),dpi=140)
+        f2.patch.set_facecolor(PAPER)
+        draw_panel(ax2,wp)
+        plt.savefig(fname,bbox_inches="tight",facecolor=PAPER,pad_inches=.05); plt.close(f2)
+        print("rebuilt",fname)
