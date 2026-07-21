@@ -32,6 +32,8 @@ design/        rough site & building design concept
                                    walls, minimalist Cor-Ten/wood west entries; High Horse Ranch
                                    (KieranTimberlake) design language; systems + land constraints.
   site-plan-schematic.svg ....... top-down schematic diagram of the layout.
+  garage-section.svg ............ east-west section showing 3 garage doors fit on the low west
+                                   (driveway) side while the shed roof stays tall-east/low-west.
   gemini-mockup-prompt.md ....... copy-paste image prompts (A hero / B aerial / C entry / D interior).
 
 open-items.md .. LIVE DD tracker — prioritized next steps, key contacts, valuation anchors,

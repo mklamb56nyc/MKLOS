@@ -29,6 +29,26 @@ outward and the views diverged.)*
 | **Main house** | ~3,500 sf | primary residence (Phase 2) | Center, set furthest west (the back of the crescent) |
 | **Bunkhouse** | ~1,500 sf | 2-bed ADU (Phase 1) | South end; toed-in ~10° toward center |
 
+## Garage detail — doors on the low (west) side (see `garage-section.svg`)
+The north building is a working 3-car garage, and the driveway is on the **west**, so the garage
+doors face **west** — which is the roof's **low** side. That's fine; you just set the low eave to
+the doors:
+- **Set the west (low) eave at ~10 ft** — that clears an **8-ft door** (fits full-size trucks/SUVs)
+  plus header. With a **side-mount "jackshaft" opener** (mounts on the wall beside the door, e.g.
+  LiftMaster 8500), you need only ~1–1.5 ft of header, not the ~12–18 in a standard overhead
+  opener wants — so the low eave stays low and clean.
+- **The roof rises to the east** from there (~13 ft at the east eave over a ~26-ft-deep bay at a
+  gentle ~1.5:12 slope) — identical language to the house and bunkhouse (**tall east, low west**).
+- **Bonus:** because the roof gets *taller* as you go in (eastward), the sectional door's tracks
+  slide back into **increasing** headroom — the slope helps the mechanism rather than fighting it.
+- **The east face** carries a band of **clerestory / shop glass** to echo the view walls (a garage
+  doesn't need a full-height glass wall, but the high east glazing keeps the trio consistent and
+  floods the shop with morning light).
+- **Keep it minimalist:** clad the doors **flush in the same Cor-Ten / wood** as the west façade so
+  they read as quiet planes, not suburban roll-ups — the west face stays understated.
+- Want **9–10 ft doors** (lifted truck, small RV, roof boxes)? Just raise the low eave to match —
+  a shed roof absorbs it easily. Consider ~26 ft bay depth (vs. 24) for truck length + a workbench.
+
 ## The fire-pit amphitheater (foreground)
 Just **east of the buildings**, in the courtyard, a **fire pit with stone benching** on a
 **tighter arc** (concentric with the buildings but a much smaller radius). The benches wrap the
