@@ -13,9 +13,9 @@ window opens (~2027):
 - Get a real build-cost number (a builder site tour of Maccarone) — the biggest open gap.
 - Win **written** city site approval (the critical-path gate) via the Rec Commission / mayor.
 - Cultivate Assemblymember Lavine (A-13) as the primary state-capital path (DASNY).
-- Still open from the pre-publication checklist: firm up the LI/Nassau supply census and
-  re-verify the DAC V2.0 tracts. (The microsite went live July 2026 at `/sk8gc.html` on the
-  public site ahead of these — owner's call. The placeholder-email item is done:
+- Still open from the pre-publication checklist: firm up the LI/Nassau supply census.
+  (The microsite went live July 2026 at `/sk8gc.html` on the public site ahead of it —
+  owner's call. Done: DAC V2.0 re-verification (July 2026) and the placeholder email —
   contact is mklamb@gmail.com.)
 - The microsite is published from the `received-wisdom-site` repo as `sk8gc.html`. The copy
   here is the working source — when it changes, republish by copying it over there
