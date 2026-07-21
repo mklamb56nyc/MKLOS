@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 720" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <pattern id="wet" width="8" height="8" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#9cc4d6" stroke-width="1.4"/>
+    </pattern>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#2f5b45"/>
+    </marker>
+    <marker id="arrowE" markerWidth="14" markerHeight="14" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#7a4b12"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="980" height="720" fill="#fbfaf7"/>
+
+  <!-- title -->
+  <text x="30" y="38" font-size="21" font-weight="700" fill="#2f5b45">Crossed Arrows Lot 3 — Rough Site Plan</text>
+  <text x="30" y="58" font-size="12" fill="#5f6b70">Three buildings on a shallow east-facing arc · concave to the Tetons · schematic, not to exact scale</text>
+
+  <!-- lot boundary -->
+  <rect x="70" y="80" width="840" height="590" fill="#f3f1ea" stroke="#c9c3b4" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="80" y="98" font-size="10.5" fill="#9a927f">~23.85-acre lot boundary (approx.)</text>
+
+  <!-- west: road + entry side -->
+  <line x1="70" y1="80" x2="70" y2="670" stroke="#8a8372" stroke-width="4"/>
+  <text x="46" y="380" font-size="12" fill="#5f6b70" transform="rotate(-90,46,380)">N 3000 W  ·  road frontage / access (WEST)</text>
+
+  <!-- east: wetland buffer + view -->
+  <rect x="852" y="80" width="58" height="590" fill="url(#wet)" opacity="0.8"/>
+  <rect x="852" y="80" width="58" height="590" fill="none" stroke="#9cc4d6" stroke-width="1"/>
+  <text x="881" y="360" font-size="10.5" fill="#5f89a0" transform="rotate(-90,881,360)">wetland / NRO buffer — keep buildings ≥100 ft back</text>
+
+  <!-- Teton view arrow -->
+  <line x1="670" y1="360" x2="845" y2="360" stroke="#7a4b12" stroke-width="2.5" marker-end="url(#arrowE)"/>
+  <text x="700" y="350" font-size="14" font-weight="700" fill="#7a4b12">TETON RANGE  ·  VIEW + SUNRISE  →  (EAST)</text>
+
+  <!-- north arrow -->
+  <g transform="translate(905,120)">
+    <line x1="0" y1="26" x2="0" y2="-6" stroke="#2f5b45" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="-4" y="42" font-size="12" font-weight="700" fill="#2f5b45">N</text>
+  </g>
+
+  <!-- faint arc through building centers (concave east) -->
+  <path d="M 620,210 Q 470,360 620,510" fill="none" stroke="#b7a98c" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <text x="486" y="356" font-size="10" fill="#b7a98c" transform="rotate(90,486,356)">shallow arc, concave east</text>
+
+  <!-- central east-opening courtyard / view lawn -->
+  <path d="M 545,250 Q 690,300 700,360 Q 690,420 545,470 Q 610,360 545,250 Z" fill="#e7f0e5" stroke="#cfe0cd" stroke-width="1"/>
+  <text x="583" y="365" font-size="11" fill="#6f8f78">east-opening</text>
+  <text x="583" y="379" font-size="11" fill="#6f8f78">court / lawn</text>
+
+  <!-- ================= BUILDINGS ================= -->
+  <!-- east glass walls drawn as thick amber edge; west (entry) side minimalist -->
+
+  <!-- MAIN HOUSE (center, faces due east) -->
+  <g>
+    <rect x="470" y="300" width="46" height="120" fill="#d8cdba" stroke="#6b5b3e" stroke-width="1.5"/>
+    <line x1="516" y1="300" x2="516" y2="420" stroke="#c98a2e" stroke-width="5"/>
+    <text x="493" y="356" font-size="12" font-weight="700" fill="#3a3324" text-anchor="middle">MAIN</text>
+    <text x="493" y="371" font-size="12" font-weight="700" fill="#3a3324" text-anchor="middle">HOUSE</text>
+    <text x="493" y="388" font-size="9.5" fill="#5f6b70" text-anchor="middle">~3,500 sf</text>
+  </g>
+
+  <!-- GARAGE / SHOP (north, toed-in ~10°) -->
+  <g transform="rotate(-11,585,215)">
+    <rect x="561" y="188" width="48" height="54" fill="#d8cdba" stroke="#6b5b3e" stroke-width="1.5"/>
+    <line x1="609" y1="188" x2="609" y2="242" stroke="#c98a2e" stroke-width="4.5"/>
+    <text x="585" y="211" font-size="10.5" font-weight="700" fill="#3a3324" text-anchor="middle">GARAGE</text>
+    <text x="585" y="225" font-size="10.5" font-weight="700" fill="#3a3324" text-anchor="middle">/ SHOP</text>
+    <text x="585" y="238" font-size="9" fill="#5f6b70" text-anchor="middle">3-car · ~800 sf</text>
+  </g>
+
+  <!-- BUNKHOUSE (south, toed-in ~10°) -->
+  <g transform="rotate(11,585,505)">
+    <rect x="558" y="470" width="54" height="72" fill="#d8cdba" stroke="#6b5b3e" stroke-width="1.5"/>
+    <line x1="612" y1="470" x2="612" y2="542" stroke="#c98a2e" stroke-width="4.5"/>
+    <text x="585" y="500" font-size="10.5" font-weight="700" fill="#3a3324" text-anchor="middle">BUNKHOUSE</text>
+    <text x="585" y="514" font-size="9.5" fill="#5f6b70" text-anchor="middle">2-bed ADU</text>
+    <text x="585" y="527" font-size="9" fill="#5f6b70" text-anchor="middle">~1,500 sf</text>
+  </g>
+
+  <!-- glass-wall note -->
+  <text x="524" y="285" font-size="9.5" font-weight="700" fill="#c98a2e">▮ full-height east glass (view wall)</text>
+  <text x="360" y="452" font-size="9.5" fill="#6b5b3e">minimalist Cor-Ten / wood entries face WEST ▸</text>
+
+  <!-- driveway + motor court (west side) -->
+  <path d="M 70,470 C 200,450 320,410 405,378" fill="none" stroke="#a99b7d" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="410" cy="372" rx="34" ry="24" fill="none" stroke="#a99b7d" stroke-width="3" stroke-dasharray="3 3"/>
+  <text x="150" y="443" font-size="10" fill="#8a8372">gravel drive</text>
+  <text x="372" y="415" font-size="9.5" fill="#8a8372">motor court</text>
+
+  <!-- well + septic markers -->
+  <circle cx="452" cy="250" r="7" fill="#ffffff" stroke="#2b5f7e" stroke-width="1.6"/>
+  <text x="452" y="254" font-size="8.5" font-weight="700" fill="#2b5f7e" text-anchor="middle">W</text>
+  <text x="463" y="248" font-size="9" fill="#2b5f7e">well</text>
+
+  <rect x="210" y="150" width="120" height="60" fill="none" stroke="#7a8a3a" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <text x="270" y="176" font-size="9.5" fill="#5f6f28" text-anchor="middle">septic drainfield</text>
+  <text x="270" y="190" font-size="8.5" fill="#7a8a3a" text-anchor="middle">(siting TBD — EIPH test holes)</text>
+
+  <!-- open pasture note -->
+  <text x="150" y="600" font-size="11" fill="#8a9270" font-style="italic">open pasture — keep in qualifying ag use (grazing/hay lease)</text>
+  <text x="150" y="615" font-size="11" fill="#8a9270" font-style="italic">to retain ag tax valuation on the balance of the acreage</text>
+
+  <!-- scale bar -->
+  <g transform="translate(700,640)">
+    <line x1="0" y1="0" x2="100" y2="0" stroke="#5f6b70" stroke-width="2"/>
+    <line x1="0" y1="-4" x2="0" y2="4" stroke="#5f6b70" stroke-width="2"/>
+    <line x1="100" y1="-4" x2="100" y2="4" stroke="#5f6b70" stroke-width="2"/>
+    <text x="50" y="16" font-size="10" fill="#5f6b70" text-anchor="middle">~200 ft</text>
+  </g>
+</svg>

@@ -26,6 +26,14 @@ construction-estimate.md/.xlsx . phased build-out cost model + operating-cost vi
                  .md = narrative + tables + sources; .xlsx = two tabs (Cost Model, Operating Cost),
                  tweakable via blue input cells. Geothermal/solar/well/septic, one-story brief.
 
+design/        rough site & building design concept
+  site-plan.md ................... concept: 3 buildings on a shallow east-facing arc (garage N,
+                                   main house center, bunkhouse S), flat roofs, east glass view
+                                   walls, minimalist Cor-Ten/wood west entries; High Horse Ranch
+                                   (KieranTimberlake) design language; systems + land constraints.
+  site-plan-schematic.svg ....... top-down schematic diagram of the layout.
+  gemini-mockup-prompt.md ....... copy-paste image prompts (A hero / B aerial / C entry / D interior).
+
 open-items.md .. LIVE DD tracker — prioritized next steps, key contacts, valuation anchors,
                  decision log. Critical path: (1) price Caldwell paid in 2023, (2) EIPH
                  septic test holes, (3) recorded CC&Rs, (4) confirm subdivision build-ready.
