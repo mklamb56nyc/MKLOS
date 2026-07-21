@@ -1,5 +1,12 @@
 # BOLD BY NATURE — PROJECT RELAY
 
+> **ARCHIVED 2026-07-21.** This relay was the handoff artifact from the prior
+> environment (April 2026) and is superseded by the native project structure:
+> `STRATEGY.md`, `PLAN.md`, `CULTURE.md`, `deliverables/`, and `research/` (the
+> verified fact base). It is kept for provenance only — do not treat it as
+> current; a few of its facts were corrected during the 2026-07 fact check
+> (see `../research/README.md` for the scorecard).
+
 > **Purpose of this file.** This is a machine-readable handoff of an in-progress project.
 > It is a faithful relay, not a summary — research findings, decisions, rationale, and
 > exact wording are preserved so a fresh assistant (or a human) can pick up mid-stream in
