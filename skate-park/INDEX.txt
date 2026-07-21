@@ -31,5 +31,5 @@ analysis/         the access/provisioning analysis (reproducible)
   data/ .......................... computed CSVs + coverage GeoPackages
   maps/ .......................... 10 exhibit PNGs
 
-PRE-PUBLICATION CHECKLIST: firm up the park census; re-verify DAC V2.0 tracts — both still open;
-page went live ahead of them (owner's call, July 2026). Microsite email: done.
+PRE-PUBLICATION CHECKLIST: firm up the park census — still open (page went live ahead of it,
+owner's call, July 2026). DAC V2.0 re-verification: done (July 2026). Microsite email: done.
