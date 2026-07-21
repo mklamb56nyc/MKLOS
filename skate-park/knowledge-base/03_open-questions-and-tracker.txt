@@ -95,3 +95,9 @@ DELIVERABLES CREATED SO FAR
 - MAP ACCESSIBILITY (July 2026): the DAC zone on the access-story exhibit is HATCHED in the city-limits
   color, not orange-filled — a red/green-colorblind-safe choice (form, not hue). Keep that convention in
   future exhibits. [NEW]
+- PITCH EMPHASIS (July 2026, from Toby): lean harder on the skatepark as a POSITIVE, HEALTHY teenage
+  community gathering place, and take the "it attracts bad kids" idea head-on and REVERSE it — don't just
+  wave it off. Applied to microsite §01: prose reframed around the all-ages gathering place, and a new
+  "The 'bad kids' worry, taken head-on" fear→reality block (troublemakers / crime / "up to no good"),
+  all sourced from dossier §13 (USC felt-safer finding, Long Beach ASK figures with defensible phrasing,
+  TSP police survey, well-being studies). Keep this emphasis in all outward-facing material. [NEW]
