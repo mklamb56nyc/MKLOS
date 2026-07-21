@@ -20,9 +20,10 @@ knowledge-base/    the fact base (load these into your Claude project)
                                    call briefs for the seven §5 first conversations.
 
 microsite/
-  glen-cove-skatepark-concept.html  public vision page. TODO before sharing: replace
-                                     PLACEHOLDER@EXAMPLE.COM (two spots); optionally add the
-                                     quantified hooks.
+  glen-cove-skatepark-concept.html  public vision page. Published July 2026 to the live site as
+                                     /sk8gc.html (received-wisdom-site repo — republish there when
+                                     this source changes). Contact email is mklamb@gmail.com
+                                     (placeholder resolved). Optional: add the quantified hooks.
 
 analysis/         the access/provisioning analysis (reproducible)
   README.md ...................... methodology, data sources, supply rules, caveats, API-key setup
@@ -30,4 +31,5 @@ analysis/         the access/provisioning analysis (reproducible)
   data/ .......................... computed CSVs + coverage GeoPackages
   maps/ .......................... 10 exhibit PNGs
 
-PRE-PUBLICATION CHECKLIST: firm up the park census; re-verify DAC V2.0 tracts; microsite email.
+PRE-PUBLICATION CHECKLIST: firm up the park census; re-verify DAC V2.0 tracts — both still open;
+page went live ahead of them (owner's call, July 2026). Microsite email: done.
