@@ -13,8 +13,13 @@ window opens (~2027):
 - Get a real build-cost number (a builder site tour of Maccarone) — the biggest open gap.
 - Win **written** city site approval (the critical-path gate) via the Rec Commission / mayor.
 - Cultivate Assemblymember Lavine (A-13) as the primary state-capital path (DASNY).
-- Before anything goes public: firm up the LI/Nassau supply census, re-verify the DAC V2.0
-  tracts, and replace the placeholder email in the microsite (`PLACEHOLDER@EXAMPLE.COM`, two spots).
+- Still open from the pre-publication checklist: firm up the LI/Nassau supply census and
+  re-verify the DAC V2.0 tracts. (The microsite went live July 2026 at `/sk8gc.html` on the
+  public site ahead of these — owner's call. The placeholder-email item is done:
+  contact is mklamb@gmail.com.)
+- The microsite is published from the `received-wisdom-site` repo as `sk8gc.html`. The copy
+  here is the working source — when it changes, republish by copying it over there
+  (see the root CLAUDE.md "Website" section for the PR-to-deploy flow).
 
 ## Conventions
 - Edit files in place; keep changes scoped to this `skate-park/` directory.
