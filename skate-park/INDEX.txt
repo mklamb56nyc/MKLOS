@@ -12,6 +12,12 @@ knowledge-base/    the fact base (load these into your Claude project)
   05_api-keys.txt ................ LOCAL ONLY (git-ignored). Census + OpenRouteService keys for
                                    the analysis pipeline. Keys belong in env vars (CENSUS_API_KEY,
                                    ORS_API_KEY) per analysis/README.md §3 — not committed.
+  06_precedent-profiles.txt ...... deep sourced profiles of all 13 precedent projects (who
+                                   decided / timeline / funding stack / governance / lessons),
+                                   with cross-cutting lessons up top. The evidence layer under
+                                   brief §3 and dossier §8.
+  07_cast-profiles-and-call-briefs.txt  cast profiles arranged by playbook role + one-page
+                                   call briefs for the seven §5 first conversations.
 
 microsite/
   glen-cove-skatepark-concept.html  public vision page. TODO before sharing: replace

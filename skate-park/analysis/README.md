@@ -8,14 +8,24 @@ Last computed: July 2026.
 ## 1. HEADLINE FINDINGS (see /maps for exhibits)
 
 PART 1 — PROVISIONING (PSDG standard: 1 neighborhood skatepark per 25,000 residents)
-- Long Island: needs ~117, has 14  -> 12% of standard
-- Nassau County: needs ~56, has 4  -> 7% of standard
+[UPDATED July 2026 to the FIRMED census — see dossier §12 "SUPPLY COUNT — FIRMED". The
+original best-effort count (LI 14 / Nassau 4) included parks that fail our own rules;
+the firmed count is LI 9 / Nassau 3 / Suffolk 6, making the shortfall WORSE.]
+- Long Island: needs ~117, has 9  -> ~8% of standard
+- Nassau County: needs ~56, has 3 -> ~5% of standard
 - Our North Shore ring: needs ~3, has 0 -> 0%
-- Per-capita vs real world: US average ~1.0 skateparks/100k; LI 0.48; Nassau 0.29
-  (Nassau ~= a quarter of the US average; leaders like Laredo/Reno ~3.3-3.5/100k).
-  => Not just short of an ideal; below the actual national norm.
+- Per-capita vs real world (ACS pops from /data/li_gap.csv): US average ~1.04/100k;
+  LI 0.31 (1 per ~324k); Nassau 0.22 (1 per ~463k = about a FIFTH of the US average);
+  Suffolk 0.39. Leaders like Laredo/Reno ~3.3-3.5/100k.
+  => Not just short of an ideal; far below the actual national norm.
 
 PART 2 — ACCESS (20-min isochrones; "gap" = residents with NO skatepark in reach)
+[NOTE, July 2026: these figures were computed on the PRE-firming supply (more parks than
+the firmed census). Removing the now-excluded parks can only SHRINK coverage, so every
+county-level gap below is a FLOOR — cite as "at least". The Glen Cove / DAC figures
+(100% shut out; ~90% closed by a GC park) are unaffected: no nearby park's status
+changed. A precise recompute needs fresh ORS isochrones for the firmed supply set
+(ORS_API_KEY) — flagged in the tracker.]
 Access gap TODAY (before any Glen Cove park), residents / kids:
 - Glen Cove (city):      28,132 / 5,154  -> 100% shut out (bike AND car, today AND if Bethpage reopens)
 - Glen Cove DAC area:    13,023 / 2,601  -> 100% shut out (every mode/scenario)
@@ -52,13 +62,17 @@ Notes:
 - If you only want to rebuild the MAPS, you do NOT need keys — see regenerate_maps.py (works from saved /data).
 
 ## 4. SUPPLY INVENTORY RULES (what counts as a "skatepark")
-- INCLUDED: free, public, outdoor skateparks. Long Island count ≈14 open (Bethpage excluded as closed).
-  Tanner Park (Copiague) counted as OPEN through its 2026 concrete rebuild (conservative — shrinks our gap).
+- INCLUDED: free, public, outdoor skateparks.
+  FIRMED CENSUS (July 2026, supersedes the best-effort ≈14 — full sourcing in dossier §12):
+  LI 9 open — Nassau 3 (Long Beach, Manorhaven, Baldwin) + Suffolk 6 (Roberto Clemente/
+  Brentwood, Keith Romaine/Brookhaven, Greenport, Montauk, North Sea, Riverhead).
   Queens/NYC parks tested and INCLUDED as supply (they don't change Nassau results — peninsula drive-times).
-- EXCLUDED: indoor / fee-required / private facilities — Kohl's (Massapequa), Oil City (Oceanside), "110".
+- EXCLUDED: indoor / fee / private (Kohl's-Massapequa, Oil City-Oceanside, "110"); resident-ID-gated /
+  non-resident-fee parks (Huntington's Greenlawn + Veterans/E. Northport; Red Creek-Southampton);
+  TANNER (Copiague) now excluded as mid-rebuild — old park closed for the new $1.6M concrete build
+  (was previously counted open; re-add when it reopens).
 - Bethpage modeled as CLOSED (today) with a separate "reopened" scenario throughout.
-- CAVEAT: the supply list is best-effort (OSM + additions); do a firmer park census before publishing.
-  Even a generous recount (Nassau 6–8 parks) leaves Nassau ≈ half the US average or worse.
+- The isochrone COVERAGE artifacts in /data still reflect the pre-firming supply (see Part 2 note).
 
 ## 5. METHOD NOTES
 - Coverage = union of 20-min isochrones around all supply points, by mode.
@@ -78,7 +92,9 @@ Notes:
 - Park coordinates are approximate (±a few hundred m) but conclusions are robust to that.
 - ACS 2018–2022 estimates carry margins of error (not shown; add for DAC-core figures).
 - DAC tract set: confirm against live NYSERDA V2.0 map at the site address.
-- Supply census: verify Tanner's open/closed status and do a firmer LI park count.
+- Supply census: DONE (July 2026) — firmed at LI 9 / Nassau 3 / Suffolk 6; Tanner resolved
+  (old park closed for rebuild; future +1 Suffolk). Remaining: re-run the ORS isochrone
+  coverage on the firmed supply set (needs ORS_API_KEY) so the access %s match the census.
 
 ## 7. FILE MANIFEST
 /data  — computed artifacts (CSV + GeoPackage), so maps rebuild without re-calling APIs
