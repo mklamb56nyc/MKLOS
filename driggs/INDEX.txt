@@ -34,7 +34,9 @@ design/        rough site & building design concept
   site-plan-schematic.svg ....... top-down schematic diagram of the layout.
   garage-section.svg ............ east-west section showing 3 garage doors fit on the low west
                                    (driveway) side while the shed roof stays tall-east/low-west.
-  gemini-mockup-prompt.md ....... copy-paste image prompts (A hero / B aerial / C entry / D interior).
+  gemini-mockup-prompt.md ....... copy-paste image prompts (A hero / B aerial / C entry / D interior / E garage).
+  modular-prefab-options.md ..... off-site/modular paths to build the HHR look & hit ~$400/sf,
+                                   esp. the bunkhouse (HHR was itself modular); shortlist + $400/sf playbook.
 
 open-items.md .. LIVE DD tracker — prioritized next steps, key contacts, valuation anchors,
                  decision log. Critical path: (1) price Caldwell paid in 2023, (2) EIPH

@@ -102,8 +102,13 @@ hrs**. Always check the pass before a Wyoming-side trip.
   east (garage N · main house center · bunkhouse S), flat roofs sloping E→W, full-height east glass
   view walls, minimalist Cor-Ten/wood west entries; modeled on KieranTimberlake's High Horse Ranch.
 - `design/gemini-mockup-prompt.md` — image-gen prompts for a visual mockup.
-- Open design Qs: arc radius / building separations; detached vs. breezeway-linked; roof vs. ground
-  solar (roof plane tilts west); driveway length. Envelope must sit ≥100 ft off the east wetland/NRO.
+- Open design Qs: arc radius / building separations; driveway length. (Decided: detached w/ possible
+  breezeway later; flush roof solar.) Envelope must sit ≥100 ft off the east wetland/NRO.
+- `design/modular-prefab-options.md` — off-site/modular routes to the HHR look, delivered. HHR was
+  itself modular (Moderna Homes, single-module guest cabins). **Bunkhouse ~$400–500/sf all-in is
+  realistic** via Method Homes / Unity (panelized) / regional plant + upgrades; main house stays
+  ~$500–650/sf even prefab. **DD:** RFQ 2–3 makers (bunkhouse first), confirm oversize-load haul to
+  Tetonia, decide bunkhouse as the prefab pilot. Could cut ~$300k off Phase 1.
 
 ## Construction / build DD (new)
 - [ ] **EIPH septic feasibility drives the site budget** — conventional (~$12k) vs engineered/
