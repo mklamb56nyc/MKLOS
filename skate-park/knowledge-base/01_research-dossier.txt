@@ -285,3 +285,20 @@ framing). Gathered July 2026; primary figures re-verified full-text this session
   COMPANION STAT: TSP's law-enforcement survey — nearly half of officers reported reduced
   youth crime after a skatepark opened. https://publicskateparkguide.org/advocacy/thf-police-study/
   [CONFIRMED with caveats — deep profile in 06 §2]
+- THF 2009 LAW-ENFORCEMENT SURVEY, FULL FIGURES (verified July 2026 via primary-citing
+  summaries; primary PDF tonyhawkfoundation.org/content/pdf/2009-THF-police-survey.pdf was
+  503 at check — retry for the file): 102 officers in 37 states, each with a public
+  skatepark open ≥1 year. 90% (92/102) said the skatepark IS AN ASSET TO THE COMMUNITY;
+  85% (87/102) reported a SIGNIFICANT DECREASE IN COMPLAINT CALLS since it opened; ~half
+  cited a decrease in overall youth crime (several said no effect). PITCH RULE (July
+  2026, Toby round 3): lead with the 90%-asset and 85%-fewer-complaints figures, NOT
+  "half saw a decrease" — that phrasing implies the other half saw an INCREASE. [CONFIRMED]
+- USC "BEYOND THE BOARD" — ADDITIONAL FIGURES from the full report (ED609263, read July
+  2026; survey n=5,717 total, analysis on 2,075 skaters under 26, avg age 18.7):
+  95% passionate/very passionate about skateboarding; average 4.2 skate DAYS PER WEEK;
+  88% agree/strongly agree they have people to turn to for advice; asked "what do you
+  like best about your local skate park?", the MAJORITY chose PEOPLE-related answers
+  over physical features. The report also cites a National Alliance for Youth Sports
+  survey (2016): ~70% of U.S. youth QUIT ORGANIZED SPORTS BY AGE 13 because "it's just
+  not fun anymore" — the contrast stat for "exercise kids choose on their own."
+  [CONFIRMED — read from the full report PDF]
