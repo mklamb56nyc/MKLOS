@@ -7,6 +7,12 @@
 > below as established context that has already been agreed to with the user, unless the
 > user says otherwise.
 
+> **Verification note (2026-07-21):** every factual reference below has been
+> independently verified against primary sources — see `research/` for
+> claim-by-claim verdicts and citations. Most claims confirmed; the handful of
+> corrections are annotated inline as **[CORRECTED …]** and summarized in
+> `research/README.md`. Quote facts from the research files, not from memory.
+
 ---
 
 ## 0. PROJECT SNAPSHOT
@@ -22,7 +28,7 @@
 
 ## 1. THE INSTITUTION (Miss Porter's School) — CONTEXT THAT DRIVES EVERYTHING
 
-Miss Porter's is an **elite all-girls boarding school** in Farmington, Connecticut, ~40-acre campus in a Connecticut village, situated on the **Farmington River**. The entire strategy is built on positioning the club as a *native expression of the school's existing identity*, not a new/foreign thing. Key anchors:
+Miss Porter's is an **elite all-girls boarding school** in Farmington, Connecticut, situated on the **Farmington River**. **[CORRECTED 2026-07: acreage is unresolved — this file previously said "~40-acre campus" and the one-pager says 55; sources split (40 = Wikipedia/CT History, 55 = the school's master-plan architect). Don't quote a number; say "the riverside campus in Farmington." See `research/miss-porters-school.md` #7.]** The entire strategy is built on positioning the club as a *native expression of the school's existing identity*, not a new/foreign thing. Key anchors:
 
 **Mission language (use this vocabulary verbatim in any pitch):**
 - The school educates young women to become *"informed, bold, resourceful and ethical global citizens"* who *"shape a changing world."*
@@ -30,15 +36,15 @@ Miss Porter's is an **elite all-girls boarding school** in Farmington, Connectic
 - Athletics framing: *"Porter's athletics begins and ends with girls. Our student athletes learn to embrace challenges, set goals, take risks, and demonstrate their power on and off the field."*
 - Community framing: *"bonding, belonging and unity."* Leadership training threaded throughout (communication, collaboration, strategic thinking, empathy, resilience, cultural awareness).
 
-**Thematic / institutional pillars:** **Leadership, Legacy, Sustainability.** Plus two signature academic institutes: (1) Technology, Innovation & Entrepreneurship, and (2) the Institute for Global Education.
+**Thematic / institutional pillars:** **Leadership, Legacy, Sustainability.** **[CORRECTED 2026-07: these are porters.org nav sections, and the Leadership page is administrative (head of school + trustees), not thematic — don't attribute a formal "pillars framework" to the school; the club's pillars still map to its themes. Official institute names: "The Institute of Technology, Innovation, and Entrepreneurship (TIE)" and the "Institute for Global Education," under Porter's Center for Global Leadership (PCGL). See `research/miss-porters-school.md` #10.]**
 
 **Sarah Porter (founder) history — the "return to origins" argument:**
 - In **1843**, Sarah Porter opened the school and made a radical choice: students studied **chemistry, physiology, botany, geology, and astronomy** alongside traditional subjects.
-- She encouraged **skating, rowing, tennis**, and in **1867** formed the school's own baseball team, **the Tunxises** (named after the indigenous tribe of the area).
+- She encouraged **skating, rowing, tennis**, and in **1867** formed the school's own baseball team, **the Tunxises**. **[NUANCE 2026-07: the school's own page confirms tennis, horseback riding, baseball; skating/rowing are third-party-sourced. Safe phrasing for the tribe: "the Tunxises, after the Tunxis people indigenous to Farmington" (Wikipedia says Saukiog; the school says Tunxis; the 1867 date is Wikipedia-only). See `research/miss-porters-school.md` #5.]**
 - Strategic point: an outdoor program is **not a departure from Porter's legacy — it's a return to the founder's original radical vision.**
 
 **Mountain Day (CRITICAL EXISTING ASSET):**
-- Mountain Day is already **one of Miss Porter's most beloved traditions** — listed by ~15% of students as a favorite school event (third behind "German" at 21% and class ring ceremonies at 20%). The school promotes it on social media as a community tradition tied to Farmington.
+- Mountain Day is already **one of Miss Porter's most beloved traditions** — a surprise-announced fall day, confirmed via the school's own social media. **[CORRECTED 2026-07: the survey stats this file previously cited (~15% favorite, behind "German" 21% and rings 20%) could not be verified — the old porters.org traditions page 404s — do not quote them. See `research/miss-porters-school.md` #6.]**
 - **Strategic framing (repeat this):** *"Mountain Day is the spark. Bold by Nature is the fire."* The club doesn't invent an outdoor tradition from scratch — it **claims and expands** one that already has emotional resonance. Bold by Nature builds a year-round program around a thing the girls already cherish, rather than competing with it.
 
 **Porter's internal vocabulary (to build club culture on top of):** **New Girls, Old Girls, Ancients.** (E.g., an "Ancient" is an alumna; the endgame vision uses this — see §7.)
@@ -51,8 +57,8 @@ This research was done first, to define excellence before designing. **Primary b
 
 **Collegiate gold standard:**
 - **Dartmouth Outing Club (DOC)** — the undisputed benchmark. Founded **1909** by Fred Harris; oldest & largest collegiate outing club in the U.S.; ~**1,500 members (~a quarter of the student body).** What makes it exceptional is the *ecosystem*:
-  - **First-Year Trips** — student-run orientation for ALL incoming students, ~30 "Trip Types," no experience assumed, running since **1935**. It's the "front door" to Dartmouth.
-  - **Physical infrastructure** — rustic cabins across New England, maintains 50 miles of the Appalachian Trail, a lodge on Mt. Moosilauke, ~a dozen specialized sub-clubs.
+  - **First-Year Trips** — student-run orientation open to ALL incoming students (optional but strongly encouraged; $420 in 2026 with aid-based reduction to $0), ~30 "Trip Types," no experience assumed, running since **1935**. It's the "front door" to Dartmouth. **[NUANCE 2026-07: previously stated as "for all incoming" without the optional/cost detail.]**
+  - **Physical infrastructure** — 18 rustic cabins concentrated in New Hampshire **[CORRECTED 2026-07: previously "across New England"]**, maintains 50 miles of the Appalachian Trail, a lodge on Mt. Moosilauke, ~a dozen specialized sub-clubs.
   - **Student-driven governance** — the secret sauce. Kept student-led where peers (Cornell, Middlebury) institutionalized over liability concerns.
 - **Williams / Colby / Bowdoin Outing Clubs** — show the model scales at smaller NE liberal-arts colleges. Common DNA: student leadership, low barriers, mix of casual outings + ambitious expeditions, deep ties to place.
 
@@ -63,7 +69,7 @@ This research was done first, to define excellence before designing. **Primary b
 - **Proctor Academy** — "Mountain Classroom," an off-campus semester traveling/studying across the American landscape; plus a fully integrated on-campus outdoor program.
 - **Athenian School** — "AWE" (Athenian Wilderness Experience); phased independence model (instructor-led → student-led → solo → independent travel).
 - **Storm King School (Cornwall-on-Hudson, NY)** — Outdoor Adventure program started as a club, expanded to year-round by demand; "survival points"; JV/Varsity/Captain ranks.
-- **Phillips Exeter, Hotchkiss, NMH, Choate** — all have established outing clubs/outdoor programs.
+- **Phillips Exeter, Hotchkiss, NMH** — all have established outing clubs/outdoor programs (verified). **[CORRECTED 2026-07: Choate was previously in this list, but no outing club is verifiable on choate.edu — its flagship is the curricular Environmental Immersion Program at the Kohler Environmental Center. Drop Choate from peer-school pitch lists or cite that program instead. See `research/boarding-school-programs.md`.]**
 
 **The five patterns that separate GREAT from merely good** (this is the analytical core):
 1. **A signature experience** that defines the program (DOC First-Year Trips, Holderness Out Back, Proctor Mountain Classroom) — something everyone knows about, even non-participants.
@@ -159,7 +165,7 @@ Anchored to give the club institutional legitimacy (maps directly to Porter's ow
 
 ## 9. CURRENT STATE & OPEN THREADS (where we actually are)
 
-**Done:** benchmark research; Porter's institutional analysis; Mountain Day discovery; Sarah Porter history; naming (locked on "Bold by Nature"); three pillars (locked); six-phase plan; both Word documents drafted.
+**Done:** benchmark research; Porter's institutional analysis; Mountain Day discovery; Sarah Porter history; naming (locked on "Bold by Nature"); three pillars (locked); six-phase plan; both Word documents drafted; **source-verified fact base built (2026-07, see `research/`)** — including new finds: the river's 2019 federal Wild & Scenic designation through Farmington, the CT DEEP youth-group camping permit for the first overnight, Williams' Mountain Day as direct precedent for the spark→fire strategy, and Colby's COOT origin story as the miniature of Molly's plan.
 
 **The live handoff problem:** transferring full project context to Molly. Direct project-sharing between the user and Molly wasn't available in the prior environment; the "Full Story" document was the workaround. (This relay is a second, more complete workaround.)
 
