@@ -9,6 +9,11 @@ here is designed to be handed to Molly to run herself, not run by an adult.
 - `BOLD_BY_NATURE_PROJECT_RELAY.md` — **the source of truth.** Full project
   handoff: research, decisions, rationale, the six-phase plan, and key principles.
   Read it before doing any work in this project.
+- `research/` — **the verified fact base** (built 2026-07): every factual claim
+  in the relay checked against primary sources, claim-by-claim verdicts with a
+  URL per fact, plus new material. `research/README.md` is the index and
+  corrections scorecard. **Quote facts from here, not from memory** — especially
+  anything Molly would say to administrators.
 - `Bold by Nature - One Pager.docx` — the club proposal / calling card Molly hands
   to administrators, a prospective faculty advisor, and potential members.
 - `Bold by Nature - The Full Story.docx` — the comprehensive narrative bringing
