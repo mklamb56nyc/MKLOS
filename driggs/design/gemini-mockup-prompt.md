@@ -32,23 +32,30 @@ photos make them *faithful* rather than merely *plausible*.
 
 ## Prompt A — hero exterior, dusk (start here)  ·  attach: High Horse Ranch photos
 > Photorealistic architectural visualization, wide cinematic three-quarter view at golden-hour
-> dusk, camera low and to one side. **Three separate low, single-story modern buildings set on a
-> very gentle arc and angled slightly inward so they all aim at the same distant point** across a
-> high-desert sagebrush meadow in Idaho's Teton Valley (~6,200 ft), the jagged snow-capped **Teton
-> Range on the horizon** catching pink alpenglow. A larger main house in the center, a 3-car garage
-> to one side and a two-bedroom bunkhouse to the other. **Each building opens a full-height,
-> full-width wall of glass toward the mountains, glowing warm from within**, sheltered by a **flat,
-> low-slope single-pitch (shed) roof that is tall over the glass and slopes down to a low far edge,
-> with a deep cantilevered overhang and wood-clad soffit**; low-profile flush solar panels on the
-> roofs. In the foreground between the buildings, a **circular stone fire pit with a curved
-> stone-bench amphitheater**, fire lit. Side and back elevations clad in **weathering Cor-Ten steel
-> and warm reclaimed wood**, minimal openings. KieranTimberlake High Horse Ranch design language:
-> contemporary-rustic, warm earth tones, industrial precision, long horizontal lines hugging the
-> land. Dusting of snow, big sky, calm and minimal. Full-frame camera, 35mm, f/8, crisp
-> architectural photography, high dynamic range. 16:9.
+> dusk. **Three FULLY DETACHED single-story modern buildings spaced apart with clear gaps of open
+> snowy sagebrush meadow between them (no breezeway, nothing connecting them)**, set on a very
+> gentle arc and angled slightly inward toward a shared point, in Idaho's Teton Valley (~6,200 ft).
+> **The three are clearly different sizes: a large, long main house in the center; a noticeably
+> smaller two-bedroom cabin on one side; and the smallest, most solid building on the other side —
+> a garage/shop clad mostly in weathering Cor-Ten steel and reclaimed wood with only a high narrow
+> band of clerestory windows, no full glass wall.** The house and cabin each open a full-height,
+> full-width wall of glass, glowing warm from within, under **flat low-slope shed roofs (tall over
+> the glass, sloping down to a low far edge)** with deep cantilevered overhangs, wood soffits, and
+> **solar panels mounted flush against the roof — lying flat and parallel to the roof surface, not
+> tilted or racked**. A **circular stone fire pit with a curved stone-bench amphitheater** in the
+> foreground. Snow-capped **Teton Range** on the horizon at pink alpenglow,
+> dusting of snow, big sky. KieranTimberlake High Horse Ranch design language: contemporary-rustic,
+> warm earth tones, industrial precision, long horizontal lines hugging the land. Full-frame camera,
+> 35mm, f/8, crisp architectural photography, high dynamic range. 16:9.
 >
-> Negative: no pitched/gabled roofs, no suburban houses, no visible power lines, no fussy ornament,
-> no railings or clutter, no people, not cartoonish, not a gray clay render.
+> Negative: no connected buildings or breezeway, no tilted or racked solar panels, no
+> pitched/gabled roofs, no suburban houses, no power lines, no clutter, no people, not cartoonish,
+> not a gray clay render.
+>
+> *Orientation note: fire pit + Tetons are on the same (glass) side of the buildings, so a single
+> exterior frame can't show fire pit + glass + mountains-behind with the glass truly facing the
+> range — this hero accepts that as artistic license. For the literal "glass facing the Tetons,"
+> use the interior shot (Prompt D). For an accurate exterior, shoot oblique with the peaks to one side.*
 
 ## Prompt B — the arrangement, aerial oblique  ·  attach: High Horse Ranch photos + site-plan-schematic.svg (layout guide only)
 > Photorealistic aerial oblique (drone, ~150 ft up) of **three low flat-shed-roof modern detached
@@ -98,7 +105,8 @@ photos make them *faithful* rather than merely *plausible*.
 - **Massing:** three *detached* rectangular volumes, single story, long and low; very gentle arc,
   end buildings toed slightly inward so all sightlines converge toward the mountains.
 - **Roofs:** flat / very-low single slope (**high edge on the glass/mountain side, low edge on the
-  back/road side**), deep cantilevered overhangs, wood soffits, low-profile flush solar.
+  back/road side**), deep cantilevered overhangs, wood soffits, **flush-mounted solar** (flat
+  against the roof, never tilted/racked).
 - **Garage:** doors on the **low back (road) side**, flush-clad to match; clerestory glass on the
   tall mountain side.
 - **Foreground:** circular stone fire pit + tight curved stone bench, between the buildings and the

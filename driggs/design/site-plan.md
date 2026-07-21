@@ -101,16 +101,16 @@ weathering-steel cabins. Use these to build a moodboard alongside High Horse Ran
 - **Systems (see the cost model):** private well near the cluster; **septic drainfield siting
   waits on EIPH test holes** (shown provisionally NW, in open ground away from the wetland);
   geothermal loops; **roof-mounted solar** (decided) — Fall River power from the west.
-  - *Solar note:* the roof sheds east→west, so the roof plane tilts slightly **west**. On a
-    low-slope roof, panels can either sit **flush** (a clean look, a west-facing/afternoon-weighted
-    array — fine, and the batteries shift that production to evening) or be **low-tilt racked toward
-    south** for ~10–20% more yield at the cost of a slightly busier roofline. Pick per how visible
-    the roof is from uphill/approach.
+  - *Solar (decided): **flush-mounted**, lying flat on the low-slope roof plane* — the clean look
+    wins. Because the roof tilts slightly west, a flush array is west-facing/afternoon-weighted;
+    that's fine here — the batteries shift production to evening, and it keeps the roofline crisp.
+    (Trade-off accepted: ~10–20% less yield than a south-tilt rack, which we're skipping for looks.)
 - **Keep the balance of the ~24 acres in open pasture / ag use** (grazing or hay lease) — both to
   hold the ag tax valuation (§63-604) and to preserve the uninterrupted meadow foreground east.
 
 ## Decisions locked so far
-- **Roof-mounted solar** (not a ground/carport array).
+- **Roof-mounted solar**, **flush** (flat against the roof plane, not tilt-racked) — clean look
+  over max yield.
 - **Buildings detached for now** — cleaner, matches the High Horse Ranch reference — but **keep a
   breezeway on the table**: a low covered walk could link the garage (or bunkhouse) to the main
   house for shelter crossing in winter without visually merging the volumes. Worth carrying as an
@@ -120,6 +120,5 @@ weathering-steel cabins. Use these to build a moodboard alongside High Horse Ran
 - Exact building separations (fire, privacy, snow-shed) and the precise arc radius / focal distance.
 - If a breezeway is added later: which building it links, and whether it's a solid roof or a
   pergola/trellis (a light structure preserves the detached reading).
-- Flush vs. south-tilt-racked roof solar (see solar note above).
 - Fire-pit scale, bench radius, and wind sheltering; how the amphitheater grades into the meadow.
 - Driveway length/grading and the motor-court size (affects the site-cost line).
