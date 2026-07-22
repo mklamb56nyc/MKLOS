@@ -1,9 +1,10 @@
 # inbox — drop zone
 
-Put new files here; the scan consumes them and files them into `statements/` and
-`receipts/`. Anything goes:
-- Statement exports — CSV preferred, PDF fine. Any filename; the scan figures out
-  account and period and renames on archive.
-- Receipt photos / PDFs / screenshots.
+Put new files here; the scan consumes and files them:
+- **Statement exports** (Chase CSV, Amex xlsx) → moved to `data/` **keeping their
+  original filenames** — ingest recognizes accounts by filename pattern. New Amex
+  files need a `SOURCES` line in `src/ingest.py`.
+- **Receipt photos / PDFs / screenshots** → `receipts/`, renamed
+  `YYYY-MM-DD-<merchant>-<amount>.<ext>`.
 
 This directory should be empty after a scan (except this README).

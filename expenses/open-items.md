@@ -1,29 +1,49 @@
-# Open items — setup
+# Open items
 
-Blockers before the first real cycle can run end-to-end. Each closes by me answering
-in a session; record the answer where it belongs (rules.md, CLAUDE.md) and check it off.
+Merged 2026-07-22 from the drained expenses-automation relay + new-project setup.
+Close items by answering in a session; record answers where they belong
+(`CLAUDE.md`, `rules/categorization.yml`) and check off here.
 
-## Needed from me
+## From the earlier analysis (relay) — action items
+- [ ] **Sornik reimbursement (top priority):** recurring payments never submitted for
+      insurance reimbursement — 7 flagged transactions in the current ledger. Flag stays
+      on every payment until I confirm submission.
+- [ ] Two simultaneous **Verizon** accounts — consolidation candidate.
+- [ ] **Streaming service** redundancy check.
+- [ ] **Storage unit** duplication check.
+- [ ] Unrecognized **book-summary app** subscription — identify and cancel.
+- [ ] Second **Alaska/PNW** payment (equal to the Off the Beaten Path deposit) still
+      due — cash-flow item.
+- [ ] Ongoing vehicle gas/maintenance tracking at the 50% household split.
+- [ ] **YELLOW backlog:** 1,737 of 1,904 transactions are uncategorized (expected —
+      young rulebook). Work down in review sessions; every ruling becomes a YAML rule.
+
+## Setup — needed from me
 - [ ] **CPA name + email** for the monthly Received Wisdom package. → CLAUDE.md
-- [ ] **Rydoo email registration:** confirm which email my Rydoo account is registered
-      under. Forwards to `receipts@rydoo.com` must come from a registered address —
-      if the account is under my RTB House work email, add `mklamb@gmail.com` as a
-      secondary address in Rydoo personal settings (Settings → personal → email
-      addresses), since drafts are created in personal Gmail.
-- [ ] **Accounts in scope:** which cards/bank accounts to scan, and how I'll get
-      statements (CSV export dropped in `inbox/` is best; PDF works). Any card that's
-      exclusively business?
-- [ ] **First data drop:** last 1–2 months of statements into `inbox/` to seed the
-      ledger and start building merchant rules.
-- [ ] **RTB House policy basics:** what's reimbursable, any pre-approval/receipt
-      thresholds. → rules.md
-- [ ] **CPA's preferred package format:** spreadsheet columns, receipt naming, one
-      email per month or quarter. → CLAUDE.md / package template
+- [ ] **Confirm employer naming:** relay said "RTB Marketing and Tech", I said RTB House
+      — assumed the same employer; confirm. → CLAUDE.md
+- [ ] **Rydoo email registration:** confirm which address the Rydoo account is under;
+      forwards to `receipts@rydoo.com` must come from a registered address. If it's the
+      work email, add `mklamb@gmail.com` as a secondary in Rydoo personal settings
+      (drafts are created in personal Gmail).
+- [ ] **RTB House reimbursable rules:** none in the rulebook yet (only the flat-rate
+      internet fact). What's reimbursable, receipt/pre-approval thresholds. → YAML
+- [ ] **CPA's preferred package format:** columns, receipt naming, monthly vs quarterly.
+- [ ] **Routine lacks Gmail:** the monthly Routine (`trig_01HG7dn8Pq4NG3SDiWB9yvpF`,
+      5th of month 9am ET, fresh session) fires sessions **without the Gmail connector**
+      (grants couldn't be passed through at creation). Those runs can do the pipeline and
+      ledger but not receipt sweeps or drafts. Fix: recreate the routine from the
+      claude.ai Routines UI with Gmail attached, then delete this one. Until then, ask
+      for a scan in a Gmail-enabled session.
 
 ## Decisions log
-- 2026-07-22 — Rydoo intake path chosen: email forwarding to `receipts@rydoo.com`
-  (per Rydoo help docs), prepared as Gmail drafts. No direct Rydoo/employer-system
-  integration, by design.
-- 2026-07-22 — Monthly automated scan created as a scheduled Routine (fires a fresh
-  session on the 5th of each month, 9am ET). It degrades gracefully while setup is
-  incomplete: reports what it found and what's blocked instead of guessing.
+- 2026-07-22 — Relay drained and deleted: pipeline (`src/`, `rules/`, `data/`,
+  workbook v5) moved into `expenses/`, context merged into `CLAUDE.md`. Earlier
+  project's YAML rulebook kept as the single rulebook (scaffold's `rules.md` removed);
+  `ledger.csv` is now a generated export of the categorized frame (1,904 tx,
+  2025-12-30 → 2026-05-08; pipeline re-run verified 2026-07-22).
+- 2026-07-22 — Rydoo intake path: email forwarding to `receipts@rydoo.com` (per Rydoo
+  help docs), prepared as Gmail drafts. No direct Rydoo/employer-system integration,
+  by design.
+- 2026-07-22 — Monthly automated scan created as a scheduled Routine (fresh session,
+  5th of each month, 9am ET). Degrades gracefully while setup is incomplete.
