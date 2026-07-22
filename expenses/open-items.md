@@ -15,13 +15,24 @@ Close items by answering in a session; record answers where they belong
 - [ ] Second **Alaska/PNW** payment (equal to the Off the Beaten Path deposit) still
       due — cash-flow item.
 - [ ] Ongoing vehicle gas/maintenance tracking at the 50% household split.
-- [ ] **YELLOW backlog:** 1,737 of 1,904 transactions are uncategorized (expected —
-      young rulebook). Work down in review sessions; every ruling becomes a YAML rule.
+- [ ] **YELLOW backlog:** 2,299 of 2,540 transactions uncategorized (expected — young
+      rulebook). Work down in review sessions; every ruling becomes a YAML rule.
+- [ ] **Catch-up exports (May 1 – Jun 30), 2026-07-22:** received and ingested Chase
+      7618 ✓, Chase 0928 ✓, Amex Platinum ✓, Amex Delta Reserve ✓, plus a **new sixth
+      account: Amex Marriott Bonvoy** ✓ (mostly recurring TWO BY FOUR $106.80 charges).
+      Still missing: **Chase 0781** — that card still ends 2026-05-06. Sornik flags now
+      11 (4 new in May–June).
 
 ## Setup — needed from me
 - [ ] **CPA name + email** for the monthly Received Wisdom package. → CLAUDE.md
-- [ ] **Confirm employer naming:** relay said "RTB Marketing and Tech", I said RTB House
-      — assumed the same employer; confirm. → CLAUDE.md
+- [ ] **RTB entities — data shows TWO distinct payment streams** (from the 0928
+      checking export, 2026-07-22): (a) `C71393 RTB HOUSE PAYROLL` ACH credits,
+      $9,560.44 biweekly — the W2 salary; (b) **monthly $1,000 Fedwire from "RTB
+      MARKETING AND TECH SERVICES L3" (Nicosia, Cyprus)** marked "consulting services
+      rendered in <month>". So the relay's name and "RTB House" are both real and NOT
+      the same stream. Question for Mike: are the $1k consulting wires Received Wisdom
+      revenue (invoiced consulting)? This shapes the entity model and what the CPA
+      package should show on the income side. → CLAUDE.md once answered
 - [ ] **Rydoo email registration:** confirm which address the Rydoo account is under;
       forwards to `receipts@rydoo.com` must come from a registered address. If it's the
       work email, add `mklamb@gmail.com` as a secondary in Rydoo personal settings

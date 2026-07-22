@@ -1,6 +1,6 @@
 # inbox — drop zone
 
-## The monthly five (drop by the 4th; the scan runs the 5th, 9am ET)
+## The monthly six (drop by the 4th; the scan runs the 5th, 9am ET)
 Export the **prior calendar month** (1st–last day) for each account and drop here:
 
 | # | Account | Export | Filename |
@@ -8,8 +8,9 @@ Export the **prior calendar month** (1st–last day) for each account and drop h
 | 1 | Chase 0781 (card) | CSV | keep Chase's default (`Chase0781_Activity…CSV`) |
 | 2 | Chase 7618 (card) | CSV | keep Chase's default (`Chase7618_Activity…CSV`) |
 | 3 | Chase 0928 (checking) | CSV | keep Chase's default (`Chase0928_Activity…CSV`) |
-| 4 | Amex Platinum | xlsx | **rename to** `AmexPlat_YYYY-MM.xlsx` |
-| 5 | Amex Delta Reserve | xlsx | **rename to** `AmexDelta_YYYY-MM.xlsx` |
+| 4 | Amex Platinum | csv or xlsx | **rename to** `AmexPlat_YYYY-MM.<ext>` |
+| 5 | Amex Delta Reserve | csv or xlsx | **rename to** `AmexDelta_YYYY-MM.<ext>` |
+| 6 | Amex Marriott Bonvoy | csv or xlsx | **rename to** `AmexBonvoy_YYYY-MM.<ext>` |
 
 Chase filenames carry the account number, so defaults are fine. **Amex always names
 the download `activity.xlsx`** — any `_1`/`_2` suffix is just the browser deduping by

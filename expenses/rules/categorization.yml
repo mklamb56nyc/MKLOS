@@ -24,6 +24,11 @@ rules:
     treatment: NONE
     category: Payments & Transfers
     note: "Money movement, not spend — excluded from all category/deduction totals"
+  - match: "american express ach pmt|payment to chase card"
+    tier: GRAY
+    treatment: NONE
+    category: Payments & Transfers
+    note: "Card payments from checking — the spend is already counted on the card side"
 
   # ---- GREEN: confirmed LLC deductions ----
   - match: "arentfox"
