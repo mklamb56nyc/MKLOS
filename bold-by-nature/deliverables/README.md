@@ -31,3 +31,6 @@ Both documents predate the verified fact base. Next regeneration should:
 4. **Add the upgrade:** the Farmington River through Farmington is a federally
    designated Wild & Scenic river (2019).
 5. Don't cite Mountain Day favorite-tradition survey percentages (unverified).
+6. **Acknowledge the existing student outdoors club** (owner note 2026-07-22:
+   small, largely inactive, nothing online) — never pitch as though there is
+   nothing. Frame Bold by Nature as giving existing appetite a real program.
