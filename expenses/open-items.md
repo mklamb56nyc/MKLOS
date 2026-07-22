@@ -20,6 +20,14 @@ in a session; record the answer where it belongs (rules.md, CLAUDE.md) and check
 - [ ] **CPA's preferred package format:** spreadsheet columns, receipt naming, one
       email per month or quarter. → CLAUDE.md / package template
 
+- [ ] **Routine lacks Gmail:** the monthly Routine (`trig_01HG7dn8Pq4NG3SDiWB9yvpF`,
+      5th of month 9am ET, fresh session) was created from a session whose connector
+      grants couldn't be passed through, so its fired sessions run **without Gmail**
+      — they can process `inbox/` and the ledger but can't sweep receipts or create
+      drafts. Fix: recreate the routine from the claude.ai Routines UI with the Gmail
+      connector attached, then delete this one. Until then, run the scan by asking in
+      a Gmail-enabled session.
+
 ## Decisions log
 - 2026-07-22 — Rydoo intake path chosen: email forwarding to `receipts@rydoo.com`
   (per Rydoo help docs), prepared as Gmail drafts. No direct Rydoo/employer-system
