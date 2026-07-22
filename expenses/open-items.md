@@ -8,7 +8,12 @@ Close items by answering in a session; record answers where they belong
 - [ ] **Sornik reimbursement (top priority):** recurring payments never submitted for
       insurance reimbursement — 7 flagged transactions in the current ledger. Flag stays
       on every payment until I confirm submission.
-- [ ] Two simultaneous **Verizon** accounts — consolidation candidate.
+- [ ] Two simultaneous **Verizon** accounts — consolidation candidate. *(Narrowed
+      2026-07-22: the office Fios is a third, separate account — billed to
+      RECEIVEDWISDOM LLC, $170.55/mo, confirmed RW, bills in `receipts/`. The two
+      to review are **Verizon Wireless ~$285/mo** from checking and
+      **VERIZONRECURRING $89.99/mo** on the Delta card — is the $89.99 the home
+      internet that RTB reimburses at the flat rate?)*
 - [ ] **Streaming service** redundancy check.
 - [ ] **Storage unit** duplication check.
 - [ ] Unrecognized **book-summary app** subscription — identify and cancel.

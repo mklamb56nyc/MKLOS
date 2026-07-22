@@ -65,6 +65,11 @@ rules:
     tier: GREEN
     treatment: IN
     category: State Filing Fees
+  - match: "verizon bill payment"
+    tier: GREEN
+    treatment: IN
+    category: Office Internet
+    note: "Office Fios at 111 South St, Oyster Bay — Verizon acct 258-371-285, billed to RECEIVEDWISDOM LLC, $170.55/mo (confirmed RW by Mike 2026-07-22). On auto-pay from the RW account since ~May; the 2026-04-27 charge on Chase 7618 was the first bill paid personally — reimbursable. Bills filed in receipts/. Distinct from VERIZON WIRELESS (checking) and VERIZONRECURRING $89.99 (Delta card), which stay under review."
 
   # ---- SPLIT ----
   - match: "shell oil|exxon|mobil\\b(?! payment)|bp\\b|sunoco|gulf oil|speedway|wawa fuel"
