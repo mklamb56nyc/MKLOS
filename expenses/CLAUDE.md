@@ -24,11 +24,14 @@ classifies every transaction and preps three submission paths. Continues the ear
 
 **Income streams (confirmed by me 2026-07-22, visible in the 0928 checking data):**
 1. `C71393 RTB HOUSE PAYROLL` ACH, $9,560.44 biweekly — **W2 salary** (RTB House).
-2. Monthly **$1,000 Fedwire from "RTB Marketing and Tech Services L3" (Nicosia, Cyprus)**,
-   "consulting services rendered" — **B2B / Schedule C income paid to me directly**, NOT
-   on the W2. Residual stream: when the consulting arrangement moved to Received Wisdom,
-   RTB needed to keep some flowing directly to me. Goes on my Schedule C, not through
-   the S Corp — the CPA package should reflect this split on the income side.
+2. **Fedwires from "RTB Marketing and Tech Services L3" (Nicosia, Cyprus)**, "consulting
+   services rendered" — **B2B / Schedule C income paid to me directly**, NOT on the W2.
+   The data shows the switch: through April 2026 the direct wires ran **$58,333.34/mo**
+   (Feb's $408,333.38 = exactly 7 × $58,333.34, a catch-up lump); from May 2026 the
+   direct stream drops to **$1,000/mo** — the residual RTB needed to keep flowing
+   directly when the consulting arrangement moved to Received Wisdom. 2026 direct total
+   so far: **$528,000.06 (Jan–Jun)** — Schedule C, not through the S Corp; the CPA
+   package must reflect this split on the income side (estimated-tax relevant).
 3. The rest of the consulting revenue flows to **Received Wisdom** directly.
 
 **Guardrail (amended 2026-07-22):** no write access to RTB House systems. I've added a

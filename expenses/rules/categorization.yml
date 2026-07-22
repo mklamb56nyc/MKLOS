@@ -40,7 +40,7 @@ rules:
     tier: GRAY
     treatment: NONE
     category: Income - Schedule C (direct)
-    note: "Monthly $1k wire from RTB Marketing and Tech Services (Cyprus) — B2B/Schedule C income paid directly to Mike, NOT W2; residual stream kept direct when consulting moved to Received Wisdom (confirmed 2026-07-22)"
+    note: "Wires from RTB Marketing and Tech Services (Cyprus) — B2B/Schedule C income paid directly to Mike, NOT W2. $58,333.34/mo through Apr 2026 (Feb = 7-month catch-up lump), $1k/mo residual from May 2026 after consulting moved to Received Wisdom (confirmed 2026-07-22)"
 
   # ---- GREEN: confirmed LLC deductions ----
   - match: "arentfox"
