@@ -78,11 +78,12 @@ manual analysis ended at v4, automation starts at v5. Formulas, never hardcoded 
 | `Chase0781*.CSV` | Chase credit card | sign flip: negative = spend |
 | `Chase7618*.CSV` | Chase credit card | sign flip: negative = spend |
 | `Chase0928*.CSV` | Chase checking | trailing comma per row → `index_col=False` |
-| `activity.xlsx`, `activity_1.xlsx`, … | Amex Platinum, Amex Delta Reserve | `header=6`; positive = spend |
+| `AmexPlat_*.xlsx`, `AmexDelta_*.xlsx` | Amex Platinum, Amex Delta Reserve | `header=6`; positive = spend; **rename on download** — Amex always exports `activity.xlsx` and the browser's `_N` dedup suffix does not identify the card. Ingest refuses unrenamed `activity_N.xlsx`. (The two original bare `activity*.xlsx` files from Jan–May were card-verified manually and keep legacy patterns.) |
 
-Amex exports auto-increment (`activity_2.xlsx`, …) — add a matching `SOURCES` line in
-`src/ingest.py` for each new one. Ingest matches on filename, so **source exports keep
-their original filenames** in `data/`.
+Ingest matches accounts by filename: Chase defaults are kept as-is (they carry the
+account number); Amex files are renamed per the rule above. The monthly download
+checklist lives in `inbox/README.md` — five exports (Chase ×3, Amex ×2) of the prior
+calendar month, dropped by the 4th for the scan on the 5th.
 
 ## Layout
 - `inbox/` — drop zone for new exports and receipt files; the scan moves exports to

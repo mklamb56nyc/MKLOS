@@ -54,14 +54,31 @@ def load_amex(path: Path, account: str) -> pd.DataFrame:
 
 
 # filename pattern -> (loader, account label)
+# Amex exports all download as "activity.xlsx" (the _1 suffix is the browser's dedup
+# rename, tied to download order, NOT the card) — so monthly Amex drops must be renamed
+# AmexPlat_*.xlsx / AmexDelta_*.xlsx before ingest. The bare activity patterns remain
+# only for the two original Jan-May files whose card mapping was verified manually.
 SOURCES = [
     (re.compile(r"Chase0781", re.I), load_chase_credit, "Chase0781"),
     (re.compile(r"Chase7618", re.I), load_chase_credit, "Chase7618"),
     (re.compile(r"Chase0928", re.I), lambda p, a: load_chase_checking(p, a), "Chase0928"),
+    (re.compile(r"amex.?plat", re.I), load_amex, "AmexPlatinum"),
+    (re.compile(r"amex.?delta", re.I), load_amex, "AmexDeltaReserve"),
     (re.compile(r"^activity\.xlsx$", re.I), load_amex, "AmexPlatinum"),
     (re.compile(r"^activity_1\.xlsx$", re.I), load_amex, "AmexDeltaReserve"),
-    # Amex sequential uploads auto-increment: activity_2.xlsx etc. -> add here as they arrive
 ]
+
+
+def check_no_unrenamed_amex(data_dir: Path) -> None:
+    """Refuse bare activity_N.xlsx beyond the two verified originals — card unknown."""
+    strays = [f.name for f in data_dir.iterdir()
+              if re.match(r"^activity_[2-9]\d*\.xlsx$", f.name, re.I)]
+    if strays:
+        raise SystemExit(
+            f"Unidentifiable Amex export(s) {strays}: the activity_N name comes from "
+            "browser download order, not the card. Rename to AmexPlat_YYYY-MM.xlsx or "
+            "AmexDelta_YYYY-MM.xlsx and rerun."
+        )
 
 
 def safe_sheet_name(s: str) -> str:
@@ -70,6 +87,7 @@ def safe_sheet_name(s: str) -> str:
 
 
 def ingest(data_dir: Path = DATA_DIR, pickle_path: Path = PICKLE) -> pd.DataFrame:
+    check_no_unrenamed_amex(data_dir)
     frames = []
     for f in sorted(data_dir.iterdir()):
         for pattern, loader, account in SOURCES:
