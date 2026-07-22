@@ -8,12 +8,19 @@ Close items by answering in a session; record answers where they belong
 - [ ] **Sornik reimbursement (top priority):** recurring payments never submitted for
       insurance reimbursement — 7 flagged transactions in the current ledger. Flag stays
       on every payment until I confirm submission.
-- [ ] Two simultaneous **Verizon** accounts — consolidation candidate. *(Narrowed
-      2026-07-22: the office Fios is a third, separate account — billed to
-      RECEIVEDWISDOM LLC, $170.55/mo, confirmed RW, bills in `receipts/`. The two
-      to review are **Verizon Wireless ~$285/mo** from checking and
-      **VERIZONRECURRING $89.99/mo** on the Delta card — is the $89.99 the home
-      internet that RTB reimburses at the flat rate?)*
+- [ ] **Verizon — three relationships (confirmed by Mike 2026-07-22),** so the old
+      "two simultaneous accounts / consolidate" item is resolved as intentional:
+      1. **Business Fios, 111 South St Oyster Bay** — RW's account, $170.55/mo,
+         auto-pay, bills in `receipts/`. Done.
+      2. **Verizon Wireless, 5 lines** (~$285/mo ACH from checking). Mike believes
+         this can be expensed to RW — **pending: get the bill.** Once it's in, add
+         the rule. CPA judgment to confirm treatment: 5 lines is the family plan, so
+         full-account vs business-line/percentage treatment is the CPA's call (same
+         "CPA has blessed the treatment" bar as home office).
+      3. **Home FiOS internet** — presumably the VERIZONRECURRING $89.99/mo on the
+         Delta card; the one relevant to RTB's flat-rate internet reimbursement
+         (only the excess above the flat rate is deduction-relevant). Confirm the
+         $89.99 is it.
 - [ ] **Streaming service** redundancy check.
 - [ ] **Storage unit** duplication check.
 - [ ] Unrecognized **book-summary app** subscription — identify and cancel.
