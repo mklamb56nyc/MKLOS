@@ -17,6 +17,15 @@ was dropped — no migration needed). It lives in its own repo,
 `mklamb56nyc/received-wisdom-site`, and is worked on from here — see
 "Website (received-wisdom-site)".
 
+## Family
+Who's who when they come up in project notes (attribute feedback carefully):
+- **Carrie** — my wife.
+- **Tobias ("Toby")** — my son, b. Dec 7, 2008 (17). The `toby-college/` project is his.
+- **Molly** — my daughter, at Miss Porter's School; founded Bold by Nature (`bold-by-nature/`).
+- **Nate** — my son, b. Jun 5, 2013 (13).
+
+Family details stay out of anything published (the public site, shared docs).
+
 ## How to work here
 - **Read the project's `CLAUDE.md` first** and keep changes scoped to that
   project's directory.
