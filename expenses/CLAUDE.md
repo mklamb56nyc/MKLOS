@@ -78,7 +78,7 @@ manual analysis ended at v4, automation starts at v5. Formulas, never hardcoded 
 | `Chase0781*.CSV` | Chase credit card | sign flip: negative = spend |
 | `Chase7618*.CSV` | Chase credit card | sign flip: negative = spend |
 | `Chase0928*.CSV` | Chase checking | trailing comma per row → `index_col=False` |
-| `AmexPlat_*.xlsx`, `AmexDelta_*.xlsx` | Amex Platinum, Amex Delta Reserve | `header=6`; positive = spend; **rename on download** — Amex always exports `activity.xlsx` and the browser's `_N` dedup suffix does not identify the card. Ingest refuses unrenamed `activity_N.xlsx`. (The two original bare `activity*.xlsx` files from Jan–May were card-verified manually and keep legacy patterns.) |
+| `AmexPlat_*`, `AmexDelta_*`, `AmexBonvoy_*` (.csv or .xlsx) | Amex Platinum, Delta Reserve, Marriott Bonvoy | positive = spend. xlsx: `header=6` metadata rows; csv: plain header, and multi-member exports carry `Card Member` (Michael vs Evelyn/Carrie — kept in the ledger). **Rename on download** — Amex always exports `activity.<ext>` and the browser's `_N` dedup suffix does not identify the card; ingest refuses unrenamed `activity_N` files. (The two original bare `activity*.xlsx` files from Jan–May were card-verified manually and keep legacy patterns.) |
 
 Ingest matches accounts by filename: Chase defaults are kept as-is (they carry the
 account number); Amex files are renamed per the rule above. The monthly download
