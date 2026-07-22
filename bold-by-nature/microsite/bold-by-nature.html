@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bold by Nature — Outdoor Leadership at Miss Porter's School</title>
+<meta name="description" content="A student proposal to found Bold by Nature, an outdoor leadership club at Miss Porter's School: seasonal outings on the Farmington River and the Connecticut hills, skill-building, and a tradition worth handing down.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F5F0E8;
+    --paper-2:#ECE5D8;
+    --card:#FCFAF4;
+    --pine:#1B3A0A;
+    --moss:#2D5016;
+    --fern:#4A7029;
+    --gold:#B8860B;
+    --gold-soft:#D9B45C;
+    --ink:#22261C;
+    --ink-soft:#565B4C;
+    --river:#3E6B8C;
+    --line:rgba(34,38,28,.16);
+    --line-2:rgba(34,38,28,.3);
+    --line-light:rgba(245,240,232,.22);
+    --maxw:1120px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:Georgia,"Times New Roman",serif;
+    font-size:clamp(16px,1.05vw + 12px,18px);line-height:1.65;
+    -webkit-font-smoothing:antialiased;overflow-x:hidden;
+  }
+  a{color:var(--moss);text-underline-offset:3px}
+  h1,h2,h3{font-family:"Fraunces",Georgia,serif;font-weight:600;line-height:1.04;letter-spacing:-.01em;margin:0}
+  .wrap{width:100%;max-width:var(--maxw);margin:0 auto;padding:0 clamp(20px,5vw,52px);position:relative;z-index:1}
+
+  .eyebrow{font-family:"Space Mono",monospace;font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--moss);display:inline-flex;align-items:center;gap:.7em;margin:0}
+  .eyebrow::before{content:"";width:26px;height:2px;background:var(--gold);display:inline-block}
+  .band-pine .eyebrow{color:var(--gold-soft)}
+
+  /* topbar */
+  .topbar{position:relative;z-index:3;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px clamp(20px,5vw,52px);border-bottom:1.5px solid var(--line)}
+  .brandmark{font-family:"Space Mono",monospace;font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;color:var(--pine)}
+  .brandmark b{color:var(--gold)}
+  .navcta{font-family:"Space Mono",monospace;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;color:var(--paper);background:var(--pine);padding:10px 18px;border-radius:2px;white-space:nowrap;transition:background .15s,transform .15s}
+  .navcta:hover{transform:translateY(-1px);background:var(--moss)}
+
+  /* hero */
+  .hero{padding:clamp(44px,7vw,92px) 0 clamp(28px,4vw,52px);overflow:hidden}
+  .hero h1{font-size:clamp(3.2rem,10.5vw,7.6rem);margin:.22em 0 .3em;color:var(--pine)}
+  .hero h1 .g{color:var(--gold)}
+  .hero .sub{font-family:"Space Mono",monospace;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);margin:0 0 26px}
+  .hero .lede{font-size:clamp(1.1rem,1.5vw,1.32rem);max-width:56ch;color:var(--ink-soft);margin:0 0 30px}
+  .hero .lede .val{color:var(--ink);font-weight:700;font-family:Georgia,serif}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:12px}
+  .btn{display:inline-flex;align-items:center;gap:.55em;font-weight:700;font-size:.98rem;text-decoration:none;padding:14px 26px;border-radius:2px;transition:transform .15s,background .15s;font-family:Georgia,serif}
+  .btn-primary{background:var(--gold);color:#241a02}
+  .btn-primary:hover{transform:translateY(-2px);background:#caa032}
+  .btn-ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line-2)}
+  .btn-ghost:hover{border-color:var(--ink);transform:translateY(-2px)}
+
+  /* ridge + river signature */
+  .ridge{margin-top:clamp(26px,4vw,44px)}
+  .ridge svg{width:100%;height:auto;display:block;overflow:visible}
+  .draw{stroke-dasharray:1600;stroke-dashoffset:1600;animation:draw 2.4s cubic-bezier(.55,.02,.2,1) .3s forwards}
+  .draw2{stroke-dasharray:1600;stroke-dashoffset:1600;animation:draw 2.4s cubic-bezier(.55,.02,.2,1) .8s forwards}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  .pop{opacity:0;animation:pop .6s cubic-bezier(.2,1.4,.4,1) 2.4s forwards}
+  @keyframes pop{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:scale(1)}}
+
+  /* hero tiles */
+  .hero-tiles{display:flex;flex-wrap:wrap;border-top:1.5px solid var(--line);margin-top:clamp(26px,4vw,44px)}
+  .htile{flex:1 1 200px;padding:22px 26px 22px 0;border-right:1.5px solid var(--line)}
+  .htile:last-child{border-right:0}
+  .htile .n{font-family:"Fraunces",serif;font-weight:700;font-size:clamp(1.9rem,3.6vw,2.7rem);line-height:1;color:var(--pine)}
+  .htile .n .u{font-size:.45em;color:var(--ink-soft);font-weight:500}
+  .htile .t{font-size:.88rem;color:var(--ink-soft);margin-top:8px;max-width:30ch}
+
+  /* bands */
+  section{position:relative;z-index:1}
+  .band{padding:clamp(54px,8vw,100px) 0}
+  .band-alt{background:var(--paper-2)}
+  .band-pine{background:var(--pine);color:#E9EDE1}
+  .band-pine h2,.band-pine h3{color:#F7F4EC}
+  .band-moss{background:var(--moss);color:#EDF1E4}
+  .band-moss h2,.band-moss h3{color:#fff}
+
+  .act-head{display:flex;align-items:flex-start;gap:clamp(18px,3vw,40px);margin-bottom:clamp(28px,4vw,50px);flex-wrap:wrap}
+  .act-num{font-family:"Fraunces",serif;font-weight:700;font-size:clamp(2.6rem,6vw,5rem);line-height:.9;color:var(--gold);flex:0 0 auto}
+  .act-copy{max-width:64ch}
+  .act-copy h2{font-size:clamp(1.9rem,4.6vw,3.3rem);margin:.3em 0 .5em;text-wrap:balance;color:var(--pine)}
+  .band-pine .act-copy h2{color:#F7F4EC}
+  .act-copy p{font-size:clamp(1.02rem,1.2vw,1.18rem);color:var(--ink-soft);margin:0}
+  .band-pine .act-copy p{color:#C9D1BC}
+  .act-copy p + p{margin-top:1em}
+  .val{color:var(--ink);font-weight:700}
+  .band-pine .val{color:#fff}
+
+  /* pull quote */
+  .pull{border-left:3px solid var(--gold);padding:6px 0 6px 24px;margin:clamp(28px,4vw,44px) 0 0;max-width:60ch}
+  .pull p{font-family:"Fraunces",serif;font-size:clamp(1.2rem,2vw,1.55rem);line-height:1.35;color:var(--pine);margin:0}
+  .band-pine .pull p{color:#F1EBDD}
+  .pull cite{display:block;font-family:"Space Mono",monospace;font-style:normal;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);margin-top:14px}
+  .band-pine .pull cite{color:#A8B295}
+
+  /* cards */
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin-top:clamp(26px,4vw,40px)}
+  .cardx{background:var(--card);border:1.5px solid var(--line);border-radius:6px;padding:22px 24px}
+  .band-pine .cardx{background:rgba(255,255,255,.055);border-color:var(--line-light)}
+  .cardx h3{font-size:1.12rem;color:var(--pine);margin-bottom:8px}
+  .band-pine .cardx h3{color:#F7F4EC}
+  .cardx .k{font-family:"Space Mono",monospace;font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:10px}
+  .cardx p{font-size:.94rem;color:var(--ink-soft);margin:0}
+  .band-pine .cardx p{color:#BFC9AE}
+
+  /* seasons table */
+  .seasons{margin-top:clamp(26px,4vw,40px);border:1.5px solid var(--line);border-radius:6px;overflow:hidden;background:var(--card)}
+  .season{display:grid;grid-template-columns:150px 1fr;border-bottom:1.5px solid var(--line)}
+  .season:last-child{border-bottom:0}
+  .season .s{font-family:"Fraunces",serif;font-weight:700;font-size:1.2rem;color:var(--paper);background:var(--moss);padding:20px 22px;display:flex;align-items:center}
+  .season:nth-child(2) .s{background:var(--river)}
+  .season:nth-child(3) .s{background:var(--fern)}
+  .season ul{list-style:none;margin:0;padding:16px 22px;display:flex;flex-wrap:wrap;gap:8px 10px}
+  .season li{font-size:.92rem;color:var(--ink);background:var(--paper-2);border:1px solid var(--line);border-radius:99px;padding:7px 14px}
+
+  /* vision timeline */
+  .steps{margin-top:clamp(26px,4vw,40px);display:grid;gap:0}
+  .step{display:grid;grid-template-columns:56px 1fr;gap:18px;padding:20px 0;border-bottom:1px solid var(--line-light)}
+  .step:last-child{border-bottom:0}
+  .step .yr{font-family:"Space Mono",monospace;font-size:.72rem;letter-spacing:.1em;color:var(--gold-soft);padding-top:5px}
+  .step h3{font-size:1.15rem;margin-bottom:6px}
+  .step p{font-size:.97rem;color:#BFC9AE;margin:0;max-width:66ch}
+
+  /* needs list */
+  .needs{margin:clamp(26px,4vw,40px) 0 0;padding:0;list-style:none;display:grid;gap:12px;max-width:64ch}
+  .needs li{display:grid;grid-template-columns:30px 1fr;gap:14px;font-size:1.02rem;color:#EDF1E4}
+  .needs li::before{content:"";width:22px;height:22px;border:2px solid var(--gold-soft);border-radius:4px;margin-top:2px}
+  .needs .val{color:#fff}
+
+  .closing{margin-top:clamp(34px,5vw,54px)}
+  .closing .big{font-family:"Fraunces",serif;font-weight:600;font-size:clamp(1.7rem,4vw,2.7rem);color:#fff;max-width:24ch;line-height:1.15;margin:0 0 24px}
+
+  footer{padding:34px 0 44px;border-top:1.5px solid var(--line)}
+  footer p{font-size:.82rem;color:var(--ink-soft);margin:0;max-width:72ch}
+  footer p + p{margin-top:8px}
+
+  @media (max-width:720px){
+    .season{grid-template-columns:1fr}
+    .season .s{padding:14px 22px}
+    .act-head{gap:12px}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brandmark">Bold <b>by</b> Nature</div>
+  <a class="navcta" href="#start">Come outside</a>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">A proposal to found a new student organization</p>
+    <h1>Bold <span class="g">by</span> Nature</h1>
+    <p class="sub">Outdoor Leadership at Miss Porter's School</p>
+    <p class="lede">A student-run outdoor leadership club that takes Porter's girls beyond the classroom and into the landscapes around us, starting with the <span class="val">Farmington River</span> and the trails of the Connecticut hills. Seasonal outings, skill-building workshops, and overnight adventures that grow <span class="val">confidence, resilience, and stewardship</span> in the tradition Sarah Porter herself began.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#year-one">See year one</a>
+      <a class="btn btn-ghost" href="#why">Why Porter's, why now</a>
+    </div>
+
+    <div class="ridge" aria-hidden="true">
+      <svg viewBox="0 0 1000 150" fill="none">
+        <path class="draw" d="M0 118 L90 74 L160 96 L250 38 L330 82 L420 52 L500 90 L590 30 L680 72 L770 48 L860 86 L1000 56" stroke="#2D5016" stroke-width="2.5" stroke-linejoin="round"/>
+        <path class="draw2" d="M0 132 C120 126, 200 142, 320 134 C460 124, 540 146, 680 138 C800 130, 880 144, 1000 136" stroke="#3E6B8C" stroke-width="2.5" stroke-linecap="round"/>
+        <circle class="pop" cx="590" cy="30" r="5" fill="#B8860B"/>
+      </svg>
+    </div>
+
+    <div class="hero-tiles">
+      <div class="htile"><div class="n">1843</div><div class="t">Sarah Porter opens her school and puts botany, geology, and astronomy on the syllabus</div></div>
+      <div class="htile"><div class="n">61.7<span class="u"> mi</span></div><div class="t">of the lower Farmington River federally designated Wild &amp; Scenic, right through town</div></div>
+      <div class="htile"><div class="n">1<span class="u"> beloved day</span></div><div class="t">Mountain Day, the surprise fall tradition the whole school already cherishes</div></div>
+      <div class="htile"><div class="n">5</div><div class="t">founding members ready to plan and lead the first outings</div></div>
+    </div>
+  </div>
+</header>
+
+<section class="band" id="why">
+  <div class="wrap">
+    <div class="act-head">
+      <div class="act-num">01</div>
+      <div class="act-copy">
+        <p class="eyebrow">It's in our DNA</p>
+        <h2>An outdoor program here isn't a new idea. It's the oldest one we have.</h2>
+        <p>In 1843, Sarah Porter made a radical choice: her students would study <span class="val">chemistry, physiology, botany, geology, and astronomy</span> alongside traditional subjects. She required regular exercise, notable for the time, and encouraged sports like tennis, horseback riding, and baseball. The school even fielded its own team, the Tunxises, after the Tunxis people indigenous to Farmington.</p>
+        <p>Girls engaging with the physical and natural world was the founding vision. Bold by Nature picks that thread back up.</p>
+      </div>
+    </div>
+    <div class="pull">
+      <p>"Miss Porter's School educates young women to become informed, bold, resourceful and ethical global citizens."</p>
+      <cite>Miss Porter's School mission</cite>
+    </div>
+  </div>
+</section>
+
+<section class="band band-alt">
+  <div class="wrap">
+    <div class="act-head">
+      <div class="act-num">02</div>
+      <div class="act-copy">
+        <p class="eyebrow">We already celebrate it</p>
+        <h2>Mountain Day is the spark. Bold by Nature is the fire.</h2>
+        <p>Every fall, without warning, classes stop and the whole school heads outdoors. Mountain Day is one of Porter's most cherished traditions, and it proves something useful: the appetite for a day outside, together, already runs deep here.</p>
+        <p>Bold by Nature doesn't compete with that day. It makes the feeling of it available all year, in ordinary weekends, with the same people you live and study with.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band band-pine">
+  <div class="wrap">
+    <div class="act-head">
+      <div class="act-num">03</div>
+      <div class="act-copy">
+        <p class="eyebrow">Our campus is made for it</p>
+        <h2>We live on a nationally designated river.</h2>
+        <p>In 2019, after a twelve-year community effort, Congress designated 61.7 miles of the lower Farmington River and Salmon Brook as a National Wild &amp; Scenic River, and Farmington is one of the designated towns. The river at the edge of campus, the one our crews already row, carries the same federal designation as the country's great wild rivers.</p>
+        <p>And it's just the beginning of what's in reach.</p>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="cardx"><span class="k">Walking distance</span><h3>Farmington River Trail &amp; Hill-Stead</h3><p>A riverside path and 152 acres of free estate trails, close enough for an outing with no bus at all.</p></div>
+      <div class="cardx"><span class="k">20 minutes</span><h3>Talcott Mountain</h3><p>The Heublein Tower ridge walk, with fall views that reach Long Island Sound on a clear day.</p></div>
+      <div class="cardx"><span class="k">35 minutes</span><h3>Peoples State Forest</h3><p>Eleven miles of blue-blazed trails on the Wild &amp; Scenic West Branch. Snowshoe country in winter.</p></div>
+      <div class="cardx"><span class="k">In town</span><h3>Winding Trails</h3><p>A 350-acre outdoor center in Farmington itself, home to Connecticut's only full-service cross-country ski center, rentals and lessons included.</p></div>
+      <div class="cardx"><span class="k">Through the hills</span><h3>The New England Trail</h3><p>A National Scenic Trail along our traprock ridges, running all the way to the Sound at Guilford.</p></div>
+      <div class="cardx"><span class="k">On the water</span><h3>Paddling &amp; partners</h3><p>Flatwater canoeing from the Route 4 bridge, outfitters in Collinsville, and river-cleanup partners in the watershed association and land trust.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <div class="act-head">
+      <div class="act-num">04</div>
+      <div class="act-copy">
+        <p class="eyebrow">Our peer schools do it</p>
+        <h2>The best schools in New England treat the outdoors as central.</h2>
+        <p>The Dartmouth Outing Club, founded in 1909, is the oldest and largest collegiate outing club in the country; about a quarter of the student body belongs, and generations of students have chosen Dartmouth because of it. Williams, Colby, and Bowdoin each run their own version, and at each one the outing club is the largest organization on campus.</p>
+        <p>Closer to home, Exeter, Hotchkiss, Northfield Mount Hermon, and Holderness all have established outdoor programs. Porter's deserves its own, and ours can be built on our river, our hills, and our own traditions.</p>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="cardx"><span class="k">The precedent we love</span><h3>Williams' Mountain Day</h3><p>At Williams, the college's own Mountain Day is run by the outing club: bells ring, classes stop, and the club leads hikes for every ability, ending in cider and singing on Stony Ledge. The tradition belongs to the whole school; the club makes it happen.</p></div>
+      <div class="cardx"><span class="k">How clubs begin</span><h3>Colby's first trip</h3><p>Colby's outdoor orientation started in 1975 with two students, one sympathetic staff member, and about twenty first-years. Fifty years on, every entering student goes.</p></div>
+      <div class="cardx"><span class="k">What we'd borrow</span><h3>The working formula</h3><p>Student-led with an adult backstop, free gear, trips graded from mellow to ambitious, and no experience assumed. That combination is what makes these clubs the biggest thing on campus.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="band band-alt" id="year-one">
+  <div class="wrap">
+    <div class="act-head">
+      <div class="act-num">05</div>
+      <div class="act-copy">
+        <p class="eyebrow">What it looks like</p>
+        <h2>Year one, season by season.</h2>
+        <p>A handful of outings done well, not a crowded calendar. Everything below uses places within an hour of campus, most far closer.</p>
+      </div>
+    </div>
+    <div class="seasons">
+      <div class="season">
+        <div class="s">Fall</div>
+        <ul>
+          <li>New Girl welcome hike on the Farmington River</li>
+          <li>Apple picking &amp; cider day</li>
+          <li>Sunrise yoga on campus</li>
+          <li>Leaf-peeping trail run at Talcott Mountain</li>
+        </ul>
+      </div>
+      <div class="season">
+        <div class="s">Winter</div>
+        <ul>
+          <li>Snowshoeing in Peoples State Forest</li>
+          <li>Winter survival skills workshop</li>
+          <li>Stargazing night (astronomy, just as Sarah Porter taught)</li>
+          <li>Hot cocoa &amp; campfire storytelling</li>
+        </ul>
+      </div>
+      <div class="season">
+        <div class="s">Spring</div>
+        <ul>
+          <li>Farmington River canoeing</li>
+          <li>Trail cleanup &amp; stewardship day</li>
+          <li>Overnight camping trip</li>
+          <li>End-of-year celebration cookout</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band band-pine">
+  <div class="wrap">
+    <div class="act-head">
+      <div class="act-num">06</div>
+      <div class="act-copy">
+        <p class="eyebrow">The bigger vision</p>
+        <h2>Year one plants the seed.</h2>
+        <p>The dream is bigger than a club calendar. It's a program woven into what it means to go to Porter's.</p>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="yr">YR 1</div><div><h3>A name people remember</h3><p>A small founding circle, a few outings done well, and a culture that feels like Porter's from the first day.</p></div></div>
+      <div class="step"><div class="yr">YR 2–3</div><div><h3>A New Girl outing</h3><p>An outdoor welcome for incoming students. Even one night camping on the riverbank gives a whole class a shared memory.</p></div></div>
+      <div class="step"><div class="yr">YR 3–5</div><div><h3>A signature expedition</h3><p>A multi-day trip with its own traditions, maybe the Long Trail, maybe the coast of Maine, plus a gear library and trail journals that Old Girls hand down to New Girls.</p></div></div>
+      <div class="step"><div class="yr">YR 25</div><div><h3>The reunion test</h3><p>An Ancient at her 25th reunion says "remember that night on the river?" and every person in her class knows exactly what she means.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="band band-moss" id="start">
+  <div class="wrap">
+    <div class="act-head">
+      <div class="act-num">07</div>
+      <div class="act-copy">
+        <p class="eyebrow">What we need to get started</p>
+        <h2>The ask is small. The idea isn't.</h2>
+      </div>
+    </div>
+    <ul class="needs">
+      <li><span>A <span class="val">faculty advisor</span> who shares the vision, ideally in science, sustainability, or athletics</span></li>
+      <li><span><span class="val">Official club status</span> through the student organizations process</span></li>
+      <li><span>A small budget for trailhead transportation and basic gear, <span class="val">$200–$500</span> to start</span></li>
+      <li><span><span class="val">Five founding members</span> ready to plan and lead the first outings this fall</span></li>
+      <li><span>Your enthusiasm. <span class="val">Come on one outing</span> and see for yourself.</span></li>
+    </ul>
+    <div class="closing">
+      <p class="big">Let's get outside.</p>
+      <a class="btn btn-primary" href="#why">Read it again from the top</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Bold by Nature is a student proposal and not (yet) an official Miss Porter's School organization. Quotations from the school's mission and history appear courtesy of the school's published materials at porters.org.</p>
+    <p>Facts on this page — the 1843 curriculum, the Wild &amp; Scenic designation, peer-school programs, and trail details — are drawn from the school's own site, the National Park Service and U.S. Fish &amp; Wildlife Service, Connecticut DEEP, and the clubs' own published histories.</p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -86,3 +86,6 @@ supporting.
 - **Revise the one-pager .docx**: drop the "55-acre campus" figure, drop Choate
   from the peer list, use the safe Tunxises phrasing, add the Wild & Scenic
   river credential (see `deliverables/README.md`)
+- ~~Microsite~~ — done 2026-07-22 (`microsite/bold-by-nature.html`), published
+  to the public site as `boldbynature.html` pending Mike's PR review in
+  `received-wisdom-site`. Kept anonymous per the no-family-names publish rule.
