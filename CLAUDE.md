@@ -11,6 +11,8 @@ Each project lives in its own top-level directory with its own `CLAUDE.md`:
 - `toby-college/`
 - `driggs/` — due diligence on a Crossed Arrows Lot 3 land purchase, Tetonia, Idaho
 - `bold-by-nature/` — outdoor leadership club at Miss Porter's School, founded by Molly
+- `expenses/` — automated expense scan/submission prep: RTB House reimbursables → Rydoo
+  (via Gmail drafts), Received Wisdom (S Corp) → monthly CPA package
 
 The public website is **not** in this repo (an earlier plan to import it as `site/`
 was dropped — no migration needed). It lives in its own repo,
