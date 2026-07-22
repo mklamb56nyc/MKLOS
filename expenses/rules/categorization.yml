@@ -30,6 +30,18 @@ rules:
     category: Payments & Transfers
     note: "Card payments from checking — the spend is already counted on the card side"
 
+  # ---- INCOME (checking credits — negative normalized amount; keep out of YELLOW) ----
+  - match: "rtb house payroll"
+    tier: GRAY
+    treatment: NONE
+    category: Income - W2 Payroll
+    note: "RTB House W2 salary, $9,560.44 biweekly"
+  - match: "rtb marketing and tech"
+    tier: GRAY
+    treatment: NONE
+    category: Income - Schedule C (direct)
+    note: "Monthly $1k wire from RTB Marketing and Tech Services (Cyprus) — B2B/Schedule C income paid directly to Mike, NOT W2; residual stream kept direct when consulting moved to Received Wisdom (confirmed 2026-07-22)"
+
   # ---- GREEN: confirmed LLC deductions ----
   - match: "arentfox"
     tier: GREEN

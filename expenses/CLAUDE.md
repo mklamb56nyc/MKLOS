@@ -22,6 +22,15 @@ classifies every transaction and preps three submission paths. Continues the ear
 - Also in the picture: **MathCapital Fund I** (LP interest); office = Cavit Properties,
   Oyster Bay (rent) + Compass Greater NY (leasing commission).
 
+**Income streams (confirmed by me 2026-07-22, visible in the 0928 checking data):**
+1. `C71393 RTB HOUSE PAYROLL` ACH, $9,560.44 biweekly — **W2 salary** (RTB House).
+2. Monthly **$1,000 Fedwire from "RTB Marketing and Tech Services L3" (Nicosia, Cyprus)**,
+   "consulting services rendered" — **B2B / Schedule C income paid to me directly**, NOT
+   on the W2. Residual stream: when the consulting arrangement moved to Received Wisdom,
+   RTB needed to keep some flowing directly to me. Goes on my Schedule C, not through
+   the S Corp — the CPA package should reflect this split on the income side.
+3. The rest of the consulting revenue flows to **Received Wisdom** directly.
+
 **Guardrail (amended 2026-07-22):** no write access to RTB House systems. I've added a
 **read-only Rydoo MCP connector** (`mcp__Rydoo__*`: list/get expenses, find trips, policy
 assistant) — use it to verify submissions landed and track status
