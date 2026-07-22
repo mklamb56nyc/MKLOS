@@ -1,0 +1,54 @@
+GLEN COVE SKATEPARK — WRITING STYLE GUIDE
+Created July 2026, after the owner asked that the microsite "read less like it was
+written by Claude." Distilled from the de-AI pass done that day. Applies to ALL
+outward-facing prose in this project (microsite, brief excerpts that go public,
+letters, grant narratives). Future sessions: read this before writing or revising
+public copy, and hold new drafts to it.
+
+====================================================================
+THE TELLS — what makes copy read machine-written
+====================================================================
+Each of these is fine once. The tell is the pattern.
+
+1. EM-DASH ADDICTION. More than about one dash per paragraph. Machine copy leans
+   on the dash for every pivot, aside, and punchline.
+2. THE REVERSAL. "It isn't X — it's Y." / "Not X. Y." One per page is a strong
+   move; in every section it's a verbal tic. (The old copy had ~10.)
+3. THE STINGER. Ending every paragraph on a compressed aphorism ("The ownership
+   is the point." "Persistence compounds."). When everything punches, nothing
+   lands. Budget: the two best per page keep their punch.
+4. MATCHED LISTS. Triples and quadruples with parallel grammar ("no team, no
+   bench, no season, no cut"). Real writers' lists are shorter and raggeder.
+5. THE COLON SETUP. "Two facts dissolve it:" / "Strip it down to what's
+   universal:" — announcing the structure before delivering it. Also "Here's the
+   part that surprises people:".
+6. INTENSIFIER PADDING. simply, actually, literally, exactly, radically, just.
+   Cut them; the sentence almost always improves.
+7. DRAMATIC FRAGMENTS. "Real muscle, already there." Fine rarely; a page of them
+   reads like ad copy.
+8. UNIFORM RHYTHM. Medium sentence, dash, punchline — repeat. If reading aloud
+   sounds like a drumbeat, the rhythm needs breaking.
+9. EDITORIALIZED NUMBERS. Every stat label carrying a moral. Let some numbers
+   just be numbers; the reader can feel them.
+
+====================================================================
+THE FIXES
+====================================================================
+- Spend rhetoric like money: one reversal and two stingers per page, on the best
+  material. Everything else gets plain declarative sentences.
+- Swap dashes for commas, periods, and parentheses. Vary sentence length for
+  real: some long and workmanlike, some short. It's fine for a sentence to just
+  end.
+- Prefer concrete subjects and verbs ("the city pays nothing") over abstraction
+  ("dissolves the fiscal objection").
+- Keep the facts and the warmth; lose the packaging. The goal is a sharp local
+  advocate on a good day, not a keynote.
+- Read-aloud test before shipping anything public.
+
+====================================================================
+STATUS
+====================================================================
+- Microsite main sections de-tic'd July 2026 (hero, §01 pillars, §02, §03 cards
+  + playbook table, allies, §04 hypothesis, closing).
+- The click-open case/cast profiles (CASES/CAST modals) got only a light touch —
+  a fuller pass is still open if the owner wants it.
