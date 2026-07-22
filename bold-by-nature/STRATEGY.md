@@ -105,6 +105,26 @@ Closest structural analog to our starting point: Storm King's Outdoor Adventure 
 single-teacher club (2021) → year-round by demand → points/ranks → multi-day
 expeditions by 2025.
 
+## The existing outdoors club (honesty rule)
+
+A small student outdoors club **already exists** at Porter's (Mike, 2026-07-22;
+largely inactive, nothing findable online — `research/miss-porters-school.md`
+#12). This changes the pitch and the play:
+
+- **Never claim or imply there is nothing.** The story is not "Porter's has no
+  outdoor life" — it's "the appetite is already here; Bold by Nature gives it a
+  program worthy of it." That framing is also simply stronger.
+- **Chartering risk:** Student Life's easiest answer to a new-club application
+  is "join the existing club." Molly needs a ready answer — and the honest one
+  is that Bold by Nature is a different ambition (leadership program, signature
+  traditions, year-round cadence), not a duplicate hiking sign-up sheet.
+- **Its members are candidate allies, maybe co-founders.** Before Phase 4,
+  Molly should find out who runs it and talk to them. The options run from
+  partnering, to reviving/re-founding it under the Bold by Nature identity, to
+  chartering separately with their blessing — her call once she knows the people.
+  (Precedent either way: Colby's COOT grew out of the existing outing club;
+  Storm King's program started as the new thing a coach built.)
+
 ## All-girls positioning
 
 Differentiate intentionally from generic/co-ed models: lead with boldness,

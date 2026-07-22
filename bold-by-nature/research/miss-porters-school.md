@@ -42,6 +42,8 @@
 
 **11. New-club chartering process — UNVERIFIED; nothing public.** Porter's cites "over fifty active student-run clubs and organizations" (profile materials list 39 clubs + 5 alliances, incl. Earth Club, Debate, Model UN, Mock Trial, DECA, Concordia); the **Office of Student Life** organizes activities and club-sponsored events. No club-fair or charter procedure is published — frame as "per the Office of Student Life's process" and Molly confirms internally. (https://www.porters.org/community-life/)
 
+**12. An existing student outdoors club — OWNER-PROVIDED (Mike, 2026-07-22); not findable online.** A small student outdoors club already exists at Porter's; per Mike it "really doesn't do much." Two targeted web searches (2026-07-22) found no trace of it — not in the school's public club listings, Niche/BSR profiles, or elsewhere. Name, membership, and leadership unknown. **Rule for all materials: never pitch as though there is nothing** — acknowledge it respectfully without naming or characterizing it beyond what we know. Molly should find out who runs it (see PLAN.md).
+
 ## Additional facts
 
 - **Enrollment/mix:** ~350 students, grades 9–12, ~two-thirds boarding (2025–26 Wikipedia: ~350, 65/35; BSR: 345, 66%; school materials elsewhere: "334 students… from 27 states and 30 countries"). Use "approximately 350 students in grades 9–12, about two-thirds boarding." (https://en.wikipedia.org/wiki/Miss_Porter%27s_School)

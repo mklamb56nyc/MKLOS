@@ -16,7 +16,10 @@ a motivated freshman/sophomore, not an adult.
   show you what I'm thinking?"* (Research backs this: durable programs everywhere
   are student-led with a professional backstop.)
 - **Phase 3 — Build a Founding Circle (not a big recruitment push).** Not 30
-  members — **3–5 genuinely excited friends** willing to co-create. Best move:
+  members — **3–5 genuinely excited friends** willing to co-create. Include
+  finding out who runs the **existing outdoors club** (see `STRATEGY.md`) and
+  talking to them early — they're candidate allies or co-founders, and their
+  blessing defuses the "we already have one" objection before it's raised. Best move:
   **do something first** — one low-key outing (a Farmington River hike, a sunset
   walk, a picnic). The experience sells it better than any pitch. After that
   outing she has **co-founders, not sign-ups.**
@@ -83,9 +86,13 @@ supporting.
   partnerships (Collinsville Canoe & Kayak group outings; Farmington Land Trust
   steward program; FRWA river cleanup — contacts in research)
 - Pitch refinement / short deck for head of school, board member, or donor
+- **Decide the relationship to the existing outdoors club** (partner / revive
+  under the Bold by Nature identity / charter separately) — Molly's call after
+  she learns who runs it. See `STRATEGY.md` "The existing outdoors club."
 - **Revise the one-pager .docx**: drop the "55-acre campus" figure, drop Choate
   from the peer list, use the safe Tunxises phrasing, add the Wild & Scenic
-  river credential (see `deliverables/README.md`)
+  river credential, and acknowledge the existing outdoors club — don't pitch as
+  though there is nothing (see `deliverables/README.md`)
 - ~~Microsite~~ — done 2026-07-22 (`microsite/bold-by-nature.html`), published
   to the public site as `boldbynature.html` (received-wisdom-site PR #7, merged
   2026-07-22 at Mike's direction — merge = Cloudflare deploy). Kept anonymous
