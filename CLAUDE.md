@@ -106,7 +106,9 @@ deployed by Cloudflare Pages **directly from its `main` branch** — a push to
 When enabled on a session, you can use my personal Google connectors:
 - **Drive** — read reference docs and pull source data. Read-only.
 - **Gmail** — search and draft; you can create drafts, you cannot send. Never
-  assume a draft was sent.
+  assume a draft was sent. **Any draft written as me must follow `VOICE.md`**
+  (my personal voice, distilled from my sent mail) — that goes for anything
+  else written in my first person too.
 - **Calendar** — read, and when I ask, create or update events.
 
 Only the connectors I've toggled on for a session are available. If something you
