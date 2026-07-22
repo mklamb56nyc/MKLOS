@@ -1814,7 +1814,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-04-30,Chase7618,,SQ *SANTA MONICA BREW WOR,10.8,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-04-30,Chase7618,,COLLEGEBOARD*SAT ONLN.,-24.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-04-30,Chase7618,,CHRISTINA'S EPICURE,76.75,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
-2026-05-01,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,YELLOW,NONE,,0.0,Uncategorized,,,,AmexBonvoy_2026-05_06.csv
+2026-05-01,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,GRAY,NONE,,0.0,Pets - Dog Boarding,,,Dog boarding facility (Oyster Bay) — confirmed by Mike 2026-07-22; recurring ~$106.80 on Amex Bonvoy,AmexBonvoy_2026-05_06.csv
 2026-05-01,AmexDeltaReserve,EVELYN C LAMB,SOUTHDOWN COFFEE - OOyster Bay          NY,6.43,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-05-01,AmexDeltaReserve,EVELYN C LAMB,LAGOM               LOCUST VALLEY       NY,160.43,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-05-01,AmexPlatinum,MICHAEL K LAMB,UBER,11.56,YELLOW,NONE,,0.0,Uncategorized,,,,AmexPlat_2026-05_06.csv
@@ -1867,7 +1867,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-05-04,Chase0928,,ODP TRANSFER FROM SAVINGS ...3874,-706.54,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-05-04,Chase7618,,HARBORSIDE DELI,20.06,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-05-04,Chase7618,,WFUV,15.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
-2026-05-05,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,YELLOW,NONE,,0.0,Uncategorized,,,,AmexBonvoy_2026-05_06.csv
+2026-05-05,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,GRAY,NONE,,0.0,Pets - Dog Boarding,,,Dog boarding facility (Oyster Bay) — confirmed by Mike 2026-07-22; recurring ~$106.80 on Amex Bonvoy,AmexBonvoy_2026-05_06.csv
 2026-05-05,AmexDeltaReserve,EVELYN C LAMB,SP MODESEES         UNION CITY          CA,221.9,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-05-05,AmexDeltaReserve,EVELYN C LAMB,NEW YORK STATE DMV NALBANY              NY,80.5,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-05-05,AmexDeltaReserve,EVELYN C LAMB,WM.COM              866-909-4458        TX,110.18,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
@@ -1904,7 +1904,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-05-07,Chase7618,,GOOGLE *YouTube TV,9.99,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-05-07,Chase7618,,MTA*NYCT PAYGO,3.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-07,Chase7618,,GOOGLE *YouTube TV,82.99,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
-2026-05-08,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,YELLOW,NONE,,0.0,Uncategorized,,,,AmexBonvoy_2026-05_06.csv
+2026-05-08,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,GRAY,NONE,,0.0,Pets - Dog Boarding,,,Dog boarding facility (Oyster Bay) — confirmed by Mike 2026-07-22; recurring ~$106.80 on Amex Bonvoy,AmexBonvoy_2026-05_06.csv
 2026-05-08,AmexDeltaReserve,EVELYN C LAMB,KITCHEN KABARET 0563ROSLYN HEIGHT       NY,123.19,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-05-08,AmexDeltaReserve,EVELYN C LAMB,ENEXIA SPECIALTY 000STATEN ISLAND       NY,224.0,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-05-08,AmexDeltaReserve,EVELYN C LAMB,PETSMART #2703 2703 GLEN COVE           NY,207.41,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
@@ -1948,7 +1948,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-05-11,Chase0928,,VENMO            PAYMENT    1050207722856   WEB ID: 3264681992,300.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
 2026-05-11,Chase7618,,CLAUDE.AI SUBSCRIPTION,217.25,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-11,Chase7618,,ANTHROPIC,217.25,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
-2026-05-12,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,YELLOW,NONE,,0.0,Uncategorized,,,,AmexBonvoy_2026-05_06.csv
+2026-05-12,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,GRAY,NONE,,0.0,Pets - Dog Boarding,,,Dog boarding facility (Oyster Bay) — confirmed by Mike 2026-07-22; recurring ~$106.80 on Amex Bonvoy,AmexBonvoy_2026-05_06.csv
 2026-05-12,AmexDeltaReserve,MICHAEL K LAMB,DELTA AIR LINES,847.81,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-05-12,AmexDeltaReserve,MICHAEL K LAMB,DELTA AIR LINES,11.2,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-05-12,AmexPlatinum,MICHAEL K LAMB,IC* COSTCO BY INSTACSAN FRANCISCO       CA,324.19,YELLOW,NONE,,0.0,Uncategorized,,,,AmexPlat_2026-05_06.csv
@@ -1994,7 +1994,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-05-14,Chase7618,,PSPT Huntington PRK,0.7,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-14,Chase7618,,LOCUST VALLEY MARKET #104,53.25,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-14,Chase7618,,LOCUST VALLEY SCHOOLS,103.5,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
-2026-05-15,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,YELLOW,NONE,,0.0,Uncategorized,,,,AmexBonvoy_2026-05_06.csv
+2026-05-15,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,GRAY,NONE,,0.0,Pets - Dog Boarding,,,Dog boarding facility (Oyster Bay) — confirmed by Mike 2026-07-22; recurring ~$106.80 on Amex Bonvoy,AmexBonvoy_2026-05_06.csv
 2026-05-15,AmexDeltaReserve,EVELYN C LAMB,BT*DD *DOORDASH MAHASAN FRANCISCO       CA,190.05,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-05-15,AmexPlatinum,MICHAEL K LAMB,YMCA  OF LONG ISLANDGLEN COVE           NY,85.0,YELLOW,NONE,,0.0,Uncategorized,,,,AmexPlat_2026-05_06.csv
 2026-05-15,Chase0928,,Zelle payment to Connor 29235746527,130.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
@@ -2027,7 +2027,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-05-18,Chase7618,,DD *DOORDASH STOPSHOP,26.9,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-18,Chase7618,,NORTHWELL PHYS. PARTNERS,5.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-18,Chase7618,,WALGREENS #2626,30.29,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
-2026-05-19,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,YELLOW,NONE,,0.0,Uncategorized,,,,AmexBonvoy_2026-05_06.csv
+2026-05-19,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,GRAY,NONE,,0.0,Pets - Dog Boarding,,,Dog boarding facility (Oyster Bay) — confirmed by Mike 2026-07-22; recurring ~$106.80 on Amex Bonvoy,AmexBonvoy_2026-05_06.csv
 2026-05-19,AmexDeltaReserve,EVELYN C LAMB,Newsday Subscription18006397329         NY,44.76,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-05-19,AmexPlatinum,MICHAEL K LAMB,NYTimes.COM NY TIMES(800)698-4637       NY,30.0,YELLOW,NONE,,0.0,Uncategorized,,,,AmexPlat_2026-05_06.csv
 2026-05-19,AmexPlatinum,MICHAEL K LAMB,Platinum Digital Entertainment Credit,-25.0,YELLOW,NONE,,0.0,Uncategorized,,,,AmexPlat_2026-05_06.csv
@@ -2082,7 +2082,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-05-25,Chase7618,,SP TB ELECTRIC,37.59,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-25,Chase7618,,DD *DOORDASH STARBUCKS,18.23,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-25,Chase7618,,SP FORGED RACING,72.93,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
-2026-05-26,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,YELLOW,NONE,,0.0,Uncategorized,,,,AmexBonvoy_2026-05_06.csv
+2026-05-26,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,GRAY,NONE,,0.0,Pets - Dog Boarding,,,Dog boarding facility (Oyster Bay) — confirmed by Mike 2026-07-22; recurring ~$106.80 on Amex Bonvoy,AmexBonvoy_2026-05_06.csv
 2026-05-26,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,12.99,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,AmexPlat_2026-05_06.csv
 2026-05-26,Chase0928,,PAY*CAMP CAROLINA 828-8842414 NC             05/25,2000.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
 2026-05-26,Chase0928,,FEDWIRE CREDIT VIA: BNP PARIBAS SA NEW YORK BRANCH/026007689 B/O: 1/RTB MARKETING AND TECH SERVICES L3/CY/2408 NICOSIA REF: CHASE NYC/CTR/BNF=MICHAEL K LAMB EVELYN C LAMB LOCUST VALLEY NY 11560- 2323 US/AC-000000008038 RFB=V260525 B89272490 OBI=/URI/CONSULTING SERVI CES RENDERED I N MAY2026/ IMAD: 0526B1Q8201C000260 TRN: 0005141146FF,-1000.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
@@ -2131,7 +2131,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-05-28,Chase7618,,STARBUCKS 07616,12.22,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-28,Chase7618,,TST*PROVISIONS MARKET,16.12,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-28,Chase7618,,TST*NAPLES PIZZA - FARMI,27.91,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
-2026-05-29,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,YELLOW,NONE,,0.0,Uncategorized,,,,AmexBonvoy_2026-05_06.csv
+2026-05-29,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,GRAY,NONE,,0.0,Pets - Dog Boarding,,,Dog boarding facility (Oyster Bay) — confirmed by Mike 2026-07-22; recurring ~$106.80 on Amex Bonvoy,AmexBonvoy_2026-05_06.csv
 2026-05-29,Chase0928,,INTEREST PAYMENT,-0.19,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
 2026-05-29,Chase0928,,CHECK 1202,93.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
 2026-05-29,Chase0928,,C71393 RTB HOUSE PAYROLL                    PPD ID: 4462283648,-9560.44,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
@@ -2249,7 +2249,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-06-07,Chase7618,,GOOGLE *YouTube TV,82.99,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-06-07,Chase7618,,GOOGLE *YouTube TV,9.99,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-06-07,Chase7618,,TST*THE FRONT PORCH,43.95,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
-2026-06-08,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,YELLOW,NONE,,0.0,Uncategorized,,,,AmexBonvoy_2026-05_06.csv
+2026-06-08,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,GRAY,NONE,,0.0,Pets - Dog Boarding,,,Dog boarding facility (Oyster Bay) — confirmed by Mike 2026-07-22; recurring ~$106.80 on Amex Bonvoy,AmexBonvoy_2026-05_06.csv
 2026-06-08,AmexDeltaReserve,EVELYN C LAMB,BT*DD *DOORDASH BLACSAN FRANCISCO       CA,88.99,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-06-08,AmexDeltaReserve,EVELYN C LAMB,LAS PALMAS OASI @PSPPALM SPRINGS        CA,59.83,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-06-08,AmexDeltaReserve,EVELYN C LAMB,LAS PALMAS OASI @PSPPALM SPRINGS        CA,15.71,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
@@ -2319,7 +2319,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-06-11,Chase7618,,NYX HOTEL WARSAW,31.64,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-06-11,Chase7618,,ANTHROPIC* CLAUDE SUB,217.25,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-06-11,Chase7618,,AUTOMATIC PAYMENT - THANK,-14135.42,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
-2026-06-12,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,YELLOW,NONE,,0.0,Uncategorized,,,,AmexBonvoy_2026-05_06.csv
+2026-06-12,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,GRAY,NONE,,0.0,Pets - Dog Boarding,,,Dog boarding facility (Oyster Bay) — confirmed by Mike 2026-07-22; recurring ~$106.80 on Amex Bonvoy,AmexBonvoy_2026-05_06.csv
 2026-06-12,AmexDeltaReserve,EVELYN C LAMB,BLUEAPRON           NEW YORK            NY,9.99,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-06-12,AmexDeltaReserve,EVELYN C LAMB,SPEEDWAY 46893 00004OYSTER BAY          NY,69.44,GREEN,SPLIT,50,34.72,Vehicle - Gas,,,50% household-fleet business-use allocation (not per-vehicle),AmexDelta_2026-05_06.csv
 2026-06-12,AmexDeltaReserve,EVELYN C LAMB,EXXONMOBIL          EAST NORWICH        NY,99.72,GREEN,SPLIT,50,49.86,Vehicle - Gas,,,50% household-fleet business-use allocation (not per-vehicle),AmexDelta_2026-05_06.csv
@@ -2530,7 +2530,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-06-29,Chase7618,,SQ *VICTORIA CAPOBIANCO,200.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-06-29,Chase7618,,Longchamp,262.33,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-06-29,Chase7618,,PEOPLE DATA LABS,587.92,GREEN,IN,,587.92,B2B Data API,,,,Chase7618_Activity20260501_20260630_20260722.CSV
-2026-06-30,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,YELLOW,NONE,,0.0,Uncategorized,,,,AmexBonvoy_2026-05_06.csv
+2026-06-30,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,GRAY,NONE,,0.0,Pets - Dog Boarding,,,Dog boarding facility (Oyster Bay) — confirmed by Mike 2026-07-22; recurring ~$106.80 on Amex Bonvoy,AmexBonvoy_2026-05_06.csv
 2026-06-30,AmexPlatinum,MICHAEL K LAMB,THIRTEEN LLC 9489083NEW YORK            NY,8.0,YELLOW,NONE,,0.0,Uncategorized,,,,AmexPlat_2026-05_06.csv
 2026-06-30,Chase0928,,Guardian Life ACH Paymnt                 PPD ID: 9970011000,7389.59,GRAY,NONE,,0.0,Savings/Investment,,,"Whole life ~$7k/mo — SAVINGS/WEALTH-BUILDING vehicle, never insurance expense",Chase0928_Activity_20260722.CSV
 2026-06-30,Chase0928,,VANS Denver CO                               06/29,88.93,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
