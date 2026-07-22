@@ -17,6 +17,12 @@ here is designed to be handed to Molly to run herself, not run by an adult.
   `research/README.md` is the index and corrections scorecard.
 - `deliverables/` — the two Word documents Molly hands to people, plus design
   cues and pending revisions. Drive copies exist; repo is the working source.
+- `microsite/bold-by-nature.html` — the public web version of the proposal.
+  Working source lives here; it publishes to the `received-wisdom-site` repo
+  (Cloudflare Pages) as `boldbynature.html` via the PR-to-deploy flow in the
+  root CLAUDE.md. When this file changes, republish by copying it over there.
+  **Publish rule: no family names on the page** (root CLAUDE.md guardrail) —
+  the club speaks as "we."
 - `archive/` — the original April 2026 project relay, superseded and kept for
   provenance only.
 
