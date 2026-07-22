@@ -118,6 +118,12 @@ DELIVERABLES CREATED SO FAR
   face-off's "those neighborhoods." Restored as PROSE ONLY (no map layer): a short §02 paragraph before
   the face-off naming the designation — Nassau has 44 DAC tracts, nearly all South Shore; downtown Glen
   Cove (around City Stadium) is the ONLY one on the North Shore. Figures from dossier §3. [NEW]
+- NUMBERS AUDIT (July 2026, owner-requested): every numeric claim on the microsite (149 extracted)
+  checked against dossier/profiles; access figures recomputed from the cached coverage layers
+  (67,366 kids ✓; 57,902 ✓; 19,002 ✓; 8,738/92% ✓; 16,955 ✓; combined Bethpage+GC car scenario
+  recomputed = 3,975 outside → "all but about 4,000" ✓; golf = 7 private 18-hole, max 3.81 mi ✓,
+  municipal course rightly excluded). TWO ERRORS FOUND AND FIXED: "all 12 studies" → 13 (stale
+  after Northport), and Berry Lane "17-acre" → 17.5-acre (06 §3). Everything else verified. [NEW]
 - STYLE GUIDE (July 2026): owner asked the microsite "read less like it was written by Claude" → new
   08_style-guide.txt (the tells: em-dash density, reversals, stingers everywhere, matched lists, colon
   setups, intensifiers; budgets + fixes). Main microsite sections de-tic'd; CASES/CAST modal copy got
