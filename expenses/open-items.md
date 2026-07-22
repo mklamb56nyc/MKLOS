@@ -25,14 +25,11 @@ Close items by answering in a session; record answers where they belong
 
 ## Setup — needed from me
 - [ ] **CPA name + email** for the monthly Received Wisdom package. → CLAUDE.md
-- [ ] **RTB entities — data shows TWO distinct payment streams** (from the 0928
-      checking export, 2026-07-22): (a) `C71393 RTB HOUSE PAYROLL` ACH credits,
-      $9,560.44 biweekly — the W2 salary; (b) **monthly $1,000 Fedwire from "RTB
-      MARKETING AND TECH SERVICES L3" (Nicosia, Cyprus)** marked "consulting services
-      rendered in <month>". So the relay's name and "RTB House" are both real and NOT
-      the same stream. Question for Mike: are the $1k consulting wires Received Wisdom
-      revenue (invoiced consulting)? This shapes the entity model and what the CPA
-      package should show on the income side. → CLAUDE.md once answered
+- [x] **RTB entities — resolved 2026-07-22:** two real streams. W2 payroll from RTB
+      House ($9,560.44 biweekly ACH) + monthly $1,000 Cyprus wire from RTB Marketing
+      and Tech Services = **B2B/Schedule C income paid to Mike directly, not W2** —
+      a residual stream kept direct when the consulting arrangement moved to Received
+      Wisdom. Recorded in CLAUDE.md (income streams) and the rulebook.
 - [ ] **Rydoo email registration:** confirm which address the Rydoo account is under;
       forwards to `receipts@rydoo.com` must come from a registered address. If it's the
       work email, add `mklamb@gmail.com` as a secondary in Rydoo personal settings
