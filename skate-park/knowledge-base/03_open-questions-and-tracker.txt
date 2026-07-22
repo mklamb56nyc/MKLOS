@@ -114,3 +114,11 @@ DELIVERABLES CREATED SO FAR
   $420K concrete, 2010), cautionary late life (fee/gate erosion → residents-only 2026). Also a
   parenthetical by the §02 "Today" map explaining why the map counts the North Shore as zero despite
   Veterans existing. Sourced from 06 §9. It preempts the "what about Northport?" rebuttal. [NEW]
+- DAC BACK IN THE NARRATIVE (July 2026): dropping the DAC map layer had orphaned the golf-course
+  face-off's "those neighborhoods." Restored as PROSE ONLY (no map layer): a short §02 paragraph before
+  the face-off naming the designation — Nassau has 44 DAC tracts, nearly all South Shore; downtown Glen
+  Cove (around City Stadium) is the ONLY one on the North Shore. Figures from dossier §3. [NEW]
+- STYLE GUIDE (July 2026): owner asked the microsite "read less like it was written by Claude" → new
+  08_style-guide.txt (the tells: em-dash density, reversals, stingers everywhere, matched lists, colon
+  setups, intensifiers; budgets + fixes). Main microsite sections de-tic'd; CASES/CAST modal copy got
+  only a light touch — fuller modal pass still open. Read 08 before any new public prose. [NEW]

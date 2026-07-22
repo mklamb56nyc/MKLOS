@@ -23,6 +23,9 @@ window opens (~2027):
 
 ## Conventions
 - Edit files in place; keep changes scoped to this `skate-park/` directory.
+- **Before writing or revising any outward-facing prose**, read
+  `knowledge-base/08_style-guide.txt` and hold the draft to it — the owner asked that
+  public copy not read machine-written.
 - Keep anything private in this directory out of anything that later gets published.
 - `INDEX.txt` is the file map / current-state snapshot — keep it current as things move.
 - API keys (Census, OpenRouteService) live in env vars `CENSUS_API_KEY` / `ORS_API_KEY`,
