@@ -39,6 +39,15 @@ Close items by answering in a session; record answers where they belong
       for a scan in a Gmail-enabled session.
 
 ## Decisions log
+- 2026-07-22 — **Rydoo write-path research:** the MCP connector is confirmed read-only
+  (its fifth tool, submit_feedback, only sends feedback to Rydoo's team). A real write
+  API exists (REST v2, OAuth2 client-credentials via accounts.rydoo.com) but access is
+  **Enterprise-only and credentials are issued at the company level** (customer success
+  manager / api@rydoo.com) — i.e., an RTB House tenant integration, not something an
+  individual employee gets. Ruled out for this project: it would put employer-tenant
+  credentials into personal automation (violates both the employer-separation and
+  no-secrets guardrails). **Email intake stays the submission path**; if richer
+  automation is ever wanted, the ask goes to RTB House finance/IT, not here.
 - 2026-07-22 — **Read-only Rydoo MCP connector added** by Mike (list/get expenses,
   find trips, policy assistant; no write tools). Guardrail amended in CLAUDE.md:
   status verification via connector, submission still via Gmail email-intake drafts.
