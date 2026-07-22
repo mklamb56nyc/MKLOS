@@ -1,0 +1,120 @@
+# Living rulebook: vendor/pattern -> tier + treatment.
+# tier: GREEN (confirmed LLC deduction) | YELLOW (review) | GRAY (personal/no action)
+# treatment: IN (100% deduction) | SPLIT (pct applied) | NONE
+# match is case-insensitive substring against Description.
+# Every manual correction from Mike gets added here so decisions persist across sessions.
+
+defaults:
+  unknown_vendor_tier: YELLOW   # anything unmatched needs review, never silently GRAY
+
+rules:
+  # ---- PRIORITY FLAGS (must precede exclusions; first match wins) ----
+  - match: "sornik"
+    tier: GRAY
+    treatment: NONE
+    category: Professional Support - Children
+    flag: REIMBURSEMENT_OUTSTANDING
+    note: "Zelle to Melissa Sornik LCSW — never submitted for insurance reimbursement; flag every payment until Mike confirms submission"
+
+  # ---- EXCLUSIONS (card payments & internal transfers = money movement, not spend) ----
+  # NOTE: Zelle is deliberately NOT excluded — Zelle to a vendor/person is real spend.
+  # Any named Zelle recipient rule must sit ABOVE this block.
+  - match: "payment thank you|mobile payment|online payment|autopay|online transfer"
+    tier: GRAY
+    treatment: NONE
+    category: Payments & Transfers
+    note: "Money movement, not spend — excluded from all category/deduction totals"
+
+  # ---- GREEN: confirmed LLC deductions ----
+  - match: "arentfox"
+    tier: GREEN
+    treatment: IN
+    category: Legal - Employment Law
+    note: "100% LLC-deductible (employment law, not personal legal)"
+  - match: "cavit"
+    tier: GREEN
+    treatment: IN
+    category: Office Rent
+    note: "Oyster Bay office"
+  - match: "compass greater"
+    tier: GREEN
+    treatment: IN
+    category: Leasing Commission
+  - match: "people data labs"
+    tier: GREEN
+    treatment: IN
+    category: B2B Data API
+  - match: "dept of state"
+    tier: GREEN
+    treatment: IN
+    category: State Filing Fees
+
+  # ---- SPLIT ----
+  - match: "shell oil|exxon|mobil\\b(?! payment)|bp\\b|sunoco|gulf oil|speedway|wawa fuel"
+    tier: GREEN
+    treatment: SPLIT
+    split_pct: 50
+    category: Vehicle - Gas
+    note: "50% household-fleet business-use allocation (not per-vehicle)"
+  - match: "auto repair|mavis|jiffy lube|firestone|goodyear"
+    tier: GREEN
+    treatment: SPLIT
+    split_pct: 50
+    category: Vehicle - Maintenance
+  - match: "verizon fios|optimum|internet"
+    tier: YELLOW
+    treatment: SPLIT
+    split_pct: null
+    category: Internet
+    note: "RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant"
+
+  # ---- GRAY: confirmed personal / special handling ----
+  - match: "guardian"
+    tier: GRAY
+    treatment: NONE
+    category: Savings/Investment
+    note: "Whole life ~$7k/mo — SAVINGS/WEALTH-BUILDING vehicle, never insurance expense"
+  - match: "voya|reliastar"
+    tier: GRAY
+    treatment: NONE
+    category: Personal Term Life
+  - match: "beaver dam"
+    tier: GRAY
+    treatment: NONE
+    category: Youth Hockey
+    note: "No dependent care credit"
+  - match: "off the beaten path"
+    tier: GRAY
+    treatment: NONE
+    category: Travel - Alaska/PNW
+    note: "Part of Alaska trip; second payment equal to deposit still owed"
+  - match: "christie|sotheby|1stdibs|chairish|liveauctioneers|ebth"
+    tier: GRAY
+    treatment: NONE
+    category: Home/Decorating
+    note: "Auction/vintage/antique platforms -> Home/Decorating per Mike"
+
+  # Confirmed personal travel — no deduction
+  - match: "british air|heathrow|london"
+    tier: GRAY
+    treatment: NONE
+    category: Travel - London
+  - match: "costa rica|liberia lir|san jose sjo"
+    tier: GRAY
+    treatment: NONE
+    category: Travel - Costa Rica
+  - match: "alaska air|anchorage"
+    tier: GRAY
+    treatment: NONE
+    category: Travel - Alaska/PNW
+
+watch_list:
+  # Recurring-payment monitor targets (open action items)
+  - pattern: "verizon"
+    reason: "Two simultaneous accounts — consolidation candidate"
+  - pattern: "storage|cubesmart|extra space|public storage"
+    reason: "Possible storage unit duplication"
+  - pattern: "netflix|hulu|max|disney|paramount|peacock|apple tv"
+    reason: "Streaming redundancy check"
+  - pattern: "blinkist|headway|shortform|getabstract|instaread"
+    reason: "Unrecognized book-summary app — identify and cancel"
