@@ -39,6 +39,12 @@ Close items by answering in a session; record answers where they belong
       for a scan in a Gmail-enabled session.
 
 ## Decisions log
+- 2026-07-22 — **Bank feeds: sticking with manual downloads.** Considered OpenBudget.sh
+  (hosted read-only MCP over Plaid) for live Chase/Amex transaction feeds; Mike decided
+  against for now — young third party holding full transaction history, plus rulebook
+  regexes and ingest dedupe are keyed to raw statement descriptions. Statement CSV/xlsx
+  exports dropped into `inbox/` remain the source of record. Revisit if the manual
+  export step becomes the bottleneck.
 - 2026-07-22 — **Rydoo write-path research:** the MCP connector is confirmed read-only
   (its fifth tool, submit_feedback, only sends feedback to Rydoo's team). A real write
   API exists (REST v2, OAuth2 client-credentials via accounts.rydoo.com) but access is
