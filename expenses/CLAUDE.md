@@ -22,8 +22,14 @@ classifies every transaction and preps three submission paths. Continues the ear
 - Also in the picture: **MathCapital Fund I** (LP interest); office = Cavit Properties,
   Oyster Bay (rent) + Compass Greater NY (leasing commission).
 
-**Guardrail:** never connect to RTB House systems — no Rydoo credentials or API. The only
-touchpoint is drafts in my own Gmail (employer-separation rule, root `CLAUDE.md`).
+**Guardrail (amended 2026-07-22):** no write access to RTB House systems. I've added a
+**read-only Rydoo MCP connector** (`mcp__Rydoo__*`: list/get expenses, find trips, policy
+assistant) — use it to verify submissions landed and track status
+(Submitted/PendingApproval → Approved → Reimbursed). It has no create/upload tools, so
+**submission still goes through Gmail forward drafts** to the email intake. The policy
+assistant returns "Company policy was not found" (not configured company-side) — policy
+facts must come from me/HR, not the connector. Like Gmail, the connector is only
+available in sessions where it's enabled — scheduled Routine runs won't have it.
 
 ## Non-negotiable categorization rules (confirmed by me — don't re-litigate)
 1. **Guardian Life** (~$7k/mo whole life) → savings/investment, never insurance expense.
@@ -97,7 +103,10 @@ their original filenames** in `data/`.
 2. Gmail sweep for the period's e-receipts; match to transactions where possible.
 3. YELLOW review: list unknowns needing a ruling; encode every ruling in the YAML.
 4. Rydoo: Gmail forward drafts to `receipts@rydoo.com` for confirmed RTBH reimbursables
-   with receipts (drafts only, NEVER send).
+   with receipts (drafts only, NEVER send). When the Rydoo connector is available,
+   reconcile first: check previously `drafted`/`submitted` items via `list_my_expenses`
+   — advance ledger status when an expense appears in Rydoo (that's the proof a draft
+   was actually sent) and through PendingApproval/Approved/Reimbursed.
 5. CPA package: monthly `packages/YYYY-MM/` from GREEN/SPLIT rows + Gmail draft to the
    CPA once their address is on file (drafts only, NEVER send).
 6. Monitors: report watch-list hits (Verizon ×2, storage, streaming, book-summary app),

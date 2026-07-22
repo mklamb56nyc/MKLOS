@@ -28,6 +28,8 @@ Close items by answering in a session; record answers where they belong
       (drafts are created in personal Gmail).
 - [ ] **RTB House reimbursable rules:** none in the rulebook yet (only the flat-rate
       internet fact). What's reimbursable, receipt/pre-approval thresholds. → YAML
+      (2026-07-22: tried Rydoo's policy assistant via the new connector — "Company
+      policy was not found", not configured company-side, so this needs a human answer.)
 - [ ] **CPA's preferred package format:** columns, receipt naming, monthly vs quarterly.
 - [ ] **Routine lacks Gmail:** the monthly Routine (`trig_01HG7dn8Pq4NG3SDiWB9yvpF`,
       5th of month 9am ET, fresh session) fires sessions **without the Gmail connector**
@@ -37,6 +39,12 @@ Close items by answering in a session; record answers where they belong
       for a scan in a Gmail-enabled session.
 
 ## Decisions log
+- 2026-07-22 — **Read-only Rydoo MCP connector added** by Mike (list/get expenses,
+  find trips, policy assistant; no write tools). Guardrail amended in CLAUDE.md:
+  status verification via connector, submission still via Gmail email-intake drafts.
+  Verified live: one expense visible last 30 days (Gold Coast Mailroom, $285.71,
+  2026-07-09, submitted with receipt, pending approval). Scheduled Routine runs won't
+  have this connector (same grant-passing limit as Gmail).
 - 2026-07-22 — Relay drained and deleted: pipeline (`src/`, `rules/`, `data/`,
   workbook v5) moved into `expenses/`, context merged into `CLAUDE.md`. Earlier
   project's YAML rulebook kept as the single rulebook (scaffold's `rules.md` removed);
