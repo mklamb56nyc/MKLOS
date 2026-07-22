@@ -21,13 +21,9 @@ was dropped — no migration needed). It lives in its own repo,
 Who's who when they come up in project notes (attribute feedback carefully):
 - **Carrie** — my wife, b. May 6, 1975.
 - **Tobias ("Toby")** — my son, b. Dec 7, 2008 (17). The `toby-college/` project is his.
-- **Molly** — my daughter, b. Oct 21, 2013 (date as given — see note), at Miss Porter's
-  School; founded Bold by Nature (`bold-by-nature/`).
+- **Molly** — my daughter, b. Oct 21, 2010 (15), at Miss Porter's School; founded
+  Bold by Nature (`bold-by-nature/`).
 - **Nate** — my son, b. Jun 5, 2013 (13).
-
-Note on Molly's birthdate: 10/21/2013 is what I was told, but it sits 4½ months from
-Nate's and implies age 12 while she's at a high school — possibly a typo for an earlier
-year. Confirm before relying on it.
 
 Family details stay out of anything published (the public site, shared docs).
 
