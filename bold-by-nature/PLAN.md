@@ -87,5 +87,8 @@ supporting.
   from the peer list, use the safe Tunxises phrasing, add the Wild & Scenic
   river credential (see `deliverables/README.md`)
 - ~~Microsite~~ — done 2026-07-22 (`microsite/bold-by-nature.html`), published
-  to the public site as `boldbynature.html` pending Mike's PR review in
-  `received-wisdom-site`. Kept anonymous per the no-family-names publish rule.
+  to the public site as `boldbynature.html` (received-wisdom-site PR #7, merged
+  2026-07-22 at Mike's direction — merge = Cloudflare deploy). Kept anonymous
+  per the no-family-names publish rule. Note: the site's production domain isn't
+  recorded in either repo (receivedwisdom.com is a parked domain owned by
+  someone else, not ours) — worth writing down once known.
