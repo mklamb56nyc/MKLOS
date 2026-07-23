@@ -191,6 +191,19 @@ hrs**. Always check the pass before a Wyoming-side trip.
   entitled/amenity premium: permit-ready + pond/water + fiber + gated entry). Not asking Caldwell
   what he paid; negotiation is with Caldwell.
 - Assessed value of Lot 3 is **$13,814 (ag-productivity, NOT market)** — ignore for pricing.
+- **Developer improvements & the premium (2026-07-23 analysis).** Lindsay emphasizes 3 improvements:
+  (1) main access road built (+ gated stone entry), (2) electric extended to the subdivision,
+  (3) **fiber** extended. These are the backbone of the **entitled-lot premium** (~$175–320k: the
+  ~$750k read vs. the ~$430–575k raw-comp band) — **already priced into $750k, not additive.**
+  - *Direct buyer value:* electric-to-subd saves most of the ~$15–25k line-extension we budgeted
+    (pay only a ~$3–8k drop); road+cert = build-now, no completion risk; fiber = rare rural amenity
+    (avoids Starlink). Direct savings ~$25–50k + big intangibles (time, risk, financeability, resale).
+  - *Est. developer cost (OOM, whole subdivision / 5 lots):* road ~$100–250k + gated entry ~$40–100k
+    + electric ~$50–150k + fiber ~$0–75k + civil/survey/platting ~$50–150k = **~$250–600k total,
+    ≈ $60–120k/lot.** So the premium ≈ improvement cost + pond/water amenities + entitlement + margin
+    — **real infrastructure, not speculation** (a lowball below "raw + improvements" is unrealistic).
+  - *Takeaway:* the improvements justify **a** premium; the **independent comps decide how much.**
+    $750k is toppy if entitled lots trade $600–700k, fair if $750–900k.
 
 **Working public band for a ~24-ac Tetonia lot:** ~$20k/ac asking → ~$24k/ac is the
 county-wide *sold* median, but list-to-close runs ~6% under, so comparable **closings land
