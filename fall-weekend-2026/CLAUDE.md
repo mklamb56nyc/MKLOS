@@ -7,7 +7,9 @@ golf, food & wine, Thu Oct 8 → Mon Oct 12**, with the anniversary itself
 (Tue Oct 13) celebrated over dinner in NYC. Dates are **confirmed by Mike**
 (2026-07-23). `ITINERARY.md` is the dated day-by-day with the booking
 checklist; `PLAN.md` holds the date analysis, calendar constraints, and
-ruled-out alternatives.
+ruled-out alternatives. `microsite/` is the glossy magazine-style pitch page
+for Carrie (self-contained `index.html`, published as a private artifact —
+link and photo licensing in `microsite/PHOTOS.md`).
 
 ## Key facts driving the plan
 - **19th anniversary is Tue Oct 13, 2026** (married Oct 13, 2007; "ECL + MKL
