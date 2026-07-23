@@ -350,5 +350,9 @@ Documents now **read from Drive**; full digest: `dossier/nevin-2026-07-23-intake
 - **Internet:** **fiber** appears available — revise the Starlink assumption.
 - **New:** gated stone **entry**; **tree groupings on the west line** (east view preserved); **topo**;
   proposed house locations for Lots 1 & 5. Lot 3 acreage per landscape sheet = **23.90 ac**.
+- **Valuation (corrects §10 anchor):** Nevin volunteered Lot 3 is worth **~$750k** "based on recent
+  nearby closings" (≈$31k/ac — the entitled/amenity premium). This is the **working anchor** (land in
+  the cost model bumped $0.5M → $0.75M). **Boundary:** not asking Nevin about price, not negotiating
+  through him; the deal is with **Caldwell**. The "2023 price Caldwell paid" chase is dropped.
 
 *End of dossier. All factual data current as of research on July 20, 2026. Sale prices unavailable due to Idaho non-disclosure law. Verify all regulatory items with Teton County Planning (208-354-2593/776-8240), EIPH, IDWR, and a title company before transacting.*
