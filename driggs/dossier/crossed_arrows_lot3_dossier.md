@@ -329,22 +329,26 @@ Source: Teton County Land Development Code (adopted 2022-07-06, effective 2022-0
 ## 15. CORRECTIONS & UPDATES (post-research)
 
 **2026-07-23 — from Lindsay Nevin (The Flyway Companies), the entitling developer & Lot 4 owner.**
-Full intake + attachment manifest: `dossier/nevin-2026-07-23-intake.md`.
-- **Developer of record (corrects §4):** **Lindsay Nevin / The Flyway Companies** "took it through
-  design, engineering and entitlement." The Beards (§4) were the prior landowners/sellers, not the
-  entitling developer. Nevin is the working source going forward.
-- **Water (updates §2/§6/§11 "no water rights"):** there is **irrigation water + a pond on Lot 4**
-  (perpetual access easement benefiting Lot 3; owners may build more ponds), and a **"Tetonia Water
-  Rights Package."** The prior "no water rights of record" referred to *domestic* IDWR POU layers;
-  **surface/irrigation rights likely exist** — confirm scope from the package. Bears on ag valuation
-  and landscape/ponds.
-- **Build-ready (updates §8/§9):** a **Certificate of Completion (roads) is executed** — the
-  build-ready gate is largely cleared (confirm it covers all improvements + sanitary restrictions).
-- **Internet (updates §6/operating model):** **fiber** appears available to the subdivision — revise
-  the Starlink assumption.
-- **New encumbrances/amenities:** a recorded **fire-protection easement**; subdivision **entry-design**
-  and **tree-grouping** landscape packages; a **topo survey**; proposed house locations for Lots 1 & 5.
-- *The 9 PDFs are Gmail attachments not yet openable with available tools — save to Drive to extract
-  the CC&R house-size/ag specifics, water-rights scope, and cert terms.*
+Documents now **read from Drive**; full digest: `dossier/nevin-2026-07-23-intake.md`.
+- **Developer of record (corrects §4):** **Lindsay Nelson Nevin & Katharine Nevin** are the CC&R
+  **Declarant/developer.** Our "the Beards" was a **misread** — the recording was *for the law firm*
+  **Beard St. Clair Gaffney PA**. Nevin is the working source going forward.
+- **CC&Rs read (corrects Karen §9):** recorded #279946. **Principal residence 2,000–10,000 sf**
+  (not 3,000–8,000); **up to 3 structures**; **18-mo build deadline**; **Declarant-approved builders**;
+  **material mandate** (natural wood/stone, dull metals, earth tones — matches our design); **STR
+  effectively banned**; **Right of First Refusal** for the other owners on any sale (affects buying &
+  reselling); shared easement-maintenance costs; animals limited (horses/chickens, no cattle). A
+  **CC&R revision is planned** (Karen's 3,000–8,000 may be the proposed new band).
+- **Water (corrects §2/§6/§11 "no water rights"):** the "Water Rights Package" is **Leigh Creek Canal
+  Company shares** (irrigation) feeding a **pond** (on Lot 4, perpetual easement to Lot 3) + irrigation.
+  The prior "no water rights" was the *domestic* POU layers; **irrigation rights exist** — confirm the
+  share count conveying to Lot 3. Enables ag-tax retention (via hay), ponds, landscape.
+- **Build-ready (updates §8/§9):** **Certificate of Completion (roads) executed 2023-01-31** — gate
+  largely cleared. (Cert lists zoning **A/20**.)
+- **Fire protection (new):** perpetual easement to the **Sage Creek POA fire ponds**, **$1,000/yr** —
+  a run-cost line and a WUI-insurance positive.
+- **Internet:** **fiber** appears available — revise the Starlink assumption.
+- **New:** gated stone **entry**; **tree groupings on the west line** (east view preserved); **topo**;
+  proposed house locations for Lots 1 & 5. Lot 3 acreage per landscape sheet = **23.90 ac**.
 
 *End of dossier. All factual data current as of research on July 20, 2026. Sale prices unavailable due to Idaho non-disclosure law. Verify all regulatory items with Teton County Planning (208-354-2593/776-8240), EIPH, IDWR, and a title company before transacting.*

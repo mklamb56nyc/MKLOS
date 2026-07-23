@@ -19,7 +19,20 @@ So "modular" isn't a compromise on this look — it *is* how the look was achiev
 | **Panelized / hybrid** | Unity Homes (Bensonwood), timber-frame + SIP | ~$250–650 | Ships flat, assembled in days, high-performance; strong bunkhouse value + design control |
 | **Production/regional modular + upgrades** | KIT (Caldwell ID), Mountain West Modulars (Thayne WY), Impresa, Champion | ~$150–350 base | Cheapest structure; needs an aesthetic-upgrade package to look like HHR |
 
-## Can we hit ~$400/sq ft? — an honest read
+## UPDATE 2026-07-23 — developer benchmark + CC&R constraints
+- **Nevin (the developer) is already using an offsite builder in Idaho (name starts with "S")
+  hitting $500–600/sq ft on a bungalow.** That's a **local, current, developer-validated** number —
+  and it's **above our $400 stretch target.** Reset expectation: **~$500–600/sq ft is the realistic
+  offsite figure** for the bunkhouse here. The prefab win is **schedule + labor certainty + a proven,
+  Declarant-approvable builder** — not a big $/sf cut vs. site-built. **Get the builder's name/contact
+  from Nevin** (W7).
+- **CC&Rs constrain the method (§4.1.2):** **HUD-code "manufactured" homes are banned** — so the unit
+  must be **modular / IRC-code** (which is what Method/Unity/Stillwater/Nevin's "S" builder do; High
+  Horse Ranch qualified). And **the builder must be approved by the Declarant (Nevin)** — using *his*
+  builder clears that automatically. Reclaimed wood as architectural detailing is expressly allowed;
+  the CC&R material palette (natural wood/stone, dull metals, earth tones) matches our design.
+
+## Can we hit ~$400/sq ft? — an honest read (superseded by the $500–600 local benchmark above)
 - **Bunkhouse: realistic at ~$400–500/sq ft all-in, $400 being the disciplined low end.**
   - **Method Homes** quotes base **~$225–250/sq ft** (incl. finishes) and says west-coast *all-in*
     projects land **$350–500/sq ft**; it markets itself for **remote mountain sites**. In Teton

@@ -39,10 +39,14 @@ The septic determination and the price anchor gate everything else.
         recorded document to pin exact figures + the rest (build deadline, architectural
         committee, materials, detached-guest-house allowance, STR rules). **Ask Karen to
         forward her copy of the CC&Rs** — fastest route, she already has them.
-      - _2026-07-23 (Nevin email):_ **CC&Rs received** (attachment) — but Nevin (the developer)
-        marked them up for a **revision in progress**, so the 3,000–8,000 band + ag rules are
-        **not final**. Save the PDF to Drive to extract specifics; ask Nevin what's changing.
-        See `dossier/nevin-2026-07-23-intake.md`.
+      - _2026-07-23 (Nevin docs, READ):_ **CC&Rs recorded (#279946) — now read.** Authoritative
+        terms (digest: `dossier/nevin-2026-07-23-intake.md`): **principal residence 2,000–10,000 sf**
+        (⚠️ **corrects Karen's 3,000–8,000** — hers may be Nevin's *planned revision*); **up to 3
+        structures** (house + guest house + garage = our exact plan); **18-mo build deadline**;
+        **Declarant (Nevin) approves the builder**; **material mandate** = natural wood/stone + dull
+        metals + earth tones (our palette fits — confirm Cor-Ten is an OK "dull metal"); **STR
+        effectively banned** (unanimous consent); animals limited (horses/chickens ok, no cattle).
+        A **revision is planned** — ask Nevin what's changing.
 - [ ] **4. Confirm subdivision is "build-ready."** Verify a **Certificate of Subdivision
       Completion** was issued and **sanitary restrictions are lifted** on the plat — the DA
       lets the County withhold building permits until improvements are accepted. Teton
@@ -52,20 +56,25 @@ The septic determination and the price anchor gate everything else.
         (not just roads) and that sanitary restrictions are lifted. Largely de-risks this item.
 
 ## New from Nevin (2026-07-23) — see `dossier/nevin-2026-07-23-intake.md`
-- [ ] **W1. Water rights / irrigation / pond.** Nevin sent a **"Tetonia Water Rights Package"** +
-      photos of **irrigation water and a pond**. A **pond sits on Lot 4** adjacent to Lot 3 with a
-      **perpetual access easement**; owners may build additional ponds. **Likely corrects** the
-      dossier's "no water rights of record" (which referred to domestic POU). Read the package;
-      confirm scope + whether irrigation rights convey to Lot 3 (matters for ag valuation + landscape).
-- [ ] **W2. Fiber + power.** Nevin's "Power/Fiber" attachment suggests **fiber internet** to the
-      subdivision — **revise the operating model's Starlink line** once confirmed.
-- [ ] **W3. Fire-protection easement.** Recorded easement across the lots (notary: Kate Caldwell) —
-      fold into title review + WUI/defensible-space design + insurance conversation.
-- [ ] **W4. Coordinate with subdivision landscape/entry.** "Entry Design Package" + "Tree Groupings"
-      exist — check the "open meadow" view assumption against any planned tree groupings; align siting
-      with the "Proposed House Location – Lot 1 & 5" precedent. Topo survey available to verify grading.
-- [ ] **W5. Save the 9 Nevin PDFs to Drive** so their contents can be read/extracted (CC&Rs, water
-      rights, cert, topo, easements, design packages) — currently unreadable as Gmail attachments.
+- [ ] **W1. Water rights = Leigh Creek Canal Company shares (READ).** The "Water Rights Package" is
+      **irrigation canal-company stock** — **corrects "no water rights of record."** Feeds the pond +
+      irrigation. **Confirm how many shares convey to Lot 3** (and whether they transfer with the sale)
+      — enables ponds, landscape irrigation, and **ag-tax retention via hay/crop** (not cattle — animals
+      are CC&R-limited). Pond on Lot 4 has a perpetual access easement benefiting Lot 3.
+- [ ] **W2. Fiber + power (confirm).** "Power/Fiber" doc suggests **fiber** to the subdivision —
+      **revise the operating model's Starlink line** (~$1,400/yr) once confirmed.
+- [x] **W3. Fire-protection easement (READ).** Perpetual easement for Crossed Arrow owners + Teton
+      Valley Fire Dept to the **Sage Creek POA fire ponds**; owners pay **$1,000/yr** into a Fire Pond
+      Fund (+50% of repairs if short). → **Add ~$1,000/yr operating line** (likely shared) **+ a WUI-
+      insurance positive** (dedicated fire-suppression water). Fold into title review.
+- [ ] **W4. Subdivision landscape/entry (READ).** Tree groupings run the **WEST line + gated stone
+      entry** (screen the road, **not** the east Teton view — aligns with our concept). Pond-spoil berm
+      ~20×60. Coordinate siting with the "Proposed House Location – Lot 1 & 5" precedent; topo available.
+- [ ] **W6. RIGHT OF FIRST REFUSAL (legal — new).** CC&R §6: the other 4 owners get **15 business days
+      to match** any sale. ⚠️ **Applies to buying Lot 3 (Caldwell→Mike could be preempted) and to future
+      resale.** Flag for the real-estate attorney + closing.
+- [ ] **W7. Get the offsite builder from Nevin.** He's using an **Idaho "S" offsite builder at
+      $500–600/sf** on a bungalow — get the **name + contact** (proven, Declarant-approvable). See below.
 
 ## Utility cost reads
 - [ ] **5. Fall River Rural Electric line-extension estimate** to the intended building
