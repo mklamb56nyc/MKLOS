@@ -8,7 +8,7 @@ every line needs confirmation at booking. Ranges are for **two people**.
 
 | Item | Low | High | Notes |
 |---|---|---|---|
-| Flights: Premium Select ×2 + GUC to Delta One outbound | $2,800 | $5,000 | Revised 2026-07-23: Mike is Diamond w/ Global Upgrade Certificates — buy PS (~$1,400–2,500pp), GUC the overnight out to Delta One (certs = no cash). Replaces the all-cash Delta One line ($6,400–9,000). Mike may have already bought PS — no confirmation in Gmail; check Delta app |
+| Flights: Premium Select ×2 + GUC to Delta One outbound | $2,800 | $5,000 | Revised 2026-07-23: Mike is Diamond w/ Global Upgrade Certificates — buy PS (~$1,400–2,500pp), GUC the overnight out to Delta One (certs = no cash). Replaces the all-cash Delta One line ($6,400–9,000). Nothing purchased yet (Mike, 2026-07-23) |
 | Penha Longa, 3 nights | €1,200 | €2,100 | Deluxe-room planning range €400–700/nt for a Columbus Day weekend; base rates advertised from ~$225–370/nt; suites €700–1,200/nt. Check Bonvoy points/FHR-style perks |
 | Golf, 2 rounds ×2 | €450 | €700 | Oitavos €123–200pp (aggregators show €123–142; official TBC) + West Cliffs €93–150pp + carts/rentals |
 | LAB ★ (Fri) | €320 | €620 | Menus €158 (In Memory) / €192 (Heritage) pp + pairings ~€90–120 |
@@ -24,6 +24,35 @@ every line needs confirmation at booking. Ranges are for **two people**.
   overnight (Diamond waitlist priority helps; PS is the floor either way).
 - **Room tier.** Deluxe vs. signature suite is ±€1,500 across 3 nights.
 - **Driver tier.** €250 van-and-driver vs. €850 luxury chauffeur for Saturday.
+
+## Hotel booking strategy (researched 2026-07-23)
+Mike is Bonvoy Platinum. Key quirk: **Ritz-Carlton is exempt from the
+Platinum breakfast benefit** — status alone buys surprisingly little here
+(points welcome gift, upgrade-subject-to-availability; late checkout is
+availability-based at resorts, and moot anyway with a Monday-morning flight).
+
+Channels, best first:
+1. **Ritz-Carlton STARS / Virtuoso via a luxury travel advisor** — daily
+   breakfast for two, ~$100 property/spa credit, upgrade priority, GM-level
+   VIP flag, usually at the same flexible rate; books as a direct rate so
+   points + elite nights still earn. Best of both worlds if we have (or
+   want) an advisor.
+2. **Amex Fine Hotels + Resorts** — Penha Longa is on FHR (confirmed).
+   Breakfast for two, $100 amenity, upgrade when available, **noon check-in
+   when available — the perk that matters most, since we land ~8am**.
+   Requires an Amex Platinum card. Caveat: third-party booking → Bonvoy
+   points/elite nights generally don't post and Platinum perks don't
+   officially apply.
+3. **Direct with Bonvoy** — earns points + elite nights, Platinum upgrade
+   chance, but no breakfast at a Ritz. Use if neither 1 nor 2 is available.
+- **Points**: dynamic pricing; check the rate — worth it only if ≥ ~0.8–1¢/pt
+  vs. the cash rate. If Mike holds a Brilliant card with an unused 85k free
+  night award, check whether it covers one of the three nights.
+- **Early-arrival play**: we land 7:55am Friday. Ask for earliest check-in
+  regardless of channel; the nuclear option is booking Thursday night too so
+  the room is ours at 8:30am (one extra night at the low end ≈ €400).
+- **Either way: book a refundable rate now** — Columbus Day weekend — and
+  check Amex Offers for Marriott/Ritz credits before paying.
 
 ## Verify at booking (in order)
 1. Delta One cash + award pricing for Oct 8 out / Oct 12 back (exact October
