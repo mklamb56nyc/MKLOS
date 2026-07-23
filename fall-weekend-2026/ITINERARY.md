@@ -56,6 +56,8 @@ collection (incl. both Michelin rooms below).
   we're back Monday afternoon.
 
 ## Booking checklist (rough order)
+*(costs: see `BUDGET.md` — researched ranges, ≈$10.0–15.5k all-in for two,
+flights ~60% of it)*
 - [x] Dates + Portugal confirmed (Mike, 2026-07-23) — it's the
       19th-anniversary trip
 - [ ] Flights — Delta JFK↔LIS nonstops for Oct 8 / Oct 12, **Delta One both
