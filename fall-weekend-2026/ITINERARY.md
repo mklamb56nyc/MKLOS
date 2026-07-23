@@ -63,9 +63,20 @@ flights ~60% of it)*
 - [ ] Flights — Delta JFK↔LIS nonstops for Oct 8 / Oct 12: **Premium Select +
       GUC upgrade to Delta One outbound** (nothing purchased yet; confirm GUC
       space when booking)
-- [ ] Penha Longa, 3 nights Oct 9–12 (Marriott/Bonvoy or direct)
+- [x] **Penha Longa BOOKED** (Mike, direct via Bonvoy, 2026-07-23) — conf
+      **#87226244**, Junior Suite (king, resort view, balcony), 3 nights
+      Oct 9–12 @ €573/nt = **€1,725** (+€2/nt tax), guaranteed on Amex.
+      **Spa Package rate: daily buffet breakfast for two + one 50-min Feel
+      Free spa treatment per night** (covers the Sunday spa plan, and
+      neutralizes the Ritz no-breakfast quirk). **Free cancel until 11:59pm
+      hotel time Fri Oct 2**; after that the fee is €1,701.81. Reminder on
+      the calendar ~Sep 28.
 - [ ] Tee times: Oitavos Dunes Sat am, West Cliffs Sun am (both open to
-      visitors; book well ahead for October weekends)
+      visitors; book well ahead for October weekends). **In progress:** Mike
+      emailed golf@praia-del-rey.com (2026-07-23) about a twosome Sat 10/10
+      or Sun 10/11 — note that desk serves the Praia D'El Rey course; confirm
+      whether the booking is for **West Cliffs** (same group, separate
+      course/booking) when they reply. Oitavos books via their own site.
 - [ ] LAB (Fri) + Midori (Sat) reservations — book when flights are ticketed
 - [ ] Quinta tasting appointment (Sat afternoon)
 - [ ] Car: **driver confirmed for Saturday** (Oitavos → lunch → quinta

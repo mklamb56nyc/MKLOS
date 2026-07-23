@@ -9,14 +9,14 @@ every line needs confirmation at booking. Ranges are for **two people**.
 | Item | Low | High | Notes |
 |---|---|---|---|
 | Flights: Premium Select ×2 + GUC to Delta One outbound | $2,800 | $5,000 | Revised 2026-07-23: Mike is Diamond w/ Global Upgrade Certificates — buy PS (~$1,400–2,500pp), GUC the overnight out to Delta One (certs = no cash). Replaces the all-cash Delta One line ($6,400–9,000). Nothing purchased yet (Mike, 2026-07-23) |
-| Penha Longa, 3 nights | €1,200 | €2,100 | Deluxe-room planning range €400–700/nt for a Columbus Day weekend; base rates advertised from ~$225–370/nt; suites €700–1,200/nt. Check Bonvoy points/FHR-style perks |
+| Penha Longa, 3 nights — **BOOKED** | **€1,731** | **€1,731** | Actual (2026-07-23): Junior Suite @ €573/nt ×3 + €2/nt tax, conf #87226244, direct/Bonvoy, free cancel to Oct 2. **Spa Package: breakfast ×2 daily + one 50-min spa treatment/night included** — trims the "other meals" line and covers Sunday spa |
 | Golf, 2 rounds ×2 | €450 | €700 | Oitavos €123–200pp (aggregators show €123–142; official TBC) + West Cliffs €93–150pp + carts/rentals |
 | LAB ★ (Fri) | €320 | €620 | Menus €158 (In Memory) / €192 (Heritage) pp + pairings ~€90–120 |
 | Midori ★ (Sat) | €310 | €600 | Kiri €154 / Yama €186 pp + pairings €80/€115 |
 | Chocapalha tasting | €40 | €120 | **TBC — email the quinta**; typical Lisboa private tastings |
-| Other meals | €250 | €400 | Cascais marina lunch, clubhouse lunch, Sunday petiscos, breakfasts if not in rate |
+| Other meals | €200 | €330 | Cascais marina lunch, clubhouse lunch, Sunday petiscos — breakfasts now covered by the hotel's Spa Package rate |
 | Ground | €500 | €1,100 | Saturday driver €250 (van) – €850 (Mercedes chauffeur tier); LIS transfers ~€50–70 ea; Sunday West Cliffs run: rental Fri–Mon €200–350 *or* second driver day |
-| **Total (≈USD)** | **≈ $6,200** | **≈ $11,200** | EUR lines ≈ €3,100–5,600 ≈ $3,400–6,200 at ~1.10 |
+| **Total (≈USD)** | **≈ $6,700** | **≈ $10,800** | Hotel now actual (€1,731); EUR lines ≈ €3,550–5,300 ≈ $3,900–5,800 at ~1.10; flights $2,800–5,000 still the swing |
 
 ## What moves the number
 - **The GUC play already pulled the flight line down ~$3.5–4k** vs. all-cash
