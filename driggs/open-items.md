@@ -25,6 +25,12 @@ The septic determination and the price anchor gate everything else.
         is regional (GLVAR ≠ Idaho's Teton Board/Intermountain MLS); she can't pull Teton County
         herself — use her only as a **referral conduit** to an Idaho MLS member. Triangulate Karen's
         2023 basis + independent 2026 sold comps against Nevin's $750k.
+      - **Ask Karen 2 things (basis + assessment) → feeds the IRR model (`valuation-irr-model.md`):**
+        (1) her 2023 price; (2) were road/electric/fiber **included** or a **separate assessment**
+        (sets the basis). Then a passive-investor **8–15% IRR** on that basis over the ~3.3-yr hold
+        gives the fair-price band. Quick read: if they paid **~$450–500k**, $750k implies a rich
+        **~15–17% IRR** (fair ≈ $580–725k); if **~$550–600k**, $750k is a fair **~7–10%**. Caldwell
+        (not Nevin) is a passive co-investor, so he shouldn't command developer-level returns.
       - _2026-07-20 round:_ confirmed **none of the 5 Crossed Arrows lots appear on any
         aggregator** (Zillow/Redfin/Land.com/LandWatch/Homes.com) — the within-network sale
         leaves no public listing trail, so no asking price will ever surface online. Public
