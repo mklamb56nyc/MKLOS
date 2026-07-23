@@ -94,7 +94,10 @@ How git automation works here, for future sessions:
 ## Website (received-wisdom-site)
 The public website is a separate repo, `mklamb56nyc/received-wisdom-site`,
 deployed by Cloudflare Pages **directly from its `main` branch** — a push to
-`main` there goes to production. To work on the site from a session:
+`main` there goes to production at **https://receivedwisdom.llc** (no hyphen —
+`received-wisdom.llc` has no DNS, and `receivedwisdom.com` is a parked domain
+owned by someone else). To verify a deploy, curl the page with a browser
+User-Agent; plain fetchers get a 403 from Cloudflare. To work on the site from a session:
 - Ask me to attach the repo if it isn't already (`add_repo received-wisdom-site`);
   it clones to `/workspace/received-wisdom-site`.
 - It's a plain static site: HTML pages at the root, `images/`, `private/`, and a
