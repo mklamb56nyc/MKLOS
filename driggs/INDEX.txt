@@ -49,6 +49,10 @@ design/        rough site & building design concept
   modular-prefab-options.md ..... off-site/modular paths to build the HHR look & hit ~$400/sf,
                                    esp. the bunkhouse (HHR was itself modular); shortlist + $400/sf playbook.
 
+comp-pull-request.md . copy-paste request to hand a Teton Valley agent/appraiser (or LV agent as a
+                 referral conduit) for an independent MLS read on Lot 3 value — to triangulate against
+                 Nevin's ~$750k and Karen's actual 2023 Lot 2 price (via Carrie).
+
 open-items.md .. LIVE DD tracker — prioritized next steps, key contacts, valuation anchors,
                  decision log. Critical path: (1) price Caldwell paid in 2023, (2) EIPH
                  septic test holes, (3) recorded CC&Rs, (4) confirm subdivision build-ready.

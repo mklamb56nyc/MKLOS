@@ -18,6 +18,13 @@ The septic determination and the price anchor gate everything else.
       - **Boundaries (Mike):** do **NOT** ask Nevin about price and **do not negotiate through him**
         (he's Lot 4 / the developer). The purchase + any price negotiation is with **Caldwell (Lot 3
         seller)**. The 2023 "what Caldwell paid" chase is **dropped** — not being pursued.
+      - **Plan to beat $750k (2026-07-23):** Mike doesn't love $750k. Two independent reads in flight:
+        (a) **Karen's actual Lot 2 purchase price** — ask via **Carrie** (twin lot, same developer,
+        same 2023 window; the single most relevant number); (b) **independent Teton Valley MLS comps** —
+        hand `comp-pull-request.md` to a **Teton Valley agent or appraiser**. **LV agent caveat:** MLS
+        is regional (GLVAR ≠ Idaho's Teton Board/Intermountain MLS); she can't pull Teton County
+        herself — use her only as a **referral conduit** to an Idaho MLS member. Triangulate Karen's
+        2023 basis + independent 2026 sold comps against Nevin's $750k.
       - _2026-07-20 round:_ confirmed **none of the 5 Crossed Arrows lots appear on any
         aggregator** (Zillow/Redfin/Land.com/LandWatch/Homes.com) — the within-network sale
         leaves no public listing trail, so no asking price will ever surface online. Public
