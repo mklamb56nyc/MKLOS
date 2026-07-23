@@ -71,8 +71,14 @@ flights ~60% of it)*
       neutralizes the Ritz no-breakfast quirk). **Free cancel until 11:59pm
       hotel time Fri Oct 2**; after that the fee is €1,701.81. Reminder on
       the calendar ~Sep 28.
-- [ ] Tee times: Oitavos Dunes Sat am, West Cliffs Sun am (both open to
-      visitors; book well ahead for October weekends). **In progress:** Mike
+- [x] **Oitavos Dunes BOOKED** (Mike, 2026-07-23, Sat Oct 10) — tee time and
+      price TBD: no confirmation email received yet (only a teeone.golf
+      account-credentials email); pull details from the teeone portal.
+      **Cancellation: no less than 30 days ahead → cancel deadline ~Wed
+      Sep 10.** This is now the trip's earliest binding deadline (before the
+      hotel's Oct 2) — go/no-go reminder moved to Sep 8.
+- [ ] West Cliffs Sun Oct 11 am (open to visitors; book well ahead for
+      October weekends). **In progress:** Mike
       emailed golf@praia-del-rey.com (2026-07-23) about a twosome Sat 10/10
       or Sun 10/11 — note that desk serves the Praia D'El Rey course; confirm
       whether the booking is for **West Cliffs** (same group, separate
