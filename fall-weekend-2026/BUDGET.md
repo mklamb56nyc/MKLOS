@@ -10,7 +10,7 @@ every line needs confirmation at booking. Ranges are for **two people**.
 |---|---|---|---|
 | Flights: Premium Select ×2 + GUC to Delta One outbound | $2,800 | $5,000 | Revised 2026-07-23: Mike is Diamond w/ Global Upgrade Certificates — buy PS (~$1,400–2,500pp), GUC the overnight out to Delta One (certs = no cash). Replaces the all-cash Delta One line ($6,400–9,000). Nothing purchased yet (Mike, 2026-07-23) |
 | Penha Longa, 3 nights — **BOOKED** | **€1,731** | **€1,731** | Actual (2026-07-23): Junior Suite @ €573/nt ×3 + €2/nt tax, conf #87226244, direct/Bonvoy, free cancel to Oct 2. **Spa Package: breakfast ×2 daily + one 50-min spa treatment/night included** — trims the "other meals" line and covers Sunday spa |
-| Golf, 2 rounds ×2 | €450 | €700 | Oitavos €123–200pp (aggregators show €123–142; official TBC) + West Cliffs €93–150pp + carts/rentals |
+| Golf, 2 rounds ×2 | €620 | €780 | **Oitavos actual: €422** for two (Sat 10/10 13:24, ref RUL6QF24, + transaction fee). West Cliffs: single booked online, second player + price TBD (est. €190–300 for two) + carts/rentals |
 | LAB ★ (Fri) | €320 | €620 | Menus €158 (In Memory) / €192 (Heritage) pp + pairings ~€90–120 |
 | Midori ★ (Sat) | €310 | €600 | Kiri €154 / Yama €186 pp + pairings €80/€115 |
 | Chocapalha tasting | €40 | €120 | **TBC — email the quinta**; typical Lisboa private tastings |
