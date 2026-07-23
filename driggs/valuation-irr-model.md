@@ -46,6 +46,42 @@ number (Lot 2, a near-identical twin) is the linchpin.**
 - If a real **improvement assessment** pushes his basis up, $750k may already be a fair 8–12% return —
   in which case the comps (not IRR) are your better lever.
 
+## Worked scenarios — Caldwell basis $350–400k (Mike's estimate, TBC by Karen)
+$750k exit, t≈3.3 yr. **The improvement-assessment question is the whole swing:**
+
+**Scenario NO** (improvements bundled into the price → basis = price):
+| Caldwell paid | $750k = IRR |
+|---|--:|
+| $350k | ~26% |
+| $375k | ~23% |
+| $400k | ~21% |
+→ Fair (8–15%) ≈ **$450–635k**. $750k is a **big overreach** (~21–26% IRR for just holding).
+
+**Scenario YES** (they chipped in ~$75–120k → basis = price + assessment):
+| Basis | $750k = IRR |
+|---|--:|
+| $425k ($350k+$75k) | ~19% |
+| $450k ($375k+$75k) | ~17% |
+| $475k ($400k+$75k) | ~15% |
+| ~$500–520k (+~$120k) | ~12–13% |
+→ Fair (8–15%) ≈ **$550–750k**. $750k lands **at the top of a fair band** — defensible.
+
+## Nevin's developer IRR (contrast — he earned a developer return; Caldwell didn't)
+Assume market raw-land rate when he bought the ~119-ac parent (~mid-2022, instr. 275597):
+- Raw land ~119 ac × ~$13k/ac ≈ **$1.55M** (range $1.2–2.1M) + improvements/entitlement ~**$400k**
+  = **~$1.95M total ≈ ~$390k per finished lot.**
+- **Key tell:** his all-in *create* cost (~$375–390k/lot) ≈ Mike's rumored $350–400k Caldwell price →
+  **Nevin likely sold lots at ~cost to the friends group; his profit is the retained Lot 4.**
+- Developer IRR ≈ **~8%** if lots sold at ~$375k (profit sits in Lot 4) · **~23%** if sold ~$500k.
+
+## Synthesis
+$750k ≈ **~2× the insiders' create-cost from ~3 years ago** — but the Teton Valley land market has been
+**~flat since 2023** (our market research). A flat market can't support a near-double, so either:
+- $350–400k was **~2023 market** → fair today ~$400–500k + improvement value → **$750k aggressive** (NO), or
+- $350–400k was a **deep friends discount** (true 2023 ~$550–650k) → ~$600–700k today → **$750k slightly rich** (YES).
+Karen's number + the comps resolve which. Caldwell is a **co-investor flipping appreciation**, not a
+developer — so in a flat market, the ~2× ask must justify itself.
+
 ## Caveats (don't over-weight this)
 - **A reasonableness frame, not a cap.** Caldwell can ask anything and **hold** (carrying cost ~$37/yr);
   these owners are holders, not distressed. The IRR math is the *argument*, not a forcing function.
