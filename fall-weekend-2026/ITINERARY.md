@@ -11,7 +11,7 @@ out + 3 nights at Penha Longa.
 | Depart | **Thu Oct 8** — JFK T4 → LIS, Delta nonstop, evening (~7:45–10pm departures exist; confirm exact flight at booking) |
 | On the ground | **Fri Oct 9 – Sun Oct 11** — Penha Longa Resort, Sintra (3 nights) |
 | Return | **Mon Oct 12 (Columbus Day)** — LIS → JFK, Delta nonstop, late morning; lands mid-afternoon same day |
-| Anniversary | **Tue Oct 13 — home in NYC**, the day after landing. 19th anniversary (married Oct 13, 2007) — book the anniversary dinner in the city as the capstone. |
+| Anniversary | **Tue Oct 13 — home**, the day after landing. 19th anniversary (married Oct 13, 2007) — anniversary dinner in **Locust Valley, with Toby & Nate** as the capstone (updated from "dinner in NYC for two", Mike 2026-07-23). |
 
 Why this works: Monday is a holiday, kids need coverage only Thu night–Mon,
 and the trip functions as the anniversary celebration with the actual date
@@ -69,7 +69,7 @@ collection (incl. both Michelin rooms below).
       tasting → back; Mike, 2026-07-23). Still to decide: rental vs.
       transfers for Fri arrival, Sun West Cliffs, and Mon airport run.
 - [ ] Kid coverage Thu night → Mon afternoon (Toby 17 + Nate 13)
-- [ ] Anniversary dinner in NYC, Tue Oct 13
+- [ ] Anniversary dinner in Locust Valley w Toby & Nate, Tue Oct 13
 - [ ] Hold all of it on Mike and Carrie's Calendar
 
 ## Verified vs. assumed (checked 2026-07-23)

@@ -11,7 +11,8 @@ home the day before the anniversary.** Mike's sketch (Penha Longa Resort in
 Sintra, Oitavos Dunes + West Cliffs golf, LAB and Midori dinners) is the
 working itinerary — dated, fact-checked, and with a booking checklist in
 **`ITINERARY.md`**. The date logic below still holds: it uses the Columbus
-Day Monday, and Tue Oct 13 becomes an anniversary dinner in NYC.
+Day Monday, and Tue Oct 13 becomes an anniversary dinner in Locust Valley
+with Toby & Nate.
 
 Earlier framing, kept for the record:
 
@@ -57,9 +58,16 @@ Notes on the pick (Oct 9–13):
 ## Open questions
 1. ~~Confirm dates + Portugal~~ — confirmed by Mike 2026-07-23; framed as the
    **19th-anniversary trip** (married Oct 13, 2007).
-2. Miss Porter's fall calendar — Family Weekend and long-weekend dates (no
-   email on file in Mike's Gmail; likely in Carrie's). Matters less now that
-   we're back Monday, but a Family Weekend collision would still sink it.
+2. Miss Porter's fall calendar — **pattern-checked 2026-07-23, no collision
+   expected.** The school's published 2025–26 Major Dates (porters.org PDF)
+   put Indigenous Peoples' Day as a school-in-session day and both Family
+   Weekend (Oct 24–25, 2025) and the Long Fall Weekend (Oct 25–28, 2025) in
+   *late* October — Columbus Day weekend is an ordinary boarding weekend
+   there. Applied to 2026: Oct 8–12 should be clear; expect Family Weekend +
+   Molly's long weekend around Oct 23–27, 2026 (near her birthday) — keep
+   that stretch free for Farmington. **Confirm against the official 2026–27
+   Major Dates when published** (not yet online; Reunion Weekend Oct 16–18,
+   2026 is alumnae-only, no effect).
 3. Kid coverage Thu night Oct 8 → Mon afternoon Oct 12 (Toby 17 + Nate 13;
    grandparents? Carrie's call). Poly Prep's Oct 12 holiday status no longer
    matters — we land that afternoon.
