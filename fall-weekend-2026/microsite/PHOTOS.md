@@ -21,12 +21,15 @@ All images are from Wikimedia Commons, scaled via the Commons thumbnail API
 | Slot | File on Commons | Author | License |
 |---|---|---|---|
 | Hero (cover) | Cliffs at Cabo da Roca, Portugal, 20250606 1522 0263.jpg | Jakub Hałun | CC BY 4.0 |
-| The address | GOLF DE PENHA LONGA Portugal (1413021987).jpg | lele3100 | CC BY 2.0 |
-| The address | Palácio Nacional da Pena, Sintra, Portugal, 20250606 1159 0132.jpg | Jakub Hałun | CC BY 4.0 |
+| The hotel | Penha Longa Hotel (7929916334).jpg | Lynn F | CC BY 2.0 |
+| The hotel | Claustro Convento da Penha Longa Sintra IMG 6904.jpg | Manuelvbotelho | CC BY-SA 4.0 |
+| The vibe | Convento da Penha Longa (3954326786).jpg | János Korom Dr. | CC BY-SA 2.0 |
+| The vibe | Palácio Nacional da Pena, Sintra, Portugal, 20250606 1159 0132.jpg | Jakub Hałun | CC BY 4.0 |
 | Friday | Marina de Cascais (Portugal).jpg | Vitor Oliveira | CC BY 2.0 |
 | Saturday golf | Guincho Dunes near Cascais.jpg | Walterpeitz | CC BY-SA 4.0 |
 | Saturday wine | Autumn vineyards (38013421512).jpg | Frayle | CC0 |
 | Sunday | Beach at sunset, Praia D'El Rey, Amoreira, Portugal julesvernex2.jpg | Jules Verne Times Two | CC BY-SA 4.0 |
+| Monday | GOLF DE PENHA LONGA Portugal (1413021987).jpg | lele3100 | CC BY 2.0 |
 
 Honesty notes (also in the page footer): the Guincho-dunes frame shows the
 dune coast Oitavos plays through, not the course itself; the Praia D'El Rey
