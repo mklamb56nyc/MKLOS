@@ -4,7 +4,16 @@ Working plan for a couples' long weekend this fall. Calendar scan done
 2026-07-23 across Mike's primary, Carrie's, Kids, and Family calendars
 (Kids and Family are empty for Sept–Nov).
 
-## Recommendation
+## Decision
+
+**Portugal — golf, food & wine. Thu Oct 8 (overnight flight) → Mon Oct 12,
+home the day before the anniversary.** Mike's sketch (Penha Longa Resort in
+Sintra, Oitavos Dunes + West Cliffs golf, LAB and Midori dinners) is the
+working itinerary — dated, fact-checked, and with a booking checklist in
+**`ITINERARY.md`**. The date logic below still holds: it uses the Columbus
+Day Monday, and Tue Oct 13 becomes an anniversary dinner in NYC.
+
+Earlier framing, kept for the record:
 
 **Fri Oct 9 – Tue Oct 13 (Columbus Day weekend → anniversary).**
 The anniversary (Oct 13) is the Tuesday right after the long weekend. Leaving
@@ -45,37 +54,25 @@ Notes on the pick (Oct 9–13):
   sometimes lands here (Molly might be coming home — decide if that changes
   anything or if she's with grandparents/friends).
 
-## Destination shortlist (drivable from NYC, peak-foliage weekend)
-
-Suggestions to react to, not researched bookings yet:
-- **Litchfield Hills / northwest CT** (~2 hr) — inns around Washington,
-  Kent, Litchfield; and it's ~30 min from Farmington if a stop to take Molly
-  to dinner on the way up appeals (or explicitly not — it's a couples' trip).
-- **Hudson Valley** (~2 hr) — Rhinebeck, Hudson, Cold Spring; food + antiques
-  + hikes, easy Amtrak option if we'd rather not drive.
-- **Berkshires** (~3 hr) — Lenox, Stockbridge, Great Barrington.
-- **Vermont** (~4 hr) — Woodstock or Manchester; the biggest foliage payoff
-  for the longest drive.
-- **Flight option:** with a Tuesday return there's room for something farther
-  — e.g. Charleston or Montreal — if foliage isn't the point.
-
-Columbus Day weekend is the Northeast's busiest leaf weekend — the good inns
-book out by late summer, so lodging should be locked **by mid-August**.
-
 ## Open questions
-1. Confirm Oct 9–13 works for Carrie before anything else.
+1. Confirm dates + Portugal with Carrie before anything else.
 2. Miss Porter's fall calendar — Family Weekend and long-weekend dates (no
-   email on file in Mike's Gmail; likely in Carrie's).
-3. Poly Prep Oct 12 — school holiday or not (affects kid coverage).
-4. Kid coverage plan for Toby + Nate (grandparents? Carrie's call).
-5. Foliage trip vs. city/flight trip — picks the shortlist branch.
+   email on file in Mike's Gmail; likely in Carrie's). Matters less now that
+   we're back Monday, but a Family Weekend collision would still sink it.
+3. Kid coverage Thu night Oct 8 → Mon afternoon Oct 12 (Toby 17 + Nate 13;
+   grandparents? Carrie's call). Poly Prep's Oct 12 holiday status no longer
+   matters — we land that afternoon.
 
 ## Next steps
-- [ ] Carrie sign-off on Oct 9–13
-- [ ] Resolve school-calendar unknowns (2–3 above)
-- [ ] Pick destination; book lodging by mid-August
-- [ ] Hold the dates on Mike and Carrie's Calendar
-- [ ] Arrange kid coverage; skip/move Oct 12 NYCLU meeting
+See the booking checklist in `ITINERARY.md` — flights first, then hotel and
+tee times. October transatlantic fares and Columbus Day resort availability
+argue for booking **within the next few weeks**.
 
 ## Ruled out
-(nothing yet — superseded options move here with reasoning)
+- **Drivable foliage weekend** (superseded 2026-07-23 by the Portugal plan —
+  kept as fallback if Portugal doesn't book): Litchfield Hills (~2 hr, inns
+  around Washington/Kent, ~30 min from Molly in Farmington), Hudson Valley
+  (~2 hr, Rhinebeck/Hudson/Cold Spring, Amtrak option), Berkshires (~3 hr),
+  Vermont (~4 hr, Woodstock/Manchester), or a flight to Charleston/Montreal.
+  Caveat that killed urgency either way: Columbus Day is the Northeast's
+  busiest leaf weekend; inns book out by late summer.
