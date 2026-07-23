@@ -47,7 +47,14 @@ def categorize(tx: pd.DataFrame, rules: dict) -> pd.DataFrame:
         if rule.get("note"):
             tx.loc[mask, "rule_note"] = rule["note"]
 
-    # Deductible amount: IN = full, SPLIT = pct, NONE = 0. Refunds net naturally.
+    # Deductible amount: IN = full, SPLIT = pct, FLAT = fixed amount per transaction
+    # (e.g. Mike's cell line at $76/mo regardless of the family-plan total), NONE = 0.
+    # Refunds net naturally for IN/SPLIT.
+    tx["flat_amount"] = pd.NA
+    for rule in rules["rules"]:
+        if rule.get("flat_amount") is not None:
+            mask = desc.str.contains(rule["match"], regex=True, na=False)
+            tx.loc[mask & (tx["treatment"] == "FLAT"), "flat_amount"] = rule["flat_amount"]
     tx["deductible_amount"] = 0.0
     m_in = tx["treatment"] == "IN"
     tx.loc[m_in, "deductible_amount"] = tx.loc[m_in, "amount"]
@@ -55,6 +62,8 @@ def categorize(tx: pd.DataFrame, rules: dict) -> pd.DataFrame:
     tx.loc[m_split, "deductible_amount"] = (
         tx.loc[m_split, "amount"] * tx.loc[m_split, "split_pct"].astype(float) / 100
     )
+    m_flat = (tx["treatment"] == "FLAT") & tx["flat_amount"].notna()
+    tx.loc[m_flat, "deductible_amount"] = tx.loc[m_flat, "flat_amount"].astype(float)
 
     # Watch list (recurring-payment monitor)
     tx["watch"] = ""

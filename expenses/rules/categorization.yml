@@ -1,6 +1,6 @@
 # Living rulebook: vendor/pattern -> tier + treatment.
 # tier: GREEN (confirmed LLC deduction) | YELLOW (review) | GRAY (personal/no action)
-# treatment: IN (100% deduction) | SPLIT (pct applied) | NONE
+# treatment: IN (100% deduction) | SPLIT (pct applied) | FLAT (fixed flat_amount per tx) | NONE
 # match is case-insensitive substring against Description.
 # Every manual correction from Mike gets added here so decisions persist across sessions.
 
@@ -65,6 +65,12 @@ rules:
     tier: GREEN
     treatment: IN
     category: State Filing Fees
+  - match: "verizon wireless"
+    tier: GREEN
+    treatment: FLAT
+    flat_amount: 76.00
+    category: Cell Phone - Mike's Line
+    note: "Mike's line (917-816-8443, iPhone 17 Pro, $76.54 actual on July bill) expensed to RW in full at a flat $76/mo per Mike's ruling 2026-07-22 — no per-bill reconciliation. Account is the family plan in Carrie's name ($279.64/mo, 6 devices, auto-pay from 0928 checking); only the flat $76 is deductible. July bill filed in receipts/."
   - match: "verizon bill payment"
     tier: GREEN
     treatment: IN
