@@ -20,12 +20,12 @@ Close items by answering in a session; record answers where they belong
          516-401-5452 $31.99 · iPhone 13 516-680-5506 $49.07 · iPhone SE
          917-387-6510 $48.93 · iPhone 15 Pro 917-434-3967 $63.96 (+ Watch SE
          number-share $9.15) · **iPhone 17 Pro 917-816-8443 $76.54 = Mike's line**
-         (confirmed 2026-07-22; also in root CLAUDE.md). Mike intends to expense
-         this to RW. **Pending before the rule goes GREEN: the CPA's call on
-         treatment** — full account ($279.64) vs Mike's line (~$76.54) vs a
-         percentage; account being in Carrie's name and covering the kids' lines
-         makes full-account treatment the aggressive option (same "CPA has blessed
-         it" bar as home office).
+         (confirmed 2026-07-22; also in root CLAUDE.md). **RESOLVED 2026-07-22:
+         Mike's ruling — his line in full, flat $76/mo, no per-bill
+         reconciliation.** Encoded as a FLAT-treatment rule on the monthly
+         `VERIZON WIRELESS` ACH (new treatment type in categorize.py); Jan–Jun
+         ACHs now carry $76 each ($456 YTD). July bill stays in `receipts/` as
+         the substantiation of the line cost.
       3. **Home FiOS internet** — presumably the VERIZONRECURRING $89.99/mo on the
          Delta card; the one relevant to RTB's flat-rate internet reimbursement
          (only the excess above the flat rate is deduction-relevant). Confirm the
