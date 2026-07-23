@@ -38,7 +38,8 @@ collection (incl. both Michelin rooms below).
   comfortable tee time; wind builds in the afternoon.
 - Lunch at the Oitavos clubhouse, then a private cellar tour + tasting at a
   Lisboa-region quinta (e.g. Quinta da Chocapalha, ~50 min inland — book
-  ahead, tastings are by appointment).
+  ahead, tastings are by appointment). **Hired driver all day Saturday** so
+  the tasting is unhurried for both of us.
 - **Dinner: Midori** (Michelin ★, at the resort) — Japanese × Portuguese
   tasting menu by Pedro Almeida. Open Sat ✓ (also closed Sun–Mon).
 
@@ -64,8 +65,9 @@ collection (incl. both Michelin rooms below).
       visitors; book well ahead for October weekends)
 - [ ] LAB (Fri) + Midori (Sat) reservations — book when flights are ticketed
 - [ ] Quinta tasting appointment (Sat afternoon)
-- [ ] Car: premium rental vs. private transfers + on-demand drivers (decide —
-      wine day argues for a driver at least Saturday)
+- [ ] Car: **driver confirmed for Saturday** (Oitavos → lunch → quinta
+      tasting → back; Mike, 2026-07-23). Still to decide: rental vs.
+      transfers for Fri arrival, Sun West Cliffs, and Mon airport run.
 - [ ] Kid coverage Thu night → Mon afternoon (Toby 17 + Nate 13)
 - [ ] Anniversary dinner in NYC, Tue Oct 13
 - [ ] Hold all of it on Mike and Carrie's Calendar
