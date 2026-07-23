@@ -196,6 +196,11 @@ hrs**. Always check the pass before a Wyoming-side trip.
   — ≈$31k/ac; the **working planning anchor**. Above the raw-comp band below (reflects the
   entitled/amenity premium: permit-ready + pond/water + fiber + gated entry). Not asking Caldwell
   what he paid; negotiation is with Caldwell.
+  - **But note (IRR model):** $750k is essentially **Nevin's mark on his own retained Lot 4** — the
+    number that turns his ~breakeven developer cash position into a ~24% return. Self-interested. At
+    a $350–400k Caldwell basis (improvements not assessed), $750k hands a **passive flipper ~21–26%
+    IRR** — ~the same return the actual developer earned. **Mike's defensible zone ~$500–635k, anchor
+    ~$550k.** See `valuation-irr-model.md`.
 - Assessed value of Lot 3 is **$13,814 (ag-productivity, NOT market)** — ignore for pricing.
 - **Developer improvements & the premium (2026-07-23 analysis).** Lindsay emphasizes 3 improvements:
   (1) main access road built (+ gated stone entry), (2) electric extended to the subdivision,
