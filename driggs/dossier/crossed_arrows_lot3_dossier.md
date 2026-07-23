@@ -324,4 +324,27 @@ Source: Teton County Land Development Code (adopted 2022-07-06, effective 2022-0
 
 ---
 
+---
+
+## 15. CORRECTIONS & UPDATES (post-research)
+
+**2026-07-23 — from Lindsay Nevin (The Flyway Companies), the entitling developer & Lot 4 owner.**
+Full intake + attachment manifest: `dossier/nevin-2026-07-23-intake.md`.
+- **Developer of record (corrects §4):** **Lindsay Nevin / The Flyway Companies** "took it through
+  design, engineering and entitlement." The Beards (§4) were the prior landowners/sellers, not the
+  entitling developer. Nevin is the working source going forward.
+- **Water (updates §2/§6/§11 "no water rights"):** there is **irrigation water + a pond on Lot 4**
+  (perpetual access easement benefiting Lot 3; owners may build more ponds), and a **"Tetonia Water
+  Rights Package."** The prior "no water rights of record" referred to *domestic* IDWR POU layers;
+  **surface/irrigation rights likely exist** — confirm scope from the package. Bears on ag valuation
+  and landscape/ponds.
+- **Build-ready (updates §8/§9):** a **Certificate of Completion (roads) is executed** — the
+  build-ready gate is largely cleared (confirm it covers all improvements + sanitary restrictions).
+- **Internet (updates §6/operating model):** **fiber** appears available to the subdivision — revise
+  the Starlink assumption.
+- **New encumbrances/amenities:** a recorded **fire-protection easement**; subdivision **entry-design**
+  and **tree-grouping** landscape packages; a **topo survey**; proposed house locations for Lots 1 & 5.
+- *The 9 PDFs are Gmail attachments not yet openable with available tools — save to Drive to extract
+  the CC&R house-size/ag specifics, water-rights scope, and cert terms.*
+
 *End of dossier. All factual data current as of research on July 20, 2026. Sale prices unavailable due to Idaho non-disclosure law. Verify all regulatory items with Teton County Planning (208-354-2593/776-8240), EIPH, IDWR, and a title company before transacting.*

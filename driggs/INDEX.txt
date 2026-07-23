@@ -10,7 +10,11 @@ CLAUDE.md ...... working context for Claude Code — read first
 README.md ...... project overview + orientation
 
 dossier/       the fact base
-  crossed_arrows_lot3_dossier.md . full human-readable investigation (14 sections):
+  nevin-2026-07-23-intake.md ..... developer Lindsay Nevin's email trove: CC&Rs (being revised),
+                                   water-rights package + pond/irrigation, roads cert of completion,
+                                   fiber, fire easement, topo, landscape packages. Attachment manifest
+                                   + how it corrects/advances the DD. (PDFs not yet opened — save to Drive.)
+  crossed_arrows_lot3_dossier.md . full human-readable investigation (14 sections + §15 corrections):
                                    subject parcel, subdivision, developers, neighborhood,
                                    utilities model, LA-35 zoning & permissions, build-permit
                                    sequence, CC&Rs, market/valuation, identifiers, sources

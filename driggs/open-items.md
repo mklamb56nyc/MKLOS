@@ -11,6 +11,9 @@ The septic determination and the price anchor gate everything else.
       or via a one-off MLS comp pull from anyone with Intermountain MLS / Teton Board of
       Realtors access, or a licensed appraiser / the title company. Near-identical lots
       sold in one window, so his number reveals the whole subdivision.
+      - _2026-07-23:_ **Nevin (the developer, Lot 4) is now an engaged source** and offered to "get
+        more granular." He's the ideal person to ask for the 2023 price + lot specifics — better
+        than county records or a cold MLS favor.
       - _2026-07-20 round:_ confirmed **none of the 5 Crossed Arrows lots appear on any
         aggregator** (Zillow/Redfin/Land.com/LandWatch/Homes.com) — the within-network sale
         leaves no public listing trail, so no asking price will ever surface online. Public
@@ -36,10 +39,33 @@ The septic determination and the price anchor gate everything else.
         recorded document to pin exact figures + the rest (build deadline, architectural
         committee, materials, detached-guest-house allowance, STR rules). **Ask Karen to
         forward her copy of the CC&Rs** — fastest route, she already has them.
+      - _2026-07-23 (Nevin email):_ **CC&Rs received** (attachment) — but Nevin (the developer)
+        marked them up for a **revision in progress**, so the 3,000–8,000 band + ag rules are
+        **not final**. Save the PDF to Drive to extract specifics; ask Nevin what's changing.
+        See `dossier/nevin-2026-07-23-intake.md`.
 - [ ] **4. Confirm subdivision is "build-ready."** Verify a **Certificate of Subdivision
       Completion** was issued and **sanitary restrictions are lifted** on the plat — the DA
       lets the County withhold building permits until improvements are accepted. Teton
       County Planning: **208-354-2593 / 208-776-8240**.
+      - _2026-07-23 (Nevin email):_ **Certificate of Completion (roads), executed** received
+        (attachment) → roads/required improvements accepted. Confirm it covers *all* improvements
+        (not just roads) and that sanitary restrictions are lifted. Largely de-risks this item.
+
+## New from Nevin (2026-07-23) — see `dossier/nevin-2026-07-23-intake.md`
+- [ ] **W1. Water rights / irrigation / pond.** Nevin sent a **"Tetonia Water Rights Package"** +
+      photos of **irrigation water and a pond**. A **pond sits on Lot 4** adjacent to Lot 3 with a
+      **perpetual access easement**; owners may build additional ponds. **Likely corrects** the
+      dossier's "no water rights of record" (which referred to domestic POU). Read the package;
+      confirm scope + whether irrigation rights convey to Lot 3 (matters for ag valuation + landscape).
+- [ ] **W2. Fiber + power.** Nevin's "Power/Fiber" attachment suggests **fiber internet** to the
+      subdivision — **revise the operating model's Starlink line** once confirmed.
+- [ ] **W3. Fire-protection easement.** Recorded easement across the lots (notary: Kate Caldwell) —
+      fold into title review + WUI/defensible-space design + insurance conversation.
+- [ ] **W4. Coordinate with subdivision landscape/entry.** "Entry Design Package" + "Tree Groupings"
+      exist — check the "open meadow" view assumption against any planned tree groupings; align siting
+      with the "Proposed House Location – Lot 1 & 5" precedent. Topo survey available to verify grading.
+- [ ] **W5. Save the 9 Nevin PDFs to Drive** so their contents can be read/extracted (CC&Rs, water
+      rights, cert, topo, easements, design packages) — currently unreadable as Gmail attachments.
 
 ## Utility cost reads
 - [ ] **5. Fall River Rural Electric line-extension estimate** to the intended building
@@ -128,6 +154,7 @@ hrs**. Always check the pass before a Wyoming-side trip.
 | IDWR | Well driller reports, water rights | https://research.idwr.idaho.gov/apps/wellconstruction/wcinfosearchexternal/ |
 | Title / escrow company | Title commitment, CC&Rs, closing | TBD — the one non-optional professional |
 | Real-estate attorney (optional) | Paper/review purchase agreement | TBD |
+| **Lindsay Nevin — The Flyway Companies** | **Developer + Lot 4 owner; CC&R revisions, price, pond/water, lot specifics** | lindsay@flywaysc.com · o. 843-853-5557 · c. 843-296-1797 |
 
 ## Valuation anchors (for reference)
 - Countywide 2025 MLS: avg land sale $388,530; **median $245,000**; ~93.9% sold-to-list.
@@ -163,3 +190,11 @@ MLS comp pull resolves it.
   closing → ~$430k–575k for 23.85 ac). Verified the Crossed Arrows lots are unlisted
   everywhere → the true number is only obtainable from Caldwell or an MLS pull. Item 1
   reframed: web research is exhausted; it now needs a direct human ask.
+- 2026-07-23 — **Lindsay Nevin (The Flyway Companies — the entitling developer + Lot 4 owner)
+  emailed a document trove** (`dossier/nevin-2026-07-23-intake.md`). Advances/corrects several
+  items: CC&Rs received (revision in progress); Certificate of Completion (roads) executed;
+  a **water-rights package + pond + irrigation** (likely corrects "no water rights"); **fiber**
+  likely available (revise Starlink assumption); a fire-protection easement; entry/tree-grouping
+  landscape packages. Corrects **developer of record → Nevin/Flyway** (dossier had "the Beards").
+  PDFs are Gmail attachments we can't open yet — save to Drive to extract specifics. Nevin is now
+  the go-to source for price + CC&R changes.
