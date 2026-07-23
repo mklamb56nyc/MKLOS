@@ -66,21 +66,26 @@ $750k exit, t≈3.3 yr. **The improvement-assessment question is the whole swing
 | ~$500–520k (+~$120k) | ~12–13% |
 → Fair (8–15%) ≈ **$550–750k**. $750k lands **at the top of a fair band** — defensible.
 
-## Nevin's developer IRR (contrast — he earned a developer return; Caldwell didn't)
-Assume market raw-land rate when he bought the ~119-ac parent (~mid-2022, instr. 275597):
-- Raw land ~119 ac × ~$13k/ac ≈ **$1.55M** (range $1.2–2.1M) + improvements/entitlement ~**$400k**
-  = **~$1.95M total ≈ ~$390k per finished lot.**
-- **Key tell:** his all-in *create* cost (~$375–390k/lot) ≈ Mike's rumored $350–400k Caldwell price →
-  **Nevin likely sold lots at ~cost to the friends group; his profit is the retained Lot 4.**
-- Developer IRR ≈ **~8%** if lots sold at ~$375k (profit sits in Lot 4) · **~23%** if sold ~$500k.
+## Nevin's developer IRR — PINNED SCENARIO (Mike, 2026-07-23: land $1.2M, improvements NOT assessed)
+- Raw land **$1.2M** (~$10k/ac, ~mid-2022) + improvements/entitlement **~$400k** (he ate them, since
+  not assessed) = **~$1.6M total ≈ ~$320k per finished lot.**
+- Sold 4 lots at ~$375k = **~$1.5M in 2023** (recovers ~all cash in year 1); **kept Lot 4.**
+- Developer IRR ≈ **~24% IF Lot 4 = $750k**; ≈ **~15% if Lot 4 = $450k.**
+- **Tell:** Nevin's whole developer profit *is* Lot 4's value → his **$750k is the mark on his own
+  retained lot** (talking his own book), not a disinterested appraisal.
+- Since improvements were **NOT assessed**, Caldwell's basis = **purchase price only** → **Scenario NO
+  governs**: $750k = **~21–26% IRR** for Caldwell; fair (8–15%) = **~$450–635k**.
 
-## Synthesis
-$750k ≈ **~2× the insiders' create-cost from ~3 years ago** — but the Teton Valley land market has been
-**~flat since 2023** (our market research). A flat market can't support a near-double, so either:
-- $350–400k was **~2023 market** → fair today ~$400–500k + improvement value → **$750k aggressive** (NO), or
-- $350–400k was a **deep friends discount** (true 2023 ~$550–650k) → ~$600–700k today → **$750k slightly rich** (YES).
-Karen's number + the comps resolve which. Caldwell is a **co-investor flipping appreciation**, not a
-developer — so in a flat market, the ~2× ask must justify itself.
+## Synthesis (pinned)
+- **The inequity:** at $750k, **Caldwell (did nothing but hold) earns ~the same ~24% IRR Nevin earned
+  as the actual developer** (land + entitlement + road/power/fiber). Paying a passive flipper a full
+  developer's return.
+- **Nevin's $750k is self-interested** — it's the value of *his* Lot 4, the number that makes his own
+  ~breakeven-cash deal a 24% win.
+- **Market check:** $375k → $750k = **2× in 3.3 yr (~23%/yr)** in a market **flat since 2023** → the
+  doubling is pure ask, not value; the independent comps should expose it.
+- **Mike's defensible zone: ~$500–635k** (8–15% on a $350–400k basis), **anchor ~$550k** (~12%).
+  Confirm the $350–400k basis + the not-assessed assumption via Karen.
 
 ## Caveats (don't over-weight this)
 - **A reasonableness frame, not a cap.** Caldwell can ask anything and **hold** (carrying cost ~$37/yr);
