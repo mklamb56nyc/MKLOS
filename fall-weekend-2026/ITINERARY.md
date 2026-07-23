@@ -8,7 +8,7 @@ out + 3 nights at Penha Longa.
 
 | | |
 |---|---|
-| Depart | **Thu Oct 8** — JFK T4 → LIS, Delta nonstop, evening (~7:45–10pm departures exist; confirm exact flight at booking). **Flight strategy (Mike, 2026-07-23, replaces "Delta One both ways"): buy Premium Select, apply Diamond Global Upgrade Certificates → Delta One on the overnight out (the leg that matters); PS home is fine.** Mike thinks PS may already be purchased — **no Portugal confirmation found in mklamb@gmail as of 7/23; verify in the Delta app.** GUC space is capacity-controlled — confirm/waitlist at booking. |
+| Depart | **Thu Oct 8** — JFK T4 → LIS, Delta nonstop, evening (~7:45–10pm departures exist; confirm exact flight at booking). **Flight strategy (Mike, 2026-07-23, replaces "Delta One both ways"): buy Premium Select, apply Diamond Global Upgrade Certificates → Delta One on the overnight out (the leg that matters); PS home is fine.** **Nothing purchased yet** (Mike confirmed 2026-07-23, superseding an earlier "I think I purchased"). GUC space is capacity-controlled — confirm/waitlist at booking. |
 | On the ground | **Fri Oct 9 – Sun Oct 11** — Penha Longa Resort, Sintra (3 nights) |
 | Return | **Mon Oct 12 (Columbus Day)** — LIS → JFK, Delta nonstop, late morning; lands mid-afternoon same day |
 | Anniversary | **Tue Oct 13 — home**, the day after landing. 19th anniversary (married Oct 13, 2007) — anniversary dinner in **Locust Valley, with Toby & Nate** as the capstone (updated from "dinner in NYC for two", Mike 2026-07-23). |
@@ -61,8 +61,8 @@ flights ~60% of it)*
 - [x] Dates + Portugal confirmed (Mike, 2026-07-23) — it's the
       19th-anniversary trip
 - [ ] Flights — Delta JFK↔LIS nonstops for Oct 8 / Oct 12: **Premium Select +
-      GUC upgrade to Delta One outbound** (check Delta app for a possibly
-      already-purchased PS ticket; confirm GUC space)
+      GUC upgrade to Delta One outbound** (nothing purchased yet; confirm GUC
+      space when booking)
 - [ ] Penha Longa, 3 nights Oct 9–12 (Marriott/Bonvoy or direct)
 - [ ] Tee times: Oitavos Dunes Sat am, West Cliffs Sun am (both open to
       visitors; book well ahead for October weekends)
