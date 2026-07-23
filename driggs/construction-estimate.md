@@ -97,8 +97,11 @@ during the big build.
 | Phase 1 (bunkhouse + garage + full site) | $1.2M | **$1.45M** | $1.8M |
 | Phase 2 (main house) | $2.3M | **$2.7M** | $3.3M |
 | **Build-out total** | **~$3.5M** | **~$4.1M** | **~$5.1M** |
-| Land (if purchased — separate) | +$0.43M | **+$0.5M** | +$0.58M |
-| **Total incl. land** | **~$3.9M** | **~$4.6M** | **~$5.7M** |
+| Land (if purchased — separate) | +$0.75M | **+$0.75M** | +$0.75M |
+| **Total incl. land** | **~$4.25M** | **~$4.85M** | **~$5.85M** |
+
+*Land updated 2026-07-23 to **~$750k** — the developer's (Nevin's) value read for Lot 3 based on
+recent nearby closings; supersedes the earlier ~$0.5M raw-comp estimate. Negotiation is with Caldwell.*
 
 *Sanity check:* ~5,000 sq ft conditioned all-in ≈ $825/sq ft — squarely inside the local
 builder's own "$700–950/sq ft, $3.5–5.5M for 4,500 sq ft" guidance.

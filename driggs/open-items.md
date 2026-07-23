@@ -11,9 +11,13 @@ The septic determination and the price anchor gate everything else.
       or via a one-off MLS comp pull from anyone with Intermountain MLS / Teton Board of
       Realtors access, or a licensed appraiser / the title company. Near-identical lots
       sold in one window, so his number reveals the whole subdivision.
-      - _2026-07-23:_ **Nevin (the developer, Lot 4) is now an engaged source** and offered to "get
-        more granular." He's the ideal person to ask for the 2023 price + lot specifics — better
-        than county records or a cold MLS favor.
+      - _2026-07-23 — working anchor ≈ $750k._ Nevin (developer, Lot 4) **volunteered** that he
+        thinks **Lot 3 is worth ~$750k "based on recent things that have closed nearby."** A credible,
+        developer-informed current-value read (≈$31k/ac — the entitled/amenity premium over the raw
+        ~$18–24k/ac comp band). **Use ~$750k as the planning anchor.**
+      - **Boundaries (Mike):** do **NOT** ask Nevin about price and **do not negotiate through him**
+        (he's Lot 4 / the developer). The purchase + any price negotiation is with **Caldwell (Lot 3
+        seller)**. The 2023 "what Caldwell paid" chase is **dropped** — not being pursued.
       - _2026-07-20 round:_ confirmed **none of the 5 Crossed Arrows lots appear on any
         aggregator** (Zillow/Redfin/Land.com/LandWatch/Homes.com) — the within-network sale
         leaves no public listing trail, so no asking price will ever surface online. Public
@@ -175,6 +179,10 @@ hrs**. Always check the pass before a Wyoming-side trip.
 - **Comparable current listings — both on Moose Path Way, Tetonia (~$20k/ac asking):**
   - 2075/2084 Moose Path Way — 24.3 ac at **$485,000** (~$20.0k/ac).
   - Moose Path Way — 20 ac at **$399,000** (~$20.0k/ac). *(new, this round)*
+- **Developer's read (2026-07-23): ~$750k** for Lot 3 (Nevin, "based on recent nearby closings")
+  — ≈$31k/ac; the **working planning anchor**. Above the raw-comp band below (reflects the
+  entitled/amenity premium: permit-ready + pond/water + fiber + gated entry). Not asking Caldwell
+  what he paid; negotiation is with Caldwell.
 - Assessed value of Lot 3 is **$13,814 (ag-productivity, NOT market)** — ignore for pricing.
 
 **Working public band for a ~24-ac Tetonia lot:** ~$20k/ac asking → ~$24k/ac is the
