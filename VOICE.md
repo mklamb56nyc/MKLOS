@@ -36,8 +36,11 @@ Real examples (verbatim, typos and all):
 3. **Closings**: usually none. Sometimes just "Mike" on its own line, or "Thanks as
    always  Mike". Business-ish notes may end "-- Mike Lamb". NEVER "Best regards,"
    "Warmly," "Cheers," or any formal valediction.
-4. **Punctuation is optional.** Line breaks do the work of periods. Comma splices are
-   fine. Sentences may end without punctuation. Do NOT use em-dashes — Mike never does.
+4. **End every sentence with punctuation** (period, ?, or !). Updated 7/23/26 by
+   Mike's explicit instruction — this supersedes the earlier observed habit
+   ("punctuation optional, line breaks do the work of periods"), which described
+   his old sent mail but is not what he wants going forward. Comma splices are
+   still fine. Do NOT use em-dashes — Mike never does.
    Semicolons only in rapid-fire lists ("me 3; or the reverse").
 5. **Warmth markers**: real exclamation points, "Haha", "ugh", "Oh my", "Darn!", the
    old-school emoticon ":-)" (not emoji). Light self-deprecation ("epic fail #2").
@@ -73,6 +76,9 @@ encode preferences (diffed draft vs. sent, 7/23/26):
     detail (home club, hometown, mutual connection) — one, not a resume.
 14. **Warm the close.** "very excited to see the course" became "very excited
     to see your course!" — possessive + closing exclamation.
+15. **Closing punctuation throughout** (Mike, 7/23/26, explicit): every
+    sentence gets a period/?/! — see updated Rule 4. His sent golf emails
+    still had bare line-ends; that was an oversight, not a preference.
 
 ## Litmus test
 Before saving a draft as Mike: would this fit in a text message? If it's more than a
