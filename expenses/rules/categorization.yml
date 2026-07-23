@@ -89,12 +89,18 @@ rules:
     treatment: SPLIT
     split_pct: 50
     category: Vehicle - Maintenance
+  - match: "verizonrecurring"
+    tier: GRAY
+    treatment: NONE
+    category: Home Internet (FiOS)
+    flag: RTBH_ALLOWANCE_50
+    note: "Home FiOS, $89.99/mo on the Delta card — NOT RW-deductible (Mike 2026-07-22). RTB House (US) provides a $50/mo expensable internet allowance: claim monthly via Rydoo (draft with the FiOS charge as support); the $39.99 remainder is personal."
   - match: "verizon fios|optimum|internet"
     tier: YELLOW
     treatment: SPLIT
     split_pct: null
     category: Internet
-    note: "RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant"
+    note: "Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges."
 
   # ---- GRAY: confirmed personal / special handling ----
   - match: "guardian"
@@ -144,7 +150,7 @@ rules:
 watch_list:
   # Recurring-payment monitor targets (open action items)
   - pattern: "verizon"
-    reason: "Two simultaneous accounts — consolidation candidate"
+    reason: "Three intentional accounts, all ruled 2026-07-22 (office Fios=RW, Mike's cell line=$76 flat to RW, home FiOS=$50 RTBH allowance) — watch for amount changes only"
   - pattern: "storage|cubesmart|extra space|public storage"
     reason: "Possible storage unit duplication"
   - pattern: "netflix|hulu|max|disney|paramount|peacock|apple tv"
