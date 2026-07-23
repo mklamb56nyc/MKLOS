@@ -13,6 +13,7 @@ Each project lives in its own top-level directory with its own `CLAUDE.md`:
 - `bold-by-nature/` — outdoor leadership club at Miss Porter's School, founded by Molly
 - `expenses/` — automated expense scan/submission prep: RTB House reimbursables → Rydoo
   (via Gmail drafts), Received Wisdom (S Corp) → monthly CPA package
+- `fall-weekend-2026/` — planning a fall 2026 long weekend away for Mike + Carrie
 
 The public website is **not** in this repo (an earlier plan to import it as `site/`
 was dropped — no migration needed). It lives in its own repo,
