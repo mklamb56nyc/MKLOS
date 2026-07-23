@@ -53,6 +53,10 @@ comp-pull-request.md . copy-paste request to hand a Teton Valley agent/appraiser
                  referral conduit) for an independent MLS read on Lot 3 value — to triangulate against
                  Nevin's ~$750k and Karen's actual 2023 Lot 2 price (via Carrie).
 
+valuation-irr-model.md . seller-basis cross-check: compound Caldwell's 2023 basis at a passive-investor
+                 8-15% IRR over the ~3.3-yr hold → fair-price band vs. Nevin's $750k. Plug in Karen's
+                 number (+ any improvement assessment). Third triangulation angle alongside the comps.
+
 open-items.md .. LIVE DD tracker — prioritized next steps, key contacts, valuation anchors,
                  decision log. Critical path: (1) price Caldwell paid in 2023, (2) EIPH
                  septic test holes, (3) recorded CC&Rs, (4) confirm subdivision build-ready.
