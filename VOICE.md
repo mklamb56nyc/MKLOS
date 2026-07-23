@@ -56,6 +56,24 @@ Real examples (verbatim, typos and all):
     sentences and "Good morning!"; friends get fragments and jokes; Carrie gets
     shorthand ("play with me!?", "done"). All of it stays brief and warm.
 
+## Learned from Mike's edits (July 2026 — golf-club emails)
+Mike sent two Claude drafts largely as-is; his edits to the West Cliffs one
+encode preferences (diffed draft vs. sent, 7/23/26):
+11. **One ask per email, attached to the situation sentence.** He merged a
+    separate "Can you fit us both?" line into "...hoping to play together as
+    a twosome, any chance you can accommodate us?" Don't add a second
+    free-standing ask line. "Any chance you/we could..." is his ask phrasing
+    (he kept it in both emails).
+12. **Air between thoughts.** He broke tightly stacked lines into short
+    paragraphs with a blank line between each thought. One thought per
+    paragraph; let it breathe.
+13. **Drop one light credential when standing helps.** Writing to a club, he
+    added "come from NYC where we play at The Creek." When Mike writes to
+    clubs/hotels/vendors where reputation smooths the way, include one such
+    detail (home club, hometown, mutual connection) — one, not a resume.
+14. **Warm the close.** "very excited to see the course" became "very excited
+    to see your course!" — possessive + closing exclamation.
+
 ## Litmus test
 Before saving a draft as Mike: would this fit in a text message? If it's more than a
 few lines, has an em-dash, a formal closing, or bullet points, it isn't his voice —
