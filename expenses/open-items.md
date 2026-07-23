@@ -52,10 +52,11 @@ Close items by answering in a session; record answers where they belong
       and Tech Services = **B2B/Schedule C income paid to Mike directly, not W2** —
       a residual stream kept direct when the consulting arrangement moved to Received
       Wisdom. Recorded in CLAUDE.md (income streams) and the rulebook.
-- [ ] **Rydoo email registration:** confirm which address the Rydoo account is under;
-      forwards to `receipts@rydoo.com` must come from a registered address. If it's the
-      work email, add `mklamb@gmail.com` as a secondary in Rydoo personal settings
-      (drafts are created in personal Gmail).
+- [x] **Rydoo email registration — resolved 2026-07-23:** `mklamb@gmail.com` is
+      enrolled with Rydoo, so forwards to `receipts@rydoo.com` from personal Gmail
+      (where drafts are created) will be accepted. Also verified 2026-07-23 that
+      Claude-created Gmail drafts CAN carry attachments, so Rydoo submissions can be
+      fully prepared as ready-to-send drafts.
 - [ ] **RTB House reimbursable rules:** first one landed 2026-07-22 — the $50/mo
       internet allowance (see Verizon item). Rest of the policy still needed: what
       else is reimbursable, receipt/pre-approval thresholds. → YAML
