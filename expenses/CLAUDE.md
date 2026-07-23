@@ -14,8 +14,11 @@ classifies every transaction and preps three submission paths. Continues the ear
   attachments to `receipts@rydoo.com` from a registered address create expenses
   automatically, one per attachment
   ([Rydoo help](https://help.rydoo.com/hc/en-be/articles/8139189477660-Forward-a-receipt-via-email)).
-  Prepared as Gmail forward drafts; I hit send. Known policy fact: internet is reimbursed
-  at a **flat monthly rate** — only the excess matters for deduction analysis.
+  Prepared as Gmail forward drafts; I hit send. First confirmed reimbursable (2026-07-22):
+  a **$50/month expensable internet allowance** from RTB House US — claimed monthly via
+  Rydoo against the home FiOS bill ($89.99/mo on the Delta card; the $39.99 remainder is
+  personal, not RW-deductible). This quantifies the earlier "flat monthly rate" note.
+  The monthly scan should keep a standing Rydoo draft item for this claim.
 - **Insurance reimbursement tracker** — Sornik payments (professional support for the
   kids) have **never been submitted for reimbursement**; every payment carries
   `flag=REIMBURSEMENT_OUTSTANDING` until I confirm submission. Highest-priority open item.

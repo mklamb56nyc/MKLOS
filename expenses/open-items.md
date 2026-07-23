@@ -26,10 +26,11 @@ Close items by answering in a session; record answers where they belong
          `VERIZON WIRELESS` ACH (new treatment type in categorize.py); Jan–Jun
          ACHs now carry $76 each ($456 YTD). July bill stays in `receipts/` as
          the substantiation of the line cost.
-      3. **Home FiOS internet** — presumably the VERIZONRECURRING $89.99/mo on the
-         Delta card; the one relevant to RTB's flat-rate internet reimbursement
-         (only the excess above the flat rate is deduction-relevant). Confirm the
-         $89.99 is it.
+      3. **Home FiOS internet — RESOLVED 2026-07-22:** confirmed = the VERIZONRECURRING
+         $89.99/mo on the Delta card. NOT RW-deductible per Mike. **RTB House US
+         provides a $50/mo expensable internet allowance** — claim monthly via Rydoo;
+         $39.99 remainder is personal. First confirmed RTBH reimbursable in the
+         rulebook. All three Verizon relationships now fully ruled.
 - [ ] **Streaming service** redundancy check.
 - [ ] **Storage unit** duplication check.
 - [ ] Unrecognized **book-summary app** subscription — identify and cancel.
@@ -55,8 +56,9 @@ Close items by answering in a session; record answers where they belong
       forwards to `receipts@rydoo.com` must come from a registered address. If it's the
       work email, add `mklamb@gmail.com` as a secondary in Rydoo personal settings
       (drafts are created in personal Gmail).
-- [ ] **RTB House reimbursable rules:** none in the rulebook yet (only the flat-rate
-      internet fact). What's reimbursable, receipt/pre-approval thresholds. → YAML
+- [ ] **RTB House reimbursable rules:** first one landed 2026-07-22 — the $50/mo
+      internet allowance (see Verizon item). Rest of the policy still needed: what
+      else is reimbursable, receipt/pre-approval thresholds. → YAML
       (2026-07-22: tried Rydoo's policy assistant via the new connector — "Company
       policy was not found", not configured company-side, so this needs a human answer.)
 - [ ] **CPA's preferred package format:** columns, receipt naming, monthly vs quarterly.

@@ -13,7 +13,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-01-02,Chase0781,,AMAZON MKTPL*9I51K5Y53,142.06,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-01-02,Chase0928,,APPLE CASH SENT MONE 1INFINITELOOP CA        12/31,5.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-01-02,Chase0928,,APPLE CASH SENT MONE 1INFINITELOOP CA        01/01,100.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
-2026-01-02,Chase0928,,VERIZON WIRELESS PAYMENTS                   PPD ID: 7223344794,291.49,GREEN,FLAT,,76.0,Cell Phone - Mike's Line,,Two simultaneous accounts — consolidation candidate,"Mike's line (917-816-8443, iPhone 17 Pro, $76.54 actual on July bill) expensed to RW in full at a flat $76/mo per Mike's ruling 2026-07-22 — no per-bill reconciliation. Account is the family plan in Carrie's name ($279.64/mo, 6 devices, auto-pay from 0928 checking); only the flat $76 is deductible. July bill filed in receipts/.",Chase0928_Activity_20260510.CSV
+2026-01-02,Chase0928,,VERIZON WIRELESS PAYMENTS                   PPD ID: 7223344794,291.49,GREEN,FLAT,,76.0,Cell Phone - Mike's Line,,"Three intentional accounts, all ruled 2026-07-22 (office Fios=RW, Mike's cell line=$76 flat to RW, home FiOS=$50 RTBH allowance) — watch for amount changes only","Mike's line (917-816-8443, iPhone 17 Pro, $76.54 actual on July bill) expensed to RW in full at a flat $76/mo per Mike's ruling 2026-07-22 — no per-bill reconciliation. Account is the family plan in Carrie's name ($279.64/mo, 6 devices, auto-pay from 0928 checking); only the flat $76 is deductible. July bill filed in receipts/.",Chase0928_Activity_20260510.CSV
 2026-01-02,Chase7618,,POPSTROKE* RESTAURANT,118.37,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-01-02,Chase7618,,CTLP*WONDERWORKS MYRTL,3.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-01-02,Chase7618,,SQ *BIJUJU BROADWAY AT TH,17.44,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
@@ -81,20 +81,20 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-01-07,AmexDeltaReserve,EVELYN C LAMB,DD *DOORDASH ACEHARDSAN FRANCISCO       CA,38.78,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-01-07,AmexDeltaReserve,MICHAEL K LAMB,AplPay OYSTER BAY SUOYSTER BAY          NY,73.69,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-01-07,AmexPlatinum,MICHAEL K LAMB,BT*CHATTANOOGA TIMESCHATTANOOGA         TN,34.0,YELLOW,NONE,,0.0,Uncategorized,,,,activity.xlsx
-2026-01-07,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,6.0,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-01-07,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,6.0,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-01-07,Chase0781,,Amazon.com*ZD4678OA3,110.06,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-01-07,Chase0781,,AMAZON MKTPL*UT8C46LS3,7.59,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-01-07,Chase0781,,AMAZON MKTPL*OL09B96Z3,97.69,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-01-07,Chase0928,,RAYMOND JAMES &  BROKERAGE                  PPD ID: 1591237041,70000.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-01-07,Chase0928,,VENMO            PAYMENT    1047425709105   WEB ID: 3264681992,250.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
-2026-01-07,Chase0928,,OPTIMUM 7801     CABLE PMNT                 PPD ID: 9078010001,136.4,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,Chase0928_Activity_20260510.CSV
+2026-01-07,Chase0928,,OPTIMUM 7801     CABLE PMNT                 PPD ID: 9078010001,136.4,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,Chase0928_Activity_20260510.CSV
 2026-01-07,Chase7618,,SONOS INC.,448.62,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-01-07,Chase7618,,ALL FOLKS PSYCHOLOGY,200.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-01-07,Chase7618,,AMERICAN AIR0012304040311,767.09,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-01-07,Chase7618,,GOOGLE *YouTube TV,82.99,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-01-07,Chase7618,,AMERICAN AIR0012304040310,767.09,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-01-07,Chase7618,,GOOGLE *Google Store,738.61,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
-2026-01-08,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,7.59,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-01-08,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,7.59,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-01-08,Chase0928,,Online Transfer from SAV ...3874 transaction#: 27623594662,-25000.0,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase0928_Activity_20260510.CSV
 2026-01-08,Chase0928,,Online Payment 27620477459 To Testa Landscaping 01/08,11965.05,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase0928_Activity_20260510.CSV
 2026-01-08,Chase0928,,Online Transfer to SAV ...3874 transaction#: 27623546088 01/08,350000.0,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase0928_Activity_20260510.CSV
@@ -108,7 +108,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-01-08,Chase7618,,TELSTAR SECURITY SYSTEMS,20.64,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-01-08,Chase7618,,MARQUIS WINES & SPIRITS,123.79,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-01-08,Chase7618,,SP THE SPOT NY,35.46,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
-2026-01-09,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,9.99,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-01-09,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,9.99,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-01-09,Chase0928,,FORD MOTOR CR    FORDCREDIT 060707065       WEB ID: 3534610003,15726.15,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-01-09,Chase0928,,Online Transfer from SAV ...3874 transaction#: 27635293807,-20000.0,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase0928_Activity_20260510.CSV
 2026-01-09,Chase0928,,PETRO HOME SVCS  XXXXXXXXXX 19849370        WEB ID: 1348535000,2990.12,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
@@ -212,7 +212,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-01-17,AmexDeltaReserve,EVELYN C LAMB,"ETSY, INC.          BROOKLYN            NY",12.16,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-01-17,AmexDeltaReserve,EVELYN C LAMB,BT*BLUEAPRON        NEW YORK            NY,111.22,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-01-17,AmexDeltaReserve,EVELYN C LAMB,CHICK-FIL-A #03753 0SOUTHINGTON         CT,26.06,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
-2026-01-17,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,12.99,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-01-17,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,12.99,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-01-17,Chase0781,,Amazon.com*D888X2RX3,10.63,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-01-17,Chase0781,,AMAZON MKTPL*BC1E106U3,77.1,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-01-17,Chase0781,,Amazon.com*J41AZ4P63,20.23,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
@@ -254,7 +254,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-01-20,AmexDeltaReserve,MICHAEL K LAMB,AMEX RIDESHARE CREDIT,-10.0,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-01-20,AmexDeltaReserve,EVELYN C LAMB,SOUTHDOWN COFFEE - OOyster Bay          NY,12.59,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-01-20,AmexPlatinum,MICHAEL K LAMB,SPOTIFY USA         NEW YORK            NY,19.99,YELLOW,NONE,,0.0,Uncategorized,,,,activity.xlsx
-2026-01-20,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,23.01,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-01-20,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,23.01,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-01-20,Chase0781,,AMAZON MKTPL*YE9UY3KF3,26.04,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-01-20,Chase0781,,AMAZON MKTPL*BP2IY9EX3,10.85,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-01-20,Chase0781,,AMAZON MKTPL*YA0BD0J33,18.46,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
@@ -279,7 +279,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-01-21,AmexDeltaReserve,EVELYN C LAMB,TST* ORGANIC KRUSH -PLAINVIEW           NY,26.62,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-01-21,AmexDeltaReserve,EVELYN C LAMB,AplPay ELIZAFACTOR.SBROOKLYN            NY,60.0,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-01-21,AmexDeltaReserve,EVELYN C LAMB,IKEA LONG ISLAND 156HICKSVILLE          NY,692.64,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
-2026-01-21,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,2.16,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-01-21,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,2.16,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-01-21,Chase0781,,AMAZON MKTPL*5C2OW2M93,32.47,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-01-21,Chase0781,,AMAZON MKTPL*2O68I0XO3,32.47,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-01-21,Chase0781,,Amazon.com*AY09Y4CS3,23.86,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
@@ -308,7 +308,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-01-23,AmexDeltaReserve,EVELYN C LAMB,SEPHORA PLAINVIEW SHPLAINVIEW           NY,215.08,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-01-23,AmexDeltaReserve,MICHAEL K LAMB,AplPay JFK DD ArrivaJAMAICA             NY,4.38,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-01-23,AmexDeltaReserve,MICHAEL K LAMB,AMEX UBER ONE CREDIT,-9.99,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
-2026-01-23,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,-10.89,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-01-23,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,-10.89,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-01-23,Chase0781,,Prime Video Channels,12.99,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-01-23,Chase0928,,Zelle payment to BARBARA LEWIS JPM99c30gg6o,1500.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-01-23,Chase0928,,"Zelle payment to MELISSA SORNIK LCSW PLLC, SEACLIFF, JPM99c30h1yx",250.0,GRAY,NONE,,0.0,Professional Support - Children,REIMBURSEMENT_OUTSTANDING,,Zelle to Melissa Sornik LCSW — never submitted for insurance reimbursement; flag every payment until Mike confirms submission,Chase0928_Activity_20260510.CSV
@@ -331,7 +331,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-01-25,Chase7618,,MICROSOFT*STORE,32.57,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-01-26,AmexDeltaReserve,MICHAEL K LAMB,AplPay NAYAX VENDINGPORT WASHINGT       NY,3.0,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-01-26,AmexDeltaReserve,EVELYN C LAMB,MARK & GRAHAM E COMM(855)282-6203       CA,234.63,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
-2026-01-26,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,12.99,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-01-26,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,12.99,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-01-26,Chase0928,,Online Transfer from SAV ...3874 transaction#: 27836587550,-21000.0,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase0928_Activity_20260510.CSV
 2026-01-26,Chase0928,,Zelle payment to Monica JPM99c3a7fu7,1300.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-01-26,Chase0928,,Online Transfer to GMR ...0842 transaction#: 27828856930 01/26,16.0,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase0928_Activity_20260510.CSV
@@ -358,7 +358,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-01-27,Chase7618,,HLU*HULUPLUS,5.03,YELLOW,NONE,,0.0,Uncategorized,,Streaming redundancy check,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-01-28,AmexDeltaReserve,EVELYN C LAMB,Newsday Subscription18006397329         NY,27.96,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-01-28,AmexDeltaReserve,MICHAEL K LAMB,DELTA AIR LINES,3178.03,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
-2026-01-28,AmexDeltaReserve,EVELYN C LAMB,VERIZONRECURRING PAY800-VERIZON         FL,64.99,YELLOW,NONE,,0.0,Uncategorized,,Two simultaneous accounts — consolidation candidate,,activity_1.xlsx
+2026-01-28,AmexDeltaReserve,EVELYN C LAMB,VERIZONRECURRING PAY800-VERIZON         FL,64.99,GRAY,NONE,,0.0,Home Internet (FiOS),RTBH_ALLOWANCE_50,"Three intentional accounts, all ruled 2026-07-22 (office Fios=RW, Mike's cell line=$76 flat to RW, home FiOS=$50 RTBH allowance) — watch for amount changes only","Home FiOS, $89.99/mo on the Delta card — NOT RW-deductible (Mike 2026-07-22). RTB House (US) provides a $50/mo expensable internet allowance: claim monthly via Rydoo (draft with the FiOS charge as support); the $39.99 remainder is personal.",activity_1.xlsx
 2026-01-28,Chase0781,,AMAZON MKTPL*RZ6SW8MM3,83.93,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-01-28,Chase0928,,VENMO            PAYMENT    1047884853175   WEB ID: 3264681992,250.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-01-28,Chase0928,,BB TUITION MGMT  BB TUITION 58627204        WEB ID: 205431152,434.5,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
@@ -372,7 +372,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-01-28,Chase7618,,WALMART.COM,497.5,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-01-28,Chase7618,,MOIM SUSHI,136.44,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-01-28,Chase7618,,SPEEDWAY 46893,50.82,GREEN,SPLIT,50,25.41,Vehicle - Gas,,,50% household-fleet business-use allocation (not per-vehicle),Chase7618_Activity20260101_20260510_20260510.CSV
-2026-01-29,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,40.17,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-01-29,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,40.17,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-01-29,AmexPlatinum,MICHAEL K LAMB,IC* INSTACART       SAN FRANCISCO       CA,209.79,YELLOW,NONE,,0.0,Uncategorized,,,,activity.xlsx
 2026-01-29,Chase0928,,ONLINE DOMESTIC WIRE TRANSFER VIA: CITIBANK FSB WASH/254070116 A/C: ARENTFOX SCHIFF LLP PHILADELPHIA PA 19170 US REF: INV 2509868 IMAD: 0129MMQFMP2K026950 TRN: 3434806029ES 01/29,13717.5,GREEN,IN,,13717.5,Legal - Employment Law,,,"100% LLC-deductible (employment law, not personal legal)",Chase0928_Activity_20260510.CSV
 2026-01-29,Chase0928,,IRS              USATAXPYMT 240642902479301 WEB ID: 3387702000,200000.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
@@ -428,7 +428,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-02-02,AmexDeltaReserve,EVELYN C LAMB,AplPay H&M FASHION USECAUCUS            NJ,773.34,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-02-02,Chase0781,,AMAZON MKTPL*WQ1JH33O3,217.24,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-02-02,Chase0928,,Chubb            debitpmt                   PPD ID: 9760958000,-273.48,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
-2026-02-02,Chase0928,,VERIZON WIRELESS PAYMENTS                   PPD ID: 7223344794,291.35,GREEN,FLAT,,76.0,Cell Phone - Mike's Line,,Two simultaneous accounts — consolidation candidate,"Mike's line (917-816-8443, iPhone 17 Pro, $76.54 actual on July bill) expensed to RW in full at a flat $76/mo per Mike's ruling 2026-07-22 — no per-bill reconciliation. Account is the family plan in Carrie's name ($279.64/mo, 6 devices, auto-pay from 0928 checking); only the flat $76 is deductible. July bill filed in receipts/.",Chase0928_Activity_20260510.CSV
+2026-02-02,Chase0928,,VERIZON WIRELESS PAYMENTS                   PPD ID: 7223344794,291.35,GREEN,FLAT,,76.0,Cell Phone - Mike's Line,,"Three intentional accounts, all ruled 2026-07-22 (office Fios=RW, Mike's cell line=$76 flat to RW, home FiOS=$50 RTBH allowance) — watch for amount changes only","Mike's line (917-816-8443, iPhone 17 Pro, $76.54 actual on July bill) expensed to RW in full at a flat $76/mo per Mike's ruling 2026-07-22 — no per-bill reconciliation. Account is the family plan in Carrie's name ($279.64/mo, 6 devices, auto-pay from 0928 checking); only the flat $76 is deductible. July bill filed in receipts/.",Chase0928_Activity_20260510.CSV
 2026-02-02,Chase0928,,Online Transfer to GMR ...0842 transaction#: 27917961760 02/02,16.0,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase0928_Activity_20260510.CSV
 2026-02-02,Chase0928,,Online Transfer to GMR ...1022 transaction#: 27917962141 02/02,14.0,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase0928_Activity_20260510.CSV
 2026-02-02,Chase0928,,MORGAN STANLEY   ACH DEBIT                  PPD ID: 6427014001,15525.75,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
@@ -509,7 +509,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-02-07,AmexDeltaReserve,EVELYN C LAMB,UBER,19.44,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-02-07,AmexDeltaReserve,EVELYN C LAMB,UBER,62.35,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-02-07,AmexPlatinum,MICHAEL K LAMB,BT*CHATTANOOGA TIMESCHATTANOOGA         TN,34.0,YELLOW,NONE,,0.0,Uncategorized,,,,activity.xlsx
-2026-02-07,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,6.0,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-02-07,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,6.0,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-02-07,Chase7618,,SQ *HARVEST - PARK AVE  O,32.61,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-02-07,Chase7618,,BURTON PARK CITY,219.05,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-02-07,Chase7618,,DD *DOORDASH WALGREENS,39.31,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
@@ -536,13 +536,13 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-02-09,AmexDeltaReserve,EVELYN C LAMB,AplPay H&M FASHION USECAUCUS            NJ,-66.12,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-02-09,AmexDeltaReserve,EVELYN C LAMB,AplPay H&M FASHION USECAUCUS            NJ,-236.88,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-02-09,AmexPlatinum,MICHAEL K LAMB,BT*CHATTANOOGA TIMESCHATTANOOGA         TN,-31.52,YELLOW,NONE,,0.0,Uncategorized,,,,activity.xlsx
-2026-02-09,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,9.99,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-02-09,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,9.99,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-02-09,Chase0781,,Amazon.com*B45VF28S3,37.04,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-02-09,Chase0781,,AMAZON MKTPL*728CB9FN3,140.71,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-02-09,Chase0928,,REMOTE ONLINE DEPOSIT #          1,-2689.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-02-09,Chase0928,,"SAUCE, INC* THE ONION GETSAUCE.COM DE        02/08",127.35,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-02-09,Chase0928,,VENMO            PAYMENT    1048158092518   WEB ID: 3264681992,280.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
-2026-02-09,Chase0928,,OPTIMUM 7801     CABLE PMNT                 PPD ID: 9078010001,116.1,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,Chase0928_Activity_20260510.CSV
+2026-02-09,Chase0928,,OPTIMUM 7801     CABLE PMNT                 PPD ID: 9078010001,116.1,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,Chase0928_Activity_20260510.CSV
 2026-02-09,Chase0928,,Online Transfer to GMR ...0842 transaction#: 28005791716 02/09,16.0,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase0928_Activity_20260510.CSV
 2026-02-09,Chase0928,,Online Transfer to GMR ...1022 transaction#: 28005800485 02/09,14.0,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase0928_Activity_20260510.CSV
 2026-02-09,Chase7618,,CVS/PHARMACY #03247,70.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
@@ -571,8 +571,8 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-02-11,AmexDeltaReserve,MICHAEL K LAMB,AplPay STARBUCKS 814EAST ELMHURST       NY,7.62,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-02-11,AmexDeltaReserve,MICHAEL K LAMB,AMEX RESY CREDIT,-8.89,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-02-11,AmexDeltaReserve,MICHAEL K LAMB,AMEX RESY CREDIT,-11.11,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
-2026-02-11,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,54.3,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
-2026-02-11,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,17.32,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-02-11,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,54.3,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
+2026-02-11,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,17.32,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-02-11,Chase0928,,BMWFINANCIAL SVS BMWFS PYMT 359809834       WEB ID: 1222568977,1415.4,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-02-11,Chase0928,,GEICO            PREM COLL                  PPD ID: 3530075853,2197.45,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-02-11,Chase7618,,PAPERSOURCE-4560,84.08,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
@@ -694,7 +694,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-02-19,AmexDeltaReserve,MICHAEL K LAMB,AplPay Carts/Chairs Boston              MA,7.0,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-02-19,AmexDeltaReserve,MICHAEL K LAMB,AplPay BEANS AND BRESALT LAKE CIT       UT,6.18,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-02-19,AmexDeltaReserve,MICHAEL K LAMB,AplPay SHAKE SHACK CSALT LAKE CITY      UT,6.12,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
-2026-02-19,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,116.21,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-02-19,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,116.21,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-02-19,Chase0928,,Online Payment 28126265490 To locust valley electric 02/19,3913.26,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase0928_Activity_20260510.CSV
 2026-02-19,Chase0928,,Zelle payment to Ivan JPM99c69err1,4405.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-02-19,Chase0928,,AMERICAN EXPRESS ACH PMT    A9370           WEB ID: 9493560001,961.22,GRAY,NONE,,0.0,Payments & Transfers,,,Card payments from checking — the spend is already counted on the card side,Chase0928_Activity_20260510.CSV
@@ -813,7 +813,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-02-25,Chase7618,,HYDROW SUBSCRIPTION,50.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-02-25,Chase7618,,ALL FOLKS PSYCHOLOGY,200.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-02-25,Chase7618,,POTTERY BARN CATALOG,-715.72,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
-2026-02-26,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,12.99,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-02-26,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,12.99,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-02-26,Chase0781,,Audible*DB4YX7CL3,5.05,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-02-26,Chase0781,,AMAZON MKTPL*BE8Z95GG2,97.58,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-02-26,Chase0781,,Kindle Svcs*B99I80X21,5.99,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
@@ -857,7 +857,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-02-27,Chase7618,,ALL AMERICAN CARWASH,41.28,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-02-28,AmexDeltaReserve,EVELYN C LAMB,BT*BLUEAPRON        NEW YORK            NY,190.74,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-02-28,AmexDeltaReserve,MICHAEL K LAMB,AplPay TST* HARTFORDFARMINGTON          CT,22.95,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
-2026-02-28,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,17.58,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-02-28,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,17.58,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-02-28,Chase7618,,HUDPUCKERS PUB & GRILL,71.37,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-02-28,Chase7618,,VV IN THE BERKSHIRES,10.97,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-02-28,Chase7618,,SQ *OTHERSIDE WINE BAR,161.64,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
@@ -885,11 +885,11 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-03-01,Chase7618,,CLAUDE.AI SUBSCRIPTION,217.25,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-03-01,Chase7618,,STARBUCKS STORE 07616,8.92,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-03-02,AmexDeltaReserve,EVELYN C LAMB,PY *LIVEAUCTIONEERS NEW YORK            NY,680.26,GRAY,NONE,,0.0,Home/Decorating,,,Auction/vintage/antique platforms -> Home/Decorating per Mike,activity_1.xlsx
-2026-03-02,AmexDeltaReserve,EVELYN C LAMB,VERIZONRECURRING PAY800-VERIZON         FL,190.49,YELLOW,NONE,,0.0,Uncategorized,,Two simultaneous accounts — consolidation candidate,,activity_1.xlsx
+2026-03-02,AmexDeltaReserve,EVELYN C LAMB,VERIZONRECURRING PAY800-VERIZON         FL,190.49,GRAY,NONE,,0.0,Home Internet (FiOS),RTBH_ALLOWANCE_50,"Three intentional accounts, all ruled 2026-07-22 (office Fios=RW, Mike's cell line=$76 flat to RW, home FiOS=$50 RTBH allowance) — watch for amount changes only","Home FiOS, $89.99/mo on the Delta card — NOT RW-deductible (Mike 2026-07-22). RTB House (US) provides a $50/mo expensable internet allowance: claim monthly via Rydoo (draft with the FiOS charge as support); the $39.99 remainder is personal.",activity_1.xlsx
 2026-03-02,AmexDeltaReserve,EVELYN C LAMB,LAGOM               LOCUST VALLEY       NY,54.18,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-03-02,AmexDeltaReserve,EVELYN C LAMB,ENEXIA SPECIALTY 000STATEN ISLAND       NY,300.0,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-03-02,AmexPlatinum,MICHAEL K LAMB,THIRTEEN LLC 9489083NEW YORK            NY,8.0,YELLOW,NONE,,0.0,Uncategorized,,,,activity.xlsx
-2026-03-02,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,24.99,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-03-02,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,24.99,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-03-02,Chase0781,,Amazon.com*BE9582Z61,27.54,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-03-02,Chase0928,,APPLE CASH SENT MONE 1INFINITELOOP CA        03/01,20.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-03-02,Chase0928,,BARCLAYCARD US   CREDITCARD 1383239553      WEB ID: 2510407970,227.21,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
@@ -903,7 +903,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-03-02,Chase0928,,CHECK 1141,7200.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-03-02,Chase0928,,Online Transfer to GMR ...1022 transaction#: 28270821990 03/02,14.0,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase0928_Activity_20260510.CSV
 2026-03-02,Chase0928,,"Zelle payment to MELISSA SORNIK LCSW PLLC, SEACLIFF, JPM99c7okres",250.0,GRAY,NONE,,0.0,Professional Support - Children,REIMBURSEMENT_OUTSTANDING,,Zelle to Melissa Sornik LCSW — never submitted for insurance reimbursement; flag every payment until Mike confirms submission,Chase0928_Activity_20260510.CSV
-2026-03-02,Chase0928,,VERIZON WIRELESS PAYMENTS                   PPD ID: 7223344794,290.22,GREEN,FLAT,,76.0,Cell Phone - Mike's Line,,Two simultaneous accounts — consolidation candidate,"Mike's line (917-816-8443, iPhone 17 Pro, $76.54 actual on July bill) expensed to RW in full at a flat $76/mo per Mike's ruling 2026-07-22 — no per-bill reconciliation. Account is the family plan in Carrie's name ($279.64/mo, 6 devices, auto-pay from 0928 checking); only the flat $76 is deductible. July bill filed in receipts/.",Chase0928_Activity_20260510.CSV
+2026-03-02,Chase0928,,VERIZON WIRELESS PAYMENTS                   PPD ID: 7223344794,290.22,GREEN,FLAT,,76.0,Cell Phone - Mike's Line,,"Three intentional accounts, all ruled 2026-07-22 (office Fios=RW, Mike's cell line=$76 flat to RW, home FiOS=$50 RTBH allowance) — watch for amount changes only","Mike's line (917-816-8443, iPhone 17 Pro, $76.54 actual on July bill) expensed to RW in full at a flat $76/mo per Mike's ruling 2026-07-22 — no per-bill reconciliation. Account is the family plan in Carrie's name ($279.64/mo, 6 devices, auto-pay from 0928 checking); only the flat $76 is deductible. July bill filed in receipts/.",Chase0928_Activity_20260510.CSV
 2026-03-02,Chase7618,,REDO TECH* RETURN PETE,6.75,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-03-02,Chase7618,,SEWANEE TIGER TENN,1167.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-03-02,Chase7618,,DD *DOORDASH YUMMYSUSH,37.46,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
@@ -988,7 +988,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-03-09,AmexDeltaReserve,EVELYN C LAMB,LOCUST VALLEY MARKETLOCUST VALLEY       NY,22.95,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-03-09,AmexDeltaReserve,EVELYN C LAMB,SHOPHOUZZ.COM       HOUSTON             TX,567.0,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-03-09,AmexPlatinum,MICHAEL K LAMB,AXS.COM*FOREST HILLSLOS ANGELES         CA,485.56,YELLOW,NONE,,0.0,Uncategorized,,,,activity.xlsx
-2026-03-09,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,9.99,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-03-09,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,9.99,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-03-09,AmexPlatinum,MICHAEL K LAMB,IC* COSTCO BY INSTACSAN FRANCISCO       CA,147.14,YELLOW,NONE,,0.0,Uncategorized,,,,activity.xlsx
 2026-03-09,Chase0781,,AMAZON MKTPL*BP6F39ZH1,175.93,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-03-09,Chase0781,,Amazon.com*BP2RD1N31,60.59,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
@@ -1010,7 +1010,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-03-10,AmexPlatinum,MICHAEL K LAMB,Walmart+ Member 03/28009666546          AR,14.07,YELLOW,NONE,,0.0,Uncategorized,,,,activity.xlsx
 2026-03-10,AmexPlatinum,MICHAEL K LAMB,Platinum Walmart+ Credit,-14.07,YELLOW,NONE,,0.0,Uncategorized,,,,activity.xlsx
 2026-03-10,Chase0928,,APPLE CASH SENT MONE 1INFINITELOOP CA        03/09,12.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
-2026-03-10,Chase0928,,OPTIMUM 7801     CABLE PMNT                 PPD ID: 9078010001,2.32,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,Chase0928_Activity_20260510.CSV
+2026-03-10,Chase0928,,OPTIMUM 7801     CABLE PMNT                 PPD ID: 9078010001,2.32,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,Chase0928_Activity_20260510.CSV
 2026-03-10,Chase0928,,Payment to Chase card ending in 7618 03/10,34499.05,GRAY,NONE,,0.0,Payments & Transfers,,,Card payments from checking — the spend is already counted on the card side,Chase0928_Activity_20260510.CSV
 2026-03-10,Chase7618,,Payment Thank You-Mobile,-34499.05,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase7618_Activity20260101_20260510_20260510.CSV
 2026-03-10,Chase7618,,CVS/PHARMACY #03247,53.28,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
@@ -1024,7 +1024,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-03-11,AmexDeltaReserve,EVELYN C LAMB,NYCT PAYGO          NEW YORK            NY,3.0,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-03-11,AmexDeltaReserve,EVELYN C LAMB,LIRR ETIX TICKET    718-217-5477        NY,27.0,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-03-11,AmexDeltaReserve,EVELYN C LAMB,LIRR ETIX TICKET    718-217-5477        NY,20.0,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
-2026-03-11,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,1.08,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-03-11,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,1.08,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-03-11,Chase0781,,AMAZON MKTPL*BP6NY7BN1,358.45,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-03-11,Chase0781,,AMAZON MKTPL*BP9OE1F40,27.67,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-03-11,Chase0928,,Zelle payment to Monica JPM99c8pitag,1400.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
@@ -1101,7 +1101,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-03-16,Chase7618,,TST*WHISKEY TRADER,11.08,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-03-16,Chase7618,,BAR RESTAURANTE OLGAS,17.68,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-03-16,Chase7618,,BAR RESTAURANTE OLGAS,47.26,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
-2026-03-17,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,1.08,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-03-17,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,1.08,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-03-17,Chase0928,,JFK T5 H AND H BAGELS - JAMAICA NY           03/16,20.13,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-03-17,Chase0928,,Zelle payment to Ivan JPM99c9h4d4d,7000.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-03-17,Chase0928,,Zelle payment to James Grimaldi JPM99c9h4cvz,1000.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
@@ -1154,8 +1154,8 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-03-20,AmexDeltaReserve,EVELYN C LAMB,"LA LUNA (RESTAURANTENICOYA,NOSARA",318.94,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-03-20,AmexDeltaReserve,EVELYN C LAMB,SP CINQASEPT        VERNON              CA,1224.47,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-03-20,AmexPlatinum,MICHAEL K LAMB,SPOTIFY P4091CE00E 6NEW YORK            NY,21.99,YELLOW,NONE,,0.0,Uncategorized,,,,activity.xlsx
-2026-03-20,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,273.71,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
-2026-03-20,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,31.99,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-03-20,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,273.71,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
+2026-03-20,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,31.99,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-03-20,Chase0928,,APPLE CASH SENT MONEY 877-233-8552 CA        03/19,10.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-03-20,Chase0928,,ONLINE DOMESTIC WIRE TRANSFER VIA: CONNECTONE BANK/021213944 A/C: CAVIT PROPERTIES LLC OYSTER BAY NY 11771 US REF: LAMB SECURITY AND FIRST MONTH IMAD: 0320MMQFMP2K009670 TRN: 3194526079ES 03/20,2850.0,GREEN,IN,,2850.0,Office Rent,,,Oyster Bay office,Chase0928_Activity_20260510.CSV
 2026-03-20,Chase0928,,"ONLINE DOMESTIC WIRE TRANSFER A/C: COMPASS GREATER NY, LLC NEW YORK NY 10011- US REF: LAMB FOR SAMANTHA LORDI 111 SOUTH ST, 240-4, OYSTER BAY NY 11771 TRN: 3196166079ES 03/20",950.0,GREEN,IN,,950.0,Leasing Commission,,,,Chase0928_Activity_20260510.CSV
@@ -1201,7 +1201,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-03-23,AmexDeltaReserve,MICHAEL K LAMB,AMEX UBER ONE CREDIT,-9.99,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-03-23,AmexDeltaReserve,MICHAEL K LAMB,"NAKEDWINES.COM, INC NAPA                CA",20.0,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-03-23,AmexDeltaReserve,MICHAEL K LAMB,UBER ONE            help.uber.com       CA,9.99,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
-2026-03-23,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,5.42,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-03-23,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,5.42,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-03-23,AmexPlatinum,MICHAEL K LAMB,IC* BOTTLEBU VIA INSGLEN HEAD           NY,366.28,YELLOW,NONE,,0.0,Uncategorized,,,,activity.xlsx
 2026-03-23,Chase0781,,Audible*R16GS0NO3,13.2,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-03-23,Chase0781,,Kindle Svcs*BG6441072,13.99,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
@@ -1211,7 +1211,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-03-23,Chase0928,,APPLE CASH SENT MONEY 877-233-8552 CA        03/22,18.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-03-23,Chase0928,,REMOTE ONLINE DEPOSIT #          1,-16334.77,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-03-23,Chase0928,,VENMO            PAYMENT    1049087266921   WEB ID: 3264681992,280.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
-2026-03-23,Chase0928,,OPTIMUM 7801     CABLE PMNT                 PPD ID: 9078010001,130.0,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,Chase0928_Activity_20260510.CSV
+2026-03-23,Chase0928,,OPTIMUM 7801     CABLE PMNT                 PPD ID: 9078010001,130.0,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,Chase0928_Activity_20260510.CSV
 2026-03-23,Chase0928,,Online Transfer to GMR ...1022 transaction#: 28537206061 03/23,14.0,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase0928_Activity_20260510.CSV
 2026-03-23,Chase0928,,Online Transfer to GMR ...0842 transaction#: 28537206764 03/23,16.0,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase0928_Activity_20260510.CSV
 2026-03-23,Chase7618,,DOORDASH*03/22-2 ORDER,43.01,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
@@ -1255,7 +1255,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-03-25,Chase7618,,GOOGLE *Google One,10.85,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-03-25,Chase7618,,HARBORSIDE DELI,11.14,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-03-26,AmexDeltaReserve,MICHAEL K LAMB,TIANA  WELLNESS SUITLOCUST VALLEY       NY,208.0,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
-2026-03-26,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,12.99,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-03-26,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,12.99,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-03-26,AmexPlatinum,MICHAEL K LAMB,SP MY COLD THERAPY  CHARLOTTE           NC,104.99,YELLOW,NONE,,0.0,Uncategorized,,,,activity.xlsx
 2026-03-26,Chase0928,,REMOTE ONLINE DEPOSIT #          1,-4028.65,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-03-26,Chase7618,,BRINKMANN'S,5.51,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
@@ -1281,7 +1281,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-03-28,AmexDeltaReserve,EVELYN C LAMB,PY *LIVEAUCTIONEERS GARNET VALLEY       PA,125.14,GRAY,NONE,,0.0,Home/Decorating,,,Auction/vintage/antique platforms -> Home/Decorating per Mike,activity_1.xlsx
 2026-03-28,AmexDeltaReserve,EVELYN C LAMB,LIRR ETIX TICKET    718-217-5477        NY,3.75,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-03-28,AmexDeltaReserve,EVELYN C LAMB,BT*BLUEAPRON        NEW YORK            NY,125.99,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
-2026-03-28,AmexDeltaReserve,EVELYN C LAMB,VERIZONRECURRING PAY800-VERIZON         FL,89.99,YELLOW,NONE,,0.0,Uncategorized,,Two simultaneous accounts — consolidation candidate,,activity_1.xlsx
+2026-03-28,AmexDeltaReserve,EVELYN C LAMB,VERIZONRECURRING PAY800-VERIZON         FL,89.99,GRAY,NONE,,0.0,Home Internet (FiOS),RTBH_ALLOWANCE_50,"Three intentional accounts, all ruled 2026-07-22 (office Fios=RW, Mike's cell line=$76 flat to RW, home FiOS=$50 RTBH allowance) — watch for amount changes only","Home FiOS, $89.99/mo on the Delta card — NOT RW-deductible (Mike 2026-07-22). RTB House (US) provides a $50/mo expensable internet allowance: claim monthly via Rydoo (draft with the FiOS charge as support); the $39.99 remainder is personal.",activity_1.xlsx
 2026-03-28,Chase0781,,Prime Video *BC1D68AV2,19.99,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-03-28,Chase7618,,ORCHID RESTAURANT,32.9,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-03-28,Chase7618,,PEOPLE DATA LABS,653.92,GREEN,IN,,653.92,B2B Data API,,,,Chase7618_Activity20260101_20260510_20260510.CSV
@@ -1289,7 +1289,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-03-28,Chase7618,,SQ *PINONS PIZZA COMPANY,76.04,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-03-28,Chase7618,,FS *typora.io,16.29,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-03-28,Chase7618,,JETBLUE BUY ON BOARD,11.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
-2026-03-29,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,17.58,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-03-29,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,17.58,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-03-29,Chase0781,,AMAZON MKTPL*B529O4K90,51.27,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-03-29,Chase7618,,AMTRAK .COM 0880667584846,73.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-03-29,Chase7618,,BRINKMANN'S,7.59,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
@@ -1341,7 +1341,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-04-01,AmexDeltaReserve,EVELYN C LAMB,PY *LIVEAUCTIONEERS SOUTH BEND          IN,2901.6,GRAY,NONE,,0.0,Home/Decorating,,,Auction/vintage/antique platforms -> Home/Decorating per Mike,activity_1.xlsx
 2026-04-01,Chase0781,,AMAZON PRIME*BG7J13E70,2.99,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-04-01,Chase0928,,GREENS IRISH PUB MANHASSET NY                03/31,10.36,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
-2026-04-01,Chase0928,,VERIZON WIRELESS PAYMENTS                   PPD ID: 7223344794,282.24,GREEN,FLAT,,76.0,Cell Phone - Mike's Line,,Two simultaneous accounts — consolidation candidate,"Mike's line (917-816-8443, iPhone 17 Pro, $76.54 actual on July bill) expensed to RW in full at a flat $76/mo per Mike's ruling 2026-07-22 — no per-bill reconciliation. Account is the family plan in Carrie's name ($279.64/mo, 6 devices, auto-pay from 0928 checking); only the flat $76 is deductible. July bill filed in receipts/.",Chase0928_Activity_20260510.CSV
+2026-04-01,Chase0928,,VERIZON WIRELESS PAYMENTS                   PPD ID: 7223344794,282.24,GREEN,FLAT,,76.0,Cell Phone - Mike's Line,,"Three intentional accounts, all ruled 2026-07-22 (office Fios=RW, Mike's cell line=$76 flat to RW, home FiOS=$50 RTBH allowance) — watch for amount changes only","Mike's line (917-816-8443, iPhone 17 Pro, $76.54 actual on July bill) expensed to RW in full at a flat $76/mo per Mike's ruling 2026-07-22 — no per-bill reconciliation. Account is the family plan in Carrie's name ($279.64/mo, 6 devices, auto-pay from 0928 checking); only the flat $76 is deductible. July bill filed in receipts/.",Chase0928_Activity_20260510.CSV
 2026-04-01,Chase0928,,APPLE CASH SENT MONE 1INFINITELOOP CA        03/31,10.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-04-01,Chase0928,,ROMANO PIZZA RESTAURANT NEW YORK NY          03/30,5.58,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-04-01,Chase0928,,E-ZPASS REBILL   EZP REBILL 1141743         WEB ID: 0000284343,65.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
@@ -1424,7 +1424,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-04-05,Chase7618,,OXYLABS,32.59,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-04-05,Chase7618,,DD *DOORDASH DUNKIN,23.2,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-04-06,AmexPlatinum,MICHAEL K LAMB,UBER TRIP           HTTPS://HELP.UBER.COGB,29.11,YELLOW,NONE,,0.0,Uncategorized,,,,activity.xlsx
-2026-04-06,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,1.08,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-04-06,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,1.08,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-04-06,Chase0928,,Online Transfer to GMR ...0842 transaction#: 28720430300 04/06,16.0,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase0928_Activity_20260510.CSV
 2026-04-06,Chase0928,,New York Radio   6468294000                 WEB ID: 0008818955,18.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-04-06,Chase0928,,NGRID37          NGRID37WEB 2548616022      WEB ID: 9111019782,1539.18,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
@@ -1460,7 +1460,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-04-06,Chase7618,,TATE BRITAIN,13.25,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-04-06,Chase7618,,HAM YARD BAR AND RESTAURA,113.95,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-04-07,AmexPlatinum,MICHAEL K LAMB,AplPay LW THEATRES GLondon              GB,5.31,GRAY,NONE,,0.0,Travel - London,,,,activity.xlsx
-2026-04-07,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,86.89,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-04-07,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,86.89,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-04-07,AmexPlatinum,MICHAEL K LAMB,AplPay KNOOPS       LONDON              GB,8.89,GRAY,NONE,,0.0,Travel - London,,,,activity.xlsx
 2026-04-07,Chase0928,,The Knight London                            04/07 Pound Sterl7.75 X 1.327742 (EXCHG RTE),10.29,GRAY,NONE,,0.0,Travel - London,,,,Chase0928_Activity_20260510.CSV
 2026-04-07,Chase7618,,GOOGLE *YouTube TV,82.99,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
@@ -1507,7 +1507,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-04-09,AmexDeltaReserve,EVELYN C LAMB,TFL TRAVEL CHARGE   TFL.GOV.UK/CP       GB,12.0,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-04-09,AmexDeltaReserve,EVELYN C LAMB,ST. PANCRAS STATION LONDON              GB,5.06,GRAY,NONE,,0.0,Travel - London,,,,activity_1.xlsx
 2026-04-09,AmexPlatinum,MICHAEL K LAMB,AplPay TFL TRAVEL CHTFL.GOV.UK/CP       GB,13.57,YELLOW,NONE,,0.0,Uncategorized,,,,activity.xlsx
-2026-04-09,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,9.99,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-04-09,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,9.99,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-04-09,AmexPlatinum,MICHAEL K LAMB,AplPay WWW BENUGO COLONDON              GB,11.42,GRAY,NONE,,0.0,Travel - London,,,,activity.xlsx
 2026-04-09,Chase0928,,BAYSIXTY6 LIMITE PURCHASE   1049479420476   WEB ID: 770510487C,69.29,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-04-09,Chase0928,,CHERWELL BOATHOUSE OXFORD                    04/08 Pound Sterl25.00 X 1.330400 (EXCHG RTE),33.26,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
@@ -1648,7 +1648,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-04-19,Chase7618,,MELT SHOP ROOSEVELT FIELD,36.54,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-04-20,AmexDeltaReserve,EVELYN C LAMB,LAGOM               LOCUST VALLEY       NY,59.56,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-04-20,AmexDeltaReserve,EVELYN C LAMB,JILDOR SHOES OF WHEAGREENVALE           NY,57.54,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
-2026-04-20,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,23.01,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-04-20,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,23.01,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-04-20,AmexPlatinum,MICHAEL K LAMB,SPOTIFY P419EEF26A 6NEW YORK            NY,21.99,YELLOW,NONE,,0.0,Uncategorized,,,,activity.xlsx
 2026-04-20,Chase0781,,AMAZON MKTPL*BS58X92C2,23.16,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-04-20,Chase0781,,Amazon.com*BY5LR8490,38.55,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
@@ -1678,7 +1678,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-04-21,AmexPlatinum,MICHAEL K LAMB,NYTimes.COM NY TIMES(800)698-4637       NY,30.0,YELLOW,NONE,,0.0,Uncategorized,,,,activity.xlsx
 2026-04-21,AmexPlatinum,MICHAEL K LAMB,Platinum Digital Entertainment Credit,-25.0,YELLOW,NONE,,0.0,Uncategorized,,,,activity.xlsx
 2026-04-21,AmexPlatinum,MICHAEL K LAMB,RENEWAL MEMBERSHIP FEE,895.0,YELLOW,NONE,,0.0,Uncategorized,,,,activity.xlsx
-2026-04-21,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,13.01,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-04-21,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,13.01,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-04-21,Chase0781,,AMAZON MKTPL*BY5TJ4NH0,28.95,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-04-21,Chase0781,,AMAZON MKTPL*BY8ZW6A30,70.61,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-04-21,Chase0781,,AMAZON MKTPL*BY4P982Z1,22.99,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
@@ -1751,7 +1751,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-04-25,Chase7618,,MARRIOTT CRYSTAL GWY F,11.53,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-04-25,Chase7618,,DD *DOORDASH YUMMYSUSH,38.74,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-04-26,AmexDeltaReserve,EVELYN C LAMB,SP HYPERICE         IRVINE              CA,449.0,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
-2026-04-26,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,12.99,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-04-26,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,12.99,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-04-26,Chase0781,,Prime Video *BJ4LP6K32,3.99,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-04-26,Chase7618,,SP UTOPIA DESIGNZ,-31.98,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-04-26,Chase7618,,MARRIOTT CRYSTAL GATEW,383.88,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
@@ -1769,7 +1769,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-04-27,AmexDeltaReserve,EVELYN C LAMB,LAGOM               LOCUST VALLEY       NY,266.55,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-04-27,AmexDeltaReserve,EVELYN C LAMB,LAGOM               LOCUST VALLEY       NY,49.8,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
 2026-04-27,AmexDeltaReserve,EVELYN C LAMB,DD *DOORDASH CVS    SAN FRANCISCO       CA,33.6,YELLOW,NONE,,0.0,Uncategorized,,,,activity_1.xlsx
-2026-04-27,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,1.08,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,activity.xlsx
+2026-04-27,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,1.08,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,activity.xlsx
 2026-04-27,Chase0928,,SK 8 CHARLESTON SC                           04/26,4.36,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-04-27,Chase0928,,CHS ASHLEY COOPER CHARLESTON SC              04/26,17.16,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-04-27,Chase0928,,VENMO            PAYMENT    1049877822397   WEB ID: 3264681992,270.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
@@ -1781,10 +1781,10 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-04-27,Chase7618,,LOCUST VALLEY MARKET #104,28.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-04-27,Chase7618,,TST* EDMUND'S OAST BREWIN,57.38,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-04-27,Chase7618,,DNH*GODADDY,97.36,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
-2026-04-27,Chase7618,,VERIZON BILL PAYMENT,170.55,GREEN,IN,,170.55,Office Internet,,Two simultaneous accounts — consolidation candidate,"Office Fios at 111 South St, Oyster Bay — Verizon acct 258-371-285, billed to RECEIVEDWISDOM LLC, $170.55/mo (confirmed RW by Mike 2026-07-22). On auto-pay from the RW account since ~May; the 2026-04-27 charge on Chase 7618 was the first bill paid personally — reimbursable. Bills filed in receipts/. Distinct from VERIZON WIRELESS (checking) and VERIZONRECURRING $89.99 (Delta card), which stay under review.",Chase7618_Activity20260101_20260510_20260510.CSV
+2026-04-27,Chase7618,,VERIZON BILL PAYMENT,170.55,GREEN,IN,,170.55,Office Internet,,"Three intentional accounts, all ruled 2026-07-22 (office Fios=RW, Mike's cell line=$76 flat to RW, home FiOS=$50 RTBH allowance) — watch for amount changes only","Office Fios at 111 South St, Oyster Bay — Verizon acct 258-371-285, billed to RECEIVEDWISDOM LLC, $170.55/mo (confirmed RW by Mike 2026-07-22). On auto-pay from the RW account since ~May; the 2026-04-27 charge on Chase 7618 was the first bill paid personally — reimbursable. Bills filed in receipts/. Distinct from VERIZON WIRELESS (checking) and VERIZONRECURRING $89.99 (Delta card), which stay under review.",Chase7618_Activity20260101_20260510_20260510.CSV
 2026-04-27,Chase7618,,HARBORSIDE DELI,20.06,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-04-27,Chase7618,,ALL AMERICAN CARWASH,35.85,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
-2026-04-28,AmexDeltaReserve,EVELYN C LAMB,VERIZONRECURRING PAY800-VERIZON         FL,89.99,YELLOW,NONE,,0.0,Uncategorized,,Two simultaneous accounts — consolidation candidate,,activity_1.xlsx
+2026-04-28,AmexDeltaReserve,EVELYN C LAMB,VERIZONRECURRING PAY800-VERIZON         FL,89.99,GRAY,NONE,,0.0,Home Internet (FiOS),RTBH_ALLOWANCE_50,"Three intentional accounts, all ruled 2026-07-22 (office Fios=RW, Mike's cell line=$76 flat to RW, home FiOS=$50 RTBH allowance) — watch for amount changes only","Home FiOS, $89.99/mo on the Delta card — NOT RW-deductible (Mike 2026-07-22). RTB House (US) provides a $50/mo expensable internet allowance: claim monthly via Rydoo (draft with the FiOS charge as support); the $39.99 remainder is personal.",activity_1.xlsx
 2026-04-28,Chase0781,,AMAZON MKTPL*BS32L5W31,71.68,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-04-28,Chase0928,,E-ZPASS REBILL   EZP REBILL 0523891         WEB ID: 0000284343,65.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-04-28,Chase7618,,LOCUST VALLEY DENTISTS,325.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
@@ -1821,7 +1821,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-05-01,AmexPlatinum,MICHAEL K LAMB,UBER,83.39,YELLOW,NONE,,0.0,Uncategorized,,,,AmexPlat_2026-05_06.csv
 2026-05-01,Chase0781,,AMAZON PRIME*BS8836RB0,4.99,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-05-01,Chase0928,,Online Transfer to  CHK ...3151 transaction#: 28650999383 05/01,2500.0,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase0928_Activity_20260510.CSV
-2026-05-01,Chase0928,,VERIZON WIRELESS PAYMENTS                   PPD ID: 7223344794,441.55,GREEN,FLAT,,76.0,Cell Phone - Mike's Line,,Two simultaneous accounts — consolidation candidate,"Mike's line (917-816-8443, iPhone 17 Pro, $76.54 actual on July bill) expensed to RW in full at a flat $76/mo per Mike's ruling 2026-07-22 — no per-bill reconciliation. Account is the family plan in Carrie's name ($279.64/mo, 6 devices, auto-pay from 0928 checking); only the flat $76 is deductible. July bill filed in receipts/.",Chase0928_Activity_20260510.CSV
+2026-05-01,Chase0928,,VERIZON WIRELESS PAYMENTS                   PPD ID: 7223344794,441.55,GREEN,FLAT,,76.0,Cell Phone - Mike's Line,,"Three intentional accounts, all ruled 2026-07-22 (office Fios=RW, Mike's cell line=$76 flat to RW, home FiOS=$50 RTBH allowance) — watch for amount changes only","Mike's line (917-816-8443, iPhone 17 Pro, $76.54 actual on July bill) expensed to RW in full at a flat $76/mo per Mike's ruling 2026-07-22 — no per-bill reconciliation. Account is the family plan in Carrie's name ($279.64/mo, 6 devices, auto-pay from 0928 checking); only the flat $76 is deductible. July bill filed in receipts/.",Chase0928_Activity_20260510.CSV
 2026-05-01,Chase7618,,RON-A-ROLL INDOOR ROLL,2.76,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-05-01,Chase7618,,CLAUDE.AI SUBSCRIPTION,217.25,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-05-01,Chase7618,,CHICKEN  BEER,22.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
@@ -1837,7 +1837,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-05-02,AmexDeltaReserve,MICHAEL K LAMB,DELTA AIR LINES,1269.01,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-05-02,AmexDeltaReserve,EVELYN C LAMB,BLUEAPRON           NEW YORK            NY,131.99,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-05-02,AmexPlatinum,MICHAEL K LAMB,UBER,39.11,YELLOW,NONE,,0.0,Uncategorized,,,,AmexPlat_2026-05_06.csv
-2026-05-02,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,21.71,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,AmexPlat_2026-05_06.csv
+2026-05-02,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,21.71,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,AmexPlat_2026-05_06.csv
 2026-05-02,Chase7618,,DD *DOORDASH CHIPOTLEM,36.48,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260101_20260510_20260510.CSV
 2026-05-03,AmexDeltaReserve,EVELYN C LAMB,SP LOEUF POCHE      SANTA MONICA        CA,224.6,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-05-03,AmexDeltaReserve,MICHAEL K LAMB,AUTOPAY PAYMENT - THANK YOU,-8791.45,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",AmexDelta_2026-05_06.csv
@@ -1855,7 +1855,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-05-04,AmexDeltaReserve,EVELYN C LAMB,CONOCO FUEL         LOCUST VALLEY       NY,14.95,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-05-04,AmexDeltaReserve,EVELYN C LAMB,LAGOM               SAN FRANCISCO       CA,59.56,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-05-04,AmexPlatinum,MICHAEL K LAMB,IC* BOTTLEBU VIA INSGLEN HEAD           NY,361.44,YELLOW,NONE,,0.0,Uncategorized,,,,AmexPlat_2026-05_06.csv
-2026-05-04,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,52.58,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,AmexPlat_2026-05_06.csv
+2026-05-04,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,52.58,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,AmexPlat_2026-05_06.csv
 2026-05-04,Chase0781,,Kindle Unltd*WS2UD7AX3,11.99,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0781_Activity20260101_20260510_20260510.CSV
 2026-05-04,Chase0928,,VENMO            PAYMENT    1050005150003   WEB ID: 3264681992,70.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
 2026-05-04,Chase0928,,VENMO            PAYMENT    1050041360188   WEB ID: 3264681992,96.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260510.CSV
@@ -1921,7 +1921,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-05-09,AmexDeltaReserve,EVELYN C LAMB,EXXONMOBIL          ASHFORD             CT,117.14,GREEN,SPLIT,50,58.57,Vehicle - Gas,,,50% household-fleet business-use allocation (not per-vehicle),AmexDelta_2026-05_06.csv
 2026-05-09,AmexDeltaReserve,EVELYN C LAMB,BLUEAPRON           NEW YORK            NY,131.99,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-05-09,AmexPlatinum,MICHAEL K LAMB,UBER EATS           help.uber.com       CA,53.2,YELLOW,NONE,,0.0,Uncategorized,,,,AmexPlat_2026-05_06.csv
-2026-05-09,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,9.99,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,AmexPlat_2026-05_06.csv
+2026-05-09,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,9.99,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,AmexPlat_2026-05_06.csv
 2026-05-09,Chase7618,,TST*NAPLES PIZZA - FARMI,58.84,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-09,Chase7618,,Payment Thank You-Mobile,-12220.49,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-09,Chase7618,,CUMBERLAND FARMS 4693,15.89,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
@@ -2036,7 +2036,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-05-19,Chase7618,,VSP*COVER CARE  LLC,1118.32,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-19,Chase7618,,DD *DOORDASH STOPSHOP,72.52,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-19,Chase7618,,HARBORSIDE DELI,10.63,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
-2026-05-20,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,23.01,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,AmexPlat_2026-05_06.csv
+2026-05-20,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,23.01,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,AmexPlat_2026-05_06.csv
 2026-05-20,AmexPlatinum,MICHAEL K LAMB,SPOTIFY P42A2F413C 6NEW YORK            NY,21.99,YELLOW,NONE,,0.0,Uncategorized,,,,AmexPlat_2026-05_06.csv
 2026-05-20,Chase0928,,PETSBESTINSURANC WEBPAYMENT                 WEB ID: 3383693141,49.47,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
 2026-05-20,Chase0928,,MYKIDSSPENDING.C PURCHASE   MPS             WEB ID: 2330903620,202.75,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
@@ -2046,7 +2046,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-05-20,Chase7618,,LITTLE FLOWER HOUSE,148.82,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-20,Chase7618,,ALL FOLKS PSYCHOLOGY,200.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-20,Chase7618,,DIANES,13.04,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
-2026-05-21,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,2.16,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,AmexPlat_2026-05_06.csv
+2026-05-21,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,2.16,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,AmexPlat_2026-05_06.csv
 2026-05-21,Chase0928,,APPLE CASH SENT MONE 1INFINITELOOP CA        05/20,12.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
 2026-05-21,Chase0928,,Zelle payment to ANDRE 29307740781,200.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
 2026-05-21,Chase7618,,WHOLEFDS JER 10161,230.51,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
@@ -2061,7 +2061,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-05-23,AmexDeltaReserve,MICHAEL K LAMB,UBER ONE            help.uber.com       CA,9.99,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-05-23,AmexDeltaReserve,MICHAEL K LAMB,SUITE SKIN          LOCUST VALLEY       NY,208.0,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-05-23,AmexDeltaReserve,MICHAEL K LAMB,"NAKEDWINES.COM, INC NAPA                CA",20.0,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
-2026-05-23,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,1.08,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,AmexPlat_2026-05_06.csv
+2026-05-23,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,1.08,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,AmexPlat_2026-05_06.csv
 2026-05-23,Chase7618,,CLAUDE.AI SUBSCRIPTION,217.25,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-24,Chase7618,,PEOPLE DATA LABS,1505.27,GREEN,IN,,1505.27,B2B Data API,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-24,Chase7618,,ALLSTATE877-927-7268,21.71,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
@@ -2074,7 +2074,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-05-24,Chase7618,,THE STATIONERY STUDIO LLC,194.67,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-24,Chase7618,,DD *DOORDASH WINGSOVER,28.17,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-24,Chase7618,,GRACES MARKETPLACE,225.56,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
-2026-05-25,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,1.08,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,AmexPlat_2026-05_06.csv
+2026-05-25,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,1.08,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,AmexPlat_2026-05_06.csv
 2026-05-25,Chase7618,,GOOGLE *Google One,21.71,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-25,Chase7618,,HYDROW SUBSCRIPTION,50.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-25,Chase7618,,FANDANGO    *,36.36,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
@@ -2083,7 +2083,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-05-25,Chase7618,,DD *DOORDASH STARBUCKS,18.23,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-25,Chase7618,,SP FORGED RACING,72.93,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-26,AmexBonvoy,,TWO BY FOUR 00000000OYSTER BAY          NY,106.8,GRAY,NONE,,0.0,Pets - Dog Boarding,,,Dog boarding facility (Oyster Bay) — confirmed by Mike 2026-07-22; recurring ~$106.80 on Amex Bonvoy,AmexBonvoy_2026-05_06.csv
-2026-05-26,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,12.99,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,AmexPlat_2026-05_06.csv
+2026-05-26,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,12.99,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,AmexPlat_2026-05_06.csv
 2026-05-26,Chase0928,,PAY*CAMP CAROLINA 828-8842414 NC             05/25,2000.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
 2026-05-26,Chase0928,,FEDWIRE CREDIT VIA: BNP PARIBAS SA NEW YORK BRANCH/026007689 B/O: 1/RTB MARKETING AND TECH SERVICES L3/CY/2408 NICOSIA REF: CHASE NYC/CTR/BNF=MICHAEL K LAMB EVELYN C LAMB LOCUST VALLEY NY 11560- 2323 US/AC-000000008038 RFB=V260525 B89272490 OBI=/URI/CONSULTING SERVI CES RENDERED I N MAY2026/ IMAD: 0526B1Q8201C000260 TRN: 0005141146FF,-1000.0,GRAY,NONE,,0.0,Income - Schedule C (direct),,,"Wires from RTB Marketing and Tech Services (Cyprus) — B2B/Schedule C income paid directly to Mike, NOT W2. $58,333.34/mo through Apr 2026 (Feb = 7-month catch-up lump), $1k/mo residual from May 2026 after consulting moved to Received Wisdom (confirmed 2026-07-22)",Chase0928_Activity_20260722.CSV
 2026-05-26,Chase0928,,Online Transfer from CHK ...0014 transaction#: 29360346764,-55000.0,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase0928_Activity_20260722.CSV
@@ -2118,7 +2118,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-05-27,Chase7618,,LOCUST VALLEY MARKET #104,62.54,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-27,Chase7618,,EXXON J&S SERVICE STAT,110.64,GREEN,SPLIT,50,55.32,Vehicle - Gas,,,50% household-fleet business-use allocation (not per-vehicle),Chase7618_Activity20260501_20260630_20260722.CSV
 2026-05-27,Chase7618,,CAMPMEDS LLC,105.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
-2026-05-28,AmexDeltaReserve,EVELYN C LAMB,VERIZONRECURRING PAY800-VERIZON         FL,89.99,YELLOW,NONE,,0.0,Uncategorized,,Two simultaneous accounts — consolidation candidate,,AmexDelta_2026-05_06.csv
+2026-05-28,AmexDeltaReserve,EVELYN C LAMB,VERIZONRECURRING PAY800-VERIZON         FL,89.99,GRAY,NONE,,0.0,Home Internet (FiOS),RTBH_ALLOWANCE_50,"Three intentional accounts, all ruled 2026-07-22 (office Fios=RW, Mike's cell line=$76 flat to RW, home FiOS=$50 RTBH allowance) — watch for amount changes only","Home FiOS, $89.99/mo on the Delta card — NOT RW-deductible (Mike 2026-07-22). RTB House (US) provides a $50/mo expensable internet allowance: claim monthly via Rydoo (draft with the FiOS charge as support); the $39.99 remainder is personal.",AmexDelta_2026-05_06.csv
 2026-05-28,AmexDeltaReserve,EVELYN C LAMB,LGA SUNDAY SUPPER TREAST ELMHURST       NY,26.69,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-05-28,AmexDeltaReserve,EVELYN C LAMB,LGA SUNDAY SUPPER TREAST ELMHURST       NY,65.45,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-05-28,Chase0928,,"Zelle payment to MELISSA SORNIK LCSW PLLC, SEACLIFF, JPM99cimctg5",250.0,GRAY,NONE,,0.0,Professional Support - Children,REIMBURSEMENT_OUTSTANDING,,Zelle to Melissa Sornik LCSW — never submitted for insurance reimbursement; flag every payment until Mike confirms submission,Chase0928_Activity_20260722.CSV
@@ -2166,7 +2166,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-06-01,Chase0928,,Online Payment 29439424427 To M & A Landscape Service 06/01,2465.79,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase0928_Activity_20260722.CSV
 2026-06-01,Chase0928,,APPLE CASH SENT MONE 1INFINITELOOP CA        05/29,20.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
 2026-06-01,Chase0928,,Online Payment 29439472765 To M & A Landscape Service 06/01,4762.39,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase0928_Activity_20260722.CSV
-2026-06-01,Chase0928,,VERIZON WIRELESS PAYMENTS                   PPD ID: 7223344794,279.45,GREEN,FLAT,,76.0,Cell Phone - Mike's Line,,Two simultaneous accounts — consolidation candidate,"Mike's line (917-816-8443, iPhone 17 Pro, $76.54 actual on July bill) expensed to RW in full at a flat $76/mo per Mike's ruling 2026-07-22 — no per-bill reconciliation. Account is the family plan in Carrie's name ($279.64/mo, 6 devices, auto-pay from 0928 checking); only the flat $76 is deductible. July bill filed in receipts/.",Chase0928_Activity_20260722.CSV
+2026-06-01,Chase0928,,VERIZON WIRELESS PAYMENTS                   PPD ID: 7223344794,279.45,GREEN,FLAT,,76.0,Cell Phone - Mike's Line,,"Three intentional accounts, all ruled 2026-07-22 (office Fios=RW, Mike's cell line=$76 flat to RW, home FiOS=$50 RTBH allowance) — watch for amount changes only","Mike's line (917-816-8443, iPhone 17 Pro, $76.54 actual on July bill) expensed to RW in full at a flat $76/mo per Mike's ruling 2026-07-22 — no per-bill reconciliation. Account is the family plan in Carrie's name ($279.64/mo, 6 devices, auto-pay from 0928 checking); only the flat $76 is deductible. July bill filed in receipts/.",Chase0928_Activity_20260722.CSV
 2026-06-01,Chase0928,,VENMO            PAYMENT    1050685751087   WEB ID: 3264681992,160.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
 2026-06-01,Chase0928,,VENMO            PAYMENT    1050685752033   WEB ID: 3264681992,80.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
 2026-06-01,Chase0928,,Zelle payment to M & A Landscape Services JPM99cj62hvk,3530.31,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
@@ -2255,7 +2255,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-06-08,AmexDeltaReserve,EVELYN C LAMB,LAS PALMAS OASI @PSPPALM SPRINGS        CA,15.71,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-06-08,AmexDeltaReserve,EVELYN C LAMB,LAGOM               LOCUST VALLEY       NY,49.8,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-06-08,AmexDeltaReserve,EVELYN C LAMB,PRINTFUL            CHARLOTTE           NC,37.01,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
-2026-06-08,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,7.59,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,AmexPlat_2026-05_06.csv
+2026-06-08,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,7.59,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,AmexPlat_2026-05_06.csv
 2026-06-08,Chase0928,,Online Payment 29538133487 To Tidewater Developments 06/08,15696.0,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",Chase0928_Activity_20260722.CSV
 2026-06-08,Chase0928,,VENMO            PAYMENT    1050822938981   WEB ID: 3264681992,300.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
 2026-06-08,Chase0928,,VENMO *Max Hawkinson New York NY             06/06,120.0,YELLOW,NONE,,0.0,Uncategorized,,Streaming redundancy check,,Chase0928_Activity_20260722.CSV
@@ -2270,7 +2270,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-06-08,Chase7618,,PROPER CLOTH,1665.83,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-06-08,Chase7618,,SHAKE SHACK CONC A SLC,18.38,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-06-09,AmexDeltaReserve,EVELYN C LAMB,DD *DOORDASH SOBOL  SAN FRANCISCO       CA,59.51,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
-2026-06-09,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,9.99,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,AmexPlat_2026-05_06.csv
+2026-06-09,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,9.99,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,AmexPlat_2026-05_06.csv
 2026-06-09,AmexPlatinum,MICHAEL K LAMB,IC* INSTACART       SAN FRANCISCO       CA,92.38,YELLOW,NONE,,0.0,Uncategorized,,,,AmexPlat_2026-05_06.csv
 2026-06-09,Chase0928,,APPLE CASH SENT MONE 1INFINITELOOP CA        06/08,20.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
 2026-06-09,Chase7618,,MTA*LIRR ETIX TICKET,26.25,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
@@ -2412,7 +2412,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-06-20,AmexBonvoy,,AUTOPAY PAYMENT - THANK YOU,-1290.8,GRAY,NONE,,0.0,Payments & Transfers,,,"Money movement, not spend — excluded from all category/deduction totals",AmexBonvoy_2026-05_06.csv
 2026-06-20,AmexDeltaReserve,EVELYN C LAMB,BLUEAPRON           NEW YORK            NY,131.99,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-06-20,AmexDeltaReserve,EVELYN C LAMB,CUMBERLAND FARMS 168MANORVILLE          NY,3.74,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
-2026-06-20,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,23.01,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,AmexPlat_2026-05_06.csv
+2026-06-20,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,23.01,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,AmexPlat_2026-05_06.csv
 2026-06-20,AmexPlatinum,MICHAEL K LAMB,SPOTIFY P43B877E49 6NEW YORK            NY,21.99,YELLOW,NONE,,0.0,Uncategorized,,,,AmexPlat_2026-05_06.csv
 2026-06-20,Chase7618,,GRACES MARKETPLACE,202.3,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-06-20,Chase7618,,SQ *LOCUST VALLEY BAGELS,14.99,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
@@ -2426,7 +2426,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-06-20,Chase7618,,REGATTACENTRAL,275.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-06-20,Chase7618,,AMC 9640 ONLINE,18.48,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-06-21,AmexPlatinum,MICHAEL K LAMB,AplPay KARMIC GRIND Locust Valley       NY,6.52,YELLOW,NONE,,0.0,Uncategorized,,,,AmexPlat_2026-05_06.csv
-2026-06-21,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,2.16,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,AmexPlat_2026-05_06.csv
+2026-06-21,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,2.16,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,AmexPlat_2026-05_06.csv
 2026-06-21,Chase7618,,DD *DOORDASH TACOBELL,28.72,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-06-21,Chase7618,,SQ *SOUTHDOWN COFFEE - GL,31.52,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-06-21,Chase7618,,SQ *STUDENT SUMMER STORAG,76.57,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
@@ -2494,7 +2494,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-06-25,Chase7618,,SQ *PRESTIGE CUSTOM CARPE,900.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-06-26,AmexDeltaReserve,EVELYN C LAMB,USPS PO 3548100560 0LOCUST VALLEY       NY,3.99,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-06-26,AmexDeltaReserve,EVELYN C LAMB,THE POOL STORE OF LOLOCUST VALLEY       NY,73.77,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
-2026-06-26,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,12.99,YELLOW,SPLIT,,0.0,Internet,,,RTB reimburses flat monthly rate; only excess above reimbursement is deduction-relevant,AmexPlat_2026-05_06.csv
+2026-06-26,AmexPlatinum,MICHAEL K LAMB,APPLE.COM/BILL      INTERNET CHARGE     CA,12.99,YELLOW,SPLIT,,0.0,Internet,,,Superseded for home FiOS by the verizonrecurring rule above (earlier shorthand: 'RTB reimburses flat monthly rate' — quantified 2026-07-22 as the $50/mo allowance). Kept for any other internet-labeled charges.,AmexPlat_2026-05_06.csv
 2026-06-26,Chase0928,,APPLE CASH SENT MONE 1INFINITELOOP CA        06/25,20.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
 2026-06-26,Chase0928,,APPLE CASH SENT MONE 1INFINITELOOP CA        06/25,5.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
 2026-06-26,Chase0928,,PAY*CAMP CAROLINA 828-8842414 NC             06/25,1200.0,YELLOW,NONE,,0.0,Uncategorized,,,,Chase0928_Activity_20260722.CSV
@@ -2512,7 +2512,7 @@ date,account,card_member,description,amount,tier,treatment,split_pct,deductible_
 2026-06-28,AmexDeltaReserve,EVELYN C LAMB,DELTA AIR LINES,80.0,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-06-28,AmexDeltaReserve,EVELYN C LAMB,ELENAS GOLF & ACTIVEHIGHLANDS           NC,203.89,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-06-28,AmexDeltaReserve,EVELYN C LAMB,LULU BLEU           HIGHLANDS           NC,670.39,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
-2026-06-28,AmexDeltaReserve,EVELYN C LAMB,VERIZONRECURRING PAY800-VERIZON         FL,89.99,YELLOW,NONE,,0.0,Uncategorized,,Two simultaneous accounts — consolidation candidate,,AmexDelta_2026-05_06.csv
+2026-06-28,AmexDeltaReserve,EVELYN C LAMB,VERIZONRECURRING PAY800-VERIZON         FL,89.99,GRAY,NONE,,0.0,Home Internet (FiOS),RTBH_ALLOWANCE_50,"Three intentional accounts, all ruled 2026-07-22 (office Fios=RW, Mike's cell line=$76 flat to RW, home FiOS=$50 RTBH allowance) — watch for amount changes only","Home FiOS, $89.99/mo on the Delta card — NOT RW-deductible (Mike 2026-07-22). RTB House (US) provides a $50/mo expensable internet allowance: claim monthly via Rydoo (draft with the FiOS charge as support); the $39.99 remainder is personal.",AmexDelta_2026-05_06.csv
 2026-06-28,AmexDeltaReserve,EVELYN C LAMB,WILD THYME GOURMET RHIGHLAND            NC,115.43,YELLOW,NONE,,0.0,Uncategorized,,,,AmexDelta_2026-05_06.csv
 2026-06-28,Chase7618,,LS WITS END SHOP,254.92,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
 2026-06-28,Chase7618,,CANONICA PRI LLC,4.3,YELLOW,NONE,,0.0,Uncategorized,,,,Chase7618_Activity20260501_20260630_20260722.CSV
