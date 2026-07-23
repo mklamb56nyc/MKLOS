@@ -106,6 +106,39 @@ The recorded covenants largely **mandate the aesthetic we already chose** — bu
 - **Trees** are planted along the **west line + entry** (road screen) — the **east Teton view stays
   open**, exactly as our concept assumes.
 
+## Allowable buildings + the ADU / breezeway question
+Two rulebooks, and they agree on the basic program:
+- **County (A-20/LA-35):** 1 primary dwelling + 1 **ADU ≤1,500 sf** (attached = by-right, detached =
+  limited use; both need 2 parking + wastewater verification) + accessory buildings (garage/barn).
+- **CC&Rs §4.1.1:** up to **3 structures** = principal residence + 2 ancillary (guest house, garage,
+  barn); 4th needs unanimous consent. **Principal residence 2,000–10,000 sf** (excl. garage/decks/porches).
+- Our plan (main house + bunkhouse/guest + garage) = the 3-structure max, compliant under both.
+
+**ADU definition:** a *second, subordinate dwelling unit* — self-contained (kitchen, bath, sleeping,
+entrance), ≤1,500 sf, secondary to the primary. "Attached" vs "detached" = whether it's physically
+connected to the main house.
+
+**The "connect the bunkhouse to a module via enclosed breezeway" question — it's a design choice,
+decided chiefly by KITCHENS (= dwelling units):**
+- **One dwelling unit** (one primary kitchen, continuous interior, permitted as single-family) → the
+  combined modules ARE the **modular main house**. Frees the bunkhouse from the 1,500 cap (main house
+  up to 10,000), clears the 2,000 min, and leaves the ADU/ancillary slot free for a separate structure.
+- **Two dwelling units** (bunkhouse keeps its own kitchen/bath/entrance) → **primary + *attached* ADU**
+  (the enclosed breezeway makes it "attached," by-right); the ADU stays **≤1,500 sf**.
+- Bright line: **# of full kitchens = # of dwelling units** (a kitchenette usually doesn't count). Once
+  connected by an enclosed breezeway it's **no longer a *detached* ADU** — it's part of the house or an
+  attached ADU.
+
+**Phasing wrinkles:**
+- **CC&R 18-month rule (§4.1.2):** each structure must be *completed within 18 months of starting* — so
+  build the Phase-1 bunkhouse as a **complete standalone unit** (finished in 18 mo), then add the main
+  house/module + breezeway as separate Phase-2 construction; decide the one-house-vs-attached-ADU
+  reading then.
+- **Septic (EIPH):** two dwelling units size the drainfield by total bedrooms across both — settle
+  one-house-vs-house+ADU before the test holes.
+- **Confirm with:** (1) Teton County Planning/Building against LDC §3-9-2 (exact "attached" + kitchen
+  test); (2) **Nevin as Declarant** (CC&R design approval).
+
 ## Fitting it to the land (constraints from the dossier)
 - **Set the cluster ≥100 ft back from the east boundary** — the NWI wetland / Natural Resource
   Overlay clips that edge; staying back keeps the foreground meadow, the wetland buffer, and
