@@ -129,6 +129,12 @@ tab in the spreadsheet is the live version.
 | Caretaking / mgmt (if 2nd home) | ~$1,000 | ~$2,000 | optional; winter check-ins |
 | **TOTAL ALL-IN / YEAR** | **~$22,750** | **~$56,000** | **~$1,900/mo → ~$4,660/mo** |
 
+**Update 2026-07-23 (Nevin docs):** two adjustments to the run-cost — (1) add a **~$1,000/yr
+fire-pond easement fee** (Sage Creek POA fire-suppression water; likely shared across lots) — which
+is also a **WUI-insurance positive**; (2) **fiber** appears available, so the internet line is fiber,
+not Starlink (similar ~$100/mo, but reliable). Also note **short-term rental is effectively banned**
+by the CC&Rs, so there's no offsetting rental income. Net effect on the totals below is small.
+
 **The story:** holding the finished place runs **~$38k/yr cash (~$56k all-in with reserves)**,
 dominated by **property tax, insurance, and the upkeep reserve** — all of which scale with the
 *value* of what's built. The actual utility bills stay modest: well + septic mean no water/sewer

@@ -91,6 +91,21 @@ three-structure composition:
 CLB Architects and Carney Logan Burke (both Jackson Hole), Olson Kundig, and Tom Kundig's
 weathering-steel cabins. Use these to build a moodboard alongside High Horse Ranch.
 
+## CC&R design rules (confirmed 2026-07-23, Instrument #279946)
+The recorded covenants largely **mandate the aesthetic we already chose** — but a few hard rules:
+- **Up to 3 structures** (principal + 2 ancillary). Our house + bunkhouse + garage = **exactly the
+  limit**; a 4th building needs all owners' consent (the fire pit/benches are landscape, not a structure).
+- **Principal residence 2,000–10,000 sf** (excl. garage/decks/porches) — 3,500 sf is fine; min is only
+  2,000. *(A CC&R revision is planned — Karen's 3,000–8,000 may be the new band; confirm with Nevin.)*
+- **Materials:** natural **wood / stone**, **dull/flat exposed metals**, **earth-tone** colors, **no
+  glossy paint**, no vinyl. → Cor-Ten + reclaimed wood + stone + glass all comply. **Confirm Cor-Ten
+  cladding reads as an acceptable "dull exposed metal" with Nevin (the Declarant/approver).**
+- **Method:** no HUD-manufactured homes (modular/IRC ok); **builder must be Declarant-approved**.
+- **18-month** build-completion window once a structure starts.
+- **Dark-sky lighting**; **screen/bury** mechanical (geothermal/AC), propane tanks, trash from other lots.
+- **Trees** are planted along the **west line + entry** (road screen) — the **east Teton view stays
+  open**, exactly as our concept assumes.
+
 ## Fitting it to the land (constraints from the dossier)
 - **Set the cluster ≥100 ft back from the east boundary** — the NWI wetland / Natural Resource
   Overlay clips that edge; staying back keeps the foreground meadow, the wetland buffer, and

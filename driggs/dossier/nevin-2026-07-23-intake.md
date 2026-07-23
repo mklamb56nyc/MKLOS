@@ -1,62 +1,96 @@
-# Intake — Lindsay Nevin email, 2026-07-23
+# Nevin document trove — digest (read from Drive, 2026-07-23)
 
-**From:** Lindsay N. Nevin — **The Flyway Companies** (Development | Construction | Management |
-Real Estate), 1640 Meeting St Rd Ste 302, Charleston SC 29405 · o. 843-853-5557 · c. 843-296-1797 ·
-lindsay@flywaysc.com · flywaysc.com
-**Subject:** Crossed Arrows – Driggs, ID · **To:** mklamb@gmail.com
+**From:** Lindsay N. Nevin — **The Flyway Companies**, Charleston SC · lindsay@flywaysc.com ·
+o. 843-853-5557 · c. 843-296-1797. Nevin is the **Declarant/developer** and **Lot 4 owner**.
+Docs now saved in the Drive "Driggs" folder and **read** (were unopenable Gmail attachments before).
 
-> Source note: attachments below are **Gmail attachments we could not open with current tools**
-> (no attachment-download tool; not in Drive). Contents are inferred from filenames + the email
-> body until the PDFs are saved to Drive and read. **Action: drop these into Drive so specifics
-> (CC&R house-size band, water-rights scope, cert terms) can be extracted.**
+> "Beard" mystery solved: our dossier's "developer = the Beards" was a **misread** — the CC&Rs were
+> *recorded by the law firm* **Beard St. Clair Gaffney PA**. The actual **Declarant is Lindsay Nelson
+> Nevin & Katharine Nevin.**
 
-## What Lindsay said (verbatim gist)
-- 5 lots, **120 acres total**, ~24 ac each. **"I took it through design, engineering and
-  entitlement."** → **Nevin/Flyway is the entitling developer.**
-- **Hardwick's lot is Lot 3; Nevin is Lot 4.** (Confirms our subject = Lot 3 / Caldwell.)
-- **A pond sits on Lot 4, in close proximity to Lot 3, with a perpetual access easement.**
-  Every owner may build **additional ponds**.
-- Attached the **CC&Rs with his comments for revisions they plan to make** → CC&Rs are **not
-  final; a revision is in progress.**
-- Offered to "get more granular on the specifics of the lot, additional pond construction, etc."
-  → warm, engaged, high-quality primary source (developer + neighbor + Caldwell in-law).
+## 1. CC&Rs — RECORDED (Instrument #279946, eff. 2023-03-17, 9 pp). Authoritative.
+*Nevin also sent a marked-up copy for a **revision he plans to make** — unanimous Owner consent is
+required to amend (§7.2), so the recorded terms below govern until then. Ask Nevin what's changing.*
 
-## Attachment manifest (what each likely resolves)
-| File | What it is / resolves |
-|---|---|
-| `Declaration CC&Rs Crossed Arrow Subdivision with comments 7:20:26.pdf` | **The CC&Rs** (DD #3) — with Nevin's markup; **being revised**. Read for house-size band, ag use, architectural review, build deadlines, STR/guest-house limits. |
-| `Tetonia Water Rights Package.pdf` | **Water rights** — likely irrigation/pond rights. **Potential correction** to dossier "no water rights of record." |
-| `Crossed Arrows Cert of Completion_Roads_Exec LNN.pdf` | **Certificate of Completion (roads), executed** (DD #4 build-ready gate) — roads/required improvements accepted. |
-| `Power:Fiber 6:23 .jpg` | **Power + FIBER** to the subdivision. **Correction** to the "Starlink/rural internet" operating assumption. |
-| `3627 N 3000 - Topo.pdf` | Topographic survey — verify the flat-lot / grading assumption. |
-| `Proposed House Location - Lot 1 and 5.pdf` | Developer's siting proposals for other lots — envelope/view-corridor precedent. |
-| `FIRE PROTECTION EASEMENT AGREEMENT w Kate notary.pdf` | Recorded **fire-protection easement** (notary: Kate Caldwell) — WUI/defensible-space + insurance relevance. |
-| `Crossed Arrows - Entry Design Package.pdf` | Shared subdivision **entry** design (approach + possible design guidelines). |
-| `Crossed Arrows - Tree Groupings.pdf` | **Landscape/tree-planting plan** — may affect the "open meadow" view assumption + defensible space. |
-| Drive photos/video | Irrigation water + pond (Jun 2023 & Dec 2023) — confirm the water feature/irrigation on the ground. |
+- **§4.1.1 Size & structures** — single-family only; **up to 3 structures per lot** = 1 principal
+  residence + 2 ancillary (guest house, garage, barn); more only by **unanimous** Owner consent.
+  **Principal residence min 2,000 sf / max 10,000 sf**, exclusive of garage/decks/porches.
+  - ⚠️ **Corrects Karen Bond's "3,000–8,000."** Recorded band is **2,000–10,000**. (Karen's numbers
+    may be Nevin's *proposed revision* — reconcile with him.) Our plan = house + bunkhouse + garage =
+    **exactly the 3-structure limit** (a 4th would need all Owners' consent).
+- **§4.1.2 Construction** — **no manufactured homes (HUD definition)**; **no used materials** (except
+  architectural detailing); **all construction completed within 18 months of start**; **only licensed
+  builders approved by the Declarant (Nevin)** — he vets builder experience/reputation/finances.
+  - ⚠️ **Prefab impact:** modular/IRC-code homes are fine (High Horse Ranch was one); **HUD-code
+    "manufactured" homes are banned.** Keep the bunkhouse *modular*, not *manufactured*. Builder needs
+    **Nevin's sign-off**. Reclaimed wood as *architectural detailing* is expressly OK.
+- **§4.1.3 Exterior materials (this basically mandates our aesthetic)** — natural **wood, peeled log,
+  stone** or similar; **exposed metals must be dull/flat** (anodized or painted); **no glossy paint**;
+  **earth-tone/subdued colors** (white/off-white ok); no vinyl/synthetic (dryvit ok).
+  - → Our **Cor-Ten + reclaimed wood + stone + glass** palette is compliant and on-theme. **Confirm
+    with Nevin that Cor-Ten cladding reads as an acceptable "dull exposed metal"** (weathering steel is
+    matte/earth-toned; the metals clause allows exposed metal — but get the Declarant's blessing).
+- **§4.1.4 Lighting** — restrained, dark-sky friendly (fits our minimalist design).
+- **§4.6 Leases / STR** — **no lease under 6 months**; **short-term rental only if ALL Owners approve
+  in writing.** → **STRs effectively prohibited.** No Airbnb income assumption.
+- **§4.9 Animals** — dogs/cats, **chickens (no roosters)** for personal eggs, **horses** ok; **no
+  other livestock.** → Ag-tax retention likely needs **hay/crop** use, not cattle grazing.
+- **§4.10 Screening** — garbage, **propane/oil tanks, AC/heat-pump units**, pool equipment must be
+  **buried or screened** from other lots. → Site geothermal/mechanical + propane discreetly.
+- **§4.3 Nuisance** — **no firearm discharge**, no motorized-vehicle trails, no junk/inoperable
+  vehicles, no flashing/search lights (outdoor speakers ok).
+- **§4.7** — no living in tents/trailers/RVs (except construction sheds during build).
+- **§5 Easements & shared costs** — perpetual easements over **road, driveway, and pond** (per Plat);
+  **Owners split easement maintenance equally** (snow removal, weed control, grading; majority decides).
+- **§6 RIGHT OF FIRST REFUSAL (important)** — every Owner grants the others an **ROFR on any sale**;
+  on a bona fide offer, the other 4 get **15 business days to match.** Runs with the land, survives
+  transfers. ⚠️ **Affects the purchase itself** (Caldwell→Mike could be preempted by another Owner)
+  **and future resale/liquidity.** A real legal-DD + closing step.
+- **§7.1 Perpetual; §7.2 amendment = unanimous** Owner signatures + recordation.
+- **Exhibit A:** 119.59 acres, NW¼ Sec 9 T5N R45E. Grantor = L.N. Nevin & Katharine Nevin.
 
-## How it integrates (summary)
-**Corrections to the dossier:**
-1. **Developer = Nevin / The Flyway Companies** took it through design/engineering/entitlement
-   (dossier credited "the Beards" — the Beards were likely the land sellers/prior owners; Nevin is
-   the entitler and the source to work with).
-2. **Water:** there is **irrigation water + a pond**, and a **"Water Rights Package"** — likely
-   surface/irrigation rights. Softens the dossier's "no water rights of record" (which referred to
-   the *domestic* POU layers). Confirm scope from the package. Matters for ag valuation + landscape.
-3. **Internet: fiber** appears available → revise the operating model's Starlink line.
+## 2. Certificate of Subdivision Completion (roads) — executed
+Teton County form; applicant **Lindsay Nevin**; **zoning A/20**; **roads certified complete
+2023-01-31** (per Nov 21 2022 site visit + engineer/contractor inspection). Form also has sign-off
+lines for Fire Protection, County Engineer, and Development Agreement. → **Build-ready gate (roads)
+cleared.** Confirm the other sign-offs + that sanitary restrictions are lifted.
 
-**Resolved / advanced DD:**
-4. **CC&Rs received** — but a **revision is in progress**, so Karen's 3,000–8,000 sf band + ag rules
-   are **not yet final**. Read the marked-up version; ask Nevin what's changing.
-5. **Certificate of Completion (roads) executed** → the build-ready gate is (at least for roads)
-   cleared.
+## 3. Water rights — Leigh Creek Canal Company shares (irrigation)
+The "Tetonia Water Rights Package" is **stock in the Leigh Creek Canal Company** (irrigation canal) +
+the stockholder list. → **Corrects "no water rights of record"** — there ARE **surface/irrigation
+rights** (canal shares) feeding the **pond + irrigation**. Big for the pond amenity, landscaping, and
+**ag-tax retention** (now has water). **Confirm how many shares convey to Lot 3.**
 
-**New facts/amenities:**
-6. **Pond on Lot 4 + perpetual access easement** benefiting Lot 3; right to build more ponds — a
-   real amenity and a design opportunity (water feature in the view; ties to the fire-pit court).
-7. **Fire-protection easement** across the lots (WUI).
-8. **Entry design + tree groupings** — subdivision-level landscape/approach that our site/design
-   concept should coordinate with (the "open meadow" view may include planned tree groupings).
+## 4. Fire-protection easement — Sage Creek fire ponds
+Not a Lot-4 easement — a **perpetual easement for Crossed Arrow owners + Teton Valley Fire Dept to
+access the Sage Creek POA fire ponds** for fire protection. Crossed Arrow owners pay **$1,000/yr**
+(matched by Sage Creek) into a Fire Pond Fund (hydrant/pump/maintenance); owners cover 50% of repairs
+if the fund is short. 5-yr auto-renew. → **New ~$1,000/yr operating line** (likely shared across lots)
+**+ a WUI-insurance positive** (dedicated fire-suppression water on record).
 
-**Next:** save the PDFs to Drive → extract CC&R specifics + water-rights scope + cert terms; ask
-Nevin directly for the 2023 price Caldwell paid and the CC&R revision details (he's the ideal source).
+## 5. Landscape / entry / site
+- **Tree groupings** run along the **WEST property line + gated entry** (aspen, spruce, willow,
+  chokeberry, hawthorn, dogwood) — a **road/entry screen that does NOT block the east Teton view.**
+  Aligns with our minimalist-west / open-east concept. A **pond-spoil berm (~20×60)** is planned.
+- **Gated stone entry** ("Nevin Subdivision," 3627 N 3000 W): tilt-away gate, stone-veneer pillars,
+  keypad, 24-ft gravel drive. Cottonwood grove suggested for the wet SW corner.
+- **Topo** (`3627 N 3000 - Topo.pdf`) — civil site overview + gravel road access section.
+- **Proposed House Location – Lot 1 & 5** — preliminary plat with setbacks / siting precedent.
+- Landscape sheet lists **Lot 3 = 23.90 ac** (vs. 23.85 nominal).
+
+## Net corrections to the record
+1. **Developer = Nevin/Flyway** ("Beard" = the recording law firm, not a developer).
+2. **CC&R house size = 2,000–10,000 sf** (not Karen's 3,000–8,000); up to 3 structures.
+3. **Water rights EXIST** (Leigh Creek Canal shares) — corrects "no water rights."
+4. **Roads cert executed** — build-ready (roads).
+5. New: **18-mo build deadline**, **Declarant builder approval**, **material mandate** (matches our
+   palette), **STR ban**, **Right of First Refusal**, **fire-pond easement $1,000/yr**, **fiber**.
+
+## 6. Offsite builder (from Mike, 2026-07-23)
+Nevin is working with an **offsite/modular builder in Idaho (name starts with "S")** hitting
+**$500–600/sq ft** on an **additional bungalow**. → A **developer-validated, local, current** offsite
+benchmark. It's **above our $400/sf stretch target** — so treat **~$500–600/sf as the realistic
+offsite number** for the bunkhouse here; the prefab win is schedule/labor-certainty/quality and a
+**proven builder Nevin already uses + can approve** (§4.1.2), not a huge $/sf cut vs. site-built.
+**Action: get the builder's name + contact from Nevin** (candidates to confirm: Stillwater Dwellings,
+or an Idaho "S" firm — unverified).
