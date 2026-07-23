@@ -77,6 +77,13 @@ flights ~60% of it)*
       or Sun 10/11 — note that desk serves the Praia D'El Rey course; confirm
       whether the booking is for **West Cliffs** (same group, separate
       course/booking) when they reply. Oitavos books via their own site.
+      **Booking URLs (found 2026-07-23):**
+      - Oitavos: https://open.teeone.golf/en/oitavosdunes/disponibilidad
+        (fallback +351 21 486 06 00 · info@oitavosdunes.pt)
+      - West Cliffs: https://wcpdr.golfmanager.com/consumer/portal — shared
+        portal for West Cliffs + Praia D'El Rey; **select the West Cliffs
+        course** (fallback golfreception@westcliffs.com · +351 262 249 880)
+      - Match cancellation policies to the hotel's Oct 2 free-cancel deadline.
 - [ ] LAB (Fri) + Midori (Sat) reservations — book when flights are ticketed
 - [ ] Quinta tasting appointment (Sat afternoon)
 - [ ] Car: **driver confirmed for Saturday** (Oitavos → lunch → quinta
