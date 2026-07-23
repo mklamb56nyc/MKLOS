@@ -1,16 +1,18 @@
 # fall-weekend-2026 — project context
 
 ## What this is
-Planning a long weekend away this fall (2026) for Mike and Carrie — a couples'
-trip, no kids. **Current plan: Portugal (Penha Longa, Sintra) — golf, food &
-wine, Thu Oct 8 → Mon Oct 12.** `ITINERARY.md` is the dated day-by-day with
-the booking checklist; `PLAN.md` holds the date analysis, calendar
-constraints, and ruled-out alternatives.
+**Mike and Carrie's 19th-anniversary trip** (married Oct 13, 2007) — a
+couples' long weekend, no kids. **Plan: Portugal (Penha Longa, Sintra) —
+golf, food & wine, Thu Oct 8 → Mon Oct 12**, with the anniversary itself
+(Tue Oct 13) celebrated over dinner in NYC. Dates are **confirmed by Mike**
+(2026-07-23). `ITINERARY.md` is the dated day-by-day with the booking
+checklist; `PLAN.md` holds the date analysis, calendar constraints, and
+ruled-out alternatives.
 
 ## Key facts driving the plan
-- **Anniversary is Tue Oct 13, 2026** ("ECL + MKL Anniversary" on the calendar) —
-  the trip rides Columbus Day weekend and lands home the day before, with an
-  anniversary dinner in NYC as the capstone.
+- **19th anniversary is Tue Oct 13, 2026** (married Oct 13, 2007; "ECL + MKL
+  Anniversary" on the calendar) — the trip rides Columbus Day weekend and
+  lands home the day before, with an anniversary dinner in NYC as the capstone.
 - Sept 16–22 is already committed (Ireland / BallyB Race Week, flights booked).
 - Sept 26–27: Lincoln Zion's Bar Mitzvah (save-the-date on Carrie's calendar).
 - Molly's birthday Wed Oct 21; Halloween is a Saturday; Toby's EA/ED college
