@@ -8,7 +8,7 @@ out + 3 nights at Penha Longa.
 
 | | |
 |---|---|
-| Depart | **Thu Oct 8** — JFK T4 → LIS, Delta nonstop, evening (~7:45–10pm departures exist; confirm exact flight at booking) |
+| Depart | **Thu Oct 8** — JFK T4 → LIS, Delta nonstop, evening (~7:45–10pm departures exist; confirm exact flight at booking). **Delta One both ways** (Mike, 2026-07-23). |
 | On the ground | **Fri Oct 9 – Sun Oct 11** — Penha Longa Resort, Sintra (3 nights) |
 | Return | **Mon Oct 12 (Columbus Day)** — LIS → JFK, Delta nonstop, late morning; lands mid-afternoon same day |
 | Anniversary | **Tue Oct 13 — home**, the day after landing. 19th anniversary (married Oct 13, 2007) — anniversary dinner in **Locust Valley, with Toby & Nate** as the capstone (updated from "dinner in NYC for two", Mike 2026-07-23). |
@@ -58,8 +58,8 @@ collection (incl. both Michelin rooms below).
 ## Booking checklist (rough order)
 - [x] Dates + Portugal confirmed (Mike, 2026-07-23) — it's the
       19th-anniversary trip
-- [ ] Flights — Delta JFK↔LIS nonstops for Oct 8 / Oct 12 (confirm exact
-      times; October schedule may shift)
+- [ ] Flights — Delta JFK↔LIS nonstops for Oct 8 / Oct 12, **Delta One both
+      ways** (confirm exact times; October schedule may shift)
 - [ ] Penha Longa, 3 nights Oct 9–12 (Marriott/Bonvoy or direct)
 - [ ] Tee times: Oitavos Dunes Sat am, West Cliffs Sun am (both open to
       visitors; book well ahead for October weekends)

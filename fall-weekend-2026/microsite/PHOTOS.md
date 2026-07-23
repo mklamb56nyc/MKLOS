@@ -30,6 +30,8 @@ All images are from Wikimedia Commons, scaled via the Commons thumbnail API
 | Saturday wine | Autumn vineyards (38013421512).jpg | Frayle | CC0 |
 | Sunday | Beach at sunset, Praia D'El Rey, Amoreira, Portugal julesvernex2.jpg | Jules Verne Times Two | CC BY-SA 4.0 |
 | Monday | GOLF DE PENHA LONGA Portugal (1413021987).jpg | lele3100 | CC BY 2.0 |
+| Course notes — Oitavos | Daniel Vancsik in Estoril.jpg (Estoril Open 2009 at Quinta da Marinha, i.e. Oitavos Dunes' 17th) | José Goulão | CC BY-SA 2.0 |
+| Course notes — West Cliffs | Beach at sunrise, Praia D'El Rey, Amoreira, Portugal julesvernex2-3.jpg | Jules Verne Times Two | CC BY-SA 4.0 |
 
 Honesty notes (also in the page footer): the Guincho-dunes frame shows the
 dune coast Oitavos plays through, not the course itself; the Praia D'El Rey
