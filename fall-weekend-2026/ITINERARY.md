@@ -1,7 +1,8 @@
-# Portugal — golf, food & wine (working itinerary)
+# Portugal — 19th-anniversary trip (golf, food & wine)
 
 Mike's sketch (2026-07-23), mapped onto the picked dates and fact-checked.
-4 nights door-to-door: overnight flight out + 3 nights at Penha Longa.
+Dates confirmed by Mike 2026-07-23. 4 nights door-to-door: overnight flight
+out + 3 nights at Penha Longa.
 
 ## Dates
 
@@ -10,7 +11,7 @@ Mike's sketch (2026-07-23), mapped onto the picked dates and fact-checked.
 | Depart | **Thu Oct 8** — JFK T4 → LIS, Delta nonstop, evening (~7:45–10pm departures exist; confirm exact flight at booking) |
 | On the ground | **Fri Oct 9 – Sun Oct 11** — Penha Longa Resort, Sintra (3 nights) |
 | Return | **Mon Oct 12 (Columbus Day)** — LIS → JFK, Delta nonstop, late morning; lands mid-afternoon same day |
-| Anniversary | **Tue Oct 13 — home in NYC**, the day after landing. Book an anniversary dinner in the city as the capstone. |
+| Anniversary | **Tue Oct 13 — home in NYC**, the day after landing. 19th anniversary (married Oct 13, 2007) — book the anniversary dinner in the city as the capstone. |
 
 Why this works: Monday is a holiday, kids need coverage only Thu night–Mon,
 and the trip functions as the anniversary celebration with the actual date
@@ -37,7 +38,8 @@ collection (incl. both Michelin rooms below).
   comfortable tee time; wind builds in the afternoon.
 - Lunch at the Oitavos clubhouse, then a private cellar tour + tasting at a
   Lisboa-region quinta (e.g. Quinta da Chocapalha, ~50 min inland — book
-  ahead, tastings are by appointment).
+  ahead, tastings are by appointment). **Hired driver all day Saturday** so
+  the tasting is unhurried for both of us.
 - **Dinner: Midori** (Michelin ★, at the resort) — Japanese × Portuguese
   tasting menu by Pedro Almeida. Open Sat ✓ (also closed Sun–Mon).
 
@@ -54,7 +56,8 @@ collection (incl. both Michelin rooms below).
   we're back Monday afternoon.
 
 ## Booking checklist (rough order)
-- [ ] Carrie sign-off on the dates + Portugal
+- [x] Dates + Portugal confirmed (Mike, 2026-07-23) — it's the
+      19th-anniversary trip
 - [ ] Flights — Delta JFK↔LIS nonstops for Oct 8 / Oct 12 (confirm exact
       times; October schedule may shift)
 - [ ] Penha Longa, 3 nights Oct 9–12 (Marriott/Bonvoy or direct)
@@ -62,8 +65,9 @@ collection (incl. both Michelin rooms below).
       visitors; book well ahead for October weekends)
 - [ ] LAB (Fri) + Midori (Sat) reservations — book when flights are ticketed
 - [ ] Quinta tasting appointment (Sat afternoon)
-- [ ] Car: premium rental vs. private transfers + on-demand drivers (decide —
-      wine day argues for a driver at least Saturday)
+- [ ] Car: **driver confirmed for Saturday** (Oitavos → lunch → quinta
+      tasting → back; Mike, 2026-07-23). Still to decide: rental vs.
+      transfers for Fri arrival, Sun West Cliffs, and Mon airport run.
 - [ ] Kid coverage Thu night → Mon afternoon (Toby 17 + Nate 13)
 - [ ] Anniversary dinner in NYC, Tue Oct 13
 - [ ] Hold all of it on Mike and Carrie's Calendar

@@ -55,7 +55,8 @@ Notes on the pick (Oct 9–13):
   anything or if she's with grandparents/friends).
 
 ## Open questions
-1. Confirm dates + Portugal with Carrie before anything else.
+1. ~~Confirm dates + Portugal~~ — confirmed by Mike 2026-07-23; framed as the
+   **19th-anniversary trip** (married Oct 13, 2007).
 2. Miss Porter's fall calendar — Family Weekend and long-weekend dates (no
    email on file in Mike's Gmail; likely in Carrie's). Matters less now that
    we're back Monday, but a Family Weekend collision would still sink it.
