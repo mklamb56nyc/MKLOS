@@ -83,13 +83,18 @@ flights ~60% of it)*
       move the Chocapalha tasting to **Sunday afternoon** — Alenquer is off
       the A8 on the drive back from West Cliffs — and shift the driver day
       to Sunday.
-- [ ] **West Cliffs Sun Oct 11 — HALF-BOOKED:** Mike could only book a
-      **single** online (details/cancellation policy TBD — no confirmation
-      email received; check the wcpdr portal). Second player needed, and the
-      time isn't ideal either. Draft in Gmail (not sent) to
-      golfreception@westcliffs.com asking to make it a mid-morning twosome.
-      Earlier thread with golf@praia-del-rey.com (Daniela) is the same
-      group's other desk — fold into one conversation if she replies first.
+- [ ] **West Cliffs Sun Oct 11 — IN MOTION (looking good):** single booked
+      online; Mike emailed golfreception@westcliffs.com to make it a
+      mid-morning twosome (2026-07-23). **They replied within 15 min**, warm,
+      asking for Carrie's name, both handicaps, and rental needs — i.e.
+      they're processing the twosome. Mike replied same hour: he's a 9–10
+      (USGA 10368703), Carrie ~25, rentals undecided. **Still pending from
+      them: confirmed twosome, tee time, price, and cancellation terms**
+      (the last one matters — could affect the Sep 10/Oct 2 deadline
+      cascade). Earlier Daniela thread (golf@praia-del-rey.com) is the same
+      group's other desk — fold together if she replies too.
+- [ ] Decide: **bring clubs vs. rent** — affects both courses' rental
+      requests and the Delta baggage plan (a checked golf bag each way).
       **Booking URLs (found 2026-07-23):**
       - Oitavos: https://open.teeone.golf/en/oitavosdunes/disponibilidad
         (fallback +351 21 486 06 00 · info@oitavosdunes.pt)
