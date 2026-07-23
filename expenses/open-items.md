@@ -12,11 +12,19 @@ Close items by answering in a session; record answers where they belong
       "two simultaneous accounts / consolidate" item is resolved as intentional:
       1. **Business Fios, 111 South St Oyster Bay** — RW's account, $170.55/mo,
          auto-pay, bills in `receipts/`. Done.
-      2. **Verizon Wireless, 5 lines** (~$285/mo ACH from checking). Mike believes
-         this can be expensed to RW — **pending: get the bill.** Once it's in, add
-         the rule. CPA judgment to confirm treatment: 5 lines is the family plan, so
-         full-account vs business-line/percentage treatment is the CPA's call (same
-         "CPA has blessed the treatment" bar as home office).
+      2. **Verizon Wireless** — July bill received 2026-07-22, filed as
+         `receipts/2026-07-13-verizon-wireless-279.64.pdf`. Facts from the bill:
+         account 686669080-00001 is **in Carrie's name (Evelyn Lamb)**, $279.64/mo,
+         auto-pay from the 0928 checking (matches the monthly `VERIZON WIRELESS
+         PAYMENTS` ACH). Six devices = the whole family: iPhone 13 Mini
+         516-401-5452 $31.99 · iPhone 13 516-680-5506 $49.07 · iPhone SE
+         917-387-6510 $48.93 · iPhone 15 Pro 917-434-3967 $63.96 (+ Watch SE
+         number-share $9.15) · iPhone 17 Pro 917-816-8443 $76.54. Mike intends to
+         expense this to RW. **Pending before the rule goes GREEN: (a) which line
+         is Mike's, and (b) CPA's call on treatment** — full account vs
+         business line(s)/percentage; account being in Carrie's name and covering
+         the kids' lines makes full-account treatment the aggressive option (same
+         "CPA has blessed it" bar as home office).
       3. **Home FiOS internet** — presumably the VERIZONRECURRING $89.99/mo on the
          Delta card; the one relevant to RTB's flat-rate internet reimbursement
          (only the excess above the flat rate is deduction-relevant). Confirm the
