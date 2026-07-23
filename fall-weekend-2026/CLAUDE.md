@@ -2,12 +2,15 @@
 
 ## What this is
 Planning a long weekend away this fall (2026) for Mike and Carrie — a couples'
-trip, no kids. `PLAN.md` is the working document: candidate dates, constraints
-pulled from the calendars, destination shortlist, and open questions.
+trip, no kids. **Current plan: Portugal (Penha Longa, Sintra) — golf, food &
+wine, Thu Oct 8 → Mon Oct 12.** `ITINERARY.md` is the dated day-by-day with
+the booking checklist; `PLAN.md` holds the date analysis, calendar
+constraints, and ruled-out alternatives.
 
 ## Key facts driving the plan
 - **Anniversary is Tue Oct 13, 2026** ("ECL + MKL Anniversary" on the calendar) —
-  the leading option pairs the trip with it over Columbus Day weekend.
+  the trip rides Columbus Day weekend and lands home the day before, with an
+  anniversary dinner in NYC as the capstone.
 - Sept 16–22 is already committed (Ireland / BallyB Race Week, flights booked).
 - Sept 26–27: Lincoln Zion's Bar Mitzvah (save-the-date on Carrie's calendar).
 - Molly's birthday Wed Oct 21; Halloween is a Saturday; Toby's EA/ED college
