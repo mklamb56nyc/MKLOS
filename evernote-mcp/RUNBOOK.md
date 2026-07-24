@@ -190,6 +190,7 @@ the token in Evernote.
   Mike tries Route A (developer token page), else files Route B key request.
 - **2026-07-24 (later)** — Route A page reached while logged in: banner reads
   "developer tokens are only supported for specific cases"; "Create a developer token"
-  button present but appears disabled. Click attempt outcome at time of writing:
-  pending. Route B form answers drafted above so the request can be filed immediately
-  if Route A is dead.
+  button present but appears disabled. Clicking confirmed it non-functional —
+  **Route A is closed for this account.** Next action: file the Route B key request
+  (form answers above); check-in scheduled for 2026-07-31 to confirm whether the key
+  email arrived. Interim option if notes are needed sooner: Route C (ENEX).
