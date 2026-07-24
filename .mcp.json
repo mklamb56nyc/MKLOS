@@ -3,6 +3,10 @@
     "google-sheets": {
       "type": "http",
       "url": "https://REPLACE-ME.workers.dev/mcp"
+    },
+    "evernote": {
+      "type": "stdio",
+      "command": "mcp-evernote"
     }
   }
 }
