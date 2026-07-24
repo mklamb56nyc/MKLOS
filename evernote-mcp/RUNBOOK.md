@@ -55,9 +55,23 @@ Revoke any time at the same URL.
 
 1. **Request a key** via developer support (dev.evernote.com → Support → API key
    request; the FAQ documents the process). Manual review, up to ~5 business days,
-   notified by email. Provide: full name, organization (personal / Received Wisdom LLC),
-   application name, description. **Request FULL access** — Basic keys cannot read
-   existing notes (`findNotes`/`getNote` → `PERMISSION_DENIED`), which the MCP needs.
+   notified by email. **Request FULL access** — Basic keys cannot read existing notes
+   (`findNotes`/`getNote` → `PERMISSION_DENIED`), which the MCP needs.
+
+   Paste-ready form answers:
+   - **Full name:** Michael Lamb
+   - **Organization:** Received Wisdom LLC (single-member personal use)
+   - **Application name:** Personal notes assistant (MCP)
+   - **Access level:** Full — the assistant must search and read existing notes
+     (`findNotes`, `getNote`), which Basic keys cannot do.
+   - **Environment:** production (personal account; not building for third parties)
+   - **Description:**
+     > Single-user personal integration connecting my own Evernote account to my
+     > personal AI assistant (Anthropic's Claude) via the open-source Model Context
+     > Protocol server @verygoodplugins/mcp-evernote, which uses the Evernote Cloud
+     > API with OAuth 1.0a. The integration searches and reads my existing notes and
+     > notebooks and occasionally creates or updates notes, on my own account only.
+     > No other users, no data collection, no redistribution.
 2. **When the key arrives**, run the auth helper on any local machine. No-UAC
    PowerShell path (portable Node, nothing installed, delete after — update the pinned
    Node version if stale):
@@ -174,3 +188,8 @@ the token in Evernote.
   requires a consumer key before any browser step; no key held; EDAM API deprecated,
   keys by manual request only. Runbook restructured into Routes A/B/C. Next action:
   Mike tries Route A (developer token page), else files Route B key request.
+- **2026-07-24 (later)** — Route A page reached while logged in: banner reads
+  "developer tokens are only supported for specific cases"; "Create a developer token"
+  button present but appears disabled. Click attempt outcome at time of writing:
+  pending. Route B form answers drafted above so the request can be filed immediately
+  if Route A is dead.
